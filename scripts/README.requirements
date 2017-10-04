@@ -1,0 +1,8 @@
+jq https://stedolan.github.io/jq/
+java 1.8
+apache maven
+wget
+curl
+awk
+sed
+md5sum
