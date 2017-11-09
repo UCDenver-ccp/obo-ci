@@ -43,5 +43,5 @@ echo "Downloading OWLTools-Runner jar file to: ${WORK_DIRECTORY}"
 URL=http://build.berkeleybop.org/userContent/owltools/OWLTools-Runner-0.3.0-SNAPSHOT.jar
 wget -c -t 0 --timeout 60 --waitretry 10 -P ${WORK_DIRECTORY} ${URL}
 
-mvn install:install-file -Dfile=${WORK_DIRECTORY}/OWLTools-Runner-0.3.0-SNAPSHOT.jar -DgroupId=org.bbop \
+${MAVEN} install:install-file -Dfile=${WORK_DIRECTORY}/OWLTools-Runner-0.3.0-SNAPSHOT.jar -DgroupId=org.bbop \
     -DartifactId=OWLTools-Runner -Dversion=0.3.0-SNAPSHOT -Dpackaging=jar

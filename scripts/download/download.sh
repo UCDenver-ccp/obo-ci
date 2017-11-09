@@ -53,12 +53,13 @@ OUTPUT_DIRECTORY=$(echo "${OUTPUT_DIRECTORY}/")
 esac
 
 #verify the log file
-touch ${LOG_FILE}
+#touch ${LOG_FILE}
 
-date | tee -a ${LOG_FILE}
-wget -c -t 0 --timeout 60 --waitretry 10 -O ${ID}.owl -P ${OUTPUT_DIRECTORY} ${URL} | tee -a ${LOG_FILE}
+#date | tee -a ${LOG_FILE}
+curl -L ${URL} > ${OUTPUT_DIRECTORY}/${ID}.owl
+#wget -c -t 0 --timeout 60 --waitretry 10 -O ${ID}.owl -P ${OUTPUT_DIRECTORY} ${URL} | tee -a ${LOG_FILE}
 e=${PIPESTATUS[0]}
-date | tee -a ${LOG_FILE}
+#date | tee -a ${LOG_FILE}
 exit ${e}
 
 

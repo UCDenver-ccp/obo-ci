@@ -50,21 +50,31 @@ fi
 
 DOWNLOAD_DIRECTORY="${WORK_DIRECTORY}/download"
 BASE_DIRECTORY="${WORK_DIRECTORY}/base"
-ONTOLOGY_LIST_FILE="${DOWNLOAD_DIRECTORY}/ontologies.list"
 mkdir -p ${DOWNLOAD_DIRECTORY}
+rm -Rf ${DOWNLOAD_DIRECTORY}
+mkdir -p ${DOWNLOAD_DIRECTORY}
+mkdir -p ${BASE_DIRECTORY}
+
+ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.available.list"
+
+DOWNLOADED_ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.downloaded.list"
+DOWNLOAD_ERROR_FILE="${WORK_DIRECTORY}/ontologies.download.error"
+
+FLATTENED_ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.flat.list"
+FLATTEN_ERROR_FILE="${WORK_DIRECTORY}/ontologies.flatten.error"
 
 # This script first downloads all of the OBOs and creates a flattened (all imports included) version of each
 # owl file. It then creates a md5 hash of that flattened owl file and uses the hash to determine if
 
-# generate a list of all available ontologies in the OBOFoundry.org catalog
+### generate a list of all available ontologies in the OBOFoundry.org catalog
 ./scripts/download/create-ontology-list-file.sh -l ${ONTOLOGY_LIST_FILE} -j ${JQ}
-# download each ontology
-./scripts/download/download-ontologies.sh -l ${ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY}
-# download and install the most recent SNAPSHOT of the OWLTools-Runtime library
+### download each ontology
+./scripts/download/download-ontologies.sh -l ${ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -o ${DOWNLOADED_ONTOLOGY_LIST_FILE} -e ${DOWNLOAD_ERROR_FILE} -m ${MAVEN}
+### download and install the most recent SNAPSHOT of the OWLTools-Runtime library
 ./scripts/download/install-latest-owltools-runner-jar.sh -d ${WORK_DIRECTORY} -m ${MAVEN}
-# for each ontology, download all owl:imports and consolidate (flatten) into a single OWL file per ontology
-./scripts/download/flatten-ontologies.sh  -l ${ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -m ${MAVEN}
-# for each flattened ontology file, generate the md5 message digest
-./scripts/download/checksum-gen-ontologies.sh -l ${ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -c ${CHECKSUM_BIN}
-# create a list of ontologies that are new or have changed from the previously downloaded version
-./scripts/download/create-modified-ontology-list.sh -l ${ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -b ${BASE_DIRECTORY}
+### for each ontology, download all owl:imports and consolidate (flatten) into a single OWL file per ontology
+./scripts/download/flatten-ontologies.sh  -l ${DOWNLOADED_ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -m ${MAVEN} -o ${FLATTENED_ONTOLOGY_LIST_FILE} -e ${FLATTEN_ERROR_FILE}
+### for each flattened ontology file, generate the md5 message digest
+./scripts/download/checksum-gen-ontologies.sh -l ${FLATTENED_ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -c ${CHECKSUM_BIN}
+### create a list of ontologies that are new or have changed from the previously downloaded version
+./scripts/download/create-modified-ontology-list.sh -l ${FLATTENED_ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -b ${BASE_DIRECTORY}

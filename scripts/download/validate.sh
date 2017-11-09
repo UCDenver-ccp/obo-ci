@@ -10,16 +10,16 @@ function print_usage {
     echo "Usage:"
     echo "$(basename $0) [OPTIONS]"
     echo "  [-i <ontology file>]: MUST BE ABSOLUTE PATH. The ontology file to process. All imports for this ontology will be recursively downloaded and merged."
-    echo "  [-o <output file>]: MUST BE ABSOLUTE PATH. The file into which to place merged/flattened version of the ontology."
+    echo "  [-o <output file>]: MUST BE ABSOLUTE PATH. Path to a file that will house the ontology in n-triples format. This file is likely to be temporary."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
 }
 
-while getopts "i:o:m:h" OPTION; do
-    case $OPTION in
+while getopts "i:m:o:h" OPTION; do
+    case ${OPTION} in
         # The input ontology file
         i) ONT_FILE=$OPTARG
            ;;
-        # The output file (will contain input ontology + content of all imports)
+        # The output ontology file
         o) OUTPUT_FILE=$OPTARG
            ;;
         # The path to the Apache Maven command
@@ -31,11 +31,11 @@ while getopts "i:o:m:h" OPTION; do
     esac
 done
 
-if [[ -z $ONT_FILE || -z $OUTPUT_FILE || -z $MAVEN ]]; then
+if [[ -z ${ONT_FILE} || -z ${MAVEN} || -z ${OUTPUT_FILE} ]]; then
 	echo "missing input arguments!!!!!"
-	echo $ONT_FILE
-	echo $OUTPUT_FILE
-	echo $MAVEN
+	echo "ontology file: ${ONT_FILE}"
+	echo "maven: ${MAVEN}"
+	echo "output file: ${OUTPUT_FILE}"
     print_usage
     exit 1
 fi
@@ -47,7 +47,7 @@ fi
 
 PATH_TO_ME=`pwd`
 
-${MAVEN} -e -f scripts/download/pom-flatten-ontology.xml exec:exec \
-        -DontologyFile=$ONT_FILE \
-        -DoutputFile=$OUTPUT_FILE \
-        -DlaunchDir=$PATH_TO_ME
+${MAVEN} -e -f scripts/download/pom-validate-ontology.xml exec:exec \
+        -DontologyFile=${ONT_FILE} \
+        -DoutputFile=${OUTPUT_FILE} \
+        -DlaunchDir=${PATH_TO_ME}
