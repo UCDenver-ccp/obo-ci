@@ -13,9 +13,10 @@ function print_usage {
     echo "  [-r <reasoner name>]: MUST BE ABSOLUTE PATH. 'elk' or 'hermit'"
     echo "  [-o <output file>]: MUST BE ABSOLUTE PATH. The file into which to place merged/flattened version of the ontology."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
+    echo "  [-g <log file>]: MUST BE ABSOLUTE PATH. Path to the log file."
 }
 
-while getopts "i:r:o:m:h" OPTION; do
+while getopts "i:r:o:m:g:h" OPTION; do
     case $OPTION in
         # The input ontology file
         i) ONT_FILE=$OPTARG
@@ -29,18 +30,22 @@ while getopts "i:r:o:m:h" OPTION; do
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
            ;;
+        # Log file
+        g) LOG_FILE=$OPTARG
+           ;;
         # HELP!
         h) print_usage; exit 0
            ;;
     esac
 done
 
-if [[ -z ${ONT_FILE} || -z ${OUTPUT_FILE}|| -z ${MAVEN} || -z ${REASONER_NAME} ]]; then
+if [[ -z ${ONT_FILE} || -z ${OUTPUT_FILE}|| -z ${MAVEN} || -z ${REASONER_NAME} || -z ${LOG_FILE} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "ontology file: ${ONT_FILE}"
 	echo "reasoner name: ${REASONER_NAME}"
 	echo "output file: ${OUTPUT_FILE}"
 	echo "maven: ${MAVEN}"
+	echo "log file: ${LOG_FILE}"
     print_usage
     exit 1
 fi
@@ -52,8 +57,14 @@ fi
 
 PATH_TO_ME=`pwd`
 
+date | tee -a ${LOG_FILE}
+echo "Validating ontology file: ${ONT_FILE}" | tee -a ${LOG_FILE}
 ${MAVEN} -e -f scripts/classify/individual/pom-classify-ontology.xml exec:exec \
         -DontologyFile=${ONT_FILE} \
         -DreasonerName=${REASONER_NAME} \
         -DoutputFile=${OUTPUT_FILE} \
-        -DlaunchDir=${PATH_TO_ME}
+        -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
+e=${PIPESTATUS[0]}
+date | tee -a ${LOG_FILE}
+exit ${e}
+

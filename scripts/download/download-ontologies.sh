@@ -13,10 +13,11 @@ function print_usage {
     echo "  [-l <ontology list file>]: MUST BE ABSOLUTE PATH. A file containing ontology id,url pairs to be downloaded."
     echo "  [-o <downloaded ontology list file>]: MUST BE ABSOLUTE PATH. A file containing ontology id,url pairs that were downloaded."
     echo "  [-e <download error file>]: MUST BE ABSOLUTE PATH. A file used to record download errors."
+    echo "  [-s <ontology status directory>]: MUST BE ABSOLUTE PATH. The path to a directory where json files indicating ontology status are to be written."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
 }
 
-while getopts "d:l:o:e:m:h" OPTION; do
+while getopts "d:l:o:e:s:m:g:h" OPTION; do
     case ${OPTION} in
         # The work directory
         d) DOWNLOAD_DIRECTORY=$OPTARG
@@ -30,6 +31,9 @@ while getopts "d:l:o:e:m:h" OPTION; do
         # A file to record download errors
         e) DOWNLOAD_ERROR_FILE=$OPTARG
            ;;
+        # A directory where ontology status json will be written
+        s) STATUS_DIR=$OPTARG
+           ;;
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
            ;;
@@ -39,12 +43,14 @@ while getopts "d:l:o:e:m:h" OPTION; do
     esac
 done
 
-if [[ -z ${DOWNLOAD_DIRECTORY} || -z ${ONTOLOGY_LIST_FILE} || -z ${DOWNLOADED_ONTOLOGY_LIST_FILE} || -z ${DOWNLOAD_ERROR_FILE} || -z ${MAVEN} ]]; then
+if [[ -z ${DOWNLOAD_DIRECTORY} || -z ${ONTOLOGY_LIST_FILE} || -z ${DOWNLOADED_ONTOLOGY_LIST_FILE} \
+      || -z ${DOWNLOAD_ERROR_FILE} || -z ${STATUS_DIR} || -z ${MAVEN} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "work directory: ${DOWNLOAD_DIRECTORY}"
 	echo "ontology list file: ${ONTOLOGY_LIST_FILE}"
 	echo "downloaded ontology list file: ${DOWNLOADED_ONTOLOGY_LIST_FILE}"
 	echo "download error file: ${DOWNLOAD_ERROR_FILE}"
+	echo "ontology status directory: ${STATUS_DIR}"
 	echo "path to maven bin: ${MAVEN}"
     print_usage
     exit 1
@@ -61,17 +67,28 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 > ${DOWNLOADED_ONTOLOGY_LIST_FILE}
 > ${DOWNLOAD_ERROR_FILE}
 
+
+
 exit_code=0
 for index in ${!IDs[*]}; do
   id=${IDs[$index]}
   url=${URLs[$index]}
   # remove any duplicate forward slashes from the directory path
   dir=$(echo "${DOWNLOAD_DIRECTORY}/ontologies/${id}" | sed 's/\/\//\//g')
-  log_file="${dir}/${id}.log"
   echo "downloading ${url} into directory ${dir}"
-
-  ${CURRENT_DIR}/download.sh -l ${log_file} -o ${dir} -i ${id} -u ${url}
+  LOG_DIRECTORY=${STATUS_DIR}/log
+  DOWNLOAD_LOG_FILE=${LOG_DIRECTORY}/${id}_dload.log
+  > ${DOWNLOAD_LOG_FILE}
+  ${CURRENT_DIR}/download.sh -g ${DOWNLOAD_LOG_FILE} -o ${dir} -i ${id} -u ${url}
   e=$?
+  cp scripts/template.json ${STATUS_DIR}/${id}_dload.json
+  # populate the template json with the ontology id
+  sed -i '' 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_dload.json"
+  # populate the template json with the path to the download log file
+  pattern="[/]"
+  escaped_log_file="${DOWNLOAD_LOG_FILE//$pattern/\/}"
+  sed -i '' 's/\"dload_log\": null,/\"dload_log\": \"'"${escaped_log_file}"'\",/' "${STATUS_DIR}/${id}_dload.json"
+  #sed -i '' 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_${REASONER_NAME}.json"
   if [ ${e} == 0 ]; then
     # we've download something. check to see that it's not an error message
     ont_file="${dir}/${id}.owl"
@@ -82,7 +99,8 @@ for index in ${!IDs[*]}; do
       # to see if the file we've downloaded contains any triples. If it contains triples
       # then we will call it validated.
       output_file="${ont_file}.nt"
-      ${CURRENT_DIR}/validate.sh -i ${ont_file} -o ${output_file} -m ${MAVEN}
+      echo "" >> ${DOWNLOAD_LOG_FILE}
+      ${CURRENT_DIR}/validate.sh -i ${ont_file} -o ${output_file} -m ${MAVEN} -g ${DOWNLOAD_LOG_FILE}
       if [ $? == 0 ]; then
         # the validation process didn't fail due to error, so we count the number of triples in the generated output_file
         triple_count=$(cat ${output_file} | wc -l)
@@ -90,14 +108,27 @@ for index in ${!IDs[*]}; do
 
         if [ ${triple_count} != 0 ]; then
           echo "${id},${url}" >> ${DOWNLOADED_ONTOLOGY_LIST_FILE}
+          sed -i '' 's/\"dload\": null,/\"dload\": true,/' "${STATUS_DIR}/${id}_dload.json"
+          # log a successful download
+          echo "" >> ${DOWNLOAD_LOG_FILE}
+          echo "Download validation successful. Triple count = ${triple_count}" >> ${DOWNLOAD_LOG_FILE}
         else
+          # download succeeded but the file contains no triples, so what was downloaded most likely wasn't an ontology
           echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-          mv ${dir} "${dir}_VALIDATION_ERROR"
+          sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+          # add an error message to the download log file
+          echo "" >> ${DOWNLOAD_LOG_FILE}
+          echo "WARNING: Download completed successfully but no triples are observed. A portion of the downloaded file is shown below:" >> ${DOWNLOAD_LOG_FILE}
+          echo "" >> ${DOWNLOAD_LOG_FILE}
+          head -n 20 ${ont_file} >> ${DOWNLOAD_LOG_FILE}
         fi
       else
         # validation failed due to error
         echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-        mv ${dir} "${dir}_VALIDATION_FAILURE"
+        sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+        echo "" >> ${DOWNLOAD_LOG_FILE}
+        echo "WARNING: Download validation failed due to error. See above." >> ${DOWNLOAD_LOG_FILE}
+        echo "" >> ${DOWNLOAD_LOG_FILE}
       fi
       # delete the n-triples output file if it was created
       if [ -e ${output_file} ]; then
@@ -106,15 +137,21 @@ for index in ${!IDs[*]}; do
     else
        # an error message was detected
        echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-       mv ${dir} "${dir}_UNAVAILABLE"
+       sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+       # add an error message to the download log file
+       echo "" >> ${DOWNLOAD_LOG_FILE}
+       echo "WARNING: Error message detected in the downloaded file. Stale URL is likely cause." >> ${DOWNLOAD_LOG_FILE}
+       echo "" >> ${DOWNLOAD_LOG_FILE}
+       head -n 20 ${ont_file} >> ${DOWNLOAD_LOG_FILE}
     fi
   else
     # an error occurred during the download process
     echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-    mv ${dir} "${dir}_UNAVAILABLE"
+    sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+    # log the error
+    echo "" >> ${DOWNLOAD_LOG_FILE}
+    echo "WARNING: Download failed due to error. See above." >> ${DOWNLOAD_LOG_FILE}
+    echo "" >> ${DOWNLOAD_LOG_FILE}
   fi
-
-
-
 
 done

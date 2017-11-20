@@ -3,16 +3,16 @@
 function print_usage {
     echo "Usage:"
     echo "$(basename $0) [OPTIONS]"
-    echo "  [-l <log file>]: MUST BE ABSOLUTE PATH. The log file that will document the downloading of the specified URL."
+    echo "  [-g <log file>]: MUST BE ABSOLUTE PATH. Path to the log file."
     echo "  [-o <output directory>]: MUST BE ABSOLUTE PATH. The directory where the downloaded file will be stored."
     echo "  [-i <ontology id>]: Ontology identifier (this will be used as the downloaded file name (appended with .owl)"
     echo "  [-u <url>]: The URL to download."
 }
 
-while getopts "l:o:i:u:h" OPTION; do
+while getopts "g:o:i:u:h" OPTION; do
     case ${OPTION} in
-        # The input ontology file
-        l) LOG_FILE=$OPTARG
+        # Log file
+        g) LOG_FILE=$OPTARG
            ;;
         # The output file (will contain input ontology + content of all imports)
         o) OUTPUT_DIRECTORY=$OPTARG
@@ -52,14 +52,11 @@ OUTPUT_DIRECTORY=$(echo "${OUTPUT_DIRECTORY}/")
 ;;
 esac
 
-#verify the log file
-#touch ${LOG_FILE}
-
-#date | tee -a ${LOG_FILE}
-curl -L ${URL} > ${OUTPUT_DIRECTORY}/${ID}.owl
-#wget -c -t 0 --timeout 60 --waitretry 10 -O ${ID}.owl -P ${OUTPUT_DIRECTORY} ${URL} | tee -a ${LOG_FILE}
+date | tee -a ${LOG_FILE}
+echo "Ontology download URL: ${URL}" | tee -a ${LOG_FILE}
+curl -L ${URL} -o ${OUTPUT_DIRECTORY}/${ID}.owl 2>&1 | tee -a ${LOG_FILE}
 e=${PIPESTATUS[0]}
-#date | tee -a ${LOG_FILE}
+date | tee -a ${LOG_FILE}
 exit ${e}
 
 

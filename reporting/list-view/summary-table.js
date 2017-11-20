@@ -1,13 +1,29 @@
 
 
-function getCheckMinusImg(data, type, row) {
+function getCheckMinusImg(data, type, row, meta) {
+    var log_type;
+    switch (meta.col) {
+    case 1:
+        log_type = 'dload';
+        break;
+    case 2:
+        log_type = 'flat';
+        break;
+    case 3:
+        log_type = 'elk';
+        break;
+    default:
+        console.log('Unhandled column for generating links to the log.')
+    }
+
+    var log_url = 'data/log/' + row.id + '_' + log_type + '.log';
     if (data == null) {
         return '<center><img width="40" src="images/na-icon.svg"><center>'
     }
     if (data) {
-        return '<center><img width="40" src="images/ok-icon.svg"></center>'
+        return '<center><a href="'+ log_url +'"><img width="40" src="images/ok-icon.svg"></a></center>'
     } else {
-        return '<center><img width="40" src="images/fail-icon.svg"></center>'
+        return '<center><a href="'+ log_url +'"><img width="40" src="images/fail-icon.svg"></a></center>'
     }
 }
 
@@ -23,14 +39,26 @@ $(document).ready(function() {
 
             $.getJSON(json_filename, function(json) {
                 combined_json = combined_json.concat(json);
-                console.log(combined_json)
 
                if ($.fn.dataTable.isDataTable('#example')) {
-                   console.log("Reloading DataTable with " + JSON.stringify(json))
                    table = $('#example').DataTable();
-                   table.rows.add(json).draw();
+
+                   // check to see if there is already a row with the same id
+                   var rows = table.rows(function (idx, data, node) {
+                                     return data.id  == json[0].id ? true : false;
+                                 }).data();
+                   if (rows.length != 0) {
+                        var row = rows[0];
+                        for (var key in json[0]) {
+                             if (key != 'id' && json[0][key] != null) {
+                                row[key] = json[0][key];
+                             }
+                        }
+                        table.rows().invalidate().draw();
+                   } else {
+                        table.rows.add(json).draw();
+                   }
                } else {
-                   console.log("Initializing DataTable with " + JSON.stringify(json))
                    $('#example').DataTable( {
                        data: json,
                        // forcing columns to be of type string below allows the sorting to work properly
