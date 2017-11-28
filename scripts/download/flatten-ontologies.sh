@@ -92,18 +92,18 @@ for index in ${!IDs[*]}; do
   ${CODE_BASE_DIRECTORY}/scripts/download/flatten.sh -i ${ont_file} -o ${flat_ont_file} -m ${MAVEN} -g ${LOG_FILE}
   e=$?
   cp scripts/template.json ${STATUS_DIR}/${id}_flat.json
-  sed -i '' 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_flat.json"
+  sed -i 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_flat.json"
   # populate the template json with the path to the download log file
   pattern="[/]"
   escaped_log_file="${LOG_FILE//$pattern/\/}"
-  sed -i '' 's/\"flat_log\": null,/\"flat_log\": \"'"${escaped_log_file}"'\",/' "${STATUS_DIR}/${id}_flat.json"
+  sed -i 's/\"flat_log\": null,/\"flat_log\": \"'"${escaped_log_file}"'\",/' "${STATUS_DIR}/${id}_flat.json"
 
   if [ ${e} == 0 ]; then
     echo "${id},${url}" >> ${FLATTENED_ONTOLOGY_LIST_FILE}
-    sed -i '' 's/\"flat\": null,/\"flat\": true,/' "${STATUS_DIR}/${id}_flat.json"
+    sed -i 's/\"flat\": null,/\"flat\": true,/' "${STATUS_DIR}/${id}_flat.json"
   else
     echo "${id},${url}" >> ${FLATTEN_ERROR_FILE}
-    sed -i '' 's/\"flat\": null,/\"flat\": false,/' "${STATUS_DIR}/${id}_flat.json"
+    sed -i 's/\"flat\": null,/\"flat\": false,/' "${STATUS_DIR}/${id}_flat.json"
   fi
 done
 

@@ -100,10 +100,10 @@ fi
 
 ### modify header file with replacement strings for job name, email, and job log directory (if they have been specified)
 if [[ ! -z ${HEADER_JOB_NAME} ]]; then
-    sed -i '' 's/JOB_NAME/'${HEADER_JOB_NAME}'/' ${SCRIPT_FILE}
+    sed -i 's/JOB_NAME/'${HEADER_JOB_NAME}'/' ${SCRIPT_FILE}
 fi
 if [[ ! -z ${HEADER_EMAIL} ]]; then
-    sed -i '' 's/YOUR_EMAIL/'${HEADER_EMAIL}'/' ${SCRIPT_FILE}
+    sed -i 's/YOUR_EMAIL/'${HEADER_EMAIL}'/' ${SCRIPT_FILE}
 fi
 if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
     ### remove any trailing slash from the directory, then escape any remaining slashes
@@ -114,22 +114,13 @@ if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
     esac
     pattern="[/]"
     escaped_job_log_directory="${HEADER_JOB_LOG_DIRECTORY//$pattern/\/}"
-    sed -i '' 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/' ${SCRIPT_FILE}
+    sed -i 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/' ${SCRIPT_FILE}
 fi
 
 DOWNLOAD_DIRECTORY="${WORK_DIRECTORY}/download"
 BASE_DIRECTORY="${WORK_DIRECTORY}/base"
 LOG_DIRECTORY="${WORK_DIRECTORY}/status/log"
 STATUS_DIRECTORY="${WORK_DIRECTORY}/status"
-
-printf "\n###\n### This script will download the Open Biomedical Ontologies, validate the downloads as RDF, and process all imports for each ontology.\n###\n" >> ${SCRIPT_FILE}
-printf "\n### clean the download directory and create other directories as needed" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nrm -Rf ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${BASE_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${LOG_DIRECTORY}" >> ${SCRIPT_FILE}
 
 ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.available.list"
 DOWNLOADED_ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.downloaded.list"
@@ -151,6 +142,14 @@ FLATTEN_ERROR_FILE=$(echo "${FLATTEN_ERROR_FILE}" | sed 's/\/\//\//g')
 ### copy template status file to base directory
 cp ./scripts/template.json ${BASE_DIRECTORY}
 
+printf "\n###\n### This script will download the Open Biomedical Ontologies, validate the downloads as RDF, and process all imports for each ontology.\n###\n" >> ${SCRIPT_FILE}
+printf "\n### clean the download directory and create other directories as needed" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nrm -Rf ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${BASE_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${LOG_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\n\n### This script first downloads all of the OBOs and creates a flattened (all imports included)" >> ${SCRIPT_FILE}
 printf "\n### version of each owl file. It then creates a md5 hash of that flattened owl file and uses the" >> ${SCRIPT_FILE}
 printf "\n### hash to determine if the file is new and thus needs further processing.\n" >> ${SCRIPT_FILE}

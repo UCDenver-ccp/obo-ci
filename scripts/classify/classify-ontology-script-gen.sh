@@ -107,10 +107,10 @@ fi
 
 ### modify header file with replacement strings for job name, email, and job log directory (if they have been specified)
 if [[ ! -z ${HEADER_JOB_NAME} ]]; then
-    sed -i '' 's/JOB_NAME/'${HEADER_JOB_NAME}'/' ${SCRIPT_FILE}
+    sed -i 's/JOB_NAME/'${HEADER_JOB_NAME}'/' ${SCRIPT_FILE}
 fi
 if [[ ! -z ${HEADER_EMAIL} ]]; then
-    sed -i '' 's/YOUR_EMAIL/'${HEADER_EMAIL}'/' ${SCRIPT_FILE}
+    sed -i 's/YOUR_EMAIL/'${HEADER_EMAIL}'/' ${SCRIPT_FILE}
 fi
 if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
     ### remove any trailing slash from the directory, then escape any remaining slashes
@@ -121,7 +121,7 @@ if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
     esac
     pattern="[/]"
     escaped_job_log_directory="${HEADER_JOB_LOG_DIRECTORY//$pattern/\/}"
-    sed -i '' 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/' ${SCRIPT_FILE}
+    sed -i 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/' ${SCRIPT_FILE}
 fi
 
 # remove any duplicate forward slashes from the directory path
@@ -137,7 +137,7 @@ if [[ -z ${XTRA_ONT_ID} ]]; then
     printf "\n### create the status file by copying from the template status file" >> ${SCRIPT_FILE}
     printf "\ncp ${BASE_DIRECTORY}/template.json ${STATUS_DIR}/${STATUS_FILE}" >> ${SCRIPT_FILE}
     printf "\n### update the id field in the status file" >> ${SCRIPT_FILE}
-    printf "\nsed -i '' 's/\\\"id\\\": null,/\\\"id\\\": \\\"'\"${ONT_ID}\"'\\\",/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+    printf "\nsed -i 's/\\\"id\\\": null,/\\\"id\\\": \\\"'\"${ONT_ID}\"'\\\",/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file}...\"" >> ${SCRIPT_FILE}
     printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
@@ -153,7 +153,7 @@ else
     printf "\n### create the status file by copying from the template status file" >> ${SCRIPT_FILE}
     printf "\ncp ${BASE_DIRECTORY}/template.json ${STATUS_DIR}/${STATUS_FILE}" >> ${SCRIPT_FILE}
     printf "\n### update the id field in the status file" >> ${SCRIPT_FILE}
-    printf "\nsed -i '' 's/\\\"id\\\": null,/\\\"id\\\": \\\"'\"${ONT_ID}_${XTRA_ONT_ID}\"'\\\",/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+    printf "\nsed -i 's/\\\"id\\\": null,/\\\"id\\\": \\\"'\"${ONT_ID}_${XTRA_ONT_ID}\"'\\\",/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
     printf "\nmkdir -p ${output_dir}" >> ${SCRIPT_FILE}
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file} + ${xtra_owl_file}...\"" >> ${SCRIPT_FILE}
@@ -166,11 +166,11 @@ printf "\ne=\$?" >> ${SCRIPT_FILE}
 pattern="[/]"
 escaped_log_file="${LOG_FILE//$pattern/\/}"
 printf "\n\n### log the location of the reasoner log file" >> ${SCRIPT_FILE}
-printf "\nsed -i '' 's/\\\"'\"${REASONER_NAME}\"'_log\\\": null/\\\"'\"${REASONER_NAME}\"'_log\\\": \\\"'\"${escaped_log_file}\"'\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\nsed -i 's/\\\"'\"${REASONER_NAME}\"'_log\\\": null/\\\"'\"${REASONER_NAME}\"'_log\\\": \\\"'\"${escaped_log_file}\"'\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\n### if the reasoner succeeded then log the status as 'true', otherwise log the status as 'false" >> ${SCRIPT_FILE}
 printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
-printf "\n\tsed -i '' 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": true/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": true/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\nelse" >> ${SCRIPT_FILE}
-printf "\n\tsed -i '' 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": false/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": false/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\nfi" >> ${SCRIPT_FILE}
 

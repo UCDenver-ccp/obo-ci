@@ -92,12 +92,11 @@ for index in ${!IDs[*]}; do
   e=$?
   cp scripts/template.json ${STATUS_DIR}/${id}_dload.json
   # populate the template json with the ontology id
-  sed -i '' 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_dload.json"
+  sed -i 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_dload.json"
   # populate the template json with the path to the download log file
   pattern="[/]"
   escaped_log_file="${DOWNLOAD_LOG_FILE//$pattern/\/}"
-  sed -i '' 's/\"dload_log\": null,/\"dload_log\": \"'"${escaped_log_file}"'\",/' "${STATUS_DIR}/${id}_dload.json"
-  #sed -i '' 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_${REASONER_NAME}.json"
+  sed -i 's/\"dload_log\": null,/\"dload_log\": \"'"${escaped_log_file}"'\",/' "${STATUS_DIR}/${id}_dload.json"
   if [ ${e} == 0 ]; then
     # we've download something. check to see that it's not an error message
     ont_file="${dir}/${id}.owl"
@@ -117,14 +116,14 @@ for index in ${!IDs[*]}; do
 
         if [ ${triple_count} != 0 ]; then
           echo "${id},${url}" >> ${DOWNLOADED_ONTOLOGY_LIST_FILE}
-          sed -i '' 's/\"dload\": null,/\"dload\": true,/' "${STATUS_DIR}/${id}_dload.json"
+          sed -i 's/\"dload\": null,/\"dload\": true,/' "${STATUS_DIR}/${id}_dload.json"
           # log a successful download
           echo "" >> ${DOWNLOAD_LOG_FILE}
           echo "Download validation successful. Triple count = ${triple_count}" >> ${DOWNLOAD_LOG_FILE}
         else
           # download succeeded but the file contains no triples, so what was downloaded most likely wasn't an ontology
           echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-          sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+          sed -i 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
           # add an error message to the download log file
           echo "" >> ${DOWNLOAD_LOG_FILE}
           echo "WARNING: Download completed successfully but no triples are observed. A portion of the downloaded file is shown below:" >> ${DOWNLOAD_LOG_FILE}
@@ -134,7 +133,7 @@ for index in ${!IDs[*]}; do
       else
         # validation failed due to error
         echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-        sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+        sed -i 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
         echo "" >> ${DOWNLOAD_LOG_FILE}
         echo "WARNING: Download validation failed due to error. See above." >> ${DOWNLOAD_LOG_FILE}
         echo "" >> ${DOWNLOAD_LOG_FILE}
@@ -146,7 +145,7 @@ for index in ${!IDs[*]}; do
     else
        # an error message was detected
        echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-       sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+       sed -i 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
        # add an error message to the download log file
        echo "" >> ${DOWNLOAD_LOG_FILE}
        echo "WARNING: Error message detected in the downloaded file. Stale URL is likely cause." >> ${DOWNLOAD_LOG_FILE}
@@ -156,7 +155,7 @@ for index in ${!IDs[*]}; do
   else
     # an error occurred during the download process
     echo "${id},${url}" >> ${DOWNLOAD_ERROR_FILE}
-    sed -i '' 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
+    sed -i 's/\"dload\": null,/\"dload\": false,/' "${STATUS_DIR}/${id}_dload.json"
     # log the error
     echo "" >> ${DOWNLOAD_LOG_FILE}
     echo "WARNING: Download failed due to error. See above." >> ${DOWNLOAD_LOG_FILE}
