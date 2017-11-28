@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Continuous Integration for the Open Biomedical Ontologies
 
 You can use the [editor on GitHub](https://github.com/UCDenver-ccp/obo-ci/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

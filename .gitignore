@@ -1,0 +1,8 @@
+.idea/
+*.iml
+
+_config.yml
+
+reporting/list-view/data
+reporting/lighttpd-config
+docs/proposal.md
