@@ -7,7 +7,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.ucdenver.ccp</groupId>
-	<artifactId>kabob-ontology-flatten</artifactId>
+	<artifactId>kabob-ontology-classify</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 
@@ -39,7 +39,7 @@
 				<configuration>
 					<executable>java</executable>
 					<arguments>
-						<argument>-Xmx8G</argument>
+						<argument>-Xmx16G</argument>
 						<argument>-DentityExpansionLimit=4086000</argument>
 						<argument>-Djava.awt.headless=true</argument>
 						<argument>-DlauncherDir=${launchDir}</argument>
@@ -47,9 +47,13 @@
 						<classpath />
 						<argument>owltools.cli.CommandLineInterface</argument>
 						<argument>${ontologyFile}</argument> <!-- input ontology file -->
+						<argument> --merge</argument>
+						<argument>${xtraOntologyFile}</argument> <!-- extra input ontology file -->
+						<argument> --reasoner</argument>
+						<argument>${reasonerName}</argument>
+						<argument>--run-reasoner</argument>
+						<argument>--assert-implied</argument>
 						<argument>-o</argument>
-						<argument>-f</argument>
-						<argument>nt</argument>
 						<argument>${outputFile}</argument> <!-- output file (will contain ontology including all imports) -->
 					</arguments>
 				</configuration>

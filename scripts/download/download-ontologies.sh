@@ -15,9 +15,10 @@ function print_usage {
     echo "  [-e <download error file>]: MUST BE ABSOLUTE PATH. A file used to record download errors."
     echo "  [-s <ontology status directory>]: MUST BE ABSOLUTE PATH. The path to a directory where json files indicating ontology status are to be written."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
+    echo "  [-z <code base directory>]: MUST BE ABSOLUTE PATH. Path to the base directory where this project has been downloaded."
 }
 
-while getopts "d:l:o:e:s:m:g:h" OPTION; do
+while getopts "d:l:o:e:s:m:g:z:h" OPTION; do
     case ${OPTION} in
         # The work directory
         d) DOWNLOAD_DIRECTORY=$OPTARG
@@ -37,6 +38,9 @@ while getopts "d:l:o:e:s:m:g:h" OPTION; do
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
            ;;
+        # The path to the directory where this project has been downloaded
+        z) CODE_BASE_DIRECTORY=$OPTARG
+           ;;
         # HELP!
         h) print_usage; exit 0
            ;;
@@ -44,8 +48,9 @@ while getopts "d:l:o:e:s:m:g:h" OPTION; do
 done
 
 if [[ -z ${DOWNLOAD_DIRECTORY} || -z ${ONTOLOGY_LIST_FILE} || -z ${DOWNLOADED_ONTOLOGY_LIST_FILE} \
-      || -z ${DOWNLOAD_ERROR_FILE} || -z ${STATUS_DIR} || -z ${MAVEN} ]]; then
+      || -z ${DOWNLOAD_ERROR_FILE} || -z ${STATUS_DIR} || -z ${MAVEN} || -z ${CODE_BASE_DIRECTORY} ]]; then
 	echo "missing input arguments!!!!!"
+	echo "code base directory: ${CODE_BASE_DIRECTORY}"
 	echo "work directory: ${DOWNLOAD_DIRECTORY}"
 	echo "ontology list file: ${ONTOLOGY_LIST_FILE}"
 	echo "downloaded ontology list file: ${DOWNLOADED_ONTOLOGY_LIST_FILE}"
@@ -63,11 +68,15 @@ fi
 
 IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
 URLs=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
-CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 > ${DOWNLOADED_ONTOLOGY_LIST_FILE}
 > ${DOWNLOAD_ERROR_FILE}
 
-
+### remove any trailing slash from the code base directory
+case "${CODE_BASE_DIRECTORY}" in
+    */)
+    CODE_BASE_DIRECTORY=${CODE_BASE_DIRECTORY%?}
+    ;;
+esac
 
 exit_code=0
 for index in ${!IDs[*]}; do
@@ -79,7 +88,7 @@ for index in ${!IDs[*]}; do
   LOG_DIRECTORY=${STATUS_DIR}/log
   DOWNLOAD_LOG_FILE=${LOG_DIRECTORY}/${id}_dload.log
   > ${DOWNLOAD_LOG_FILE}
-  ${CURRENT_DIR}/download.sh -g ${DOWNLOAD_LOG_FILE} -o ${dir} -i ${id} -u ${url}
+  ${CODE_BASE_DIRECTORY}/scripts/download/download.sh -g ${DOWNLOAD_LOG_FILE} -o ${dir} -i ${id} -u ${url}
   e=$?
   cp scripts/template.json ${STATUS_DIR}/${id}_dload.json
   # populate the template json with the ontology id
@@ -100,7 +109,7 @@ for index in ${!IDs[*]}; do
       # then we will call it validated.
       output_file="${ont_file}.nt"
       echo "" >> ${DOWNLOAD_LOG_FILE}
-      ${CURRENT_DIR}/validate.sh -i ${ont_file} -o ${output_file} -m ${MAVEN} -g ${DOWNLOAD_LOG_FILE}
+      ${CODE_BASE_DIRECTORY}/scripts/download/validate.sh -i ${ont_file} -o ${output_file} -m ${MAVEN} -g ${DOWNLOAD_LOG_FILE}
       if [ $? == 0 ]; then
         # the validation process didn't fail due to error, so we count the number of triples in the generated output_file
         triple_count=$(cat ${output_file} | wc -l)

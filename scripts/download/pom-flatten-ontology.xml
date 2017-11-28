@@ -39,7 +39,7 @@
 				<configuration>
 					<executable>java</executable>
 					<arguments>
-						<argument>-Xmx7G</argument>
+						<argument>-Xmx8G</argument>
 						<argument>-DentityExpansionLimit=4086000</argument>
 						<argument>-Djava.awt.headless=true</argument>
 						<argument>-DlauncherDir=${launchDir}</argument>

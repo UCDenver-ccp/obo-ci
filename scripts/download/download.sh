@@ -43,13 +43,11 @@ fi
 mkdir -p ${OUTPUT_DIRECTORY}
 cd ${OUTPUT_DIRECTORY}
 
-#append forwardslash to target directory if it doesn't end in a slash already
-case ${OUTPUT_DIRECTORY} in
-*/)
-;;
-*)
-OUTPUT_DIRECTORY=$(echo "${OUTPUT_DIRECTORY}/")
-;;
+### remove any trailing slash from the target directory
+case "${OUTPUT_DIRECTORY}" in
+    */)
+    OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY%?}
+    ;;
 esac
 
 date | tee -a ${LOG_FILE}

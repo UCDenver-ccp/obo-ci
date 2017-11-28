@@ -14,9 +14,10 @@ function print_usage {
     echo "  [-o <flattened ontology list file>]: MUST BE ABSOLUTE PATH. A file containing ontology id,url pairs that were successfully flattened."
     echo "  [-e <flatten error file>]: MUST BE ABSOLUTE PATH. A file used to record errors when flattening ontology imports."
     echo "  [-s <ontology status directory>]: MUST BE ABSOLUTE PATH. The path to a directory where json files indicating ontology status are to be written."
+    echo "  [-z <code base directory>]: MUST BE ABSOLUTE PATH. Path to the base directory where this project has been downloaded."
 }
 
-while getopts "d:l:m:o:e:s:h" OPTION; do
+while getopts "d:l:m:o:e:s:z:h" OPTION; do
     case ${OPTION} in
         # The work directory
         d) DOWNLOAD_DIRECTORY=$OPTARG
@@ -36,6 +37,9 @@ while getopts "d:l:m:o:e:s:h" OPTION; do
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
            ;;
+        # The path to the directory where this project has been downloaded
+        z) CODE_BASE_DIRECTORY=$OPTARG
+           ;;
         # HELP!
         h) print_usage; exit 0
            ;;
@@ -43,8 +47,9 @@ while getopts "d:l:m:o:e:s:h" OPTION; do
 done
 
 if [[ -z ${DOWNLOAD_DIRECTORY} || -z ${ONTOLOGY_LIST_FILE} || -z ${MAVEN} \
-   || -z ${FLATTENED_ONTOLOGY_LIST_FILE} || -z ${FLATTEN_ERROR_FILE} || -z ${STATUS_DIR} ]]; then
+   || -z ${FLATTENED_ONTOLOGY_LIST_FILE} || -z ${FLATTEN_ERROR_FILE} || -z ${STATUS_DIR} || -z ${CODE_BASE_DIRECTORY} ]]; then
 	echo "missing input arguments!!!!!"
+	echo "code base directory: ${CODE_BASE_DIRECTORY}"
 	echo "work directory: ${DOWNLOAD_DIRECTORY}"
 	echo "ontology list file: ${ONTOLOGY_LIST_FILE}"
 	echo "path to Maven binary: ${MAVEN}"
@@ -60,9 +65,15 @@ if ! [[ -e README.md ]]; then
     exit 1
 fi
 
+### remove any trailing slash from the code base directory
+case "${CODE_BASE_DIRECTORY}" in
+    */)
+    CODE_BASE_DIRECTORY=${CODE_BASE_DIRECTORY%?}
+    ;;
+esac
+
 IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
 URLs=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
-CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 > ${FLATTENED_ONTOLOGY_LIST_FILE}
 > ${FLATTEN_ERROR_FILE}
 
@@ -78,7 +89,7 @@ for index in ${!IDs[*]}; do
   LOG_FILE="${LOG_DIRECTORY}/${id}_flat.log"
 
   echo "flattening ${ont_file} into ${flat_ont_file}"
-  ${CURRENT_DIR}/flatten.sh -i ${ont_file} -o ${flat_ont_file} -m ${MAVEN} -g ${LOG_FILE}
+  ${CODE_BASE_DIRECTORY}/scripts/download/flatten.sh -i ${ont_file} -o ${flat_ont_file} -m ${MAVEN} -g ${LOG_FILE}
   e=$?
   cp scripts/template.json ${STATUS_DIR}/${id}_flat.json
   sed -i '' 's/\"id\": null,/\"id\": \"'"${id}"'\",/' "${STATUS_DIR}/${id}_flat.json"

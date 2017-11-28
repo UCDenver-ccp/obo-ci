@@ -46,7 +46,6 @@ fi
 
 IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
 URLs=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
-CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ONTOLOGY_LIST_TO_PROCESS_FILE="${ONTOLOGY_LIST_FILE}.to_process"
 # reset the ontology_list_to_process file in case it already exists
 > ${ONTOLOGY_LIST_TO_PROCESS_FILE}

@@ -45,13 +45,9 @@ if ! [[ -e README.md ]]; then
 fi
 
 IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
-URLs=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
-CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 exit_code=0
 for index in ${!IDs[*]}; do
   id=${IDs[$index]}
-  url=${URLs[$index]}
   # remove any duplicate forward slashes from the directory path
   dir=$(echo "${WORK_DIRECTORY}/ontologies/${id}" | sed 's/\/\//\//g')
   ont_file="${dir}/${id}_flat.owl"

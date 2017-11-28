@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# Given an ontology file, download all imported ontologies and create 
+# Given an ontology file, download all imported ontologies and create
 # a new file containing the source ontology and content of all imported
 # ontologies. This script uses the OWLTools library (https://github.com/owlcollab/owltools)
 #
@@ -14,10 +14,11 @@ function print_usage {
     echo "  [-o <output file>]: MUST BE ABSOLUTE PATH. The file into which to place merged/flattened version of the ontology."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
     echo "  [-g <log file>]: MUST BE ABSOLUTE PATH. Path to the log file."
+    echo "  [-x <xtra ontology>]: MUST BE ABSOLUTE PATH. [OPTIONAL] Merge extra ontology before processing."
 }
 
-while getopts "i:r:o:m:g:h" OPTION; do
-    case $OPTION in
+while getopts "i:r:o:m:g:x:h" OPTION; do
+    case ${OPTION} in
         # The input ontology file
         i) ONT_FILE=$OPTARG
            ;;
@@ -32,6 +33,9 @@ while getopts "i:r:o:m:g:h" OPTION; do
            ;;
         # Log file
         g) LOG_FILE=$OPTARG
+           ;;
+        # Extra ontology file to be merged prior to processing (OPTIONAL)
+        x) XTRA_ONT_FILE=$OPTARG
            ;;
         # HELP!
         h) print_usage; exit 0
@@ -58,13 +62,22 @@ fi
 PATH_TO_ME=`pwd`
 
 date | tee -a ${LOG_FILE}
-echo "Validating ontology file: ${ONT_FILE}" | tee -a ${LOG_FILE}
-${MAVEN} -e -f scripts/classify/individual/pom-classify-ontology.xml exec:exec \
+if [[ -z ${XTRA_ONT_FILE} ]]; then
+echo "Classifying ontology file: ${ONT_FILE}" | tee -a ${LOG_FILE}
+${MAVEN} -e -f scripts/classify/pom-classify-ontology.xml exec:exec \
         -DontologyFile=${ONT_FILE} \
         -DreasonerName=${REASONER_NAME} \
         -DoutputFile=${OUTPUT_FILE} \
         -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
+else
+echo "Classifying ontology pair: ${ONT_FILE} ${XTRA_ONT_FILE}" | tee -a ${LOG_FILE}
+${MAVEN} -e -f scripts/classify/pom-classify-ontology-pair.xml exec:exec \
+        -DontologyFile=${ONT_FILE} \
+        -DxtraOntologyFile=${XTRA_ONT_FILE} \
+        -DreasonerName=${REASONER_NAME} \
+        -DoutputFile=${OUTPUT_FILE} \
+        -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
+fi
 e=${PIPESTATUS[0]}
 date | tee -a ${LOG_FILE}
 exit ${e}
-
