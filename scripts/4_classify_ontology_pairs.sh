@@ -66,30 +66,17 @@ if ! [[ -e README.md ]]; then
     exit 1
 fi
 
-BASE_DIRECTORY="${WORK_DIRECTORY}/base"
-STATUS_DIRECTORY="${WORK_DIRECTORY}/status"
-LOG_DIRECTORY="${WORK_DIRECTORY}/status/log"
-AVAILABLE_ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.flat.list"
-ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.flat.list.to_process"
-PAIRS_TO_PROCESS_FILE="${WORK_DIRECTORY}/ontologies.pairs.list"
-
-# remove any duplicate slashes in file paths
-BASE_DIRECTORY=$(echo "${BASE_DIRECTORY}" | sed 's/\/\//\//g')
-STATUS_DIRECTORY=$(echo "${STATUS_DIRECTORY}" | sed 's/\/\//\//g')
-ONTOLOGY_LIST_FILE=$(echo "${ONTOLOGY_LIST_FILE}" | sed 's/\/\//\//g')
-AVAILABLE_ONTOLOGY_LIST_FILE=$(echo "${ONTOLOGY_LIST_FILE}" | sed 's/\/\//\//g')
-PAIRS_TO_PROCESS_FILE=$(echo "${PAIRS_TO_PROCESS_FILE}" | sed 's/\/\//\//g')
-SCRIPT_DIRECTORY="${BASE_DIRECTORY}/pair-scripts"
-mkdir -p ${SCRIPT_DIRECTORY}
-
-### remove any trailing slash from the code base directory
+### remove trailing slash from CODE_BASE_DIRECTORY if it exists
 case "${CODE_BASE_DIRECTORY}" in
     */)
     CODE_BASE_DIRECTORY=${CODE_BASE_DIRECTORY%?}
     ;;
 esac
 
-${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/pair-gen.sh -l ${ONTOLOGY_LIST_FILE} -a ${AVAILABLE_ONTOLOGY_LIST_FILE} -o ${PAIRS_TO_PROCESS_FILE}
+### define directories that will be used in the scripts
+. ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
+
+#${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/pair-gen.sh -l ${MODIFIED_ONTOLOGY_LIST_FILE} -a ${ONTOLOGY_LIST_FILE} -o ${PAIRS_TO_PROCESS_FILE} -d ${BASE_DIRECTORY}
 
 # for each line in the pair file, create a run/submission script
 ID1s=( $(awk -F, '{print $1}' ${PAIRS_TO_PROCESS_FILE}) )
@@ -97,18 +84,18 @@ ID2s=( $(awk -F, '{print $2}' ${PAIRS_TO_PROCESS_FILE}) )
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id1}_${id2}.elk.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
   fi
   chmod 755 ${SCRIPT_FILE}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id}.hermit.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
   fi
   chmod 755 ${SCRIPT_FILE}
 done
@@ -117,9 +104,9 @@ done
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id1}_${id2}.elk.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id1}_${id2}.hermit.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
 done
 

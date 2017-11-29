@@ -66,44 +66,34 @@ if ! [[ -e README.md ]]; then
     exit 1
 fi
 
-BASE_DIRECTORY="${WORK_DIRECTORY}/base"
-STATUS_DIRECTORY="${WORK_DIRECTORY}/status"
-LOG_DIRECTORY="${WORK_DIRECTORY}/status/log"
-ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.flat.list.to_process"
-
-# remove any duplicate slashes in file paths
-BASE_DIRECTORY=$(echo "${BASE_DIRECTORY}" | sed 's/\/\//\//g')
-STATUS_DIRECTORY=$(echo "${STATUS_DIRECTORY}" | sed 's/\/\//\//g')
-ONTOLOGY_LIST_FILE=$(echo "${ONTOLOGY_LIST_FILE}" | sed 's/\/\//\//g')
-SCRIPT_DIRECTORY="${BASE_DIRECTORY}/scripts"
-mkdir -p ${SCRIPT_DIRECTORY}
-
-### remove any trailing slash from the code base directory
+### remove trailing slash from CODE_BASE_DIRECTORY if it exists
 case "${CODE_BASE_DIRECTORY}" in
     */)
     CODE_BASE_DIRECTORY=${CODE_BASE_DIRECTORY%?}
     ;;
 esac
 
-# This script attempts to classify any downloaded ontology that has been determined to have changed since the previous download.
+### define directories that will be used in the scripts
+. ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
+# This script attempts to classify any downloaded ontology that has been determined to have changed since the previous download.
 # for each line in the ontology list file, create a submission script for both elk and hermit
 
-IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
+IDs=( $(awk -F, '{print $1}' ${MODIFIED_ONTOLOGY_LIST_FILE}) )
 for index in ${!IDs[*]}; do
   id=${IDs[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id}.elk.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.elk.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   fi
   chmod 755 ${SCRIPT_FILE}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id}.hermit.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.hermit.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   fi
   chmod 755 ${SCRIPT_FILE}
 done
@@ -111,8 +101,8 @@ done
 # submit each generated script
 for index in ${!IDs[*]}; do
   id=${IDs[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id}.elk.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.elk.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY}/${id}.hermit.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.hermit.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
 done

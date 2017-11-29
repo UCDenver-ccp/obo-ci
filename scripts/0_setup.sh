@@ -9,22 +9,19 @@ function print_usage {
     echo "$(basename $0) [OPTIONS]"
     echo "  [-d <work directory>]: MUST BE ABSOLUTE PATH. The directory where all generated/downloaded files will be stored."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
-    echo "  [-i <ontology id>]: Identifier of the ontology to download."
-    echo "  [-u <ontology url>]: URL of the ontology to download."
-    echo "  [-c <md5sum>]: MUST BE ABSOLUTE PATH. The path to the md5sum command."
+    echo "  [-j <jq>]: MUST BE ABSOLUTE PATH. The path to the jq command (https://stedolan.github.io/jq/)."
     echo "  [-z <code base directory>]: MUST BE ABSOLUTE PATH. Path to the base directory where this project has been downloaded."
     echo "  [-k <run command>]: [OPTIONAL] The command used to run the generated scripts. Default = '', but could be something like 'qsub'"
     echo "  [-a <script header file>]: MUST BE ABSOLUTE PATH. [OPTIONAL] File containing header for the script."
-    echo "  [-t <script file>]: MUST BE ABSOLUTE PATH. The path to the script file created by this script."
 
-    ### header arguments
+        ### header arguments
     echo "  [-n <job name>]: OPTIONALLY USED IN HEADER. Job name; will replace JOB_NAME in header file."
     echo "  [-e <email>]: OPTIONALLY USED IN HEADER. Your email address; will replace YOUR_EMAIL in header file."
     echo "  [-y <job log directory>]: OPTIONALLY USED IN HEADER. Job log directory; will replace JOB_LOG_DIRECTORY in header file."
 
 }
 
-while getopts "d:m:i:u:c:a:k:t:n:e:y:z:h" OPTION; do
+while getopts "d:m:k:c:j:a:n:e:y:z:h" OPTION; do
     case ${OPTION} in
         # The work directory where all intermediate files are stored
         d) WORK_DIRECTORY=$OPTARG
@@ -32,14 +29,8 @@ while getopts "d:m:i:u:c:a:k:t:n:e:y:z:h" OPTION; do
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
            ;;
-        # The ontology id to download
-        i) ONT_ID=$OPTARG
-           ;;
-        # The ontology URL to download
-        u) ONT_URL=$OPTARG
-           ;;
-        # The path to the md5sum command
-        c) CHECKSUM_BIN=$OPTARG
+        # The path to the jq command
+        j) JQ=$OPTARG
            ;;
         # The path to the directory where this project has been downloaded
         z) CODE_BASE_DIRECTORY=$OPTARG
@@ -49,9 +40,6 @@ while getopts "d:m:i:u:c:a:k:t:n:e:y:z:h" OPTION; do
            ;;
         # File containing header file for the script (OPTIONAL)
         a) HEADER_FILE=$OPTARG
-           ;;
-        # Path to the script file created by this script
-        t) SCRIPT_FILE=$OPTARG
            ;;
         # Job name; will replace JOB_NAME in header file. (OPTIONAL)
         n) HEADER_JOB_NAME=$OPTARG
@@ -68,16 +56,12 @@ while getopts "d:m:i:u:c:a:k:t:n:e:y:z:h" OPTION; do
     esac
 done
 
-if [[ -z ${WORK_DIRECTORY} || -z ${MAVEN} || -z ${ONT_ID} || -z ${ONT_URL} \
-|| -z ${SCRIPT_FILE} || -z ${CODE_BASE_DIRECTORY} || -z ${CHECKSUM_BIN} ]]; then
+if [[ -z ${WORK_DIRECTORY} || -z ${MAVEN} || -z ${JQ} || -z ${CODE_BASE_DIRECTORY} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "code base directory: ${CODE_BASE_DIRECTORY}"
 	echo "work directory: ${WORK_DIRECTORY}"
 	echo "path to the Apache Maven binary: ${MAVEN}"
-	echo "ontology id: ${ONT_ID}"
-	echo "ontology url: ${ONT_URL}"
-	echo "script file: ${SCRIPT_FILE}"
-	echo "checksum binary: ${CHECKSUM_BIN}"
+	echo "path to the jq binary: ${JQ}"
     print_usage
     exit 1
 fi
@@ -87,27 +71,28 @@ if ! [[ -e README.md ]]; then
     exit 1
 fi
 
-### remove any trailing slash from the code base directory
+### remove trailing slash from CODE_BASE_DIRECTORY if it exists
 case "${CODE_BASE_DIRECTORY}" in
     */)
     CODE_BASE_DIRECTORY=${CODE_BASE_DIRECTORY%?}
     ;;
 esac
+
 ### define directories that will be used in the scripts
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
-> ${SCRIPT_FILE}
+# This script first downloads all of the OBOs and creates a flattened (all imports included) version of each
+# owl file. It then creates a md5 hash of that flattened owl file and uses the hash to determine if
 
-### make the ontology id part of the job name
-HEADER_JOB_NAME="${HEADER_JOB_NAME}_${ONT_ID}"
-### add the header to the script file if one has been specified
-. ${CODE_BASE_DIRECTORY}/scripts/util/handle_header.bash
+mkdir -p ${SCRIPT_DIRECTORY}
+SCRIPT_FILE="${SCRIPT_DIRECTORY}/setup.sh"
+### create the download script
+if [[ -z ${HEADER_FILE} ]]; then
+    ${CODE_BASE_DIRECTORY}/scripts/download/setup-script-gen.sh -d ${WORK_DIRECTORY} -m ${MAVEN} -j ${JQ} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY}
+else
+    ${CODE_BASE_DIRECTORY}/scripts/download/setup-script-gen.sh -d ${WORK_DIRECTORY} -m ${MAVEN} -j ${JQ} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY}
+fi
+chmod 755 ${SCRIPT_FILE}
 
-printf "\n###\n### This script will download the Open Biomedical Ontologies, validate the downloads as RDF, and process all imports for each ontology.\n###\n" >> ${SCRIPT_FILE}
-printf "\n### clean the download directory and create other directories as needed" >> ${SCRIPT_FILE}
-printf "\n\n### download each ontology" >> ${SCRIPT_FILE}
-printf "\n${CODE_BASE_DIRECTORY}/scripts/download/download-ontology.sh -i ${ONT_ID} -u ${ONT_URL} -d ${DOWNLOAD_DIRECTORY} -s ${STATUS_DIRECTORY_INDIVIDUAL} -m ${MAVEN} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
-printf "\n\n### for each ontology, download all owl:imports and consolidate (flatten) into a single OWL file per ontology" >> ${SCRIPT_FILE}
-printf "\n${CODE_BASE_DIRECTORY}/scripts/download/flatten-ontology.sh  -i ${ONT_ID} -d ${DOWNLOAD_DIRECTORY} -m ${MAVEN} -s ${STATUS_DIRECTORY_INDIVIDUAL} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
-printf "\n\n### for each flattened ontology file, generate the md5 message digest" >> ${SCRIPT_FILE}
-printf "\n${CODE_BASE_DIRECTORY}/scripts/download/checksum-gen-ontology.sh -i ${ONT_ID} -s ${STATUS_DIRECTORY_INDIVIDUAL} -d ${DOWNLOAD_DIRECTORY} -c ${CHECKSUM_BIN}" >> ${SCRIPT_FILE}
+### run the download script using the optionally-specified run command
+${RUN_CMD} ${SCRIPT_FILE}
