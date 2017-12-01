@@ -102,43 +102,6 @@ esac
 
 > ${SCRIPT_FILE}
 
-
-#### remove any trailing slash from the code base directory
-#case "${CODE_BASE_DIRECTORY}" in
-#    */)
-#    CODE_BASE_DIRECTORY=${CODE_BASE_DIRECTORY%?}
-#    ;;
-#esac
-#
-#> ${SCRIPT_FILE}
-#
-#if [[ -z ${HEADER_FILE} ]]; then
-#    HEADER="#!/bin/bash -e"
-#    echo ${HEADER} >> ${SCRIPT_FILE}
-#    echo "" >> ${SCRIPT_FILE}
-#else
-#    cat ${HEADER_FILE} > ${SCRIPT_FILE}
-#fi
-#
-#### modify header file with replacement strings for job name, email, and job log directory (if they have been specified)
-#if [[ ! -z ${HEADER_JOB_NAME} ]]; then
-#    sed -i 's/JOB_NAME/'${HEADER_JOB_NAME}'/' ${SCRIPT_FILE}
-#fi
-#if [[ ! -z ${HEADER_EMAIL} ]]; then
-#    sed -i 's/YOUR_EMAIL/'${HEADER_EMAIL}'/' ${SCRIPT_FILE}
-#fi
-#if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
-#    ### remove any trailing slash from the directory, then escape any remaining slashes
-#    case "${HEADER_JOB_LOG_DIRECTORY}" in
-#        */)
-#        HEADER_JOB_LOG_DIRECTORY=${HEADER_JOB_LOG_DIRECTORY%?}
-#        ;;
-#    esac
-#    pattern="[/]"
-#    escaped_job_log_directory="${HEADER_JOB_LOG_DIRECTORY//$pattern/\/}"
-#    sed -i 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/' ${SCRIPT_FILE}
-#fi
-
 # remove any duplicate forward slashes from the directory path
 dir=$(echo "${BASE_DIRECTORY}/ontologies/${ONT_ID}" | sed 's/\/\//\//g')
 owl_file="${dir}/${ONT_ID}_flat.owl"
@@ -157,11 +120,16 @@ if [[ -z ${XTRA_ONT_ID} ]]; then
     printf "\n### update the id field in the status file" >> ${SCRIPT_FILE}
     printf "\nsed -i 's/\\\"id\\\": null,/\\\"id\\\": \\\"'\"${ONT_ID}\"'\\\",/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
     printf "\n### update the reasoner status as 'timeout', this way if the job does not finish it will be logged appropriately." >> ${SCRIPT_FILE}
-    printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": \\\"timeout\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+    printf "\nsed -i 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": \\\"timeout\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+    # populate the template json with the path to the download log file
+    pattern="[/]"
+    escaped_log_file="${LOG_FILE//$pattern/\/}"
+    printf "\n\n### log the location of the reasoner log file" >> ${SCRIPT_FILE}
+    printf "\nsed -i 's/\\\"'\"${REASONER_NAME}\"'_log\\\": null/\\\"'\"${REASONER_NAME}\"'_log\\\": \\\"'\"${escaped_log_file}\"'\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file}...\"" >> ${SCRIPT_FILE}
     printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify.sh -i ${owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query.sh -i ${owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 else
     LOG_FILE="${LOG_DIRECTORY}/${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.log"
     STATUS_FILE="${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.json"
@@ -180,24 +148,33 @@ else
     printf "\n### update the id field in the status file" >> ${SCRIPT_FILE}
     printf "\nsed -i 's/\\\"id\\\": null,/\\\"id\\\": \\\"'\"${ONT_ID}+${XTRA_ONT_ID}\"'\\\",/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
     printf "\n### update the reasoner status as 'timeout', this way if the job does not finish it will be logged appropriately." >> ${SCRIPT_FILE}
-    printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": null/\\\"'${REASONER_NAME}'\\\": \\\"timeout\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+    printf "\nsed -i 's/\\\"${REASONER_NAME}\\\": null/\\\"${REASONER_NAME}\\\": \\\"timeout\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+    pattern="[/]"
+    escaped_log_file="${LOG_FILE//$pattern/\/}"
+    printf "\n\n### log the location of the reasoner log file" >> ${SCRIPT_FILE}
+    printf "\nsed -i 's/\\\"'\"${REASONER_NAME}\"'_log\\\": null/\\\"'\"${REASONER_NAME}\"'_log\\\": \\\"'\"${escaped_log_file}\"'\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
     printf "\nmkdir -p ${output_dir}" >> ${SCRIPT_FILE}
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file} + ${xtra_owl_file}...\"" >> ${SCRIPT_FILE}
     printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify.sh -i ${owl_file} -x ${xtra_owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query.sh -i ${owl_file} -x ${xtra_owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 fi
 printf "\ne=\$?" >> ${SCRIPT_FILE}
 
-# populate the template json with the path to the download log file
-pattern="[/]"
-escaped_log_file="${LOG_FILE//$pattern/\/}"
-printf "\n\n### log the location of the reasoner log file" >> ${SCRIPT_FILE}
-printf "\nsed -i 's/\\\"'\"${REASONER_NAME}\"'_log\\\": null/\\\"'\"${REASONER_NAME}\"'_log\\\": \\\"'\"${escaped_log_file}\"'\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\n### if the reasoner succeeded then log the status as 'true', otherwise log the status as 'false" >> ${SCRIPT_FILE}
 printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
 printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": \\\"timeout\\\"/\\\"'${REASONER_NAME}'\\\": true/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
+printf "\n\tcnt=\$(grep -e '^\\[INFO\\] E: ' ${LOG_FILE} | grep -v 'owl:Nothing' | wc -l)" >> ${SCRIPT_FILE}
+printf "\n\tsed -i 's/\\\"${REASONER_NAME}_incoherent_count\\\": null/\\\"${REASONER_NAME}_incoherent_count\\\": '\${cnt}'/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\nelse" >> ${SCRIPT_FILE}
-printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": \\\"timeout\\\"/\\\"'${REASONER_NAME}'\\\": false/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\t### The reasoning process failed. Check the log to see if it is 1) inconsistent ontology, 2) out-of-memory error, or 3) undefined" >> ${SCRIPT_FILE}
+printf "\n\tsed -i 's/\\\"${REASONER_NAME}\\\": \\\"timeout\\\"/\\\"${REASONER_NAME}\\\": false/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\tif grep -q 'InconsistentOntologyException: Inconsistent ontology' ${LOG_FILE}; then" >> ${SCRIPT_FILE}
+printf "\n\t\tsed -i 's/\\\"${REASONER_NAME}\\\": false/\\\"${REASONER_NAME}\\\": \\\"inconsistent\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\tfi" >> ${SCRIPT_FILE}
+printf "\n\tif grep -q 'java.lang.OutOfMemoryError' ${LOG_FILE}; then" >> ${SCRIPT_FILE}
+printf "\n\t\tsed -i 's/\\\"${REASONER_NAME}\\\": false/\\\"${REASONER_NAME}\\\": \\\"out-of-memory\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\tfi" >> ${SCRIPT_FILE}
 printf "\nfi" >> ${SCRIPT_FILE}
 

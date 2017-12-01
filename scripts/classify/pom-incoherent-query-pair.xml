@@ -7,7 +7,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.ucdenver.ccp</groupId>
-	<artifactId>ontology-classify</artifactId>
+	<artifactId>incoherent-query</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 
@@ -30,6 +30,9 @@
 		</repository>
 	</repositories> -->
 
+	<!-- Incoherent classes are easily identifiable as they are equivalent to owl:Nothing. Below we use the OWLTools
+	CLI to query for things equivalent to owl:Nothing. All equivalent classes are output to standard out on lines beginning
+	 with "E: ".-->
 	<build>
 		<plugins>
 			<plugin>
@@ -47,12 +50,13 @@
 						<classpath />
 						<argument>owltools.cli.CommandLineInterface</argument>
 						<argument>${ontologyFile}</argument> <!-- input ontology file -->
-						<argument> --reasoner</argument>
+						<argument> --merge</argument>
+						<argument>${xtraOntologyFile}</argument> <!-- extra input ontology file -->
+						<argument> --reasoner-query</argument>
+						<argument> -r</argument>
 						<argument>${reasonerName}</argument>
-						<argument>--run-reasoner</argument>
-						<argument>--assert-implied</argument>
-						<argument>-o</argument>
-						<argument>${outputFile}</argument> <!-- output file (will contain ontology including all imports) -->
+						<argument>-e</argument>
+						<argument>"&lt;http://www.w3.org/2002/07/owl#Nothing&gt;"</argument>
 					</arguments>
 				</configuration>
 			</plugin>

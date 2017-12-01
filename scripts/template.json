@@ -8,7 +8,9 @@
     "flat_log": null,
     "elk": null,
     "elk_log": null,
+    "elk_incoherent_count": null,
     "hermit": null,
-    "hermit_log": null
+    "hermit_log": null,
+    "hermit_incoherent_count": null
   }
 ]

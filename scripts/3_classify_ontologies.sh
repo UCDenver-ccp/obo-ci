@@ -84,16 +84,16 @@ for index in ${!IDs[*]}; do
   id=${IDs[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.elk.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   fi
   chmod 755 ${SCRIPT_FILE}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.hermit.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY}
   fi
   chmod 755 ${SCRIPT_FILE}
 done

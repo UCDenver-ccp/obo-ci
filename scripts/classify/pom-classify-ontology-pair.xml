@@ -7,7 +7,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.ucdenver.ccp</groupId>
-	<artifactId>kabob-ontology-classify</artifactId>
+	<artifactId>ontology-classify</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 
