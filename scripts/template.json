@@ -11,6 +11,9 @@
     "elk_incoherent_count": null,
     "hermit": null,
     "hermit_log": null,
-    "hermit_incoherent_count": null
+    "hermit_incoherent_count": null,
+    "cycles": null,
+    "cycles_log": null,
+    "cycle_count": null
   }
 ]
