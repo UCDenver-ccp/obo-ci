@@ -1,0 +1,24 @@
+Sun Dec  3 00:50:25 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_dev_iao/iao_dev_iao_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:30,143 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_dev_iao/iao_dev_iao_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_dev_iao/iao_dev_iao_flat.owl
+[INFO] 2017-12-03 00:50:31,317 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_dev_iao/iao_dev_iao_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: IAO:0000577 'centrally registered identifier symbol' IAO:0000578 'centrally registered identifier' ObjectSomeValuesFrom(BFO:0000051 'has part' IAO:0000577 'centrally registered identifier symbol') ObjectSomeValuesFrom(BFO:0000050 'part of' IAO:0000578 'centrally registered identifier')
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.512 s
+[INFO] Finished at: 2017-12-03T00:50:31-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:50:31 MST 2017

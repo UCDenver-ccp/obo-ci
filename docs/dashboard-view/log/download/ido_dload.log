@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:12 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/ido.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   1944      0 --:--:-- --:--:-- --:--:--  1953
+  0  749k    0  1916    0     0   1912      0  0:06:41  0:00:01  0:06:40  1912 63  749k   63  479k    0     0   268k      0  0:00:02  0:00:01  0:00:01  610k100  749k  100  749k    0     0   359k      0  0:00:02  0:00:02 --:--:--  690k
+Wed Nov 29 14:59:15 MST 2017
+
+Wed Nov 29 14:59:15 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ido/ido.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:23,665 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ido/ido.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ido/ido.owl
+[INFO] 2017-11-29 14:59:27,001 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ido.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ido/ido.owl
+[INFO] 2017-11-29 14:59:27,014 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ido.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.661 s
+[INFO] Finished at: 2017-11-29T14:59:27-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:28 MST 2017
+
+Download validation successful. Triple count = 12111

@@ -1,0 +1,12 @@
+Wed Nov 29 14:59:14 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/miro.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1465      0 --:--:-- --:--:-- --:--:--  1473
+  0     0    0   279    0     0    480      0 --:--:-- --:--:-- --:--:--   480  0     0    0   279    0     0    480      0 --:--:-- --:--:-- --:--:--     0
+Wed Nov 29 14:59:14 MST 2017
+
+WARNING: Error message detected in the downloaded file. Stale URL is likely cause.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>miro.owl</Key><RequestId>FAAB8E748425568C</RequestId><HostId>EJUX+v8gWV3Wi6XCDcbv82wAJEcNvEMf6PYN6Z9B4MobZDAjimFKQj6lI2LiVEi0g2bTBO0rU2Y=</HostId></Error>

@@ -1,0 +1,605 @@
+Wed Nov 29 14:59:14 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/mirnao.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   1547      0 --:--:-- --:--:-- --:--:--  1555
+100  1594  100  1594    0     0   2833      0 --:--:-- --:--:-- --:--:--  2833100  1594  100  1594    0     0   2833      0 --:--:-- --:--:-- --:--:--     0
+Wed Nov 29 14:59:14 MST 2017
+
+Wed Nov 29 14:59:15 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:21,956 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl
+[INFO] [Fatal Error] :2:12: Open quote is expected for attribute "lang" associated with an  element type  "html".
+[INFO] 2017-11-29 14:59:25,017 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl
+[INFO] 2017-11-29 14:59:25,019 ERROR (CommandRunner:4317) could not parse:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl
+[INFO] org.semanticweb.owlapi.io.UnparsableOntologyException: Problem parsing file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl
+[INFO] Could not parse ontology.  Either a suitable parser could not be found, or parsing failed.  See parser logs below for explanation.
+[INFO] The following parsers were tried:
+[INFO] 1) org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser@2d6c53fc
+[INFO] 2) org.semanticweb.owlapi.owlxml.parser.OWLXMLParser@344f4dea
+[INFO] 3) org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxOWLParser@1f3f02ee
+[INFO] 4) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RioTurtleDocumentFormatFactory@95fd655c
+[INFO] 5) org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxOntologyParser@61f05988
+[INFO] 6) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.NQuadsDocumentFormatFactory@6f9c39ad
+[INFO] 7) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.TrigDocumentFormatFactory@27e81c
+[INFO] 8) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RDFJsonDocumentFormatFactory@cd748dc3
+[INFO] 9) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.NTriplesDocumentFormatFactory@937ecd36
+[INFO] 10) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.BinaryRDFDocumentFormatFactory@3bf24493
+[INFO] 11) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RDFJsonLDDocumentFormatFactory@dcacc47d
+[INFO] 12) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RioRDFXMLDocumentFormatFactory@69b9a3bc
+[INFO] 13) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.N3DocumentFormatFactory@9a5
+[INFO] 14) org.semanticweb.owlapi.rio.RioTrixParserFactory$TrixParserImpl : org.semanticweb.owlapi.formats.TrixDocumentFormatFactory@27e82d
+[INFO] 15) org.semanticweb.owlapi.rdf.turtle.parser.TurtleOntologyParser@5b04476e
+[INFO] 16) org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser@62fe6067
+[INFO] 17) org.semanticweb.owlapi.krss2.parser.KRSS2OWLParser@366ef90e
+[INFO] 18) org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RDFaDocumentFormatFactory@264e8d
+[INFO] 
+[INFO] 
+[INFO] Detailed logs:
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser@2d6c53fc
+[INFO]     Stack trace:
+[INFO] org.xml.sax.SAXParseException; systemId: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".        org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:78)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Open quote is expected for attribute "lang" associated with an  element type  "html".        org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+[INFO]         org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl$NSContentDispatcher.scanRootElementHook(Unknown Source)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.owlxml.parser.OWLXMLParser@344f4dea
+[INFO]     Stack trace:
+[INFO] org.xml.sax.SAXParseException; systemId: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".        org.semanticweb.owlapi.owlxml.parser.OWLXMLParser.parse(OWLXMLParser.java:66)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Open quote is expected for attribute "lang" associated with an  element type  "html".        org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+[INFO]         org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl$NSContentDispatcher.scanRootElementHook(Unknown Source)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxOWLParser@1f3f02ee
+[INFO]     Stack trace:
+[INFO] Encountered " <FULLIRI> "<!DOCTYPE html> "" at line 1, column 1.
+[INFO] Was expecting one of:
+[INFO]     "Ontology" ...
+[INFO]     "Prefix" ...
+[INFO]      (Line 0)        org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxOWLParser.parse(OWLFunctionalSyntaxOWLParser.java:79)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Encountered " <FULLIRI> "<!DOCTYPE html> "" at line 1, column 1.
+[INFO] Was expecting one of:
+[INFO]     "Ontology" ...
+[INFO]     "Prefix" ...
+[INFO]             org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxParser.generateParseException(OWLFunctionalSyntaxParser.java:3443)
+[INFO]         org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxParser.jj_consume_token(OWLFunctionalSyntaxParser.java:3363)
+[INFO]         org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxParser.Ontology(OWLFunctionalSyntaxParser.java:192)
+[INFO]         org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxParser.parse(OWLFunctionalSyntaxParser.java:171)
+[INFO]         org.semanticweb.owlapi.functional.parser.OWLFunctionalSyntaxOWLParser.parse(OWLFunctionalSyntaxOWLParser.java:77)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RioTurtleDocumentFormatFactory@95fd655c
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: IRI included an unencoded space: '32' [line 1]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] IRI included an unencoded space: '32' [line 1]        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:441)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:704)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.reportFatalError(TurtleParser.java:1366)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseURI(TurtleParser.java:948)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseValue(TurtleParser.java:613)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseSubject(TurtleParser.java:448)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:382)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:260)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:215)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:159)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxOntologyParser@61f05988
+[INFO]     Stack trace:
+[INFO] Encountered '<!DOCTYPE html>' at line 1 column 1.  Expected either 'Ontology:' or 'Prefix:' (Line 1)        org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxOntologyParser.parse(ManchesterOWLSyntaxOntologyParser.java:102)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.NQuadsDocumentFormatFactory@6f9c39ad
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: IRI included an unencoded space:   [line 1]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] IRI included an unencoded space:   [line 1]        org.openrdf.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:348)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportError(RDFParserBase.java:641)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.reportError(NTriplesParser.java:631)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parseUriRef(NTriplesParser.java:423)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parseSubject(NTriplesParser.java:336)
+[INFO]         org.openrdf.rio.nquads.NQuadsParser.parseQuad(NQuadsParser.java:123)
+[INFO]         org.openrdf.rio.nquads.NQuadsParser.parse(NQuadsParser.java:102)
+[INFO]         org.openrdf.rio.nquads.NQuadsParser.parse(NQuadsParser.java:60)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.TrigDocumentFormatFactory@27e81c
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: IRI included an unencoded space: '32' [line 1]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] IRI included an unencoded space: '32' [line 1]        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:441)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:704)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.reportFatalError(TurtleParser.java:1366)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseURI(TurtleParser.java:948)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseValue(TurtleParser.java:613)
+[INFO]         org.openrdf.rio.trig.TriGParser.parseGraph(TriGParser.java:132)
+[INFO]         org.openrdf.rio.trig.TriGParser.parseStatement(TriGParser.java:119)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:215)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:159)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RDFJsonDocumentFormatFactory@cd748dc3
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: Found IOException during parsing [line 1, column 2]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Found IOException during parsing [line 1, column 2]        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:441)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:704)
+[INFO]         org.openrdf.rio.rdfjson.RDFJSONParser.reportFatalError(RDFJSONParser.java:155)
+[INFO]         org.openrdf.rio.rdfjson.RDFJSONParser.parse(RDFJSONParser.java:96)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.NTriplesDocumentFormatFactory@937ecd36
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: IRI included an unencoded space:   [line 1]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] IRI included an unencoded space:   [line 1]        org.openrdf.rio.helpers.RDFParserHelper.reportError(RDFParserHelper.java:348)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportError(RDFParserBase.java:641)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.reportError(NTriplesParser.java:631)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parseUriRef(NTriplesParser.java:423)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parseSubject(NTriplesParser.java:336)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parseTriple(NTriplesParser.java:280)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parse(NTriplesParser.java:191)
+[INFO]         org.openrdf.rio.ntriples.NTriplesParser.parse(NTriplesParser.java:130)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.BinaryRDFDocumentFormatFactory@3bf24493
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: File does not contain a binary RDF document        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] File does not contain a binary RDF document        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:441)
+[INFO]         org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:424)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:693)
+[INFO]         org.openrdf.rio.binary.BinaryRDFParser.parse(BinaryRDFParser.java:87)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RDFJsonLDDocumentFormatFactory@dcacc47d
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: Could not parse JSONLD        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Could not parse JSONLD        com.github.jsonldjava.sesame.SesameJSONLDParser.parse(SesameJSONLDParser.java:69)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO] Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+[INFO]  at [Source: java.io.BufferedReader@7c56e013; line: 1, column: 2]        com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+[INFO]         com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+[INFO]         com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+[INFO]         com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1462)
+[INFO]         com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:683)
+[INFO]         com.github.jsonldjava.utils.JsonUtils.fromReader(JsonUtils.java:107)
+[INFO]         com.github.jsonldjava.utils.JsonUtils.fromInputStream(JsonUtils.java:88)
+[INFO]         com.github.jsonldjava.utils.JsonUtils.fromInputStream(JsonUtils.java:68)
+[INFO]         com.github.jsonldjava.sesame.SesameJSONLDParser.parse(SesameJSONLDParser.java:65)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RioRDFXMLDocumentFormatFactory@69b9a3bc
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: Open quote is expected for attribute "lang" associated with an  element type  "html". [line 2, column 12]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Open quote is expected for attribute "lang" associated with an  element type  "html". [line 2, column 12]        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:441)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:704)
+[INFO]         org.openrdf.rio.rdfxml.RDFXMLParser.reportFatalError(RDFXMLParser.java:1286)
+[INFO]         org.openrdf.rio.rdfxml.RDFXMLParser.fatalError(RDFXMLParser.java:1443)
+[INFO]         org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.N3DocumentFormatFactory@9a5
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: IRI included an unencoded space: '32' [line 1]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] IRI included an unencoded space: '32' [line 1]        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:441)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:704)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.reportFatalError(TurtleParser.java:1366)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseURI(TurtleParser.java:948)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseValue(TurtleParser.java:613)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseSubject(TurtleParser.java:448)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:382)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:260)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:215)
+[INFO]         org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:159)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioTrixParserFactory$TrixParserImpl : org.semanticweb.owlapi.formats.TrixDocumentFormatFactory@27e82d
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: Open quote is expected for attribute "lang" associated with an  element type  "html". [line 2, column 12]        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Open quote is expected for attribute "lang" associated with an  element type  "html". [line 2, column 12]        org.openrdf.rio.helpers.RDFParserHelper.reportFatalError(RDFParserHelper.java:487)
+[INFO]         org.openrdf.rio.helpers.RDFParserBase.reportFatalError(RDFParserBase.java:737)
+[INFO]         org.semanticweb.owlapi.rio.OWLAPIRioTrixParser.parse(OWLAPIRioTrixParser.java:123)
+[INFO]         org.semanticweb.owlapi.rio.OWLAPIRioTrixParser.parse(OWLAPIRioTrixParser.java:90)
+[INFO]         org.semanticweb.owlapi.rio.RioTrixParserFactory$TrixParserImpl.parseDocumentSource(RioTrixParserFactory.java:96)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] Open quote is expected for attribute "lang" associated with an  element type  "html".        org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+[INFO]         org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+[INFO]         org.apache.xerces.impl.XMLNSDocumentScannerImpl$NSContentDispatcher.scanRootElementHook(Unknown Source)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rdf.turtle.parser.TurtleOntologyParser@5b04476e
+[INFO]     Stack trace:
+[INFO] org.semanticweb.owlapi.rdf.turtle.parser.ParseException: Encountered "" at line 1, column 1.
+[INFO] Was expecting one of:
+[INFO]             org.semanticweb.owlapi.rdf.turtle.parser.TurtleOntologyParser.parse(TurtleOntologyParser.java:90)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Encountered "" at line 1, column 1.
+[INFO] Was expecting one of:
+[INFO]             org.semanticweb.owlapi.rdf.turtle.parser.TurtleParser.generateParseException(TurtleParser.java:1960)
+[INFO]         org.semanticweb.owlapi.rdf.turtle.parser.TurtleParser.jj_consume_token(TurtleParser.java:1829)
+[INFO]         org.semanticweb.owlapi.rdf.turtle.parser.TurtleParser.parseDocument(TurtleParser.java:113)
+[INFO]         org.semanticweb.owlapi.rdf.turtle.parser.TurtleOntologyParser.parse(TurtleOntologyParser.java:82)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser@62fe6067
+[INFO]     Stack trace:
+[INFO] LINENO: 1 - Could not find tag separator ':' in line.
+[INFO] LINE: <!DOCTYPE html>        org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser.parse(OBOFormatOWLAPIParser.java:60)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] LINENO: 1 - Could not find tag separator ':' in line.
+[INFO] LINE: <!DOCTYPE html>        org.obolibrary.oboformat.parser.OBOFormatParser.error(OBOFormatParser.java:1501)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.getParseTag(OBOFormatParser.java:897)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.parseHeaderClause(OBOFormatParser.java:528)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.parseHeaderClauseNl(OBOFormatParser.java:521)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.parseHeaderFrame(OBOFormatParser.java:504)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.parseOBODoc(OBOFormatParser.java:377)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.parse(OBOFormatParser.java:335)
+[INFO]         org.obolibrary.oboformat.parser.OBOFormatParser.parse(OBOFormatParser.java:281)
+[INFO]         org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser.parse(OBOFormatOWLAPIParser.java:76)
+[INFO]         org.semanticweb.owlapi.oboformat.OBOFormatOWLAPIParser.parse(OBOFormatOWLAPIParser.java:83)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.krss2.parser.KRSS2OWLParser@366ef90e
+[INFO]     Stack trace:
+[INFO] org.semanticweb.owlapi.krss2.parser.ParseException: Encountered " ">" "<!DOCTYPE html> "" at line 1, column 1.
+[INFO] Was expecting:
+[INFO]     <EOF> 
+[INFO]             org.semanticweb.owlapi.krss2.parser.KRSS2OWLParser.parse(KRSS2OWLParser.java:273)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] Encountered " ">" "<!DOCTYPE html> "" at line 1, column 1.
+[INFO] Was expecting:
+[INFO]     <EOF> 
+[INFO]             org.semanticweb.owlapi.krss2.parser.KRSS2Parser.generateParseException(KRSS2Parser.java:3187)
+[INFO]         org.semanticweb.owlapi.krss2.parser.KRSS2Parser.jj_consume_token(KRSS2Parser.java:3040)
+[INFO]         org.semanticweb.owlapi.krss2.parser.KRSS2Parser.parse(KRSS2Parser.java:141)
+[INFO]         org.semanticweb.owlapi.krss2.parser.KRSS2OWLParser.parse(KRSS2OWLParser.java:270)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO] 
+[INFO] 
+[INFO] --------------------------------------------------------------------------------
+[INFO] Parser: org.semanticweb.owlapi.rio.RioParserImpl : org.semanticweb.owlapi.formats.RDFaDocumentFormatFactory@264e8d
+[INFO]     Stack trace:
+[INFO] org.openrdf.rio.RDFParseException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".        org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:195)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO]         owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO]         owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".        org.semarglproject.sesame.rdf.rdfa.SesameRDFaParser.parse(SesameRDFaParser.java:111)
+[INFO]         org.semarglproject.sesame.rdf.rdfa.SesameRDFaParser.parse(SesameRDFaParser.java:95)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO]         owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO] org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 12; Open quote is expected for attribute "lang" associated with an  element type  "html".        org.semarglproject.rdf.rdfa.RdfaParser.processException(RdfaParser.java:1130)
+[INFO]         org.semarglproject.source.XmlSource.process(XmlSource.java:50)
+[INFO]         org.semarglproject.source.StreamProcessor.processInternal(StreamProcessor.java:87)
+[INFO]         org.semarglproject.source.BaseStreamProcessor.process(BaseStreamProcessor.java:167)
+[INFO]         org.semarglproject.source.BaseStreamProcessor.process(BaseStreamProcessor.java:154)
+[INFO]         org.semarglproject.sesame.rdf.rdfa.SesameRDFaParser.parse(SesameRDFaParser.java:109)
+[INFO]         org.semarglproject.sesame.rdf.rdfa.SesameRDFaParser.parse(SesameRDFaParser.java:95)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO] Open quote is expected for attribute "lang" associated with an  element type  "html".        org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+[INFO]         org.semarglproject.source.XmlSource.process(XmlSource.java:48)
+[INFO]         org.semarglproject.source.StreamProcessor.processInternal(StreamProcessor.java:87)
+[INFO]         org.semarglproject.source.BaseStreamProcessor.process(BaseStreamProcessor.java:167)
+[INFO]         org.semarglproject.source.BaseStreamProcessor.process(BaseStreamProcessor.java:154)
+[INFO]         org.semarglproject.sesame.rdf.rdfa.SesameRDFaParser.parse(SesameRDFaParser.java:109)
+[INFO]         org.semarglproject.sesame.rdf.rdfa.SesameRDFaParser.parse(SesameRDFaParser.java:95)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parseDocumentSource(RioParserImpl.java:257)
+[INFO]         org.semanticweb.owlapi.rio.RioParserImpl.parse(RioParserImpl.java:191)
+[INFO]         uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO] 
+[INFO] 
+[INFO] 
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:234)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO] 	at owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO] 	at owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:76)
+[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:68)
+[INFO] 	at owltools.cli.CommandLineInterface.main(CommandLineInterface.java:12)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.268 s
+[INFO] Finished at: 2017-11-29T14:59:25-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl.nt execution is: '1'. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl.nt execution is: '1'.
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:216)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:347)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/mirnao/mirnao.owl.nt execution is: '1'.
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:260)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	... 19 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Wed Nov 29 14:59:25 MST 2017
+
+WARNING: Download validation failed due to error. See above.
+

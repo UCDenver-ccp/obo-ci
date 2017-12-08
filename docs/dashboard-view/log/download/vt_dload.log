@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:17 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/vt.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   1197      0 --:--:-- --:--:-- --:--:--  1197100   339  100   339    0     0   1196      0 --:--:-- --:--:-- --:--:--  1193
+  0 5779k    0 16384    0     0  13882      0  0:07:06  0:00:01  0:07:05 13882  8 5779k    8  496k    0     0   227k      0  0:00:25  0:00:02  0:00:23  480k 15 5779k   15  896k    0     0   281k      0  0:00:20  0:00:03  0:00:17  438k 23 5779k   23 1376k    0     0   329k      0  0:00:17  0:00:04  0:00:13  453k 34 5779k   34 2000k    0     0   386k      0  0:00:14  0:00:05  0:00:09  496k 47 5779k   47 2736k    0     0   442k      0  0:00:13  0:00:06  0:00:07  544k 64 5779k   64 3712k    0     0   517k      0  0:00:11  0:00:07  0:00:04  643k 86 5779k   86 4992k    0     0   610k      0  0:00:09  0:00:08  0:00:01  820k100 5779k  100 5779k    0     0   665k      0  0:00:08  0:00:08 --:--:--  976k
+Wed Nov 29 14:59:26 MST 2017
+
+Wed Nov 29 14:59:31 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/vt/vt.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:38,734 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/vt/vt.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/vt/vt.owl
+[INFO] 2017-11-29 14:59:46,038 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/TEMP from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/vt/vt.owl
+[INFO] 2017-11-29 14:59:46,051 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/TEMP using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.236 s
+[INFO] Finished at: 2017-11-29T14:59:47-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:48 MST 2017
+
+Download validation successful. Triple count = 67537

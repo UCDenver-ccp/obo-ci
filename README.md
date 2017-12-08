@@ -2,6 +2,5 @@ This project contains code to run various analyses on the collection of Open Bio
 
 
 
-A more permanent location for displaying results will be coming soon as well, however the following link provides a snapshot of OBO analysis results:
-
-http://compbio.ucdenver.edu/Hunter_lab/Baumgartner/obo-ci/
+To see current results, please visit:
+https://ucdenver-ccp.github.io/obo-ci/

@@ -1,0 +1,12 @@
+Wed Nov 29 14:59:11 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/go/extensions/go-taxon-groupings.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   344  100   344    0     0   1840      0 --:--:-- --:--:-- --:--:--  1839100   344  100   344    0     0   1839      0 --:--:-- --:--:-- --:--:--  1839
+  0     0    0   313    0     0    498      0 --:--:-- --:--:-- --:--:--   498
+Wed Nov 29 14:59:12 MST 2017
+
+WARNING: Error message detected in the downloaded file. Stale URL is likely cause.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>ontology/extensions/go-taxon-groupings.owl</Key><RequestId>4CD1B555300D4C77</RequestId><HostId>UdNWJZXWyeK/tlEpJYyeWVEG9zXMnLHqYwnCeTdlS97WImyrp6FX5+L1c9C1kR7L5Osir1f8JMY=</HostId></Error>

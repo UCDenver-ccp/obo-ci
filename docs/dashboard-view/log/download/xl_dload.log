@@ -1,0 +1,35 @@
+Wed Nov 29 14:59:19 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/xl.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300  100   300    0     0   1052      0 --:--:-- --:--:-- --:--:--  1052
+100   207  100   207    0     0    159      0  0:00:01  0:00:01 --:--:--   159100   207  100   207    0     0    159      0  0:00:01  0:00:01 --:--:--     0
+100   326  100   326    0     0    209      0  0:00:01  0:00:01 --:--:--   209
+  0     0    0  223k    0     0   103k      0 --:--:--  0:00:02 --:--:--  103k  0     0    0  236k    0     0   109k      0 --:--:--  0:00:02 --:--:-- 12.6M
+Wed Nov 29 14:59:21 MST 2017
+
+Wed Nov 29 14:59:22 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/xl/xl.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:30,337 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/xl/xl.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/xl/xl.owl
+[INFO] 2017-11-29 14:59:31,074 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/xl/xl.owl
+[INFO] 2017-11-29 14:59:31,086 INFO  (CommandRunner:3243) saving: using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.612 s
+[INFO] Finished at: 2017-11-29T14:59:31-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:31 MST 2017
+
+Download validation successful. Triple count = 15

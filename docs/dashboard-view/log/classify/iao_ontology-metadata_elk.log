@@ -1,0 +1,65 @@
+Sat Dec  2 12:52:15 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_ontology-metadata/iao_ontology-metadata_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:21,807 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_ontology-metadata/iao_ontology-metadata_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_ontology-metadata/iao_ontology-metadata_flat.owl
+[INFO] 2017-12-02 12:52:22,979 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/iao_ontology-metadata/iao_ontology-metadata_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:23,105 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:23,165 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:23,748 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:23,751 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@3382f8ae
+[INFO] 2017-12-02 12:52:23,759 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:23,770 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:23,812 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421> <http://purl.obolibrary.org/obo/IAO_0000420>))
+[INFO] 2017-12-02 12:52:23,813 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000103>))
+[INFO] 2017-12-02 12:52:23,814 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121>))
+[INFO] 2017-12-02 12:52:23,816 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)
+[INFO] 2017-12-02 12:52:23,816 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] EquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))
+[INFO] 2017-12-02 12:52:23,818 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)
+[INFO] 2017-12-02 12:52:23,819 INFO  (LoggingStageExecutor:103) Loading of Axioms took 53 ms
+[INFO] 2017-12-02 12:52:23,819 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:23,822 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:23,823 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
+[INFO] 2017-12-02 12:52:23,823 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:23,840 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:23,860 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 36 ms
+[INFO] 2017-12-02 12:52:23,860 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:23,871 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:23,879 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 18 ms
+[INFO] 2017-12-02 12:52:23,879 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:23,882 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:23,889 INFO  (LoggingStageExecutor:103) Context Initialization took 9 ms
+[INFO] 2017-12-02 12:52:23,889 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:23,904 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:23,983 INFO  (LoggingStageExecutor:103) Consistency Checking took 93 ms
+[INFO] 2017-12-02 12:52:23,984 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:24,016 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:24,043 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 59 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:24,049 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@3382f8ae
+[INFO] 2017-12-02 12:52:24,063 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:24,064 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@3382f8ae
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.184 s
+[INFO] Finished at: 2017-12-02T12:52:24-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:24 MST 2017

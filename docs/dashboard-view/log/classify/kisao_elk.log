@@ -1,0 +1,313 @@
+Sat Dec  2 12:52:15 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:21,841 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl
+[INFO] 2017-12-02 12:52:23,680 INFO  (ParserWrapper:82) Finished loading ontology: http://www.biomodels.net/kisao/KISAO_FULL# from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:23,872 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:23,962 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:24,574 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:24,577 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@14b030a0
+[INFO] 2017-12-02 12:52:24,583 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:24,596 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:24,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000326> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,664 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000433> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,665 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000425> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#boolean>))
+[INFO] 2017-12-02 12:52:24,665 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000088> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,670 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
+[INFO] FunctionalDataProperty(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251>)
+[INFO] 2017-12-02 12:52:24,676 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,681 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,686 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000367> ObjectMinCardinality(2 <http://www.biomodels.net/kisao/KISAO#KISAO_0000360>))
+[INFO] 2017-12-02 12:52:24,690 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://www.biomodels.net/kisao/KISAO#KISAO_0000359>)
+[INFO] 2017-12-02 12:52:24,692 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,694 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000219> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,701 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000415> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,702 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000420> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,703 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000216> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#boolean>))
+[INFO] 2017-12-02 12:52:24,708 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000258> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000057>))
+[INFO] 2017-12-02 12:52:24,709 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000088> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,709 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000205> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> ObjectIntersectionOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000000> ObjectSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000245> <http://www.biomodels.net/kisao/KISAO#KISAO_0000322>))))
+[INFO] 2017-12-02 12:52:24,711 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] DataPropertyDomain(<http://www.biomodels.net/kisao/KISAO#KISAO_0000275> <http://www.biomodels.net/kisao/KISAO#KISAO_0000064>)
+[INFO] 2017-12-02 12:52:24,712 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000230> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000246> <http://www.biomodels.net/kisao/KISAO#KISAO_0000029>) ObjectSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000246> <http://www.biomodels.net/kisao/KISAO#KISAO_0000039>))))
+[INFO] 2017-12-02 12:52:24,713 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000045> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,714 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000203> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,714 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000325> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000323>))
+[INFO] 2017-12-02 12:52:24,715 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000220> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,716 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000255> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,716 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000057> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,721 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,721 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000057> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,721 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000254> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000057>))
+[INFO] 2017-12-02 12:52:24,722 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000211> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> ObjectSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000245> <http://www.biomodels.net/kisao/KISAO#KISAO_0000237>)))
+[INFO] 2017-12-02 12:52:24,725 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000360> <http://www.biomodels.net/kisao/KISAO#KISAO_0000000>)
+[INFO] 2017-12-02 12:52:24,725 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000415> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000408>))
+[INFO] 2017-12-02 12:52:24,726 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000256> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,727 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000057> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,727 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000416> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,727 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000487> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,727 WARN  (IndexedObjectComplementOf:84) [reasoner.indexing.IndexedObjectComplementOf]ELK does not support negative occurrences of ObjectComplementOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000416> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,739 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://www.biomodels.net/kisao/KISAO#KISAO_0000245> <http://www.biomodels.net/kisao/KISAO#KISAO_0000268>)
+[INFO] 2017-12-02 12:52:24,740 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,740 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000204> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,741 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000205> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,741 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000423> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,744 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointObjectProperties. Axiom ignored:
+[INFO] DisjointObjectProperties(<http://www.biomodels.net/kisao/KISAO#KISAO_0000245> <http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000259> <http://www.biomodels.net/kisao/KISAO#KISAO_0000268> <http://www.biomodels.net/kisao/KISAO#KISAO_0000359> <http://www.biomodels.net/kisao/KISAO#KISAO_0000360>)
+[INFO] 2017-12-02 12:52:24,744 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>)
+[INFO] 2017-12-02 12:52:24,745 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,745 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000432> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,746 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000328> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000323>))
+[INFO] 2017-12-02 12:52:24,746 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000204> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000231>))
+[INFO] 2017-12-02 12:52:24,747 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000064> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000275> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,747 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000228> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000039>))
+[INFO] 2017-12-02 12:52:24,748 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000427> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,748 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000328> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,749 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,749 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000257> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,750 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000257> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000057>))
+[INFO] 2017-12-02 12:52:24,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000268> <http://www.biomodels.net/kisao/KISAO#KISAO_0000000>)
+[INFO] 2017-12-02 12:52:24,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,752 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000246> <http://www.biomodels.net/kisao/KISAO#KISAO_0000000>)
+[INFO] 2017-12-02 12:52:24,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000088> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000249> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000248> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000425> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000423>))
+[INFO] 2017-12-02 12:52:24,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000325> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000254> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000253> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,757 WARN  (IndexedObjectComplementOf:84) [reasoner.indexing.IndexedObjectComplementOf]ELK does not support negative occurrences of ObjectComplementOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000332> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000331>))
+[INFO] 2017-12-02 12:52:24,758 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,759 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000000>)
+[INFO] 2017-12-02 12:52:24,759 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,759 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,759 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,760 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000223> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000039> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000421> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000423>))
+[INFO] 2017-12-02 12:52:24,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000361> <http://www.biomodels.net/kisao/KISAO#KISAO_0000000>)
+[INFO] 2017-12-02 12:52:24,762 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000209> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,762 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,763 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,764 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000245> <http://www.biomodels.net/kisao/KISAO#KISAO_0000097>)
+[INFO] 2017-12-02 12:52:24,764 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000422> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000418>))
+[INFO] 2017-12-02 12:52:24,764 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000057> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,764 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] DataPropertyDomain(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.biomodels.net/kisao/KISAO#KISAO_0000201>)
+[INFO] 2017-12-02 12:52:24,768 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000479> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,769 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000248> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000045>))
+[INFO] 2017-12-02 12:52:24,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://www.biomodels.net/kisao/KISAO#KISAO_0000360> <http://www.biomodels.net/kisao/KISAO#KISAO_0000399>)
+[INFO] 2017-12-02 12:52:24,771 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000424> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000423>))
+[INFO] 2017-12-02 12:52:24,771 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,771 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000258> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,772 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000327> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000323>))
+[INFO] 2017-12-02 12:52:24,772 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000203> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000231>))
+[INFO] 2017-12-02 12:52:24,773 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000467> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,775 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000422> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,781 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000484> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,782 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000420> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000423>))
+[INFO] 2017-12-02 12:52:24,783 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000485> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,783 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,794 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000418> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,795 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000019> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,795 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000480> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,795 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000249> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000084>))
+[INFO] 2017-12-02 12:52:24,796 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000283> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,797 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000209> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> ObjectSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000245> <http://www.biomodels.net/kisao/KISAO#KISAO_0000237>)))
+[INFO] 2017-12-02 12:52:24,797 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000283> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,797 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000088> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,797 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000084> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,798 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,798 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,799 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000228> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,799 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000327> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,800 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000481> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#boolean>))
+[INFO] 2017-12-02 12:52:24,800 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000283> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,802 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000283> ObjectMaxCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,806 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] DataPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000275> <http://www.w3.org/2001/XMLSchema#int>)
+[INFO] 2017-12-02 12:52:24,807 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000253> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000074>))
+[INFO] 2017-12-02 12:52:24,808 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,808 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000326> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000323>))
+[INFO] 2017-12-02 12:52:24,809 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000211> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#double>))
+[INFO] 2017-12-02 12:52:24,809 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000074> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,810 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000424> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#boolean>))
+[INFO] 2017-12-02 12:52:24,811 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000231> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,812 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000231> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,813 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000428> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000417>))
+[INFO] 2017-12-02 12:52:24,813 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000259> <http://www.biomodels.net/kisao/KISAO#KISAO_0000201>)
+[INFO] 2017-12-02 12:52:24,813 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,814 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000332> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,815 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,815 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://www.biomodels.net/kisao/KISAO#KISAO_0000247> <http://www.biomodels.net/kisao/KISAO#KISAO_0000097>)
+[INFO] 2017-12-02 12:52:24,815 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000260> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> <http://www.biomodels.net/kisao/KISAO#KISAO_0000057>))
+[INFO] 2017-12-02 12:52:24,816 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000243> ObjectAllValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000250> ObjectSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000360> <http://www.biomodels.net/kisao/KISAO#KISAO_0000000>)))
+[INFO] 2017-12-02 12:52:24,816 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000447> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,818 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000417> ObjectExactCardinality(1 <http://www.biomodels.net/kisao/KISAO#KISAO_0000259>))
+[INFO] 2017-12-02 12:52:24,818 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://www.biomodels.net/kisao/KISAO#KISAO_0000230> DataSomeValuesFrom(<http://www.biomodels.net/kisao/KISAO#KISAO_0000251> <http://www.w3.org/2001/XMLSchema#integer>))
+[INFO] 2017-12-02 12:52:24,819 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:24,821 INFO  (LoggingStageExecutor:103) Loading of Axioms took 232 ms
+[INFO] 2017-12-02 12:52:24,822 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:24,824 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:24,825 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 3 ms
+[INFO] 2017-12-02 12:52:24,825 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:24,839 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:24,859 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 33 ms
+[INFO] 2017-12-02 12:52:24,859 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:24,867 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:24,880 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 20 ms
+[INFO] 2017-12-02 12:52:24,880 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:24,882 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:24,893 INFO  (LoggingStageExecutor:103) Context Initialization took 12 ms
+[INFO] 2017-12-02 12:52:24,893 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:24,927 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:25,029 INFO  (LoggingStageExecutor:103) Consistency Checking took 136 ms
+[INFO] 2017-12-02 12:52:25,030 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:25,054 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:25,161 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 131 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:25,167 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@14b030a0
+[INFO] 2017-12-02 12:52:25,187 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:25,188 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@14b030a0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.286 s
+[INFO] Finished at: 2017-12-02T12:52:25-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:25 MST 2017

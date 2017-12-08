@@ -1,0 +1,56 @@
+Wed Nov 29 15:00:51 MST 2017
+Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 15:00:59,946 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl
+[INFO] 2017-11-29 15:01:00,382 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl
+[INFO] 2017-11-29 15:01:02,109 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl
+[INFO] 2017-11-29 15:01:02,111 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/extra.owl from: http://purl.obolibrary.org/obo/upheno/imports/extra.owl
+[INFO] 2017-11-29 15:01:02,660 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl
+[INFO] 2017-11-29 15:01:03,386 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl
+[INFO] 2017-11-29 15:01:03,408 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/extra.owl from: http://purl.obolibrary.org/obo/upheno/imports/extra.owl
+[INFO] 2017-11-29 15:01:03,409 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl
+[INFO] 2017-11-29 15:01:04,158 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl
+[INFO] 2017-11-29 15:01:04,160 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl
+[INFO] 2017-11-29 15:01:06,174 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl
+[INFO] 2017-11-29 15:01:06,188 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl
+[INFO] 2017-11-29 15:01:06,753 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl
+[INFO] 2017-11-29 15:01:06,766 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl
+[INFO] 2017-11-29 15:01:07,228 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl
+[INFO] 2017-11-29 15:01:07,239 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl
+[INFO] 2017-11-29 15:01:07,756 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl
+[INFO] 2017-11-29 15:01:07,767 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl
+[INFO] 2017-11-29 15:01:08,327 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl
+[INFO] 2017-11-29 15:01:08,337 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl
+[INFO] 2017-11-29 15:01:08,796 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl
+[INFO] 2017-11-29 15:01:08,799 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl
+[INFO] 2017-11-29 15:01:10,562 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl
+[INFO] 2017-11-29 15:02:14,784 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mp.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl
+[INFO] 2017-11-29 15:02:14,809 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl>) VersionIRI(<null>))) [Axioms: 1260 Logical Axioms: 352]
+[INFO] 2017-11-29 15:02:14,841 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl>) VersionIRI(<null>))) [Axioms: 2765 Logical Axioms: 1043]
+[INFO] 2017-11-29 15:02:14,859 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/extra.owl>) VersionIRI(<null>))) [Axioms: 15 Logical Axioms: 6]
+[INFO] 2017-11-29 15:02:14,860 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl>) VersionIRI(<null>))) [Axioms: 159 Logical Axioms: 53]
+[INFO] 2017-11-29 15:02:14,865 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl>) VersionIRI(<null>))) [Axioms: 40497 Logical Axioms: 23627]
+[INFO] 2017-11-29 15:02:15,038 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl>) VersionIRI(<null>))) [Axioms: 5222 Logical Axioms: 787]
+[INFO] 2017-11-29 15:02:15,061 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/go_import.owl>) VersionIRI(<null>))) [Axioms: 56414 Logical Axioms: 31854]
+[INFO] 2017-11-29 15:02:15,187 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl>) VersionIRI(<null>))) [Axioms: 3992 Logical Axioms: 1777]
+[INFO] 2017-11-29 15:02:15,193 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl>) VersionIRI(<null>))) [Axioms: 903 Logical Axioms: 313]
+[INFO] 2017-11-29 15:02:15,195 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl>) VersionIRI(<null>))) [Axioms: 1383 Logical Axioms: 131]
+[INFO] 2017-11-29 15:02:15,198 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl>) VersionIRI(<null>))) [Axioms: 3569 Logical Axioms: 1655]
+[INFO] 2017-11-29 15:02:15,210 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mp.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:34 min
+[INFO] Finished at: 2017-11-29T15:02:27-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:02:27 MST 2017

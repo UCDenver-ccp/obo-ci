@@ -1,0 +1,570 @@
+Sat Dec  2 12:52:15 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/hp/hp_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:22,008 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/hp/hp_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/hp/hp_flat.owl
+[INFO] 2017-12-02 12:52:32,446 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/hp.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/hp/hp_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:32,559 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:32,710 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:33,085 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:33,087 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@5f031ebd
+[INFO] 2017-12-02 12:52:33,090 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:33,098 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:33,126 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,157 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,161 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,167 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,180 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,210 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,217 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,232 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,253 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002500> <http://purl.obolibrary.org/obo/RO_0002608>)
+[INFO] 2017-12-02 12:52:33,258 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,260 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,262 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/CL_0000000>))
+[INFO] 2017-12-02 12:52:33,262 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,269 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2017-12-02 12:52:33,270 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,271 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000002>)
+[INFO] 2017-12-02 12:52:33,276 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2017-12-02 12:52:33,276 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,277 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
+[INFO] 2017-12-02 12:52:33,282 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,284 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,287 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,291 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,297 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002207> ObjectUnionOf(<http://purl.obolibrary.org/obo/CARO_0010000> <http://purl.obolibrary.org/obo/CL_0000000>))
+[INFO] 2017-12-02 12:52:33,301 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,302 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,303 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,304 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,309 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,310 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,313 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,314 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,317 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,321 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,322 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002426> <http://purl.obolibrary.org/obo/BFO_0000020>)
+[INFO] 2017-12-02 12:52:33,323 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,327 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,329 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,330 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,330 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,338 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,343 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,354 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,356 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,360 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002434> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2017-12-02 12:52:33,363 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,372 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,374 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002425> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000015>))
+[INFO] 2017-12-02 12:52:33,379 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,380 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,383 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,387 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,404 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,408 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,413 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,414 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,418 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CARO_0010000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/CARO_0010000>))
+[INFO] 2017-12-02 12:52:33,419 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,420 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,422 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,422 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002595> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2017-12-02 12:52:33,424 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,431 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,436 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,438 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,440 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,442 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,444 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,445 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,447 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,453 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,457 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,461 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))
+[INFO] 2017-12-02 12:52:33,463 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,466 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,470 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/RO_0002090>)
+[INFO] 2017-12-02 12:52:33,475 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/RO_0000057>)
+[INFO] 2017-12-02 12:52:33,476 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
+[INFO] 2017-12-02 12:52:33,476 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,481 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,482 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,483 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2017-12-02 12:52:33,485 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002334> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2017-12-02 12:52:33,498 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,499 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,499 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,500 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,501 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,502 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/BFO_0000067>)
+[INFO] 2017-12-02 12:52:33,502 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/BFO_0000063>)
+[INFO] 2017-12-02 12:52:33,503 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,506 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,507 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,507 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002487> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2017-12-02 12:52:33,507 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,508 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+[INFO] 2017-12-02 12:52:33,508 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,511 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,513 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2017-12-02 12:52:33,514 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,522 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,523 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,524 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,528 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
+[INFO] 2017-12-02 12:52:33,532 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,536 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>)
+[INFO] 2017-12-02 12:52:33,537 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,539 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,541 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,545 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2017-12-02 12:52:33,547 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,550 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectHasSelf. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GO_0044403> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002465>))
+[INFO] 2017-12-02 12:52:33,550 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2017-12-02 12:52:33,555 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,558 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2017-12-02 12:52:33,558 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,559 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2017-12-02 12:52:33,560 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,561 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0003001> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2017-12-02 12:52:33,562 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2017-12-02 12:52:33,570 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,575 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,576 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,578 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,581 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002222> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2017-12-02 12:52:33,582 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2017-12-02 12:52:33,586 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,591 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,593 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/RO_0002286>)
+[INFO] 2017-12-02 12:52:33,595 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002434>)
+[INFO] 2017-12-02 12:52:33,596 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002436>)
+[INFO] 2017-12-02 12:52:33,598 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,598 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,600 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,604 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectHasSelf. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))
+[INFO] 2017-12-02 12:52:33,655 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002203>)
+[INFO] 2017-12-02 12:52:33,656 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,657 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,660 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,661 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/RO_0002210>)
+[INFO] 2017-12-02 12:52:33,663 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2017-12-02 12:52:33,663 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,667 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/RO_0002255>)
+[INFO] 2017-12-02 12:52:33,674 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,675 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,681 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,684 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/RO_0002336>)
+[INFO] 2017-12-02 12:52:33,684 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/RO_0002335>)
+[INFO] 2017-12-02 12:52:33,685 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002334>)
+[INFO] 2017-12-02 12:52:33,685 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,686 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,691 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,691 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002022> <http://purl.obolibrary.org/obo/RO_0002578>)
+[INFO] 2017-12-02 12:52:33,692 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0002352>)
+[INFO] 2017-12-02 12:52:33,694 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,698 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,700 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,701 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,701 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,704 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002501> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2017-12-02 12:52:33,706 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,708 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002333>)
+[INFO] 2017-12-02 12:52:33,708 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002023> <http://purl.obolibrary.org/obo/RO_0002630>)
+[INFO] 2017-12-02 12:52:33,709 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002024> <http://purl.obolibrary.org/obo/RO_0002629>)
+[INFO] 2017-12-02 12:52:33,709 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,710 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/BFO_0000002>)
+[INFO] 2017-12-02 12:52:33,711 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002506> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2017-12-02 12:52:33,712 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,715 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,716 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,716 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,719 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,720 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,720 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,721 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,725 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/RO_0002427>)
+[INFO] 2017-12-02 12:52:33,725 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,726 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002405> <http://purl.obolibrary.org/obo/RO_0002412>)
+[INFO] 2017-12-02 12:52:33,728 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002404> <http://purl.obolibrary.org/obo/RO_0002411>)
+[INFO] 2017-12-02 12:52:33,729 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,737 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,738 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,745 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,745 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,747 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,750 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,756 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,758 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,758 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,759 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/RO_0003001>)
+[INFO] 2017-12-02 12:52:33,762 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,764 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,771 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,774 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,778 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,779 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,781 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,781 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,781 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,783 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,785 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,787 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,791 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002559> <http://purl.obolibrary.org/obo/RO_0002566>)
+[INFO] 2017-12-02 12:52:33,797 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/CARO_0000003>)
+[INFO] 2017-12-02 12:52:33,797 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,798 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,802 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:33,807 INFO  (LoggingStageExecutor:103) Loading of Axioms took 713 ms
+[INFO] 2017-12-02 12:52:33,808 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:33,811 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:33,812 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 3 ms
+[INFO] 2017-12-02 12:52:33,812 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:33,823 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:33,835 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 22 ms
+[INFO] 2017-12-02 12:52:33,835 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:33,844 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:33,867 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 32 ms
+[INFO] 2017-12-02 12:52:33,868 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:33,870 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:33,878 INFO  (LoggingStageExecutor:103) Context Initialization took 9 ms
+[INFO] 2017-12-02 12:52:33,878 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:33,895 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:33,943 INFO  (LoggingStageExecutor:103) Consistency Checking took 65 ms
+[INFO] 2017-12-02 12:52:33,944 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:33,970 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:35,957 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 2012 ms
+[INFO] E: HP:0011059 'Localized periodontitis'
+[INFO] E: HP:0045073 'Serositis'
+[INFO] E: HP:0011058 'Generalized periodontitis'
+[INFO] E: HP:0040186 'Maculopapular exanthema'
+[INFO] E: HP:0003438 'Absent Achilles reflex'
+[INFO] E: HP:0000964 'Eczema'
+[INFO] E: HP:0001019 'Erythroderma'
+[INFO] E: HP:0000166 'Severe periodontitis'
+[INFO] E: HP:0100577 'Urinary bladder inflammation'
+[INFO] E: HP:0002586 'Peritonitis'
+[INFO] E: HP:0007471 'Axillary and groin hyperpigmentation and hypopigmentation'
+[INFO] E: HP:0009098 'Chronic oral candidiasis'
+[INFO] E: HP:0002583 'Colitis'
+[INFO] E: HP:0002100 'Recurrent aspiration pneumonia'
+[INFO] E: HP:0007473 'Crusting erythematous dermatitis'
+[INFO] E: HP:0001010 'Hypopigmentation of the skin'
+[INFO] E: HP:0002582 'Chronic atrophic gastritis'
+[INFO] E: HP:0012819 'Myocarditis'
+[INFO] E: HP:0500006 'Urethritis'
+[INFO] E: HP:0009789 'Perianal abscess'
+[INFO] E: HP:0010771 'Pilonidal abscess'
+[INFO] E: HP:0000976 'Eczematoid dermatitis'
+[INFO] E: HP:0001701 'Pericarditis'
+[INFO] E: HP:0100584 'Endocarditis'
+[INFO] E: HP:0011859 'Punctate keratitis'
+[INFO] E: HP:0001022 'Albinism'
+[INFO] E: HP:0011512 'Hyperpigmentation of the fundus'
+[INFO] E: HP:0030151 'Cholangitis'
+[INFO] E: HP:0006280 'Chronic pancreatitis'
+[INFO] E: HP:0007813 'Nongranulomatous uveitis'
+[INFO] E: HP:0012046 'Areflexia of upper limbs'
+[INFO] E: HP:0007937 'Reticular pigmentary degeneration'
+[INFO] E: HP:0200039 'Pustule'
+[INFO] E: HP:0000988 'Skin rash'
+[INFO] E: HP:0012281 'Chylous ascites'
+[INFO] E: HP:0012282 'Morbilliform rash'
+[INFO] E: HP:0004787 'Fulminant hepatitis'
+[INFO] E: HP:0006844 'Absent patellar reflexes'
+[INFO] E: HP:0007494 'Discrete 2 to 5-mm hyper- and hypopigmented macules'
+[INFO] E: HP:0040165 'Periostitis'
+[INFO] E: HP:0031353 'Otitis media with effusion'
+[INFO] E: HP:0011528 'Solitary congenital hypertrophy of retinal pigment epithelium'
+[INFO] E: HP:0031236 'Predominantly dermal neutrophilic infiltrate'
+[INFO] E: HP:0031235 'Predominantly epidermal neutrophilic infiltrate'
+[INFO] E: HP:0031234 'Neutrophilic infiltration of the skin'
+[INFO] E: HP:0000509 'Conjunctivitis'
+[INFO] E: HP:0000999 'Pyoderma'
+[INFO] E: HP:0005406 'Recurrent bacterial skin infections'
+[INFO] E: HP:0001287 'Meningitis'
+[INFO] E: HP:0007381 'Congenital exfoliative erythroderma'
+[INFO] E: HP:0000872 'Hashimoto thyroiditis'
+[INFO] E: HP:0000871 'Panhypopituitarism'
+[INFO] E: HP:0001047 'Atopic dermatitis'
+[INFO] E: HP:0005885 'Absent ossification of cervical vertebral bodies'
+[INFO] E: HP:0005010 'Osteomyelitis leading to amputation due to slow healing fractures'
+[INFO] E: HP:0007554 'Confetti hypopigmentation pattern of lower leg skin'
+[INFO] E: HP:0011371 'Recurrent viral skin infections'
+[INFO] E: HP:0011370 'Recurrent cutaneous fungal infections'
+[INFO] E: HP:0011132 'Chronic furunculosis'
+[INFO] E: HP:0004606 'Unossified vertebral bodies'
+[INFO] E: HP:0010280 'Stomatitis'
+[INFO] E: HP:0000246 'Sinusitis'
+[INFO] E: HP:0000123 'Nephritis'
+[INFO] E: HP:0025300 'Malar rash'
+[INFO] E: HP:0007443 'Partial albinism'
+[INFO] E: HP:0008653 'Crescentic glomerulonephritis'
+[INFO] E: HP:0005263 'Gastritis'
+[INFO] E: HP:0200123 'Chronic hepatitis'
+[INFO] E: HP:0200124 'Chronic hepatitis due to cryptospridium infection'
+[INFO] E: HP:0012115 'Hepatitis'
+[INFO] E: HP:0007569 'Generalized seborrheic dermatitis'
+[INFO] E: HP:0200122 'Atypical or prolonged hepatitis'
+[INFO] E: HP:0007449 'Confetti-like hypopigmented macules'
+[INFO] E: HP:0200120 'Chronic active hepatitis'
+[INFO] E: HP:0030683 'Vaginitis'
+[INFO] E: HP:0040030 'Chorioretinal hypopigmentation'
+[INFO] E: HP:0001107 'Ocular albinism'
+[INFO] E: HP:0001101 'Iritis'
+[INFO] E: HP:0003765 'Psoriasiform dermatitis'
+[INFO] E: HP:0100027 'Recurrent pancreatitis'
+[INFO] E: HP:0000498 'Blepharitis'
+[INFO] E: HP:0000255 'Acute sinusitis'
+[INFO] E: HP:0007680 'Depigmented fundus'
+[INFO] E: HP:0000371 'Acute otitis media'
+[INFO] E: HP:0001581 'Recurrent skin infections'
+[INFO] E: HP:0000491 'Keratitis'
+[INFO] E: HP:0040154 'Acne inversa'
+[INFO] E: HP:0007441 'Hyperpigmented/hypopigmented macules'
+[INFO] E: HP:0430013 'Absent palatine bone ossification'
+[INFO] E: HP:0011952 'Acute aspiration pneumonia'
+[INFO] E: HP:0011951 'Aspiration pneumonia'
+[INFO] E: HP:0011714 'Libman-Sacks lesions'
+[INFO] E: HP:0012128 'Basal ganglia necrosis'
+[INFO] E: HP:0012122 'Anterior uveitis'
+[INFO] E: HP:0012123 'Posterior uveitis'
+[INFO] E: HP:0012486 'Myelitis'
+[INFO] E: HP:0012124 'Intermediate uveitis'
+[INFO] E: HP:0200119 'Acute hepatitis'
+[INFO] E: HP:0012121 'Panuveitis'
+[INFO] E: HP:0000704 'Periodontitis'
+[INFO] E: HP:0000389 'Chronic otitis media'
+[INFO] E: HP:0000265 'Mastoiditis'
+[INFO] E: HP:0000388 'Otitis media'
+[INFO] E: HP:0002563 'Constrictive pericarditis'
+[INFO] E: HP:0040007 'Absent pigmentation of chest'
+[INFO] E: HP:0000024 'Prostatitis'
+[INFO] E: HP:0003892 'Absent humeral epiphyseal ossification'
+[INFO] E: HP:0007450 'Increased groin pigmentation with raindrop depigmentation'
+[INFO] E: HP:0007573 'Late onset atopic dermatitis'
+[INFO] E: HP:0008797 'Early ossification of capital femoral epiphyses'
+[INFO] E: HP:0008435 'Absent in utero ossification of vertebral bodies'
+[INFO] E: HP:0200101 'Decreased/absent ankle reflexes'
+[INFO] E: HP:0025439 'Pharyngitis'
+[INFO] E: HP:0012490 'Panniculitis'
+[INFO] E: HP:0002218 'Silver-gray hair'
+[INFO] E: HP:0040137 'Comedonal acne'
+[INFO] E: HP:0002211 'White forelock'
+[INFO] E: HP:0007581 'Mediosternal, longitudinal streak of hypopigmentation'
+[INFO] E: HP:0045029 'Eosinophilic fasciitis'
+[INFO] E: HP:0000031 'Epididymitis'
+[INFO] E: HP:0001094 'Iridocyclitis'
+[INFO] E: HP:0007513 'Generalized hypopigmentation'
+[INFO] E: HP:0012787 'Recurrent pyelonephritis'
+[INFO] E: HP:0007879 'Allergic conjunctivitis'
+[INFO] E: HP:0012784 'Perinephritis'
+[INFO] E: HP:0001412 'Enteroviral hepatitis'
+[INFO] E: HP:0001097 'Keratoconjunctivitis sicca'
+[INFO] E: HP:0001096 'Keratoconjunctivitis'
+[INFO] E: HP:0100614 'Myositis'
+[INFO] E: HP:0012319 'Absent pigmentation of the abdomen'
+[INFO] E: HP:0007402 'Areas of hypopigmentation and hyperpigmentation that do not follow Blaschko lines'
+[INFO] E: HP:0011109 'Chronic sinusitis'
+[INFO] E: HP:0007526 'Hypopigmented skin patches on arms'
+[INFO] E: HP:0011108 'Recurrent sinusitis'
+[INFO] E: HP:0031292 'Cutaneous abscess'
+[INFO] E: HP:0011107 'Recurrent aphthous stomatitis'
+[INFO] E: HP:0007649 'Congenital hypertrophy of retinal pigment epithelium'
+[INFO] E: HP:0012792 'Absent ossification of thoracic vertebral bodies'
+[INFO] E: HP:0002754 'Osteomyelitis'
+[INFO] E: HP:0005901 'Chronic recurrent multifocal osteomyelitis'
+[INFO] E: HP:0001541 'Ascites'
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] E: HP:0005231 'Chronic gastritis'
+[INFO] E: HP:0006562 'Viral hepatitis'
+[INFO] E: HP:0005593 'Macular hypopigmented whorls, streaks, and patches'
+[INFO] E: HP:0011358 'Generalized hypopigmentation of hair'
+[INFO] E: HP:0005590 'Spotty hypopigmentation'
+[INFO] E: HP:0007535 'Hypopigmented streaks'
+[INFO] E: HP:0012204 'Recurrent vulvovaginal candidiasis'
+[INFO] E: HP:0007658 'Large hyperpigmented retinal spots'
+[INFO] E: HP:0025084 'Folliculitis'
+[INFO] E: HP:0007417 'Discoid lupus rash'
+[INFO] E: HP:0012320 'Absent pigmentation of the limbs'
+[INFO] E: HP:0030679 'Ash-leaf spot'
+[INFO] E: HP:0012322 'Perifolliculitis'
+[INFO] E: HP:0009719 'Hypomelanotic macule'
+[INFO] E: HP:0011110 'Tonsillitis'
+[INFO] E: HP:0100279 'Ulcerative colitis'
+[INFO] E: HP:0040324 'Heliotrope rash'
+[INFO] E: HP:0002522 'Areflexia of lower limbs'
+[INFO] E: HP:0006689 'Bacterial endocarditis'
+[INFO] E: HP:0005236 'Chronic calcifying pancreatitis'
+[INFO] E: HP:0005599 'Hypopigmentation of hair'
+[INFO] E: HP:0040325 'Bull's eye rash'
+[INFO] E: HP:0004387 'Enterocolitis'
+[INFO] E: HP:0004386 'Gastrointestinal inflammation'
+[INFO] E: HP:0001791 'Fetal ascites'
+[INFO] E: HP:0007542 'Absent pigmentation of the ventral chest'
+[INFO] E: HP:0006572 'Subacute progressive viral hepatitis'
+[INFO] E: HP:0011127 'Perioral eczema'
+[INFO] E: HP:0012219 'Erythema nodosum'
+[INFO] E: HP:0006450 'Multicentric ossification of proximal femoral epiphyses'
+[INFO] E: HP:0007544 'Piebaldism'
+[INFO] E: HP:0100838 'Recurrent cutaneous abscess formation'
+[INFO] E: HP:0012578 'Membranous nephropathy'
+[INFO] E: HP:0012579 'Minimal change glomerulonephritis'
+[INFO] E: HP:0002090 'Pneumonia'
+[INFO] E: HP:0100281 'Chronic colitis'
+[INFO] E: HP:0011123 'Inflammatory abnormality of the skin'
+[INFO] E: HP:0011365 'Patchy hypopigmentation of hair'
+[INFO] E: HP:0100282 'Acute colitis'
+[INFO] E: HP:0011364 'White hair'
+[INFO] E: HP:0012330 'Pyelonephritis'
+[INFO] E: HP:0100280 'Crohn's disease'
+[INFO] E: HP:0031191 'Deep dermal perivascular inflammatory infiltrate'
+[INFO] E: HP:0031190 'Superficial dermal perivascular inflammatory infiltrate'
+[INFO] E: HP:0005246 'Giant hypertrophic gastritis'
+[INFO] E: HP:0100847 'Palmoplantar pustulosis'
+[INFO] E: HP:0000230 'Gingivitis'
+[INFO] E: HP:0001051 'Seborrheic dermatitis'
+[INFO] E: HP:0030290 'Unossified sacrum'
+[INFO] E: HP:0200098 'Absent skin pigmentation'
+[INFO] E: HP:0007717 'Chronic irritative conjunctivitis'
+[INFO] E: HP:0001735 'Acute pancreatitis'
+[INFO] E: HP:0006628 'Absent sternal ossification'
+[INFO] E: HP:0100532 'Scleritis'
+[INFO] E: HP:0100653 'Optic neuritis'
+[INFO] E: HP:0000403 'Recurrent otitis media'
+[INFO] E: HP:0001733 'Pancreatitis'
+[INFO] E: HP:0001854 'Podagra'
+[INFO] E: HP:0030845 'Heliotrope rash of eyelid'
+[INFO] E: HP:0100533 'Inflammatory abnormality of the eye'
+[INFO] E: HP:0100654 'Retrobulbar optic neuritis'
+[INFO] E: HP:0011529 'Multiple bilateral congenital hypertrophy of retinal pigment epithelium'
+[INFO] E: HP:0100534 'Episcleritis'
+[INFO] E: HP:0100776 'Recurrent pharyngitis'
+[INFO] E: HP:0001053 'Hypopigmented skin patches'
+[INFO] E: HP:0005411 'Chronic intestinal candidiasis'
+[INFO] E: HP:0001055 'Erysipelas'
+[INFO] E: HP:0100537 'Fasciitis'
+[INFO] E: HP:0009107 'Abnormal ossification involving the femoral head and neck'
+[INFO] E: HP:0001061 'Acne'
+[INFO] E: HP:0030717 'Meconium peritonitis'
+[INFO] E: HP:0100662 'Chondritis'
+[INFO] E: HP:0002037 'Inflammation of the large intestine'
+[INFO] E: HP:0200084 'Giant cell hepatitis'
+[INFO] E: HP:0000099 'Glomerulonephritis'
+[INFO] E: HP:0007041 'Chronic lymphocytic meningitis'
+[INFO] E: HP:0005661 'Salmonella osteomyelitis'
+[INFO] E: HP:0030990 'Pleomorphic cholangitis'
+[INFO] E: HP:0007730 'Iris hypopigmentation'
+[INFO] E: HP:0008820 'Absent ossification of capital femoral epiphysis'
+[INFO] E: HP:0012643 'Foveal hypopigmentation'
+[INFO] E: HP:0008828 'Delayed proximal femoral epiphyseal ossification'
+[INFO] E: HP:0008829 'Delayed femoral head ossification'
+[INFO] E: HP:0030991 'Sclerosing cholangitis'
+[INFO] E: HP:0002728 'Chronic mucocutaneous candidiasis'
+[INFO] E: HP:0030989 'Lymphoid cholangitis'
+[INFO] E: HP:0001997 'Gout'
+[INFO] E: HP:0030504 'Grouped congenital hypertrophy of retinal pigment epithelium'
+[INFO] E: HP:0030988 'Granulomatous cholangitis'
+[INFO] E: HP:0002840 'Lymphadenitis'
+[INFO] E: HP:0100633 'Esophagitis'
+[INFO] E: HP:0002286 'Fair hair'
+[INFO] E: HP:0002290 'Poliosis'
+[INFO] E: HP:0007988 'Macular hypopigmentation'
+[INFO] E: HP:0008835 'Multicentric femoral head ossification'
+[INFO] E: HP:0007626 'Mandibular osteomyelitis'
+[INFO] E: HP:0030987 'Suppurative cholangitis'
+[INFO] E: HP:0007509 'Patchy hypo- and hyperpigmentation'
+[INFO] E: HP:0001886 'Foot osteomyelitis'
+[INFO] E: HP:0000554 'Uveitis'
+[INFO] E: HP:0000793 'Membranoproliferative glomerulonephritis'
+[INFO] E: HP:0100646 'Thyroiditis'
+[INFO] E: HP:0002297 'Red hair'
+[INFO] E: HP:0009123 'Mixed hypo- and hyperpigmentation of the skin'
+[INFO] E: HP:0006532 'Recurrent pneumonia'
+[INFO] 2017-12-02 12:52:35,990 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@5f031ebd
+[INFO] 2017-12-02 12:52:35,997 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:35,998 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@5f031ebd
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.236 s
+[INFO] Finished at: 2017-12-02T12:52:36-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:36 MST 2017

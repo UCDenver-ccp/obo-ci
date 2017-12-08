@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:12 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   385  100   385    0     0   2058      0 --:--:-- --:--:-- --:--:--  2069
+  3 52912    3  1920    0     0   2390      0  0:00:22 --:--:--  0:00:22  2390100 52912  100 52912    0     0  59483      0 --:--:-- --:--:-- --:--:--  579k
+Wed Nov 29 14:59:13 MST 2017
+
+Wed Nov 29 14:59:14 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_ontology-metadata/iao_ontology-metadata.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:23,671 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_ontology-metadata/iao_ontology-metadata.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_ontology-metadata/iao_ontology-metadata.owl
+[INFO] 2017-11-29 14:59:24,475 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_ontology-metadata/iao_ontology-metadata.owl
+[INFO] 2017-11-29 14:59:24,485 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/iao/ontology-metadata.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.580 s
+[INFO] Finished at: 2017-11-29T14:59:24-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:25 MST 2017
+
+Download validation successful. Triple count = 958

@@ -1,0 +1,53 @@
+Wed Nov 29 14:59:14 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/oae.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   329  100   329    0     0   1507      0 --:--:-- --:--:-- --:--:--  1509
+  0 4232k    0  1096    0     0   1378      0  0:52:24 --:--:--  0:52:24  1378 88 4232k   88 3731k    0     0  2428k      0  0:00:01  0:00:01 --:--:-- 5027k100 4232k  100 4232k    0     0  2707k      0  0:00:01  0:00:01 --:--:-- 5502k
+Wed Nov 29 14:59:15 MST 2017
+
+Wed Nov 29 14:59:17 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/oae/oae.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:24,992 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/oae/oae.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/oae/oae.owl
+[INFO] 2017-11-29 14:59:25,765 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/BFO_import.owl from: http://purl.obolibrary.org/obo/oae/BFO_import.owl
+[INFO] 2017-11-29 14:59:26,996 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/BFO_import.owl from: http://purl.obolibrary.org/obo/oae/BFO_import.owl
+[INFO] 2017-11-29 14:59:26,999 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/DOID_import.owl from: http://purl.obolibrary.org/obo/oae/DOID_import.owl
+[INFO] 2017-11-29 14:59:27,448 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/DOID_import.owl from: http://purl.obolibrary.org/obo/oae/DOID_import.owl
+[INFO] 2017-11-29 14:59:27,449 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/GO_import.owl from: http://purl.obolibrary.org/obo/oae/GO_import.owl
+[INFO] 2017-11-29 14:59:27,862 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/GO_import.owl from: http://purl.obolibrary.org/obo/oae/GO_import.owl
+[INFO] 2017-11-29 14:59:27,863 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/OBI_import.owl from: http://purl.obolibrary.org/obo/oae/OBI_import.owl
+[INFO] 2017-11-29 14:59:28,748 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/OBI_import.owl from: http://purl.obolibrary.org/obo/oae/OBI_import.owl
+[INFO] 2017-11-29 14:59:28,750 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/OGMS_import.owl from: http://purl.obolibrary.org/obo/oae/OGMS_import.owl
+[INFO] 2017-11-29 14:59:29,133 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/OGMS_import.owl from: http://purl.obolibrary.org/obo/oae/OGMS_import.owl
+[INFO] 2017-11-29 14:59:29,134 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/PATO_import.owl from: http://purl.obolibrary.org/obo/oae/PATO_import.owl
+[INFO] 2017-11-29 14:59:29,722 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/PATO_import.owl from: http://purl.obolibrary.org/obo/oae/PATO_import.owl
+[INFO] 2017-11-29 14:59:29,724 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/RO_import.owl from: http://purl.obolibrary.org/obo/oae/RO_import.owl
+[INFO] 2017-11-29 14:59:30,483 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/RO_import from: http://purl.obolibrary.org/obo/oae/RO_import.owl
+[INFO] 2017-11-29 14:59:30,484 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/UBERON_import.owl from: http://purl.obolibrary.org/obo/oae/UBERON_import.owl
+[INFO] 2017-11-29 14:59:35,904 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/UBERON_import.owl from: http://purl.obolibrary.org/obo/oae/UBERON_import.owl
+[INFO] 2017-11-29 14:59:35,906 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/oae/VO_import.owl from: http://purl.obolibrary.org/obo/oae/VO_import.owl
+[INFO] 2017-11-29 14:59:36,260 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae/VO_import.owl from: http://purl.obolibrary.org/obo/oae/VO_import.owl
+[INFO] 2017-11-29 14:59:41,158 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2017-11-29 14:59:41,159 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
+[INFO] 2017-11-29 14:59:41,189 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oae.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/oae/oae.owl
+[INFO] 2017-11-29 14:59:41,201 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/oae.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.284 s
+[INFO] Finished at: 2017-11-29T14:59:42-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:43 MST 2017
+
+Download validation successful. Triple count = 93484

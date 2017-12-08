@@ -3,6 +3,5 @@
 
 _config.yml
 
-reporting/list-view/data
-reporting/lighttpd-config
+reporting/
 docs/proposal.md

@@ -1,0 +1,119 @@
+Sat Dec  2 12:52:13 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:18,834 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl
+[INFO] 2017-12-02 12:52:21,061 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cteno.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:21,391 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:21,511 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:22,480 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:22,486 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@792bbc74
+[INFO] 2017-12-02 12:52:22,495 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:22,513 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:22,594 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,645 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointObjectProperties. Axiom ignored:
+[INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000105> <http://purl.obolibrary.org/obo/BSPO_0000106>)
+[INFO] 2017-12-02 12:52:22,650 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000107> <http://purl.obolibrary.org/obo/BSPO_0000108>)
+[INFO] 2017-12-02 12:52:22,654 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,658 WARN  (IndexedObjectComplementOf:84) [reasoner.indexing.IndexedObjectComplementOf]ELK does not support negative occurrences of ObjectComplementOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,704 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015007> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:22,709 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002220>)
+[INFO] 2017-12-02 12:52:22,711 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000096> <http://purl.obolibrary.org/obo/BSPO_0000099>)
+[INFO] 2017-12-02 12:52:22,717 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CTENO_0000017> ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/BFO_0000051>))
+[INFO] 2017-12-02 12:52:22,730 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015016> <http://purl.obolibrary.org/obo/BSPO_0015017>)
+[INFO] 2017-12-02 12:52:22,739 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,740 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000110> <http://purl.obolibrary.org/obo/BSPO_0000111>)
+[INFO] 2017-12-02 12:52:22,749 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointUnion. Axiom ignored:
+[INFO] DisjointUnion(<http://purl.obolibrary.org/obo/CTENO_0000081> <http://purl.obolibrary.org/obo/CTENO_0000073> <http://purl.obolibrary.org/obo/CTENO_0000083>)
+[INFO] 2017-12-02 12:52:22,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0000104> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:22,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointUnion. Axiom ignored:
+[INFO] DisjointUnion(<http://purl.obolibrary.org/obo/CTENO_0000070> <http://purl.obolibrary.org/obo/CTENO_0000071> <http://purl.obolibrary.org/obo/CTENO_0000072>)
+[INFO] 2017-12-02 12:52:22,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:22,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015009> <http://purl.obolibrary.org/obo/BSPO_0015012>)
+[INFO] 2017-12-02 12:52:22,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000097> <http://purl.obolibrary.org/obo/BSPO_0000100>)
+[INFO] 2017-12-02 12:52:22,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015004> <http://purl.obolibrary.org/obo/CARO_0000000>)
+[INFO] 2017-12-02 12:52:22,757 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000120> <http://purl.obolibrary.org/obo/BSPO_0000121>)
+[INFO] 2017-12-02 12:52:22,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000098> <http://purl.obolibrary.org/obo/BSPO_0000102>)
+[INFO] 2017-12-02 12:52:22,759 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015011> <http://purl.obolibrary.org/obo/BSPO_0015015>)
+[INFO] 2017-12-02 12:52:22,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015010> <http://purl.obolibrary.org/obo/BSPO_0015013>)
+[INFO] 2017-12-02 12:52:22,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015001> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:22,762 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,762 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+[INFO] 2017-12-02 12:52:22,766 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015005> <http://purl.obolibrary.org/obo/BSPO_0000400>)
+[INFO] 2017-12-02 12:52:22,767 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointUnion. Axiom ignored:
+[INFO] DisjointUnion(<http://purl.obolibrary.org/obo/CTENO_0000062> <http://purl.obolibrary.org/obo/CTENO_0000141> <http://purl.obolibrary.org/obo/CTENO_0000142>)
+[INFO] 2017-12-02 12:52:22,768 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000105>)
+[INFO] 2017-12-02 12:52:22,768 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000106>)
+[INFO] 2017-12-02 12:52:22,769 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/#_has_start_point> <http://purl.obolibrary.org/obo/CARO_0000000>)
+[INFO] 2017-12-02 12:52:22,769 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointUnion. Axiom ignored:
+[INFO] DisjointUnion(<http://purl.obolibrary.org/obo/CTENO_0000082> <http://purl.obolibrary.org/obo/CTENO_0000064> <http://purl.obolibrary.org/obo/CTENO_0000081>)
+[INFO] 2017-12-02 12:52:22,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointUnion. Axiom ignored:
+[INFO] DisjointUnion(<http://purl.obolibrary.org/obo/CTENO_0000063> <http://purl.obolibrary.org/obo/CTENO_0000066> <http://purl.obolibrary.org/obo/CTENO_0000075>)
+[INFO] 2017-12-02 12:52:22,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0001107> <http://purl.obolibrary.org/obo/BSPO_0015014>)
+[INFO] 2017-12-02 12:52:22,771 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:22,772 INFO  (LoggingStageExecutor:103) Loading of Axioms took 268 ms
+[INFO] 2017-12-02 12:52:22,772 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:22,774 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:22,775 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
+[INFO] 2017-12-02 12:52:22,775 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:22,792 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,808 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 33 ms
+[INFO] 2017-12-02 12:52:22,809 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:22,823 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,893 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 84 ms
+[INFO] 2017-12-02 12:52:22,893 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:22,897 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:22,909 INFO  (LoggingStageExecutor:103) Context Initialization took 15 ms
+[INFO] 2017-12-02 12:52:22,909 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:22,934 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:22,969 INFO  (LoggingStageExecutor:103) Consistency Checking took 60 ms
+[INFO] 2017-12-02 12:52:22,970 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:22,999 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:23,102 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 132 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:23,109 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@792bbc74
+[INFO] 2017-12-02 12:52:23,115 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:23,115 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@792bbc74
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.168 s
+[INFO] Finished at: 2017-12-02T12:52:23-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:23 MST 2017

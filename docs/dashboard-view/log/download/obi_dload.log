@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:09 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/obi.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   2016      0 --:--:-- --:--:-- --:--:--  2029
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  4 6103k    4  271k    0     0   177k      0  0:00:34  0:00:01  0:00:33  271k 26 6103k   26 1647k    0     0   651k      0  0:00:09  0:00:02  0:00:07  824k 73 6103k   73 4463k    0     0  1265k      0  0:00:04  0:00:03  0:00:01 1488k100 6103k  100 6103k    0     0  1546k      0  0:00:03  0:00:03 --:--:-- 1786k
+Wed Nov 29 14:59:14 MST 2017
+
+Wed Nov 29 14:59:14 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/obi/obi.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:22,608 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/obi/obi.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/obi/obi.owl
+[INFO] 2017-11-29 14:59:31,979 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/obi.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/obi/obi.owl
+[INFO] 2017-11-29 14:59:31,993 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/obi.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.950 s
+[INFO] Finished at: 2017-11-29T14:59:35-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:36 MST 2017
+
+Download validation successful. Triple count = 89321

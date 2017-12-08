@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ontology pair matrix</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.7/vega.min.js"></script>
+</head>
+
+
+<body>
+
+<div class="embed">
+    <div id="reorderable-matrix" class="view"></div>
+</div>
+<div class="embed">
+    <div id="reorderable-matrix" class="view"></div>
+    <a id="reorderable-matrix-png" href="#">Export PNG</a>
+    <a id="reorderable-matrix-svg" href="#">Export SVG</a>
+</div>
+<script>
+var spec = {
+  "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+  "width": 770,
+  "height": 770,
+  "padding": 2,
+
+  "signals": [
+    { "name": "cellSize", "value": 10 },
+    { "name": "width", "update": "span(range('position'))" },
+    { "name": "height", "update": "width" },
+    {
+      "name": "src", "value": {},
+      "on": [
+        {"events": "text:mousedown", "update": "datum"},
+        {"events": "window:mouseup", "update": "{}"}
+      ]
+    },
+    {
+      "name": "dest", "value": {},
+      "on": [
+        {
+          "events": "[text:mousedown, window:mouseup] > text:mouseover",
+          "update": "src.name != null ? datum : dest"
+        },
+        {"events": "text:mouseout", "update": "{}"}
+      ]
+    },
+    {"name": "destOrder", "update": "dest.order"},
+    {"name": "dragging",  "update": "src.name && dest.name"}
+  ],
+
+  "data": [
+    {
+      "name": "nodes",
+      "url": "data/foundry-matrix.json",
+      "format": {"type": "json", "property": "nodes"},
+      "transform": [
+        { "type": "collect", "sort": {"field": "name"} },
+        { "type": "window", "ops": ["rank"], "as": ["order"] },
+        {
+          "type": "formula", "as": "order",
+          "expr": "dragging && datum === dest ? src.order : datum.order"
+        },
+        {
+          "type": "formula", "as": "order",
+          "expr": "dragging && datum === src ? destOrder : datum.order"
+        }
+      ]
+    },
+    {
+      "name": "edges",
+      "url": "data/foundry-matrix.json",
+      "format": {"type": "json", "property": "links"},
+      "transform": [
+        {
+          "type": "lookup", "from": "nodes", "key": "index",
+          "fields": ["source", "target"], "as": ["sourceNode", "targetNode"]
+        },
+        {
+          "type": "formula",
+          "as": "value",
+          <!--"expr": "datum.sourceNode.group === datum.targetNode.group ? datum.sourceNode.group : -1"-->
+          "expr": "datum.value"
+        }
+      ]
+    },
+    {
+      "name": "cross",
+      "source": "nodes",
+      "transform": [
+        { "type": "cross" }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "position",
+      "type": "band",
+      "domain": {"data": "nodes", "field": "order", "sort": true},
+      "range": {"step": {"signal": "cellSize"}}
+    },
+    {
+      "name": "color",
+      "type": "quantize",
+      <!--"range": ["#f0f9e8", "#fed976", "#f03b20", "#d9d9d9", "#bdbdbd", "#969696"],-->
+      "range": ["#f0f9e8", "#fed976", "#f03b20", "#d9d9d9", "#bdbdbd"],
+      "domain": {"data": "edges", "field": "value"}
+    },
+    {
+      "name": "labels",
+      "type": "ordinal",
+      "domain": {"data": "nodes", "field": "order"},
+      "range": {"data": "nodes", "field": "name"}
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "cross"},
+      "encode": {
+        "update": {
+          "x": {"scale": "position", "field": "a.order"},
+          "y": {"scale": "position", "field": "b.order"},
+          "width": {"scale": "position", "band": 1, "offset": -1},
+          "height": {"scale": "position", "band": 1, "offset": -1},
+          "fill": [
+            {"test": "datum.a === src || datum.b === src", "value": "#ddd"},
+            {"value": "#ffffff"}
+          ]
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "edges"},
+      "encode": {
+        "update": {
+          "x": {"scale": "position", "field": "sourceNode.order"},
+          "y": {"scale": "position", "field": "targetNode.order"},
+          "width": {"scale": "position", "band": 1, "offset": -1},
+          "height": {"scale": "position", "band": 1, "offset": -1},
+          "fill": {"scale": "color", "field": "value"}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "edges"},
+      "encode": {
+        "update": {
+          "x": {"scale": "position", "field": "targetNode.order"},
+          "width": {"scale": "position", "band": 1, "offset": -1},
+          "y": {"scale": "position", "field": "sourceNode.order"},
+          "height": {"scale": "position", "band": 1, "offset": -1},
+          "fill": {"scale": "color", "field": "value"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "encode": {
+        "update": {
+          "x": {"scale": "position", "field": "order"},
+          "y": {"offset": -2},
+          "dy": {"scale": "position", "band": 0.5},
+          "text": {"field": "name"},
+          "fontSize": {"value": 10},
+          "angle": {"value": -90},
+          "align": {"value": "left"},
+          "baseline": {"value": "middle"},
+          "fill": [
+            {"test": "datum === src", "value": "steelblue"},
+            {"value": "black"}
+          ]
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "encode": {
+        "update": {
+          "x": {"offset": -2},
+          "y": {"scale": "position", "field": "order"},
+          "dy": {"scale": "position", "band": 0.5},
+          "text": {"field": "name"},
+          "fontSize": {"value": 10},
+          "align": {"value": "right"},
+          "baseline": {"value": "middle"},
+          "fill": [
+            {"test": "datum === src", "value": "steelblue"},
+            {"value": "black"}
+          ]
+        }
+      }
+    }
+  ]
+}
+;
+
+var view = new vega.View(vega.parse(spec), {
+  loader: vega.loader({baseURL: '.'}),
+  logLevel: vega.Warn,
+  renderer: 'canvas'
+}).initialize('#reorderable-matrix').hover().run();
+
+function image(view, type) {
+  return function(event) {
+    event.preventDefault();
+    view.toImageURL(type).then(function(url) {
+      var link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('target', '_blank');
+      link.setAttribute('download', 'reorderable-matrix.' + type);
+      link.dispatchEvent(new MouseEvent('click'));
+    }).catch(function(error) { console.error(error); });
+  };
+}
+
+document.querySelector('#reorderable-matrix-png').addEventListener('click', image(view, 'png'));
+document.querySelector('#reorderable-matrix-svg').addEventListener('click', image(view, 'svg'));
+
+
+
+</script>
+</div>
+
+
+</body>
+</html>

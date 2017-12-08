@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:14 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/mro.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   331  100   331    0     0   1578      0 --:--:-- --:--:-- --:--:--  1583
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  9 2642k    9  255k    0     0   179k      0  0:00:14  0:00:01  0:00:13  273k 54 2642k   54 1439k    0     0   595k      0  0:00:04  0:00:02  0:00:02  744k100 2642k  100 2642k    0     0   846k      0  0:00:03  0:00:03 --:--:-- 1003k
+Wed Nov 29 14:59:17 MST 2017
+
+Wed Nov 29 14:59:17 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mro/mro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:25,009 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mro/mro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mro/mro.owl
+[INFO] 2017-11-29 14:59:30,750 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mro/mro.owl
+[INFO] 2017-11-29 14:59:30,763 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mro.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.766 s
+[INFO] Finished at: 2017-11-29T14:59:31-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:34 MST 2017
+
+Download validation successful. Triple count = 44749

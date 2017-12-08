@@ -1,0 +1,201 @@
+Sat Dec  2 12:52:13 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cio/cio_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:18,404 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cio/cio_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cio/cio_flat.owl
+[INFO] 2017-12-02 12:52:19,999 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cio.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cio/cio_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:20,204 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:20,306 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:21,429 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:21,441 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1698ee84
+[INFO] 2017-12-02 12:52:21,459 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:21,509 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:21,563 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000006> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000034>)))
+[INFO] 2017-12-02 12:52:21,613 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000003> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>))
+[INFO] 2017-12-02 12:52:21,651 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] ObjectPropertyDomain(<http://purl.obolibrary.org/obo/has_confidence_level> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> ObjectComplementOf(<http://purl.obolibrary.org/obo/CIO_0000035>))))
+[INFO] 2017-12-02 12:52:21,652 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000016> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000033>))
+[INFO] 2017-12-02 12:52:21,655 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000011> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>)))
+[INFO] 2017-12-02 12:52:21,681 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000001> ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>))
+[INFO] 2017-12-02 12:52:21,694 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000032>)
+[INFO] 2017-12-02 12:52:21,699 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000012> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>))
+[INFO] 2017-12-02 12:52:21,703 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000008> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>)))
+[INFO] 2017-12-02 12:52:21,710 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000001> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000042>))
+[INFO] 2017-12-02 12:52:21,711 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000011> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>)))
+[INFO] 2017-12-02 12:52:21,712 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000043>))
+[INFO] 2017-12-02 12:52:21,712 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000015> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000034>))
+[INFO] 2017-12-02 12:52:21,713 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000025> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>))
+[INFO] 2017-12-02 12:52:21,713 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000006> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000033>)))
+[INFO] 2017-12-02 12:52:21,714 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000002> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>))
+[INFO] 2017-12-02 12:52:21,715 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000011> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>)))
+[INFO] 2017-12-02 12:52:21,715 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000024> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>))
+[INFO] 2017-12-02 12:52:21,716 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000013> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>))
+[INFO] 2017-12-02 12:52:21,721 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_element>))
+[INFO] 2017-12-02 12:52:21,723 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000009> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000034>))
+[INFO] 2017-12-02 12:52:21,726 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000014> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>))
+[INFO] 2017-12-02 12:52:21,726 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000010> ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>))
+[INFO] 2017-12-02 12:52:21,727 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000021> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>)))
+[INFO] 2017-12-02 12:52:21,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000026> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>))
+[INFO] 2017-12-02 12:52:21,729 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000009> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000035>) ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>)))
+[INFO] 2017-12-02 12:52:21,730 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000009> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000036>)))
+[INFO] 2017-12-02 12:52:21,731 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000001> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>)))
+[INFO] 2017-12-02 12:52:21,731 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/has_evidence_type_concordance> <http://purl.obolibrary.org/obo/CIO_0000041>)
+[INFO] 2017-12-02 12:52:21,732 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000008> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000033>))
+[INFO] 2017-12-02 12:52:21,732 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000023> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>))
+[INFO] 2017-12-02 12:52:21,738 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectIntersectionOf(ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_element>) ObjectMinCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>) ObjectMinCardinality(0 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>) ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_concordance>) ObjectMaxCardinality(3 <http://purl.obolibrary.org/obo/has_confidence_element>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_level>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>)))
+[INFO] 2017-12-02 12:52:21,738 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000021> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>)))
+[INFO] 2017-12-02 12:52:21,739 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000017> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>))
+[INFO] 2017-12-02 12:52:21,739 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectMinCardinality(0 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>))
+[INFO] 2017-12-02 12:52:21,747 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000020> ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>))
+[INFO] 2017-12-02 12:52:21,748 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000010> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000035>))
+[INFO] 2017-12-02 12:52:21,748 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000011> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000036>))
+[INFO] 2017-12-02 12:52:21,749 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000018> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>))
+[INFO] 2017-12-02 12:52:21,749 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectMinCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>))
+[INFO] 2017-12-02 12:52:21,750 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000008> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>)))
+[INFO] 2017-12-02 12:52:21,750 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectMaxCardinality(3 <http://purl.obolibrary.org/obo/has_confidence_element>))
+[INFO] 2017-12-02 12:52:21,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000020> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000035>))
+[INFO] 2017-12-02 12:52:21,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000015> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000036>)))
+[INFO] 2017-12-02 12:52:21,752 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000008> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>)))
+[INFO] 2017-12-02 12:52:21,752 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>))
+[INFO] 2017-12-02 12:52:21,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000021> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000036>))
+[INFO] 2017-12-02 12:52:21,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000016> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>)))
+[INFO] 2017-12-02 12:52:21,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_concordance>))
+[INFO] 2017-12-02 12:52:21,754 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000027> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>))
+[INFO] 2017-12-02 12:52:21,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000004> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>))
+[INFO] 2017-12-02 12:52:21,757 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000042>) ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>)))
+[INFO] 2017-12-02 12:52:21,757 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] ObjectPropertyDomain(<http://purl.obolibrary.org/obo/has_evidence_type_concordance> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000043>)))
+[INFO] 2017-12-02 12:52:21,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000005> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>))
+[INFO] 2017-12-02 12:52:21,759 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000016> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>)))
+[INFO] 2017-12-02 12:52:21,759 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_level>))
+[INFO] 2017-12-02 12:52:21,759 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/provides_greater_confidence_than> <http://purl.obolibrary.org/obo/CIO_0000028>)
+[INFO] 2017-12-02 12:52:21,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000016> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>)))
+[INFO] 2017-12-02 12:52:21,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000001> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>)))
+[INFO] 2017-12-02 12:52:21,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000022> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>))
+[INFO] 2017-12-02 12:52:21,762 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_type_concordance> <http://purl.obolibrary.org/obo/CIO_0000038>)))
+[INFO] 2017-12-02 12:52:21,762 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000028>)
+[INFO] 2017-12-02 12:52:21,763 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000001> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000031>)))
+[INFO] 2017-12-02 12:52:21,763 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000007> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_type_concordance> <http://purl.obolibrary.org/obo/CIO_0000038>))
+[INFO] 2017-12-02 12:52:21,764 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000006> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_type_concordance> <http://purl.obolibrary.org/obo/CIO_0000037>))
+[INFO] 2017-12-02 12:52:21,764 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000007> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000033>)))
+[INFO] 2017-12-02 12:52:21,765 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000043>) ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>)))
+[INFO] 2017-12-02 12:52:21,765 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CIO_0000019> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000030>))
+[INFO] 2017-12-02 12:52:21,766 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000007> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000034>)))
+[INFO] 2017-12-02 12:52:21,766 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/has_confidence_element> <http://purl.obolibrary.org/obo/CIO_0000040>)
+[INFO] 2017-12-02 12:52:21,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000000> ObjectUnionOf(ObjectIntersectionOf(ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000042>) ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_element>) ObjectMinCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>) ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/has_confidence_element>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_level>)) ObjectIntersectionOf(ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000043>) ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/has_confidence_element>) ObjectMinCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>) ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/has_evidence_type_concordance>) ObjectMaxCardinality(3 <http://purl.obolibrary.org/obo/has_confidence_element>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/has_confidence_level>))))
+[INFO] 2017-12-02 12:52:21,771 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000002> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_type_concordance> <http://purl.obolibrary.org/obo/CIO_0000037>)))
+[INFO] 2017-12-02 12:52:21,772 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000021> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_confidence_level> <http://purl.obolibrary.org/obo/CIO_0000029>)))
+[INFO] 2017-12-02 12:52:21,773 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CIO_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CIO_0000015> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/has_evidence_concordance> <http://purl.obolibrary.org/obo/CIO_0000035>) ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/has_confidence_level>)))
+[INFO] 2017-12-02 12:52:21,774 INFO  (LoggingStageExecutor:103) Loading of Axioms took 298 ms
+[INFO] 2017-12-02 12:52:21,774 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:21,780 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:21,781 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 6 ms
+[INFO] 2017-12-02 12:52:21,781 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:21,808 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,492 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 710 ms
+[INFO] 2017-12-02 12:52:22,493 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:22,504 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,519 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 25 ms
+[INFO] 2017-12-02 12:52:22,519 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:22,526 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:22,545 INFO  (LoggingStageExecutor:103) Context Initialization took 25 ms
+[INFO] 2017-12-02 12:52:22,545 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:22,601 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:22,825 INFO  (LoggingStageExecutor:103) Consistency Checking took 279 ms
+[INFO] 2017-12-02 12:52:22,826 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:22,869 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,952 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 126 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:22,960 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1698ee84
+[INFO] 2017-12-02 12:52:22,976 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:22,977 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1698ee84
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.263 s
+[INFO] Finished at: 2017-12-02T12:52:23-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:23 MST 2017

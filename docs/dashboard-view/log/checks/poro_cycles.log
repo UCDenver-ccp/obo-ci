@@ -1,0 +1,32 @@
+Sun Dec  3 00:50:28 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:33,378 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl
+[INFO] 2017-12-03 00:50:35,040 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0002224 'starts with' UBERON:0000106 'zygote stage') UBERON:0000105 'life cycle stage' UBERON:0000104 'life cycle' UBERON:0000109 'gastrula stage' UBERON:0000108 'blastula stage' UBERON:0000107 'cleavage stage' UBERON:0000106 'zygote stage' ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000092 'post-embryonic stage') UBERON:0000068 'embryo stage' UBERON:0000067 'embryo stage part' UBERON:0000066 'fully formed stage' UBERON:0000071 'death stage' UBERON:0000092 'post-embryonic stage' ObjectSomeValuesFrom(RO:0002230 'ends with' UBERON:0000071 'death stage') ObjectSomeValuesFrom(BFO:0000063 'precedes' UBERON:0000066 'fully formed stage') ObjectSomeValuesFrom(RO:0002229 'ends' UBERON:0000104 'life cycle') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000110 'neurula stage') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000111 'organogenesis stage') ObjectSomeValuesFrom(BFO:0000063 'precedes' UBERON:0000092 'post-embryonic stage') ObjectSomeValuesFrom(RO:0002223 'starts' UBERON:0000104 'life cycle') ObjectSomeValuesFrom(RO:0002087 'immediately_preceded_by' UBERON:0000106 'zygote stage') ObjectSomeValuesFrom(BFO:0000063 'precedes' UBERON:0000071 'death stage') UBERON:0000111 'organogenesis stage' UBERON:0000110 'neurula stage' ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000107 'cleavage stage') ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000104 'life cycle') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000108 'blastula stage') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000109 'gastrula stage') ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000068 'embryo stage') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000068 'embryo stage')
+[INFO] Cycle: PORO:0000023 'pinacocyte' ObjectSomeValuesFrom(lined_by lined_by PORO:0000023 'pinacocyte') ObjectSomeValuesFrom(BFO:0000050 'part_of' PORO:0000043 'pinacoderm') PORO:0000043 'pinacoderm'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0003000 'produces' PORO:0000017 'spicule') ObjectSomeValuesFrom(RO:0003001 'produced by' PORO:0000011 'sclerocyte') PORO:0000011 'sclerocyte' PORO:0000017 'spicule'
+[INFO] Cycle: UBERON:0000467 'anatomical system' ObjectSomeValuesFrom(BFO:0000051 'has_part' UBERON:0000062 'organ') ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000467 'anatomical system') UBERON:0000062 'organ'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0002387 'has potential to develop into' UBERON:0000991 'gonad') UBERON:0000991 'gonad' UBERON:0000990 'reproductive system' UBERON:0003133 'reproductive organ' UBERON:0005156 'reproductive structure' ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000990 'reproductive system') ObjectSomeValuesFrom(RO:0002202 'develops_from' UBERON:0005564 'gonad primordium') ObjectSomeValuesFrom(BFO:0000051 'has_part' UBERON:0000991 'gonad') UBERON:0005564 'gonad primordium'
+[INFO] Cycle: ObjectSomeValuesFrom(is_conjugate_base_of 'is conjugate base of' CHEBI:28976 'carbonic acid') CHEBI:28976 'carbonic acid' ObjectSomeValuesFrom(is_conjugate_base_of 'is conjugate base of' CHEBI:17544 'hydrogencarbonate') CHEBI:17544 'hydrogencarbonate' ObjectSomeValuesFrom(is_conjugate_acid_of 'is conjugate acid of' CHEBI:17544 'hydrogencarbonate') ObjectSomeValuesFrom(is_conjugate_acid_of 'is conjugate acid of' CHEBI:41609 'carbonate') CHEBI:41609 'carbonate'
+[INFO] Cycle: ObjectSomeValuesFrom(BFO:0000050 'part_of' PORO:0000355 'inhalant canal') PORO:0000355 'inhalant canal' PORO:0000481 'prosopinacocyte' PORO:0000482 'prosopinacoderm' ObjectSomeValuesFrom(BFO:0000051 'has_part' PORO:0000482 'prosopinacoderm') ObjectSomeValuesFrom(lined_by lined_by PORO:0000481 'prosopinacocyte')
+[INFO] Cycle: PORO:0000029 'spongin' ObjectSomeValuesFrom(RO:0003000 'produces' PORO:0000029 'spongin') PORO:0000013 'spongocyte' ObjectSomeValuesFrom(RO:0003001 'produced by' PORO:0000013 'spongocyte')
+[INFO] Cycle: ObjectSomeValuesFrom(BFO:0000050 'part_of' PORO:0000601 'triaene') PORO:0000500 'rhabd' ObjectExactCardinality(1 RO:0002180 'has component' PORO:0000500 'rhabd') PORO:0000601 'triaene'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.327 s
+[INFO] Finished at: 2017-12-03T00:50:37-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:50:37 MST 2017

@@ -1,37 +1,27 @@
-## Continuous Integration for the Open Biomedical Ontologies
+# Monitoring OBO interoperability
 
-You can use the [editor on GitHub](https://github.com/UCDenver-ccp/obo-ci/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Note, these results are static of Dec 2017. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Analysis of individual OBO OWL files
+View an [interactive dashboard](dashboard-view/ont_dash.html) summarizing OWL reasoner and cycle detection results for all OWL files cataloged in the OBO Foundry. Hovering over question marks in the dashboard view will display a short description of each visualization.
 
-### Markdown
+## OWL reasoner results for pairs of OBOs
+The following figures show results from running the ELK and HermiT reasoners over pairs of OWL files cataloged by the OBO Foundry.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Results for OBO Foundry ontologies only](matrix-view/foundry_pair_matrix.html)<br>
+[Results for all OWL files cataloged by the OBO Foundry](matrix-view/pair_matrix.html)
 
-```markdown
-Syntax highlighted code block
+__Figure legend:__ <br>
+&nbsp;&nbsp;Upper triangle = results from ELK <br>
+&nbsp;&nbsp;Lower triangle = results from HermiT<br>
+&nbsp;&nbsp;Red = inconsistent ontology<br>
+&nbsp;&nbsp;Orange = >0 incoherent classes observed<br>
+&nbsp;&nbsp;Pale green = 0 incoherent classes observed<br>
+&nbsp;&nbsp;Grays = process failure due to either timeout after 1 hour, out-of-memory <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error (16GB), or some other unspecified reason
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UCDenver-ccp/obo-ci/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

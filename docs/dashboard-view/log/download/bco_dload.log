@@ -1,0 +1,36 @@
+Wed Nov 29 14:59:11 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/bco.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   348  100   348    0     0   1847      0 --:--:-- --:--:-- --:--:--  1851
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  360k    0  1918    0     0   1478      0  0:04:09  0:00:01  0:04:08  2169100  360k  100  360k    0     0   215k      0  0:00:01  0:00:01 --:--:--  285k
+Wed Nov 29 14:59:13 MST 2017
+
+Wed Nov 29 14:59:14 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/bco/bco.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:23,607 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bco/bco.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bco/bco.owl
+[INFO] 2017-11-29 14:59:27,092 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2017-11-29 14:59:27,094 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002233 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002233>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))]
+[INFO] 2017-11-29 14:59:27,094 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.org/dc/terms/modified in punning not allowed [Declaration(AnnotationProperty(<http://purl.org/dc/terms/modified>)), Declaration(DataProperty(<http://purl.org/dc/terms/modified>))]
+[INFO] 2017-11-29 14:59:27,102 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bco.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bco/bco.owl
+[INFO] 2017-11-29 14:59:27,117 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/bco.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.489 s
+[INFO] Finished at: 2017-11-29T14:59:27-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:28 MST 2017
+
+Download validation successful. Triple count = 7919

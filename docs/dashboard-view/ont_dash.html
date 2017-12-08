@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OBO-CI Dashboard</title>
+    <script src='javascript/d3.js' type='text/javascript'></script>
+    <script src='javascript/crossfilter.js' type='text/javascript'></script>
+    <script src='javascript/dc.js' type='text/javascript'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src='javascript/jquery-3.2.1.min.js' type='text/javascript'></script>-->
+    <script src='javascript/bootstrap.js' type='text/javascript'></script>
+
+    <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+    <link href='css/dc.css' rel='stylesheet' type='text/css'>
+
+    <script src='ont_dash.js' type='text/javascript'></script>
+
+    <style>
+
+
+
+    </style>
+</head>
+<body>
+    <div class='container' id='main-container'>
+        <div class='content'>
+            <div class='container' style='font: 10px sans-serif;'>
+                <h3>OBO-CI Dashboard</h3>
+                <div class='row'>
+                    <!--entire page uses entire width-->
+                    <div class='col-md-12'>
+                        <div class='row-fluid'>
+                            <!--first row of charts has 3 pie charts-->
+                            <div class='col-md-4' id='fc-pie'>
+                                <h4>Foundry/Candidate Status<sup><img src="images/info-icon.svg" height="24px" title="The OBOs consist of a (relatively small) set of 'foundry' ontologies that comply with the OBO Principles, and a larger set of 'candidate' ontologies which are still maturing. Note that the data on this page summarizes findings from the OWL files available on obofoundry.org, most of which represent a complete ontology, however some represent smaller projects or add-ons for a given ontology. If the smaller OWL files are part of a foundry ontology record they are categorized as 'foundry' here. This is the reason why there are 13 'foundry' OBOs noted here, while there are only 10 'foundry' ontologies listed on obofoundry.org."/></sup></h4>
+                            </div>
+                            <div class='col-md-4' id='dload-pie'>
+                                <h4>Download Status<sup><img src="images/info-icon.svg" height="24px" title="URLs for OWL files were extracted from the OBOFoundry JSON catalog file (http://obofoundry.org/registry/ontologies.jsonld). Most files were downloaded successfully, however a number of the files are unavailable at the URL provided."/></sup></h4>
+                            </div>
+                            <div class='col-md-4' id='imports-pie'>
+                                <h4>OWL Import Status<sup><img src="images/info-icon.svg" height="24px" title="OWL files can import external OWL files to be part of an ontology. For each OWL file that was successfully downloaded, an attempt was made to resolve all OWL imports and the resulting status is noted in this view. 'n/a' indicates an ontology that was not successfully downloaded."/></sup></h4>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <!--first row of charts has 3 pie charts-->
+                            <div class='col-md-4' id='cycle-pie'>
+                                <h4>Cycle Detection<sup><img src="images/info-icon.svg" height="24px" title="Cycles in knowledge representation are an indication of potential error. This view catalogs cycles detected in the OBOs. 'has_cycle' indicates that at least one cycle was detected. 'no_cycles' indicates that zero cycles were detected. 'timeout' indicates that the cycle detection did not complete within 1 hour. 'failure' indicates that cycle detection failed for an unspecified reason (see the logs for details). In most cases the reason for failure seems to be an out-of-memory error (10GB was allocated for each cycle detection process). 'n/a' indicates an OWL file that was excluded because it is unavailable for download or its imports are not resolvable."/></sup></h4>
+                            </div>
+                            <div class='col-md-4' id='elk-pie'>
+                                <h4>OWL Reasoner: ELK<sup><img src="images/info-icon.svg" height="24px" title="The ELK reasoner was used to query each OWL file for incoherent classes. The results are shown in this view. 'success' indictates that zero incoherent classes were observed. 'incoherent' indicates that at least one incoherent class was observed. 'inconsistent' indicates that the ontology was deemed inconsistent by the ELK reasoner. 'n/a' indicates an OWL file that was excluded because it is unavailable for download or its imports are not resolvable."/></sup></h4>
+                            </div>
+                            <div class='col-md-4' id='hermit-pie'>
+                                <h4>OWL Reasoner: HermiT<sup><img src="images/info-icon.svg" height="24px" title="The HermiT reasoner was used to query each OWL file for incoherent classes. The results are shown in this view. 'success' indicates that zero incoherent classes were observed. 'incoherent' indicates that at least one incoherent class was observed. 'inconsistent' indicates that the ontology was deemed inconsistent by the HermiT reasoner. 'timeout' indicates that the query did not complete within 1 hour. 'out-of-memory' indicates that the query failed because it surpassed the 16GB memory threshold. 'failure' indicates that the query failed for an unspecified reason (see the logs for details). 'n/a' indicates an OWL file that was excluded because it is unavailable for download or its imports are not resolvable."/></sup></h4>
+                            </div>
+                        </div>
+                        <!--third row of charts has 3 bar charts-->
+                        <div class='row'>
+                            <div class='col-md-4' id='cycle-bar-chart'>
+                                <h4>Cycles<sup><img src="images/info-icon.svg" height="24px" title="Histogram showing the distribution of cycle frequency among the OWL files in the OBO catalog. Note the log x-scale."/></sup></h4>
+                            </div>
+                            <div class='col-md-4' id='elk-incoherent-bar-chart'>
+                                <h4>ELK Incoherent Classes<sup><img src="images/info-icon.svg" height="24px" title="Histogram showing the distribution of incoherent class frequency among the OWL files as determined by the ELK reasoner. Note the log x-scale."/></sup></h4>
+                            </div>
+                            <div class='col-md-4 dc-chart' id='hermit-incoherent-bar-chart'>
+                                <h4>HermiT Incoherent Classes<sup><img src="images/info-icon.svg" height="24px" title="Histogram showing the distribution of incoherent class frequency among the OWL files as determined by the HermiT reasoner. Note the log x-scale."/></sup></h4>
+                            </div>
+                        </div>
+                        <!-- third row contains the data table -->
+                        <div class='row'>
+                            <div class='col-md-12 counts'>
+                                <div class="dc-data-count">
+                                    <span class="filter-count"></span> selected out of <span class="total-count"></span> records | <a
+                                        href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12 table-graph'>
+                                <h4>Data Table for Filtered Ontologies<sup><img src="images/info-icon.svg" height="24px" title="This table summarizes results for all OBO OWL files. Click on the links to see relevant log files. Rows in this table are filtered by selecting facets of the data in the donut and bar charts above."/></sup></h4>
+                                <table class='table table-hover dc-data-table' id='ontology-table'>
+                                    <thead>
+                                    <tr class='header'>
+                                        <th>ID</th>
+                                        <th>Downloadable</th>
+                                        <th>OWL import status</th>
+                                        <th>ELK status</th>
+                                        <th>ELK incoherent count</th>
+                                        <th>HermiT status</th>
+                                        <th>HermiT incoherent count</th>
+                                        <th>Cycle count</th>
+                                    </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

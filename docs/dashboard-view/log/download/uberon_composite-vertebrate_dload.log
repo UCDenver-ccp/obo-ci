@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:17 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/uberon/composite-vertebrate.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   334  100   334    0     0   1413      0 --:--:-- --:--:-- --:--:--  1409100   334  100   334    0     0   1413      0 --:--:-- --:--:-- --:--:--  1409
+  0 96.9M    0 30096    0     0  25230      0  1:07:08  0:00:01  1:07:07 25230  1 96.9M    1 1003k    0     0   441k      0  0:03:44  0:00:02  0:03:42  901k  4 96.9M    4 4188k    0     0  1293k      0  0:01:16  0:00:03  0:01:13 2032k 12 96.9M   12 11.9M    0     0  2916k      0  0:00:34  0:00:04  0:00:30 4069k 19 96.9M   19 18.4M    0     0  3634k      0  0:00:27  0:00:05  0:00:22 4707k 25 96.9M   25 24.9M    0     0  4126k      0  0:00:24  0:00:06  0:00:18 5107k 32 96.9M   32 31.6M    0     0  4503k      0  0:00:22  0:00:07  0:00:15 6379k 40 96.9M   40 39.6M    0     0  4953k      0  0:00:20  0:00:08  0:00:12 7341k 49 96.9M   49 47.8M    0     0  5336k      0  0:00:18  0:00:09  0:00:09 7360k 57 96.9M   57 55.2M    0     0  5560k      0  0:00:17  0:00:10  0:00:07 7578k 65 96.9M   65 63.3M    0     0  5795k      0  0:00:17  0:00:11  0:00:06 7856k 74 96.9M   74 72.3M    0     0  6084k      0  0:00:16  0:00:12  0:00:04 8366k 88 96.9M   88 86.2M    0     0  6698k      0  0:00:14  0:00:13  0:00:01 9573k100 96.9M  100 96.9M    0     0  7123k      0  0:00:13  0:00:13 --:--:-- 10.3M
+Wed Nov 29 14:59:34 MST 2017
+
+Wed Nov 29 14:59:44 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-vertebrate/uberon_composite-vertebrate.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:55,922 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-vertebrate/uberon_composite-vertebrate.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-vertebrate/uberon_composite-vertebrate.owl
+[INFO] 2017-11-29 15:02:44,541 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/bridge/collected-vertebrate.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-vertebrate/uberon_composite-vertebrate.owl
+[INFO] 2017-11-29 15:02:44,555 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/bridge/collected-vertebrate.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:11 min
+[INFO] Finished at: 2017-11-29T15:02:57-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:03:00 MST 2017
+
+Download validation successful. Triple count = 1507763

@@ -1,0 +1,31 @@
+Sun Dec  3 00:50:24 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:29,477 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl
+[INFO] 2017-12-03 00:50:30,950 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cteno.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cteno/cteno_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: CL:0000187 'muscle cell' ObjectSomeValuesFrom(develops_into develops_into CL:0000187 'muscle cell') CL:0000056 'myoblast' ObjectSomeValuesFrom(develops_from 'develops_from' CL:0000056 'myoblast') CL:0000680 'muscle precursor cell'
+[INFO] Cycle: BSPO:0000062 'distal side' ObjectSomeValuesFrom(overlaps 'overlaps' BSPO:0000062 'distal side') ObjectSomeValuesFrom(BSPO:0000097 'distal_to' BSPO:0000061 'proximal side') BSPO:0000061 'proximal side' ObjectSomeValuesFrom(BSPO:0000113 'opposite_to' BSPO:0000062 'distal side') BSPO:0000078 'distal region'
+[INFO] Cycle: BSPO:0000056 'posterior side' BSPO:0000055 'anterior side' ObjectSomeValuesFrom(overlaps 'overlaps' BSPO:0000056 'posterior side') ObjectSomeValuesFrom(BSPO:0000113 'opposite_to' BSPO:0000056 'posterior side') ObjectSomeValuesFrom(BSPO:0000099 'posterior_to' BSPO:0000055 'anterior side') ObjectSomeValuesFrom(BSPO:0000096 'anterior_to' BSPO:0000056 'posterior side') BSPO:0000072 'posterior region'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0002087 RO:0002087 UBERON:0007236 '8 cell stage') CTENO:0000116 'ctenophore 16 cell stage' UBERON:0007236 '8 cell stage' UBERON:0000107 'cleavage stage' CTENO:0000117 'ctenophore 32 cell stage' UBERON:0000067 'embryo stage part' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0000107 'cleavage stage') ObjectSomeValuesFrom(RO:0002087 RO:0002087 CTENO:0000117 'ctenophore 32 cell stage') ObjectSomeValuesFrom(RO:0002087 RO:0002087 CTENO:0000116 'ctenophore 16 cell stage')
+[INFO] Cycle: ObjectSomeValuesFrom(BSPO:0015005 'orthogonal_to' BSPO:0000417 'sagittal plane') ObjectSomeValuesFrom(BSPO:0015005 'orthogonal_to' BSPO:0000017 'left-right axis') BSPO:0000417 'sagittal plane' BSPO:0000017 'left-right axis'
+[INFO] Cycle: CTENO:0000012 'balancer cilium' ObjectSomeValuesFrom(has_part 'has_part' CTENO:0000012 'balancer cilium') ObjectSomeValuesFrom(part_of 'part_of' CTENO:0000055 'apical organ floor') ObjectSomeValuesFrom(part_of 'part_of' CTENO:0000057 'balancer cell') CTENO:0000055 'apical organ floor' CTENO:0000057 'balancer cell'
+[INFO] Cycle: CTENO:0000001 'ctene plate' ObjectSomeValuesFrom(part_of 'part_of' CTENO:0000137 'ctene row') CTENO:0000137 'ctene row' ObjectSomeValuesFrom(RO:0002473 RO:0002473 CTENO:0000001 'ctene plate')
+[INFO] Cycle: ObjectSomeValuesFrom(has_part 'has_part' CTENO:0000143 'tentacle bulb') ObjectSomeValuesFrom(part_of 'part_of' CTENO:0000152 'tentacle apparatus') CTENO:0000152 'tentacle apparatus' CTENO:0000143 'tentacle bulb'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.670 s
+[INFO] Finished at: 2017-12-03T00:50:31-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:50:32 MST 2017

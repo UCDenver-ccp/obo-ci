@@ -1,0 +1,198 @@
+Sat Dec  2 12:52:13 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:18,817 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl
+[INFO] 2017-12-02 12:52:29,030 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/flopo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:29,147 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:29,236 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:29,595 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:29,597 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
+[INFO] 2017-12-02 12:52:29,600 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:29,608 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:29,734 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#similar_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:29,765 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#directly_associated_with> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:29,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#minExclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
+[INFO] 2017-12-02 12:52:29,834 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#minExclusive> "6"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
+[INFO] 2017-12-02 12:52:29,840 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:29,846 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#maxInclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
+[INFO] 2017-12-02 12:52:29,893 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:29,894 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:29,921 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:29,992 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_dividend_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:29,997 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:29,998 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,100 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,100 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,102 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,102 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,153 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#inversely_associated_with> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:30,154 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_divisor_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:30,161 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:30,181 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_ratio_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
+[INFO] 2017-12-02 12:52:30,187 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000056> <http://purl.obolibrary.org/obo/BFO_0000057>)
+[INFO] 2017-12-02 12:52:30,195 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,195 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,201 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,202 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2017-12-02 12:52:30,202 INFO  (LoggingStageExecutor:103) Loading of Axioms took 598 ms
+[INFO] 2017-12-02 12:52:30,203 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:30,205 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:30,205 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
+[INFO] 2017-12-02 12:52:30,205 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:30,217 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:30,235 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 29 ms
+[INFO] 2017-12-02 12:52:30,236 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:30,242 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:30,254 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 17 ms
+[INFO] 2017-12-02 12:52:30,254 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:30,256 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:30,262 INFO  (LoggingStageExecutor:103) Context Initialization took 7 ms
+[INFO] 2017-12-02 12:52:30,262 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:30,278 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:30,328 INFO  (LoggingStageExecutor:103) Consistency Checking took 65 ms
+[INFO] 2017-12-02 12:52:30,328 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:30,349 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:31,316 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 988 ms
+[INFO] E: FLOPO:0016081 'epidermis prominent'
+[INFO] E: FLOPO:0004134 'involucre prominent'
+[INFO] E: FLOPO:0023977 'shoot system prominent'
+[INFO] E: FLOPO:0011190 'inflorescence prominent'
+[INFO] E: FLOPO:0009786 'calyx prominent'
+[INFO] E: FLOPO:0006435 'exocarp prominent'
+[INFO] E: FLOPO:0012323 'xylem vessel member prominent'
+[INFO] E: FLOPO:0015833 'peristome prominent'
+[INFO] E: FLOPO:0014345 'filament prominent'
+[INFO] E: FLOPO:0021560 'septum prominent'
+[INFO] E: FLOPO:0023109 'corolla prominent'
+[INFO] E: FLOPO:0002067 'lenticel prominent'
+[INFO] E: FLOPO:0020119 'stalk prominent'
+[INFO] E: FLOPO:0003795 'seed prominent'
+[INFO] E: FLOPO:0010272 'axillary bud meristem prominent'
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] E: FLOPO:0014994 'radicle prominent'
+[INFO] E: FLOPO:0014875 'prickle prominent'
+[INFO] E: FLOPO:0022583 'parenchyma prominent'
+[INFO] E: FLOPO:0003229 'raphe prominent'
+[INFO] E: FLOPO:0022222 'banner petal prominent'
+[INFO] E: FLOPO:0021659 'periderm prominent'
+[INFO] E: FLOPO:0004551 'fruit prominent'
+[INFO] E: FLOPO:0006299 'stipule prominent'
+[INFO] E: FLOPO:0006733 'persistent sepal prominent'
+[INFO] E: FLOPO:0001686 'petiole prominent'
+[INFO] E: FLOPO:0008196 'trichome prominent'
+[INFO] E: FLOPO:0015812 'ovule primordium prominent'
+[INFO] E: FLOPO:0014847 'upper glume prominent'
+[INFO] E: FLOPO:0008232 'tertiary leaf vein prominent'
+[INFO] E: FLOPO:0018929 'petiole margin prominent'
+[INFO] E: FLOPO:0002806 'branch prominent'
+[INFO] E: FLOPO:0011455 'spikelet prominent'
+[INFO] E: FLOPO:0019614 'pericarp prominent'
+[INFO] E: FLOPO:0004946 'leaf midvein prominent'
+[INFO] E: FLOPO:0022596 'sheath cell prominent'
+[INFO] E: FLOPO:0018375 'endocarp prominent'
+[INFO] E: FLOPO:0023283 'tepal prominent'
+[INFO] E: FLOPO:0014295 'hydathode prominent'
+[INFO] E: FLOPO:0022879 'axil prominent'
+[INFO] E: FLOPO:0023688 'chalaza prominent'
+[INFO] E: FLOPO:0016637 'inflorescence axis prominent'
+[INFO] E: FLOPO:0014614 'nectary prominent'
+[INFO] E: FLOPO:0012793 'bud prominent'
+[INFO] E: FLOPO:0012033 'tassel sessile spikelet prominent'
+[INFO] E: FLOPO:0013482 'leaf margin prominent'
+[INFO] E: FLOPO:0015540 'caruncle prominent'
+[INFO] E: FLOPO:0019620 'scutellar node prominent'
+[INFO] E: FLOPO:0005909 'plant cell prominent'
+[INFO] E: FLOPO:0012558 'seed trichome prominent'
+[INFO] E: FLOPO:0002832 'shoot apex prominent'
+[INFO] E: FLOPO:0001901 'bract prominent'
+[INFO] E: FLOPO:0016440 'awn prominent'
+[INFO] E: FLOPO:0015351 'glume prominent'
+[INFO] E: FLOPO:0010181 'bark prominent'
+[INFO] E: FLOPO:0019390 'lemma prominent'
+[INFO] E: FLOPO:0018181 'strophiole prominent'
+[INFO] E: FLOPO:0007965 'flower prominent'
+[INFO] E: FLOPO:0006193 'mesocarp prominent'
+[INFO] E: FLOPO:0015914 'lower glume prominent'
+[INFO] E: FLOPO:0015916 'leaf lamina prominent'
+[INFO] E: FLOPO:0001062 'peduncle prominent'
+[INFO] E: FLOPO:0021904 'bract apex prominent'
+[INFO] E: FLOPO:0022280 'megaspore prominent'
+[INFO] E: FLOPO:0014146 'stamen prominent'
+[INFO] E: FLOPO:0019439 'phyllome sinus prominent'
+[INFO] E: FLOPO:0014147 'apical hook prominent'
+[INFO] E: FLOPO:0006580 'anther prominent'
+[INFO] E: FLOPO:0016615 'disk flower prominent'
+[INFO] E: FLOPO:0010198 'style prominent'
+[INFO] E: FLOPO:0016178 'endosperm prominent'
+[INFO] E: FLOPO:0018116 'pedicel prominent'
+[INFO] E: FLOPO:0017785 'ray system prominent'
+[INFO] E: FLOPO:0005090 'palmate leaf prominent'
+[INFO] E: FLOPO:0008081 'petiolule prominent'
+[INFO] E: FLOPO:0001522 'lamina prominent'
+[INFO] E: FLOPO:0000437 'vascular bundle prominent'
+[INFO] E: FLOPO:0006258 'flower fascicle prominent'
+[INFO] E: FLOPO:0004111 'keel prominent'
+[INFO] E: FLOPO:0020365 'tubercle prominent'
+[INFO] E: FLOPO:0007228 'sepal prominent'
+[INFO] E: FLOPO:0006259 'costa prominent'
+[INFO] E: FLOPO:0007865 'leaflet prominent'
+[INFO] E: FLOPO:0009089 'receptacle prominent'
+[INFO] E: FLOPO:0010683 'pulvinus prominent'
+[INFO] E: FLOPO:0012460 'ligule prominent'
+[INFO] E: FLOPO:0013274 'portion of secretory tissue prominent'
+[INFO] E: FLOPO:0014806 'hilum prominent'
+[INFO] E: FLOPO:0014242 'rhizome prominent'
+[INFO] E: FLOPO:0017079 'perianth prominent'
+[INFO] E: FLOPO:0018564 'connective prominent'
+[INFO] E: FLOPO:0011138 'central spike of tassel inflorescence prominent'
+[INFO] E: FLOPO:0010685 'whole plant prominent'
+[INFO] E: FLOPO:0019658 'areole bud prominent'
+[INFO] E: FLOPO:0003814 'leaf prominent'
+[INFO] E: FLOPO:0011936 'central zone prominent'
+[INFO] E: FLOPO:0002561 'leaf vascular system prominent'
+[INFO] E: FLOPO:0005712 'stigma prominent'
+[INFO] E: FLOPO:0002841 'testa prominent'
+[INFO] E: FLOPO:0007053 'stem prominent'
+[INFO] E: FLOPO:0006084 'papilla cell prominent'
+[INFO] E: FLOPO:0005790 'valve prominent'
+[INFO] E: FLOPO:0016279 'bracteole prominent'
+[INFO] E: FLOPO:0010855 'ovary wall prominent'
+[INFO] E: FLOPO:0014498 'petal prominent'
+[INFO] E: FLOPO:0014532 'palea prominent'
+[INFO] E: FLOPO:0011940 'aril prominent'
+[INFO] E: FLOPO:0014138 'root tip prominent'
+[INFO] 2017-12-02 12:52:31,336 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
+[INFO] 2017-12-02 12:52:31,343 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:31,343 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.423 s
+[INFO] Finished at: 2017-12-02T12:52:31-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:31 MST 2017

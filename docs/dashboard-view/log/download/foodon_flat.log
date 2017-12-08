@@ -1,0 +1,74 @@
+Wed Nov 29 14:59:43 MST 2017
+Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/foodon/foodon.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:48,704 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/foodon/foodon.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/foodon/foodon.owl
+[INFO] 2017-11-29 14:59:53,982 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl
+[INFO] 2017-11-29 14:59:55,381 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl
+[INFO] 2017-11-29 14:59:55,383 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl
+[INFO] 2017-11-29 14:59:55,801 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl
+[INFO] 2017-11-29 14:59:55,802 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl
+[INFO] 2017-11-29 14:59:56,208 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl
+[INFO] 2017-11-29 14:59:56,210 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl
+[INFO] 2017-11-29 14:59:56,678 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl
+[INFO] 2017-11-29 14:59:56,679 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl
+[INFO] 2017-11-29 14:59:57,085 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl
+[INFO] 2017-11-29 14:59:57,087 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl
+[INFO] 2017-11-29 14:59:57,508 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl
+[INFO] 2017-11-29 14:59:57,515 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl
+[INFO] 2017-11-29 14:59:58,082 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl
+[INFO] 2017-11-29 14:59:58,083 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl
+[INFO] 2017-11-29 14:59:59,516 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl
+[INFO] 2017-11-29 14:59:59,521 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl
+[INFO] 2017-11-29 14:59:59,904 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl
+[INFO] 2017-11-29 14:59:59,908 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl
+[INFO] 2017-11-29 15:00:00,529 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl
+[INFO] 2017-11-29 15:00:00,534 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl
+[INFO] 2017-11-29 15:00:00,953 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl
+[INFO] 2017-11-29 15:00:00,959 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl
+[INFO] 2017-11-29 15:00:01,332 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl
+[INFO] 2017-11-29 15:00:01,338 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/po_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/po_import.owl
+[INFO] 2017-11-29 15:00:01,712 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/po_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/po_import.owl
+[INFO] 2017-11-29 15:00:01,717 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl
+[INFO] 2017-11-29 15:00:02,075 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl
+[INFO] 2017-11-29 15:00:02,079 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl
+[INFO] 2017-11-29 15:00:02,412 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl
+[INFO] 2017-11-29 15:00:02,415 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl
+[INFO] 2017-11-29 15:00:03,293 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl
+[INFO] 2017-11-29 15:00:03,298 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl
+[INFO] 2017-11-29 15:00:03,690 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl from: http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl
+[INFO] 2017-11-29 15:00:04,798 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/foodon/foodon.owl
+[INFO] 2017-11-29 15:00:04,812 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/geem_import.owl>) VersionIRI(<null>))) [Axioms: 156 Logical Axioms: 14]
+[INFO] 2017-11-29 15:00:04,820 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/uberon_import.owl>) VersionIRI(<null>))) [Axioms: 314 Logical Axioms: 39]
+[INFO] 2017-11-29 15:00:04,824 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/chebi_import.owl>) VersionIRI(<null>))) [Axioms: 3615 Logical Axioms: 1022]
+[INFO] 2017-11-29 15:00:04,837 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/eo_import.owl>) VersionIRI(<null>))) [Axioms: 0 Logical Axioms: 0]
+[INFO] 2017-11-29 15:00:04,838 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/metadata_import.owl>) VersionIRI(<null>))) [Axioms: 93 Logical Axioms: 0]
+[INFO] 2017-11-29 15:00:04,838 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/envo_import.owl>) VersionIRI(<null>))) [Axioms: 790 Logical Axioms: 166]
+[INFO] 2017-11-29 15:00:04,841 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/ecocore_import.owl>) VersionIRI(<null>))) [Axioms: 75 Logical Axioms: 14]
+[INFO] 2017-11-29 15:00:04,841 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 12395 Logical Axioms: 2530]
+[INFO] 2017-11-29 15:00:04,872 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/po_import.owl>) VersionIRI(<null>))) [Axioms: 312 Logical Axioms: 64]
+[INFO] 2017-11-29 15:00:04,874 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/foodon_product_import.owl>) VersionIRI(<null>))) [Axioms: 51133 Logical Axioms: 9698]
+[INFO] 2017-11-29 15:00:04,984 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/product_type_import.owl>) VersionIRI(<null>))) [Axioms: 7617 Logical Axioms: 1047]
+[INFO] 2017-11-29 15:00:05,001 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/langual_import.owl>) VersionIRI(<null>))) [Axioms: 51663 Logical Axioms: 5954]
+[INFO] 2017-11-29 15:00:05,121 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/gaz_import.owl>) VersionIRI(<null>))) [Axioms: 1123 Logical Axioms: 0]
+[INFO] 2017-11-29 15:00:05,125 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/obi_import.owl>) VersionIRI(<null>))) [Axioms: 70 Logical Axioms: 8]
+[INFO] 2017-11-29 15:00:05,125 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/ancestro_import.owl>) VersionIRI(<null>))) [Axioms: 2021 Logical Axioms: 1169]
+[INFO] 2017-11-29 15:00:05,130 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/pato_import.owl>) VersionIRI(<null>))) [Axioms: 356 Logical Axioms: 93]
+[INFO] 2017-11-29 15:00:05,131 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/foodon/imports/ro_import.owl>) VersionIRI(<null>))) [Axioms: 114 Logical Axioms: 6]
+[INFO] 2017-11-29 15:00:05,134 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/foodon.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.306 s
+[INFO] Finished at: 2017-11-29T15:00:07-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:00:07 MST 2017

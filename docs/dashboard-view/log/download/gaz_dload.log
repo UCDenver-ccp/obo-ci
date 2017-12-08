@@ -1,0 +1,35 @@
+Wed Nov 29 14:59:12 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/gaz.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1704      0 --:--:-- --:--:-- --:--:--  1712
+  0  590M    0  2227    0     0   2192      0 78:30:35  0:00:01 78:30:34  2192  0  590M    0 1412k    0     0   967k      0  0:10:25  0:00:01  0:10:24 3169k  1  590M    1 6632k    0     0  2722k      0  0:03:42  0:00:02  0:03:40 4665k  2  590M    2 14.5M    0     0  4342k      0  0:02:19  0:00:03  0:02:16 6162k  4  590M    4 25.2M    0     0  5819k      0  0:01:43  0:00:04  0:01:39 7544k  6  590M    6 35.5M    0     0  6699k      0  0:01:30  0:00:05  0:01:25 8237k  7  590M    7 43.2M    0     0  6878k      0  0:01:27  0:00:06  0:01:21 8612k  8  590M    8 47.3M    0     0  6505k      0  0:01:33  0:00:07  0:01:26 8341k  9  590M    9 55.1M    0     0  6696k      0  0:01:30  0:00:08  0:01:22 8314k 10  590M   10 60.7M    0     0  6597k      0  0:01:31  0:00:09  0:01:22 7287k 11  590M   11 66.4M    0     0  6516k      0  0:01:32  0:00:10  0:01:22 6316k 12  590M   12 71.9M    0     0  6442k      0  0:01:33  0:00:11  0:01:22 5882k 13  590M   13 79.4M    0     0  6543k      0  0:01:32  0:00:12  0:01:20 6599k 15  590M   15 89.0M    0     0  6788k      0  0:01:29  0:00:13  0:01:16 6943k 17  590M   17  101M    0     0  7199k      0  0:01:24  0:00:14  0:01:10 8335k 19  590M   19  114M    0     0  7590k      0  0:01:19  0:00:15  0:01:04 9834k 21  590M   21  127M    0     0  7955k      0  0:01:16  0:00:16  0:01:00 11.1M 22  590M   22  135M    0     0  7973k      0  0:01:15  0:00:17  0:00:58 11.2M 24  590M   24  146M    0     0  8139k      0  0:01:14  0:00:18  0:00:56 11.4M 27  590M   27  160M    0     0  8455k      0  0:01:11  0:00:19  0:00:52 11.7M 30  590M   30  180M    0     0  9024k      0  0:01:07  0:00:20  0:00:47 13.1M 33  590M   33  197M    0     0  9422k      0  0:01:04  0:00:21  0:00:43 13.9M 35  590M   35  212M    0     0  9699k      0  0:01:02  0:00:22  0:00:40 15.3M 38  590M   38  227M    0     0  9935k      0  0:01:00  0:00:23  0:00:37 16.1M 40  590M   40  239M    0     0   9.7M      0  0:01:00  0:00:24  0:00:36 15.7M 41  590M   41  246M    0     0  9929k      0  0:01:00  0:00:25  0:00:35 13.3M 43  590M   43  256M    0     0  9927k      0  0:01:00  0:00:26  0:00:34 11.8M 46  590M   46  273M    0     0   9.9M      0  0:00:59  0:00:27  0:00:32 12.0M 50  590M   50  297M    0     0  10.4M      0  0:00:56  0:00:28  0:00:28 14.0M 55  590M   55  325M    0     0  11.0M      0  0:00:53  0:00:29  0:00:24 17.1M 59  590M   59  351M    0     0  11.5M      0  0:00:51  0:00:30  0:00:21 21.0M 63  590M   63  374M    0     0  11.9M      0  0:00:49  0:00:31  0:00:18 23.6M 67  590M   67  397M    0     0  12.2M      0  0:00:48  0:00:32  0:00:16 24.9M 71  590M   71  422M    0     0  12.6M      0  0:00:46  0:00:33  0:00:13 25.0M 75  590M   75  446M    0     0  12.9M      0  0:00:45  0:00:34  0:00:11 24.2M 79  590M   79  468M    0     0  13.2M      0  0:00:44  0:00:35  0:00:09 23.3M 83  590M   83  494M    0     0  13.5M      0  0:00:43  0:00:36  0:00:07 23.9M 88  590M   88  520M    0     0  13.9M      0  0:00:42  0:00:37  0:00:05 24.7M 92  590M   92  547M    0     0  14.2M      0  0:00:41  0:00:38  0:00:03 24.9M 97  590M   97  573M    0     0  14.5M      0  0:00:40  0:00:39  0:00:01 25.3M100  590M  100  590M    0     0  14.7M      0  0:00:40  0:00:40 --:--:-- 26.0M
+Wed Nov 29 14:59:53 MST 2017
+
+Wed Nov 29 14:59:56 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/gaz/gaz.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 15:00:07,781 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/gaz/gaz.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/gaz/gaz.owl
+[INFO] 2017-11-29 15:00:08,207 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/envo.owl from: http://purl.obolibrary.org/obo/envo.owl
+[INFO] 2017-11-29 15:00:11,693 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/envo.owl from: http://purl.obolibrary.org/obo/envo.owl
+[INFO] 2017-11-29 15:16:17,683 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/gaz.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/gaz/gaz.owl
+[INFO] 2017-11-29 15:16:17,700 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/gaz.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17:30 min
+[INFO] Finished at: 2017-11-29T15:17:28-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:17:28 MST 2017
+
+Download validation successful. Triple count = 9133569

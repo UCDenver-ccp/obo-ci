@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:17 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/upheno.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   1114      0 --:--:-- --:--:-- --:--:--  1113100   313  100   313    0     0   1114      0 --:--:-- --:--:-- --:--:--  1113
+  0 18.0M    0 94901    0     0  68579      0  0:04:35  0:00:01  0:04:34 68579  3 18.0M    3  717k    0     0   324k      0  0:00:56  0:00:02  0:00:54  753k 16 18.0M   16 3073k    0     0   966k      0  0:00:19  0:00:03  0:00:16 1657k 27 18.0M   27 5120k    0     0  1220k      0  0:00:15  0:00:04  0:00:11 1787k 39 18.0M   39 7358k    0     0  1420k      0  0:00:12  0:00:05  0:00:07 1913k 50 18.0M   50 9409k    0     0  1522k      0  0:00:12  0:00:06  0:00:06 1942k 64 18.0M   64 11.6M    0     0  1658k      0  0:00:11  0:00:07  0:00:04 2252k 89 18.0M   89 16.1M    0     0  2022k      0  0:00:09  0:00:08  0:00:01 2692k100 18.0M  100 18.0M    0     0  2139k      0  0:00:08  0:00:08 --:--:-- 3010k
+Wed Nov 29 14:59:26 MST 2017
+
+Wed Nov 29 14:59:30 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/upheno/upheno.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:38,734 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/upheno/upheno.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/upheno/upheno.owl
+[INFO] 2017-11-29 15:00:09,151 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/upheno/upheno.owl
+[INFO] 2017-11-29 15:00:09,162 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/upheno.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38.453 s
+[INFO] Finished at: 2017-11-29T15:00:12-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:00:13 MST 2017
+
+Download validation successful. Triple count = 335773

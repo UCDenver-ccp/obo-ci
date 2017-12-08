@@ -1,0 +1,83 @@
+Sun Dec  3 00:50:24 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:29,541 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl
+[INFO] 2017-12-03 00:51:12,792 ERROR (OWLRDFConsumer:1764) Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error1 for type Class
+[INFO] 2017-12-03 00:51:17,263 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-plus.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl
+[INFO] Exception in thread "main" java.lang.reflect.InvocationTargetException
+[INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[INFO] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[INFO] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[INFO] 	at java.lang.reflect.Method.invoke(Method.java:497)
+[INFO] 	at owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4281)
+[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:76)
+[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:68)
+[INFO] 	at owltools.cli.CommandLineInterface.main(CommandLineInterface.java:12)
+[INFO] Caused by: java.lang.OutOfMemoryError: Java heap space
+[INFO] 	at java.util.HashMap.newNode(HashMap.java:1734)
+[INFO] 	at java.util.HashMap.putVal(HashMap.java:630)
+[INFO] 	at java.util.HashMap.put(HashMap.java:611)
+[INFO] 	at java.util.HashSet.add(HashSet.java:219)
+[INFO] 	at java.util.AbstractCollection.addAll(AbstractCollection.java:344)
+[INFO] 	at java.util.HashSet.<init>(HashSet.java:119)
+[INFO] 	at owltools.graph.OWLGraphWrapperEdges.createMergedEdge(OWLGraphWrapperEdges.java:1614)
+[INFO] 	at owltools.graph.OWLGraphWrapperEdges.combineEdgePair(OWLGraphWrapperEdges.java:1482)
+[INFO] 	at owltools.graph.OWLGraphWrapperEdges.getOutgoingEdgesClosure(OWLGraphWrapperEdges.java:854)
+[INFO] 	at owltools.graph.OWLGraphWrapperEdges.getOutgoingEdgesClosure(OWLGraphWrapperEdges.java:805)
+[INFO] 	at owltools.graph.OWLGraphWrapperEdges.getAncestors(OWLGraphWrapperEdges.java:1163)
+[INFO] 	at owltools.ontologyrelease.OboBasicDagCheck$1.getAdjacent(OboBasicDagCheck.java:33)
+[INFO] 	at owltools.ontologyrelease.OboBasicDagCheck$1.getAdjacent(OboBasicDagCheck.java:27)
+[INFO] 	at owltools.util.AbstractTarjan.tarjan(AbstractTarjan.java:75)
+[INFO] 	at owltools.util.AbstractTarjan.executeTarjan(AbstractTarjan.java:38)
+[INFO] 	at owltools.ontologyrelease.OboBasicDagCheck.findCycles(OboBasicDagCheck.java:52)
+[INFO] 	at owltools.cli.CommandRunner.runDAGCheck(CommandRunner.java:5378)
+[INFO] 	... 8 more
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38:39 min
+[INFO] Finished at: 2017-12-03T01:29:05-07:00
+[INFO] Final Memory: 20M/1963M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project ontology-classify: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/checks && java -Xmx10G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/checks/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl --run-obo-basic-dag-check execution is: '1'. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project ontology-classify: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/checks && java -Xmx10G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/checks/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl --run-obo-basic-dag-check execution is: '1'.
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:216)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:347)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/checks && java -Xmx10G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/checks/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/go_extensions_go-plus/go_extensions_go-plus_flat.owl --run-obo-basic-dag-check execution is: '1'.
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:260)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	... 19 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Sun Dec  3 01:29:05 MST 2017

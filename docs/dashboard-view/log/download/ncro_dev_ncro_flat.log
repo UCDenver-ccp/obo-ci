@@ -1,0 +1,65 @@
+Wed Nov 29 14:59:43 MST 2017
+Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ncro_dev_ncro/ncro_dev_ncro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:48,720 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ncro_dev_ncro/ncro_dev_ncro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ncro_dev_ncro/ncro_dev_ncro.owl
+[INFO] 2017-11-29 14:59:54,780 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/go-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/go-imports.owl
+[INFO] 2017-11-29 14:59:56,356 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/go-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/go-imports.owl
+[INFO] 2017-11-29 14:59:56,358 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/obi-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/obi-imports.owl
+[INFO] 2017-11-29 14:59:56,985 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/obi-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/obi-imports.owl
+[INFO] 2017-11-29 14:59:56,986 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/clo-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/clo-imports.owl
+[INFO] 2017-11-29 14:59:57,627 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/clo-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/clo-imports.owl
+[INFO] 2017-11-29 14:59:57,628 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/ro-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/ro-imports.owl
+[INFO] 2017-11-29 14:59:58,282 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/ro-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/ro-imports.owl
+[INFO] 2017-11-29 14:59:58,283 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/ncro-mirna.owl from: http://purl.obolibrary.org/obo/ncro/dev/ncro-mirna.owl
+[INFO] 2017-11-29 15:00:00,734 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/ncro-mirna.owl from: http://purl.obolibrary.org/obo/ncro/dev/ncro-mirna.owl
+[INFO] 2017-11-29 15:00:00,738 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/pr-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/pr-imports.owl
+[INFO] 2017-11-29 15:00:01,328 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/pr-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/pr-imports.owl
+[INFO] 2017-11-29 15:00:01,332 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 15:00:01,757 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 15:00:01,765 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/uberon-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/uberon-imports.owl
+[INFO] 2017-11-29 15:00:02,312 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/uberon-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/uberon-imports.owl
+[INFO] 2017-11-29 15:00:02,319 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/chebi-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/chebi-imports.owl
+[INFO] 2017-11-29 15:00:02,815 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/chebi-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/chebi-imports.owl
+[INFO] 2017-11-29 15:00:02,821 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/iao-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/iao-imports.owl
+[INFO] 2017-11-29 15:00:03,338 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/iao-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/iao-imports.owl
+[INFO] 2017-11-29 15:00:03,344 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/doid-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/doid-imports.owl
+[INFO] 2017-11-29 15:00:03,872 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/doid-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/doid-imports.owl
+[INFO] 2017-11-29 15:00:03,879 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/ncbi_taxon-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/ncbi_taxon-imports.owl
+[INFO] 2017-11-29 15:00:04,422 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/ncbi-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/ncbi_taxon-imports.owl
+[INFO] 2017-11-29 15:00:04,428 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2017-11-29 15:00:04,815 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2017-11-29 15:00:04,824 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncro/dev/so-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/so-imports.owl
+[INFO] 2017-11-29 15:00:05,547 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro/dev/so-imports.owl from: http://purl.obolibrary.org/obo/ncro/dev/so-imports.owl
+[INFO] 2017-11-29 15:00:05,840 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ncro_dev_ncro/ncro_dev_ncro.owl
+[INFO] 2017-11-29 15:00:05,854 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/so-imports.owl>) VersionIRI(<null>))) [Axioms: 1279 Logical Axioms: 220]
+[INFO] 2017-11-29 15:00:05,868 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/go-imports.owl>) VersionIRI(<null>))) [Axioms: 2485 Logical Axioms: 487]
+[INFO] 2017-11-29 15:00:05,878 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/ro-imports.owl>) VersionIRI(<null>))) [Axioms: 131 Logical Axioms: 7]
+[INFO] 2017-11-29 15:00:05,879 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/chebi-imports.owl>) VersionIRI(<null>))) [Axioms: 67 Logical Axioms: 7]
+[INFO] 2017-11-29 15:00:05,880 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
+[INFO] 2017-11-29 15:00:05,882 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/iao-imports.owl>) VersionIRI(<null>))) [Axioms: 65 Logical Axioms: 1]
+[INFO] 2017-11-29 15:00:05,883 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/clo-imports.owl>) VersionIRI(<null>))) [Axioms: 48 Logical Axioms: 1]
+[INFO] 2017-11-29 15:00:05,886 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/ncro-mirna.owl>) VersionIRI(<null>))) [Axioms: 76650 Logical Axioms: 28882]
+[INFO] 2017-11-29 15:00:06,089 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/uberon-imports.owl>) VersionIRI(<null>))) [Axioms: 91 Logical Axioms: 4]
+[INFO] 2017-11-29 15:00:06,090 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/doid-imports.owl>) VersionIRI(<null>))) [Axioms: 49 Logical Axioms: 3]
+[INFO] 2017-11-29 15:00:06,090 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/2017-03-24/ontology-metadata.owl>))) [Axioms: 351 Logical Axioms: 35]
+[INFO] 2017-11-29 15:00:06,091 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/obi-imports.owl>) VersionIRI(<null>))) [Axioms: 103 Logical Axioms: 3]
+[INFO] 2017-11-29 15:00:06,091 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/pr-imports.owl>) VersionIRI(<null>))) [Axioms: 17 Logical Axioms: 2]
+[INFO] 2017-11-29 15:00:06,092 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncro/dev/ncbi-imports.owl>) VersionIRI(<null>))) [Axioms: 146 Logical Axioms: 23]
+[INFO] 2017-11-29 15:00:06,094 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ncro.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.684 s
+[INFO] Finished at: 2017-11-29T15:00:08-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:00:08 MST 2017

@@ -1,0 +1,38 @@
+Sun Dec  3 00:50:25 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:30,184 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl
+[INFO] 2017-12-03 00:50:31,660 INFO  (ParserWrapper:82) Finished loading ontology: http://www.biomodels.net/kisao/KISAO_FULL# from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/kisao/kisao_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: KISAO_0000051 'Bortz-Kalos-Lebowitz algorithm' ObjectSomeValuesFrom(KISAO_0000359 'is similar to' KISAO_0000029 'Gillespie direct algorithm') KISAO_0000029 'Gillespie direct algorithm' ObjectSomeValuesFrom(KISAO_0000359 'is similar to' KISAO_0000051 'Bortz-Kalos-Lebowitz algorithm')
+[INFO] Cycle: ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000228 'tau-leaping epsilon') KISAO_0000228 'tau-leaping epsilon' ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000039 'tau-leaping method') KISAO_0000039 'tau-leaping method'
+[INFO] Cycle: ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000248 'tau-leaping delta') ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000045 'implicit tau-leaping method') KISAO_0000248 'tau-leaping delta' KISAO_0000045 'implicit tau-leaping method'
+[INFO] Cycle: ObjectSomeValuesFrom(KISAO_0000359 'is similar to' ObjectIntersectionOf(KISAO_0000064 'Runge-Kutta based method' DataHasValue(KISAO_0000275 'has Runge-Kutta method order' "1"^^integer integer))) ObjectSomeValuesFrom(KISAO_0000361 'is generalization of' KISAO_0000261 'Euler method') ObjectIntersectionOf(KISAO_0000064 'Runge-Kutta based method' DataHasValue(KISAO_0000275 'has Runge-Kutta method order' "1"^^integer integer)) KISAO_0000064 'Runge-Kutta based method' KISAO_0000261 'Euler method'
+[INFO] Cycle: ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000260 'virtual box size') ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000257 'surface-bound epsilon') ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000258 'neighbour distance') KISAO_0000260 'virtual box size' ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000057 'Brownian diffusion Smoluchowski method') KISAO_0000254 'Brownian diffusion accuracy' KISAO_0000257 'surface-bound epsilon' ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000254 'Brownian diffusion accuracy') KISAO_0000258 'neighbour distance' KISAO_0000057 'Brownian diffusion Smoluchowski method'
+[INFO] Cycle: ObjectSomeValuesFrom(KISAO_0000259 'has parameter' KISAO_0000415 'maximum number of steps') KISAO_0000415 'maximum number of steps' KISAO_0000408 'Newton-type method' ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000408 'Newton-type method')
+[INFO] Cycle: KISAO_0000283 'IDA' ObjectSomeValuesFrom(KISAO_0000359 'is similar to' KISAO_0000355 'DASPK') ObjectSomeValuesFrom(KISAO_0000359 'is similar to' KISAO_0000283 'IDA') KISAO_0000355 'DASPK'
+[INFO] Cycle: KISAO_0000074 'binomial tau-leaping method' ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000074 'binomial tau-leaping method') KISAO_0000253 'coarse-graining factor' ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000253 'coarse-graining factor')
+[INFO] Cycle: ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000423 'partial least squares regression-like method') KISAO_0000423 'partial least squares regression-like method' ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000421 'type of validation') KISAO_0000421 'type of validation'
+[INFO] Cycle: ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000428 'matrix for clusterization') KISAO_0000428 'matrix for clusterization' ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000417 'hierarchical cluster-based partial least squares regression method') KISAO_0000417 'hierarchical cluster-based partial least squares regression method'
+[INFO] Cycle: ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000323 'equation-free probabilistic steady-state approximation') KISAO_0000327 'maximum discrete number' KISAO_0000325 'minimum fast/discrete reaction occurrences number' KISAO_0000326 'number of samples' KISAO_0000323 'equation-free probabilistic steady-state approximation' ObjectSomeValuesFrom(KISAO_0000259 'has parameter' KISAO_0000327 'maximum discrete number') ObjectSomeValuesFrom(KISAO_0000259 'has parameter' KISAO_0000326 'number of samples') ObjectSomeValuesFrom(KISAO_0000259 'has parameter' KISAO_0000325 'minimum fast/discrete reaction occurrences number') ObjectSomeValuesFrom(KISAO_0000259 'has parameter' KISAO_0000328 'minimum fast rate') KISAO_0000328 'minimum fast rate'
+[INFO] Cycle: ObjectSomeValuesFrom(KISAO_0000359 'is similar to' KISAO_0000019 'CVODE') ObjectSomeValuesFrom(KISAO_0000359 'is similar to' KISAO_0000020 'PVODE') KISAO_0000020 'PVODE' KISAO_0000019 'CVODE'
+[INFO] Cycle: ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000422 'number of N-way partial least squares regression factors') ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000418 'N-way partial least squares regression method') KISAO_0000418 'N-way partial least squares regression method' KISAO_0000422 'number of N-way partial least squares regression factors'
+[INFO] Cycle: ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000084 'nonnegative Poisson tau-leaping method') ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000249 'critical firing threshold') KISAO_0000084 'nonnegative Poisson tau-leaping method' KISAO_0000249 'critical firing threshold'
+[INFO] Cycle: ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000203 'particle number lower limit') ObjectExactCardinality(1 KISAO_0000259 'has parameter' KISAO_0000204 'particle number upper limit') KISAO_0000204 'particle number upper limit' KISAO_0000203 'particle number lower limit' ObjectAllValuesFrom(KISAO_0000250 'is parameter of' KISAO_0000231 'Pahle hybrid method') KISAO_0000231 'Pahle hybrid method'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.415 s
+[INFO] Finished at: 2017-12-03T00:50:32-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:50:32 MST 2017

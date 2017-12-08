@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:17 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/uberon/composite-metazoan.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   332  100   332    0     0   1393      0 --:--:-- --:--:-- --:--:--  1389100   332  100   332    0     0   1393      0 --:--:-- --:--:-- --:--:--  1389
+  0  127M    0  939k    0     0   793k      0  0:02:44  0:00:01  0:02:43  793k  4  127M    4 5866k    0     0  2693k      0  0:00:48  0:00:02  0:00:46 4951k 10  127M   10 12.9M    0     0  4162k      0  0:00:31  0:00:03  0:00:28 6161k 19  127M   19 24.2M    0     0  5939k      0  0:00:21  0:00:04  0:00:17 7973k 30  127M   30 38.8M    0     0  7690k      0  0:00:16  0:00:05  0:00:11 9734k 41  127M   41 53.2M    0     0  8828k      0  0:00:14  0:00:06  0:00:08 10.4M 53  127M   53 68.2M    0     0  9741k      0  0:00:13  0:00:07  0:00:06 12.5M 62  127M   62 79.1M    0     0  9907k      0  0:00:13  0:00:08  0:00:05 13.2M 70  127M   70 89.0M    0     0  9929k      0  0:00:13  0:00:09  0:00:04 12.9M 77  127M   77 98.7M    0     0  9924k      0  0:00:13  0:00:10  0:00:03 11.9M 85  127M   85  108M    0     0  9943k      0  0:00:13  0:00:11  0:00:02 11.0M 95  127M   95  121M    0     0   9.9M      0  0:00:12  0:00:12 --:--:-- 10.6M100  127M  100  127M    0     0  10.1M      0  0:00:12  0:00:12 --:--:-- 11.0M
+Wed Nov 29 14:59:30 MST 2017
+
+Wed Nov 29 14:59:41 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-metazoan/uberon_composite-metazoan.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:47,597 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-metazoan/uberon_composite-metazoan.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-metazoan/uberon_composite-metazoan.owl
+[INFO] 2017-11-29 15:03:13,590 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/bridge/collected-metazoan.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_composite-metazoan/uberon_composite-metazoan.owl
+[INFO] 2017-11-29 15:03:13,607 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/bridge/collected-metazoan.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:44 min
+[INFO] Finished at: 2017-11-29T15:03:26-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:03:27 MST 2017
+
+Download validation successful. Triple count = 1989157

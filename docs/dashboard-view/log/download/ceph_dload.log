@@ -1,0 +1,43 @@
+Wed Nov 29 14:59:11 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/ceph.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   351  100   351    0     0   1967      0 --:--:-- --:--:-- --:--:--  1971
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  4  636k    4 31925    0     0  25733      0  0:00:25  0:00:01  0:00:24 38603100  636k  100  636k    0     0   372k      0  0:00:01  0:00:01 --:--:--  491k
+Wed Nov 29 14:59:13 MST 2017
+
+Wed Nov 29 14:59:14 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ceph/ceph.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:23,110 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ceph/ceph.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ceph/ceph.owl
+[INFO] 2017-11-29 14:59:23,883 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ceph/taxonomy.owl from: http://purl.obolibrary.org/obo/ceph/taxonomy.owl
+[INFO] 2017-11-29 14:59:26,223 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ceph/taxonomy.owl from: http://purl.obolibrary.org/obo/ceph/taxonomy.owl
+[INFO] 2017-11-29 14:59:26,225 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ceph/imports/cl_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/cl_import.owl
+[INFO] 2017-11-29 14:59:26,941 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ceph/imports/imports/cl_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/cl_import.owl
+[INFO] 2017-11-29 14:59:26,945 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ceph/imports/go_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/go_import.owl
+[INFO] 2017-11-29 14:59:27,754 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ceph/imports/imports/go_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/go_import.owl
+[INFO] 2017-11-29 14:59:27,755 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ceph/imports/ro_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/ro_import.owl
+[INFO] 2017-11-29 14:59:28,515 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ceph/imports/ro_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/ro_import.owl
+[INFO] 2017-11-29 14:59:28,517 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ceph/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/uberon_import.owl
+[INFO] 2017-11-29 14:59:29,804 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ceph/imports/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/ceph/imports/uberon_import.owl
+[INFO] 2017-11-29 14:59:30,410 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ceph.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ceph/ceph.owl
+[INFO] 2017-11-29 14:59:30,420 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ceph.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.587 s
+[INFO] Finished at: 2017-11-29T14:59:30-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:31 MST 2017
+
+Download validation successful. Triple count = 7136

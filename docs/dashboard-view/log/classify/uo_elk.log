@@ -1,0 +1,53 @@
+Sat Dec  2 12:52:16 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/uo/uo_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:22,934 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/uo/uo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/uo/uo_flat.owl
+[INFO] 2017-12-02 12:52:24,240 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/uo/uo_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:24,438 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:24,536 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:25,178 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:25,186 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@62e6b5c8
+[INFO] 2017-12-02 12:52:25,192 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:25,245 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:25,332 INFO  (LoggingStageExecutor:103) Loading of Axioms took 101 ms
+[INFO] 2017-12-02 12:52:25,333 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:25,335 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:25,336 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 3 ms
+[INFO] 2017-12-02 12:52:25,337 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:25,356 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:25,616 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 278 ms
+[INFO] 2017-12-02 12:52:25,616 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:25,643 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:25,657 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 39 ms
+[INFO] 2017-12-02 12:52:25,657 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:25,660 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:25,668 INFO  (LoggingStageExecutor:103) Context Initialization took 10 ms
+[INFO] 2017-12-02 12:52:25,669 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:25,679 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:25,878 INFO  (LoggingStageExecutor:103) Consistency Checking took 209 ms
+[INFO] 2017-12-02 12:52:25,879 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:25,918 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:26,059 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 174 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:26,079 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@62e6b5c8
+[INFO] 2017-12-02 12:52:26,107 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:26,107 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@62e6b5c8
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.259 s
+[INFO] Finished at: 2017-12-02T12:52:26-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:26 MST 2017

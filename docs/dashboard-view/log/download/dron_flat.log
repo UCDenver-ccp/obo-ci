@@ -1,0 +1,50 @@
+Wed Nov 29 15:00:37 MST 2017
+Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/dron/dron.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 15:00:42,068 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/dron/dron.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/dron/dron.owl
+[INFO] 2017-11-29 15:00:42,834 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-ingredient.owl from: http://purl.obolibrary.org/obo/dron/dron-ingredient.owl
+[INFO] 2017-11-29 15:01:04,108 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-ingredient.owl from: http://purl.obolibrary.org/obo/dron/dron-ingredient.owl
+[INFO] 2017-11-29 15:01:04,135 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-hand.owl from: http://purl.obolibrary.org/obo/dron/dron-hand.owl
+[INFO] 2017-11-29 15:01:06,308 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-hand.owl from: http://purl.obolibrary.org/obo/dron/dron-hand.owl
+[INFO] 2017-11-29 15:01:06,328 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-ndc.owl from: http://purl.obolibrary.org/obo/dron/dron-ndc.owl
+[INFO] 2017-11-29 15:01:35,826 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-ndc.owl from: http://purl.obolibrary.org/obo/dron/dron-ndc.owl
+[INFO] 2017-11-29 15:01:36,013 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-chebi.owl from: http://purl.obolibrary.org/obo/dron/dron-chebi.owl
+[INFO] 2017-11-29 15:01:37,570 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/classes-only.owl
+[INFO] 2017-11-29 15:01:38,992 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/classes-only.owl
+[INFO] 2017-11-29 15:01:45,004 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-chebi.owl from: http://purl.obolibrary.org/obo/dron/dron-chebi.owl
+[INFO] 2017-11-29 15:01:45,118 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-pro.owl from: http://purl.obolibrary.org/obo/dron/dron-pro.owl
+[INFO] 2017-11-29 15:01:45,688 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-pro.owl from: http://purl.obolibrary.org/obo/dron/dron-pro.owl
+[INFO] 2017-11-29 15:01:45,826 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-upper.owl from: http://purl.obolibrary.org/obo/dron/dron-upper.owl
+[INFO] 2017-11-29 15:01:46,451 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2017-11-29 15:01:46,982 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2017-11-29 15:01:47,021 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-upper.owl from: http://purl.obolibrary.org/obo/dron/dron-upper.owl
+[INFO] 2017-11-29 15:01:47,157 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl from: http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl
+[INFO] 2017-11-29 15:02:01,248 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl from: http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl
+[INFO] 2017-11-29 15:02:02,603 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/dron/dron.owl
+[INFO] 2017-11-29 15:02:02,637 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-ndc.owl>) VersionIRI(<null>))) [Axioms: 1435249 Logical Axioms: 706597]
+[INFO] 2017-11-29 15:02:06,782 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-hand.owl>) VersionIRI(<null>))) [Axioms: 494 Logical Axioms: 166]
+[INFO] 2017-11-29 15:02:06,787 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-ingredient.owl>) VersionIRI(<null>))) [Axioms: 141518 Logical Axioms: 89753]
+[INFO] 2017-11-29 15:02:07,305 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-chebi.owl>) VersionIRI(<null>))) [Axioms: 30868 Logical Axioms: 3003]
+[INFO] 2017-11-29 15:02:07,359 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/classes-only.owl>))) [Axioms: 570 Logical Axioms: 45]
+[INFO] 2017-11-29 15:02:07,362 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-rxnorm.owl>) VersionIRI(<null>))) [Axioms: 298705 Logical Axioms: 75255]
+[INFO] 2017-11-29 15:02:08,456 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-pro.owl>) VersionIRI(<null>))) [Axioms: 27 Logical Axioms: 1]
+[INFO] 2017-11-29 15:02:08,461 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-upper.owl>) VersionIRI(<null>))) [Axioms: 998 Logical Axioms: 121]
+[INFO] 2017-11-29 15:02:08,484 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/2017-03-24/ontology-metadata.owl>))) [Axioms: 351 Logical Axioms: 35]
+[INFO] 2017-11-29 15:02:08,491 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/dron.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:30 min
+[INFO] Finished at: 2017-11-29T15:03:08-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:03:08 MST 2017

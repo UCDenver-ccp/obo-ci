@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:11 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/go.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1732      0 --:--:-- --:--:-- --:--:--  1741
+  0  171M    0  546k    0     0   537k      0  0:05:26  0:00:01  0:05:25  537k  7  171M    7 12.3M    0     0  6310k      0  0:00:27  0:00:01  0:00:26 11.9M 16  171M   16 28.8M    0     0  9771k      0  0:00:17  0:00:03  0:00:14 14.1M 19  171M   19 33.7M    0     0  8634k      0  0:00:20  0:00:03  0:00:17 11.1M 32  171M   32 56.5M    0     0  11.3M      0  0:00:15  0:00:04  0:00:11 14.0M 44  171M   44 75.8M    0     0  12.6M      0  0:00:13  0:00:05  0:00:08 15.1M 53  171M   53 90.9M    0     0  12.9M      0  0:00:13  0:00:07  0:00:06 15.7M 59  171M   59  101M    0     0  12.6M      0  0:00:13  0:00:07  0:00:06 14.5M 65  171M   65  111M    0     0  12.4M      0  0:00:13  0:00:08  0:00:05 15.5M 68  171M   68  117M    0     0  11.7M      0  0:00:14  0:00:09  0:00:05 12.1M 72  171M   72  124M    0     0  11.2M      0  0:00:15  0:00:10  0:00:05 9875k 75  171M   75  129M    0     0  10.7M      0  0:00:15  0:00:12  0:00:03 7922k 79  171M   79  135M    0     0  10.4M      0  0:00:16  0:00:12  0:00:04 6954k 82  171M   82  141M    0     0  10.1M      0  0:00:16  0:00:13  0:00:03 6187k 86  171M   86  148M    0     0   9.8M      0  0:00:17  0:00:15  0:00:02 6386k 90  171M   90  155M    0     0  9963k      0  0:00:17  0:00:16  0:00:01 6490k 94  171M   94  162M    0     0  9761k      0  0:00:17  0:00:16  0:00:01 6638k 98  171M   98  168M    0     0  9605k      0  0:00:18  0:00:17  0:00:01 6842k100  171M  100  171M    0     0  9563k      0  0:00:18  0:00:18 --:--:-- 6933k
+Wed Nov 29 14:59:30 MST 2017
+
+Wed Nov 29 14:59:40 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/go/go.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:47,581 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/go/go.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/go/go.owl
+[INFO] 2017-11-29 15:03:47,864 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/go/go.owl
+[INFO] 2017-11-29 15:03:47,880 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/go.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:19 min
+[INFO] Finished at: 2017-11-29T15:04:01-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:04:01 MST 2017
+
+Download validation successful. Triple count = 2081969

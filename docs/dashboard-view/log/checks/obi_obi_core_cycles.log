@@ -1,0 +1,27 @@
+Sun Dec  3 00:50:24 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/obi_obi_core/obi_obi_core_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:29,405 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/obi_obi_core/obi_obi_core_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/obi_obi_core/obi_obi_core_flat.owl
+[INFO] 2017-12-03 00:50:30,327 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/obi/obi_core.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/obi_obi_core/obi_obi_core_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')) ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))) OBI:0000070 'assay' ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' ObjectIntersectionOf(IAO:0000030 'information content entity' ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))))) ObjectIntersectionOf(IAO:0000030 'information content entity' ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')))) OBI:0000067 'evaluant role' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role') ObjectSomeValuesFrom(BFO:0000055 'realizes' OBI:0000067 'evaluant role') ObjectAllValuesFrom(BFO:0000054 'realized in' OBI:0000070 'assay') ObjectSomeValuesFrom(OBI:0000293 'has_specified_input' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')))
+[INFO] Cycle: OBI:0001909 'conclusion based on data' ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' OBI:0001909 'conclusion based on data') ObjectSomeValuesFrom(OBI:0000312 'is_specified_output_of' OBI:0000338 'drawing a conclusion based on data') OBI:0000338 'drawing a conclusion based on data'
+[INFO] Cycle: OBI:0000443 'analyte assay' ObjectAllValuesFrom(BFO:0000054 'realized in' OBI:0000443 'analyte assay') ObjectSomeValuesFrom(BFO:0000055 'realizes' OBI:0000275 'analyte role') OBI:0000275 'analyte role'
+[INFO] Cycle: IAO:0000578 'centrally registered identifier' ObjectSomeValuesFrom(BFO:0000051 'has part' IAO:0000577 'centrally registered identifier symbol') ObjectSomeValuesFrom(BFO:0000050 'part of' IAO:0000578 'centrally registered identifier') IAO:0000577 'centrally registered identifier symbol'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.450 s
+[INFO] Finished at: 2017-12-03T00:50:30-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:50:30 MST 2017

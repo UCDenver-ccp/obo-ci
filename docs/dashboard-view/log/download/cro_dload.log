@@ -1,0 +1,35 @@
+Wed Nov 29 14:59:08 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/cro.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   301  100   301    0     0   2069      0 --:--:-- --:--:-- --:--:--  2075
+100   208  100   208    0     0    210      0 --:--:-- --:--:-- --:--:--   210100   208  100   208    0     0    210      0 --:--:-- --:--:-- --:--:--     0
+100   326  100   326    0     0    259      0  0:00:01  0:00:01 --:--:--   259
+  0     0    0  4338    0     0   2280      0 --:--:--  0:00:01 --:--:--  2280  0     0    0  236k    0     0   124k      0 --:--:--  0:00:01 --:--:--  226M
+Wed Nov 29 14:59:11 MST 2017
+
+Wed Nov 29 14:59:11 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/cro/cro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:21,777 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cro/cro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cro/cro.owl
+[INFO] 2017-11-29 14:59:23,114 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cro/cro.owl
+[INFO] 2017-11-29 14:59:23,129 INFO  (CommandRunner:3243) saving: using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.435 s
+[INFO] Finished at: 2017-11-29T14:59:23-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:23 MST 2017
+
+Download validation successful. Triple count = 15

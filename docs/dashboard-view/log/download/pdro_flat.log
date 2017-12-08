@@ -1,0 +1,132 @@
+Wed Nov 29 15:00:05 MST 2017
+Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/pdro/pdro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 15:00:13,024 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/pdro/pdro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/pdro/pdro.owl
+[INFO] 2017-11-29 15:00:13,420 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/VO.owl from: http://purl.obolibrary.org/obo/VO.owl
+[INFO] 2017-11-29 15:00:13,965 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 15:00:15,237 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 15:00:15,240 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/obcs/2017-04-29/obcs.owl from: http://purl.obolibrary.org/obo/obcs/2017-04-29/obcs.owl
+[INFO] 2017-11-29 15:00:16,065 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/obcs.owl from: http://purl.obolibrary.org/obo/obcs/2017-04-29/obcs.owl
+[INFO] 2017-11-29 15:00:16,067 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/CARO_import.owl from: http://purl.obolibrary.org/obo/vo/external/CARO_import.owl
+[INFO] 2017-11-29 15:00:16,543 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/CARO_import.owl from: http://purl.obolibrary.org/obo/vo/external/CARO_import.owl
+[INFO] 2017-11-29 15:00:16,546 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl from: http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl
+[INFO] 2017-11-29 15:00:17,160 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl from: http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl
+[INFO] 2017-11-29 15:00:17,163 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/DOID_import.owl from: http://purl.obolibrary.org/obo/vo/external/DOID_import.owl
+[INFO] 2017-11-29 15:00:17,484 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/DOID_import.owl from: http://purl.obolibrary.org/obo/vo/external/DOID_import.owl
+[INFO] 2017-11-29 15:00:17,487 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/FMA_import.owl from: http://purl.obolibrary.org/obo/vo/external/FMA_import.owl
+[INFO] 2017-11-29 15:00:17,820 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/FMA_import.owl from: http://purl.obolibrary.org/obo/vo/external/FMA_import.owl
+[INFO] 2017-11-29 15:00:17,822 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/GO_import.owl from: http://purl.obolibrary.org/obo/vo/external/GO_import.owl
+[INFO] 2017-11-29 15:00:18,150 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/GO_import.owl from: http://purl.obolibrary.org/obo/vo/external/GO_import.owl
+[INFO] 2017-11-29 15:00:18,155 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/IAO_import.owl from: http://purl.obolibrary.org/obo/vo/external/IAO_import.owl
+[INFO] 2017-11-29 15:00:18,572 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/IAO_import.owl from: http://purl.obolibrary.org/obo/vo/external/IAO_import.owl
+[INFO] 2017-11-29 15:00:18,575 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/IDO_import.owl from: http://purl.obolibrary.org/obo/vo/external/IDO_import.owl
+[INFO] 2017-11-29 15:00:18,900 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/IDO_import.owl from: http://purl.obolibrary.org/obo/vo/external/IDO_import.owl
+[INFO] 2017-11-29 15:00:18,902 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl from: http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl
+[INFO] 2017-11-29 15:00:19,648 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl from: http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl
+[INFO] 2017-11-29 15:00:19,652 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/OAE_import.owl from: http://purl.obolibrary.org/obo/vo/external/OAE_import.owl
+[INFO] 2017-11-29 15:00:19,979 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/OAE_import.owl from: http://purl.obolibrary.org/obo/vo/external/OAE_import.owl
+[INFO] 2017-11-29 15:00:19,981 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/OBI_import.owl from: http://purl.obolibrary.org/obo/vo/external/OBI_import.owl
+[INFO] 2017-11-29 15:00:20,366 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/OBI_import.owl from: http://purl.obolibrary.org/obo/vo/external/OBI_import.owl
+[INFO] 2017-11-29 15:00:20,370 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/OGG_import.owl from: http://purl.obolibrary.org/obo/vo/external/OGG_import.owl
+[INFO] 2017-11-29 15:00:20,772 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/OGG_import.owl from: http://purl.obolibrary.org/obo/vo/external/OGG_import.owl
+[INFO] 2017-11-29 15:00:20,776 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl from: http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl
+[INFO] 2017-11-29 15:00:21,076 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl from: http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl
+[INFO] 2017-11-29 15:00:21,078 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/PATO_import.owl from: http://purl.obolibrary.org/obo/vo/external/PATO_import.owl
+[INFO] 2017-11-29 15:00:21,360 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/PATO_import.owl from: http://purl.obolibrary.org/obo/vo/external/PATO_import.owl
+[INFO] 2017-11-29 15:00:21,363 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/PRO_import.owl from: http://purl.obolibrary.org/obo/vo/external/PRO_import.owl
+[INFO] 2017-11-29 15:00:21,658 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/PRO_import.owl from: http://purl.obolibrary.org/obo/vo/external/PRO_import.owl
+[INFO] 2017-11-29 15:00:21,660 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/RO_import.owl from: http://purl.obolibrary.org/obo/vo/external/RO_import.owl
+[INFO] 2017-11-29 15:00:22,033 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/RO_import.owl from: http://purl.obolibrary.org/obo/vo/external/RO_import.owl
+[INFO] 2017-11-29 15:00:22,036 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl from: http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl
+[INFO] 2017-11-29 15:00:22,367 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl from: http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl
+[INFO] 2017-11-29 15:00:22,370 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/UO_import.owl from: http://purl.obolibrary.org/obo/vo/external/UO_import.owl
+[INFO] 2017-11-29 15:00:22,602 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/UO_import.owl from: http://purl.obolibrary.org/obo/vo/external/UO_import.owl
+[INFO] 2017-11-29 15:00:22,605 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/vo/external/external_byhand.owl from: http://purl.obolibrary.org/obo/vo/external/external_byhand.owl
+[INFO] 2017-11-29 15:00:22,838 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo/external/external_byhand.owl from: http://purl.obolibrary.org/obo/vo/external/external_byhand.owl
+[INFO] 2017-11-29 15:00:23,840 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2017-11-29 15:00:23,841 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
+[INFO] 2017-11-29 15:00:23,862 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo.owl from: http://purl.obolibrary.org/obo/VO.owl
+[INFO] 2017-11-29 15:00:23,866 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/obi/2016-10-11/obi.owl from: http://purl.obolibrary.org/obo/obi/2016-10-11/obi.owl
+[INFO] 2017-11-29 15:00:25,295 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/obi.owl from: http://purl.obolibrary.org/obo/obi/2016-10-11/obi.owl
+[INFO] 2017-11-29 15:00:25,304 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/omrse.owl from: http://purl.obolibrary.org/obo/omrse.owl
+[INFO] 2017-11-29 15:00:25,766 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
+[INFO] 2017-11-29 15:00:26,887 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
+[INFO] 2017-11-29 15:00:26,888 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
+[INFO] 2017-11-29 15:00:27,155 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2017-11-29 15:00:27,564 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
+[INFO] 2017-11-29 15:00:27,983 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
+[INFO] 2017-11-29 15:00:27,983 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2017-11-29 15:00:28,253 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2017-11-29 15:00:28,254 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2017-11-29 15:00:28,500 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2017-11-29 15:00:28,514 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2017-11-29 15:00:28,531 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
+[INFO] 2017-11-29 15:00:28,532 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2017-11-29 15:00:28,790 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2017-11-29 15:00:28,791 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
+[INFO] 2017-11-29 15:00:29,148 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
+[INFO] 2017-11-29 15:00:29,189 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/omrse.owl from: http://purl.obolibrary.org/obo/omrse.owl
+[INFO] 2017-11-29 15:00:29,198 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: http://purl.obolibrary.org/obo/ogms.owl
+[INFO] 2017-11-29 15:00:29,446 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2017-11-29 15:00:29,705 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2017-11-29 15:00:29,706 INFO  (ParserWrapper:75) Start loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
+[INFO] 2017-11-29 15:00:30,348 INFO  (ParserWrapper:82) Finished loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
+[INFO] 2017-11-29 15:00:30,365 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: http://purl.obolibrary.org/obo/ogms.owl
+[INFO] 2017-11-29 15:00:30,369 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/dron/dron-upper.owl from: http://purl.obolibrary.org/obo/dron/dron-upper.owl
+[INFO] 2017-11-29 15:00:31,293 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dron/dron-upper.owl from: http://purl.obolibrary.org/obo/dron/dron-upper.owl
+[INFO] 2017-11-29 15:00:31,442 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2017-11-29 15:00:31,442 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
+[INFO] 2017-11-29 15:00:31,443 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/PDRO.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/pdro/pdro.owl
+[INFO] 2017-11-29 15:00:31,468 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo.owl>) VersionIRI(<null>))) [Axioms: 36136 Logical Axioms: 11579]
+[INFO] 2017-11-29 15:00:31,602 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/UO_import.owl>) VersionIRI(<null>))) [Axioms: 11 Logical Axioms: 1]
+[INFO] 2017-11-29 15:00:31,603 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/OGG_import.owl>) VersionIRI(<null>))) [Axioms: 1415 Logical Axioms: 215]
+[INFO] 2017-11-29 15:00:31,607 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl>) VersionIRI(<null>))) [Axioms: 288 Logical Axioms: 8]
+[INFO] 2017-11-29 15:00:31,608 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/DOID_import.owl>) VersionIRI(<null>))) [Axioms: 409 Logical Axioms: 19]
+[INFO] 2017-11-29 15:00:31,609 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl>) VersionIRI(<null>))) [Axioms: 19 Logical Axioms: 1]
+[INFO] 2017-11-29 15:00:31,609 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl>) VersionIRI(<null>))) [Axioms: 1023 Logical Axioms: 22]
+[INFO] 2017-11-29 15:00:31,611 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/OAE_import.owl>) VersionIRI(<null>))) [Axioms: 276 Logical Axioms: 10]
+[INFO] 2017-11-29 15:00:31,612 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/RO_import.owl>) VersionIRI(<null>))) [Axioms: 236 Logical Axioms: 16]
+[INFO] 2017-11-29 15:00:31,613 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
+[INFO] 2017-11-29 15:00:31,614 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/FMA_import.owl>) VersionIRI(<null>))) [Axioms: 24 Logical Axioms: 2]
+[INFO] 2017-11-29 15:00:31,615 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/external_byhand.owl>) VersionIRI(<null>))) [Axioms: 39 Logical Axioms: 1]
+[INFO] 2017-11-29 15:00:31,615 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/PATO_import.owl>) VersionIRI(<null>))) [Axioms: 103 Logical Axioms: 16]
+[INFO] 2017-11-29 15:00:31,616 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/OBI_import.owl>) VersionIRI(<null>))) [Axioms: 906 Logical Axioms: 55]
+[INFO] 2017-11-29 15:00:31,619 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl>) VersionIRI(<null>))) [Axioms: 4803 Logical Axioms: 455]
+[INFO] 2017-11-29 15:00:31,628 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/obcs.owl>) VersionIRI(<http://purl.obolibrary.org/obo/obcs/2017-04-29/obcs.owl>))) [Axioms: 7965 Logical Axioms: 1472]
+[INFO] 2017-11-29 15:00:31,645 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/GO_import.owl>) VersionIRI(<null>))) [Axioms: 127 Logical Axioms: 10]
+[INFO] 2017-11-29 15:00:31,645 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/CARO_import.owl>) VersionIRI(<null>))) [Axioms: 18 Logical Axioms: 2]
+[INFO] 2017-11-29 15:00:31,645 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/PRO_import.owl>) VersionIRI(<null>))) [Axioms: 19 Logical Axioms: 2]
+[INFO] 2017-11-29 15:00:31,646 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/IDO_import.owl>) VersionIRI(<null>))) [Axioms: 22 Logical Axioms: 2]
+[INFO] 2017-11-29 15:00:31,646 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/vo/external/IAO_import.owl>) VersionIRI(<null>))) [Axioms: 329 Logical Axioms: 15]
+[INFO] 2017-11-29 15:00:31,647 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ogms.owl>) VersionIRI(<null>))) [Axioms: 586 Logical Axioms: 84]
+[INFO] 2017-11-29 15:00:31,649 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl>) VersionIRI(<null>))) [Axioms: 75 Logical Axioms: 0]
+[INFO] 2017-11-29 15:00:31,649 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl>))) [Axioms: 357 Logical Axioms: 36]
+[INFO] 2017-11-29 15:00:31,651 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/obi.owl>) VersionIRI(<http://purl.obolibrary.org/obo/obi/2016-10-11/obi.owl>))) [Axioms: 32535 Logical Axioms: 6316]
+[INFO] 2017-11-29 15:00:31,731 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/dron/dron-upper.owl>) VersionIRI(<null>))) [Axioms: 998 Logical Axioms: 121]
+[INFO] 2017-11-29 15:00:31,733 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/2017-03-24/ontology-metadata.owl>))) [Axioms: 351 Logical Axioms: 35]
+[INFO] 2017-11-29 15:00:31,734 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/classes-only.owl>))) [Axioms: 570 Logical Axioms: 45]
+[INFO] 2017-11-29 15:00:31,735 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/omrse.owl>) VersionIRI(<null>))) [Axioms: 1062 Logical Axioms: 263]
+[INFO] 2017-11-29 15:00:31,740 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl>))) [Axioms: 2744 Logical Axioms: 383]
+[INFO] 2017-11-29 15:00:31,743 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl>) VersionIRI(<null>))) [Axioms: 233 Logical Axioms: 60]
+[INFO] 2017-11-29 15:00:31,744 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/core.owl>) VersionIRI(<null>))) [Axioms: 278 Logical Axioms: 58]
+[INFO] 2017-11-29 15:00:31,745 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/bfo-axioms.owl>) VersionIRI(<null>))) [Axioms: 18 Logical Axioms: 7]
+[INFO] 2017-11-29 15:00:31,745 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/annotations.owl>) VersionIRI(<null>))) [Axioms: 61 Logical Axioms: 0]
+[INFO] 2017-11-29 15:00:31,745 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl>) VersionIRI(<null>))) [Axioms: 53 Logical Axioms: 12]
+[INFO] 2017-11-29 15:00:31,748 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/PDRO.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29.171 s
+[INFO] Finished at: 2017-11-29T15:00:35-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 15:00:36 MST 2017

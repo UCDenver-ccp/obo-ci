@@ -1,0 +1,47 @@
+Wed Nov 29 14:59:16 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/poro.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   349  100   349    0     0    987      0 --:--:-- --:--:-- --:--:--   985100   349  100   349    0     0    987      0 --:--:-- --:--:-- --:--:--   985
+ 16  888k   16  143k    0     0   108k      0  0:00:08  0:00:01  0:00:07  108k100  888k  100  888k    0     0   559k      0  0:00:01  0:00:01 --:--:-- 2811k
+Wed Nov 29 14:59:18 MST 2017
+
+Wed Nov 29 14:59:19 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/poro/poro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:26,848 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/poro/poro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/poro/poro.owl
+[INFO] 2017-11-29 14:59:27,900 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/poro/imports/cl_import.owl from: http://purl.obolibrary.org/obo/poro/imports/cl_import.owl
+[INFO] 2017-11-29 14:59:29,268 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro/imports/cl_import.owl from: http://purl.obolibrary.org/obo/poro/imports/cl_import.owl
+[INFO] 2017-11-29 14:59:29,269 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/poro/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/poro/imports/uberon_import.owl
+[INFO] 2017-11-29 14:59:29,725 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/poro/imports/uberon_import.owl
+[INFO] 2017-11-29 14:59:29,726 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/poro/imports/go_import.owl from: http://purl.obolibrary.org/obo/poro/imports/go_import.owl
+[INFO] 2017-11-29 14:59:30,181 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro/imports/go_import.owl from: http://purl.obolibrary.org/obo/poro/imports/go_import.owl
+[INFO] 2017-11-29 14:59:30,182 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/poro/imports/pato_import.owl from: http://purl.obolibrary.org/obo/poro/imports/pato_import.owl
+[INFO] 2017-11-29 14:59:30,710 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro/imports/pato_import.owl from: http://purl.obolibrary.org/obo/poro/imports/pato_import.owl
+[INFO] 2017-11-29 14:59:30,711 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/poro/imports/ro_import.owl from: http://purl.obolibrary.org/obo/poro/imports/ro_import.owl
+[INFO] 2017-11-29 14:59:31,417 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro/imports/ro_import.owl from: http://purl.obolibrary.org/obo/poro/imports/ro_import.owl
+[INFO] 2017-11-29 14:59:31,418 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/poro/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/poro/imports/chebi_import.owl
+[INFO] 2017-11-29 14:59:31,862 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/poro/imports/chebi_import.owl
+[INFO] 2017-11-29 14:59:35,659 ERROR (OWLRDFConsumer:1764) Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error1 for type Class
+[INFO] 2017-11-29 14:59:35,661 ERROR (OWLRDFConsumer:1764) Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error2 for type Class
+[INFO] 2017-11-29 14:59:35,729 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/poro/poro.owl
+[INFO] 2017-11-29 14:59:35,748 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/poro.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.173 s
+[INFO] Finished at: 2017-11-29T14:59:36-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:36 MST 2017
+
+Download validation successful. Triple count = 14623

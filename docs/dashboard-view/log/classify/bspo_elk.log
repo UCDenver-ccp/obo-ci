@@ -1,0 +1,99 @@
+Sat Dec  2 12:52:13 MST 2017
+Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-02 12:52:18,165 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl
+[INFO] 2017-12-02 12:52:19,912 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2017-12-02 12:52:20,080 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:20,195 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2017-12-02 12:52:21,397 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2017-12-02 12:52:21,403 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@62163b39
+[INFO] 2017-12-02 12:52:21,421 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2017-12-02 12:52:21,446 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
+[INFO] 2017-12-02 12:52:21,646 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointObjectProperties. Axiom ignored:
+[INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000105> <http://purl.obolibrary.org/obo/BSPO_0000106>)
+[INFO] 2017-12-02 12:52:21,654 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000107> <http://purl.obolibrary.org/obo/BSPO_0000108>)
+[INFO] 2017-12-02 12:52:21,746 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015007> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:21,748 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0000104> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:21,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002220>)
+[INFO] 2017-12-02 12:52:21,757 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:21,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000096> <http://purl.obolibrary.org/obo/BSPO_0000099>)
+[INFO] 2017-12-02 12:52:21,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015009> <http://purl.obolibrary.org/obo/BSPO_0015012>)
+[INFO] 2017-12-02 12:52:21,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000097> <http://purl.obolibrary.org/obo/BSPO_0000100>)
+[INFO] 2017-12-02 12:52:21,772 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015004> <http://purl.obolibrary.org/obo/CARO_0000000>)
+[INFO] 2017-12-02 12:52:21,775 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000120> <http://purl.obolibrary.org/obo/BSPO_0000121>)
+[INFO] 2017-12-02 12:52:21,778 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000098> <http://purl.obolibrary.org/obo/BSPO_0000102>)
+[INFO] 2017-12-02 12:52:21,781 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015011> <http://purl.obolibrary.org/obo/BSPO_0015015>)
+[INFO] 2017-12-02 12:52:21,783 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015010> <http://purl.obolibrary.org/obo/BSPO_0015013>)
+[INFO] 2017-12-02 12:52:21,787 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0015016> <http://purl.obolibrary.org/obo/BSPO_0015017>)
+[INFO] 2017-12-02 12:52:21,788 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015001> <http://purl.obolibrary.org/obo/BSPO_0000010>)
+[INFO] 2017-12-02 12:52:21,791 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+[INFO] 2017-12-02 12:52:21,803 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BSPO_0015005> <http://purl.obolibrary.org/obo/BSPO_0000400>)
+[INFO] 2017-12-02 12:52:21,805 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000105>)
+[INFO] 2017-12-02 12:52:21,806 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0000106>)
+[INFO] 2017-12-02 12:52:21,807 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/#_has_start_point> <http://purl.obolibrary.org/obo/CARO_0000000>)
+[INFO] 2017-12-02 12:52:21,810 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0001107> <http://purl.obolibrary.org/obo/BSPO_0015014>)
+[INFO] 2017-12-02 12:52:21,812 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000110> <http://purl.obolibrary.org/obo/BSPO_0000111>)
+[INFO] 2017-12-02 12:52:21,814 INFO  (LoggingStageExecutor:103) Loading of Axioms took 385 ms
+[INFO] 2017-12-02 12:52:21,814 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2017-12-02 12:52:21,825 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
+[INFO] 2017-12-02 12:52:21,826 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 11 ms
+[INFO] 2017-12-02 12:52:21,826 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2017-12-02 12:52:21,890 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
+[INFO] 2017-12-02 12:52:21,941 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 114 ms
+[INFO] 2017-12-02 12:52:21,941 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2017-12-02 12:52:21,969 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,063 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 121 ms
+[INFO] 2017-12-02 12:52:22,064 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2017-12-02 12:52:22,074 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
+[INFO] 2017-12-02 12:52:22,093 INFO  (LoggingStageExecutor:103) Context Initialization took 29 ms
+[INFO] 2017-12-02 12:52:22,093 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2017-12-02 12:52:22,152 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
+[INFO] 2017-12-02 12:52:22,212 INFO  (LoggingStageExecutor:103) Consistency Checking took 118 ms
+[INFO] 2017-12-02 12:52:22,213 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2017-12-02 12:52:22,300 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
+[INFO] 2017-12-02 12:52:22,406 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 193 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2017-12-02 12:52:22,414 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@62163b39
+[INFO] 2017-12-02 12:52:22,422 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2017-12-02 12:52:22,422 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@62163b39
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.945 s
+[INFO] Finished at: 2017-12-02T12:52:22-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sat Dec  2 12:52:22 MST 2017

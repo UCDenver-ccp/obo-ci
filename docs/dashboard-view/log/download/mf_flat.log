@@ -1,0 +1,44 @@
+Wed Nov 29 14:59:42 MST 2017
+Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mf/mf.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:48,038 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mf/mf.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mf/mf.owl
+[INFO] 2017-11-29 14:59:48,476 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2017-11-29 14:59:49,869 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2017-11-29 14:59:49,871 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl from: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl
+[INFO] 2017-11-29 14:59:50,566 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl from: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl
+[INFO] 2017-11-29 14:59:50,567 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/GO_import.owl from: http://purl.obolibrary.org/obo/MF/external/GO_import.owl
+[INFO] 2017-11-29 14:59:51,080 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/GO_import.owl from: http://purl.obolibrary.org/obo/MF/external/GO_import.owl
+[INFO] 2017-11-29 14:59:51,082 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl
+[INFO] 2017-11-29 14:59:51,542 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl from: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl
+[INFO] 2017-11-29 14:59:52,289 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl from: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl
+[INFO] 2017-11-29 14:59:52,290 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl from: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl
+[INFO] 2017-11-29 14:59:52,771 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl from: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl
+[INFO] 2017-11-29 14:59:52,806 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl
+[INFO] 2017-11-29 14:59:52,807 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 14:59:53,322 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 14:59:53,754 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mf/mf.owl
+[INFO] 2017-11-29 14:59:53,769 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/MF/external/GO_import.owl>) VersionIRI(<null>))) [Axioms: 742 Logical Axioms: 81]
+[INFO] 2017-11-29 14:59:53,785 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl>) VersionIRI(<null>))) [Axioms: 3705 Logical Axioms: 538]
+[INFO] 2017-11-29 14:59:53,805 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/MF/internal/MF-core.owl>) VersionIRI(<null>))) [Axioms: 322 Logical Axioms: 75]
+[INFO] 2017-11-29 14:59:53,809 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl>) VersionIRI(<null>))) [Axioms: 87 Logical Axioms: 9]
+[INFO] 2017-11-29 14:59:53,810 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl>) VersionIRI(<null>))) [Axioms: 183 Logical Axioms: 0]
+[INFO] 2017-11-29 14:59:53,811 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
+[INFO] 2017-11-29 14:59:53,813 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl>))) [Axioms: 357 Logical Axioms: 36]
+[INFO] 2017-11-29 14:59:53,817 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/MF.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.101 s
+[INFO] Finished at: 2017-11-29T14:59:54-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:55 MST 2017

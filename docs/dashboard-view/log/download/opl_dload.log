@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:16 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/opl.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100   360  100   360    0     0     62      0  0:00:05  0:00:05 --:--:--    85
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0 18  509k   18 97460    0     0  12173      0  0:00:42  0:00:08  0:00:34 54568100  509k  100  509k    0     0  61440      0  0:00:08  0:00:08 --:--:--  223k
+Wed Nov 29 14:59:24 MST 2017
+
+Wed Nov 29 14:59:25 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/opl/opl.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:31,576 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/opl/opl.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/opl/opl.owl
+[INFO] 2017-11-29 14:59:35,741 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/opl.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/opl/opl.owl
+[INFO] 2017-11-29 14:59:35,752 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/opl.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.214 s
+[INFO] Finished at: 2017-11-29T14:59:36-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:36 MST 2017
+
+Download validation successful. Triple count = 8202

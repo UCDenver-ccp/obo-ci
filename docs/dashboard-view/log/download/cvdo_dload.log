@@ -1,0 +1,41 @@
+Wed Nov 29 14:59:10 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/cvdo.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   331  100   331    0     0   1780      0 --:--:-- --:--:-- --:--:--  1789
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  381k  100  381k    0     0   272k      0  0:00:01  0:00:01 --:--:--  414k
+Wed Nov 29 14:59:12 MST 2017
+
+Wed Nov 29 14:59:13 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:21,777 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl
+[INFO] 2017-11-29 14:59:22,399 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 14:59:23,967 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2017-11-29 14:59:23,970 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl
+[INFO] 2017-11-29 14:59:29,744 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl
+[INFO] 2017-11-29 14:59:29,748 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl
+[INFO] 2017-11-29 14:59:32,764 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl
+[INFO] 2017-11-29 14:59:32,765 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl
+[INFO] 2017-11-29 14:59:35,438 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl
+[INFO] 2017-11-29 14:59:36,304 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cvdo from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl
+[INFO] 2017-11-29 14:59:36,316 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/cvdo using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.640 s
+[INFO] Finished at: 2017-11-29T14:59:36-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:36 MST 2017
+
+Download validation successful. Triple count = 9252

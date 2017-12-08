@@ -1,0 +1,32 @@
+Sun Dec  3 00:50:25 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fypo/fypo_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:31,119 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fypo/fypo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fypo/fypo_flat.owl
+[INFO] 2017-12-03 00:50:54,322 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fypo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fypo/fypo_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: ObjectSomeValuesFrom(part_of part_of GO:0046785 'microtubule polymerization') GO:0046785 'microtubule polymerization' GO:0007020 'microtubule nucleation' ObjectSomeValuesFrom(has_part 'has_part' GO:0007020 'microtubule nucleation')
+[INFO] Cycle: ObjectSomeValuesFrom(part_of part_of GO:0000278 'mitotic cell cycle') GO:0140014 'mitotic nuclear division' GO:1903047 'mitotic cell cycle process' GO:0000278 'mitotic cell cycle' ObjectSomeValuesFrom(has_part 'has_part' GO:0140014 'mitotic nuclear division')
+[INFO] Cycle: GO:0051321 'meiotic cell cycle' GO:0140013 'meiotic nuclear division' ObjectSomeValuesFrom(has_part 'has_part' GO:0140013 'meiotic nuclear division') GO:1903046 'meiotic cell cycle process' ObjectSomeValuesFrom(part_of part_of GO:0051321 'meiotic cell cycle')
+[INFO] Cycle: ObjectSomeValuesFrom(has_part 'has_part' GO:0000045 'autophagosome assembly') ObjectSomeValuesFrom(part_of part_of GO:0016236 'macroautophagy') GO:1905037 'autophagosome organization' GO:0000045 'autophagosome assembly' GO:0016236 'macroautophagy'
+[INFO] Cycle: GO:0099500 'vesicle fusion to plasma membrane' GO:0006887 'exocytosis' GO:0140029 'exocytic process' ObjectSomeValuesFrom(part_of part_of GO:0006887 'exocytosis') ObjectSomeValuesFrom(has_part 'has_part' GO:0099500 'vesicle fusion to plasma membrane')
+[INFO] Cycle: ObjectSomeValuesFrom(has_part 'has_part' FYPO:0003503 'normal vegetative cell length') FYPO:0001124 'normal vegetative cell size' FYPO:0003503 'normal vegetative cell length'
+[INFO] Cycle: GO:1990731 'UV-damage excision repair, DNA incision' ObjectSomeValuesFrom(part_of part_of GO:0070914 'UV-damage excision repair') ObjectSomeValuesFrom(has_part 'has_part' GO:1990731 'UV-damage excision repair, DNA incision') GO:0070914 'UV-damage excision repair'
+[INFO] Cycle: ObjectSomeValuesFrom(has_part 'has_part' GO:0006415 'translational termination') ObjectSomeValuesFrom(has_part 'has_part' GO:0006414 'translational elongation') ObjectSomeValuesFrom(has_part 'has_part' GO:0006413 'translational initiation') GO:0006414 'translational elongation' GO:0006413 'translational initiation' GO:0006415 'translational termination' GO:0006412 'translation' GO:0001677 'formation of translation initiation ternary complex' ObjectSomeValuesFrom(has_part 'has_part' GO:0001677 'formation of translation initiation ternary complex') ObjectSomeValuesFrom(part_of part_of GO:0006413 'translational initiation') ObjectSomeValuesFrom(part_of part_of GO:0006412 'translation')
+[INFO] Cycle: ObjectSomeValuesFrom(has_part 'has_part' GO:0097190 'apoptotic signaling pathway') GO:0097190 'apoptotic signaling pathway' GO:0006915 'apoptotic process' ObjectSomeValuesFrom(part_of part_of GO:0006915 'apoptotic process') ObjectSomeValuesFrom(has_part 'has_part' GO:0097194 'execution phase of apoptosis') GO:0097194 'execution phase of apoptosis'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38.913 s
+[INFO] Finished at: 2017-12-03T00:51:06-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:51:06 MST 2017

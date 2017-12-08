@@ -1,0 +1,33 @@
+Wed Nov 29 14:59:11 MST 2017
+Ontology download URL: http://purl.obolibrary.org/obo/fbcv/dpo.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   364  100   364    0     0   1962      0 --:--:-- --:--:-- --:--:--  1967
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 11 1590k   11  175k    0     0   111k      0  0:00:14  0:00:01  0:00:13  570k 84 1590k   84 1343k    0     0   522k      0  0:00:03  0:00:02  0:00:01 1028k100 1590k  100 1590k    0     0   582k      0  0:00:02  0:00:02 --:--:-- 1084k
+Wed Nov 29 14:59:14 MST 2017
+
+Wed Nov 29 14:59:15 MST 2017
+Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/fbcv_dpo/fbcv_dpo.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-11-29 14:59:23,106 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fbcv_dpo/fbcv_dpo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fbcv_dpo/fbcv_dpo.owl
+[INFO] 2017-11-29 14:59:27,893 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dpo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fbcv_dpo/fbcv_dpo.owl
+[INFO] 2017-11-29 14:59:27,908 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/dpo.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.484 s
+[INFO] Finished at: 2017-11-29T14:59:28-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Wed Nov 29 14:59:29 MST 2017
+
+Download validation successful. Triple count = 21863

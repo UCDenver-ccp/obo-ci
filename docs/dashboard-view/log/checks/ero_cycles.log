@@ -1,0 +1,28 @@
+Sun Dec  3 00:50:24 MST 2017
+Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ero/ero_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
+[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
+[INFO] 2017-12-03 00:50:29,585 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ero/ero_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ero/ero_flat.owl
+[INFO] 2017-12-03 00:50:32,760 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ero.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ero/ero_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: ObjectSomeValuesFrom(ERO:0001056 'organism_generated_from_construct' ERO:0000593 'lentiviral plasmid') ERO:0000593 'lentiviral plasmid' ObjectSomeValuesFrom(ERO:0001055 'used_to_generate_organism' ERO:0001192 'transgenic lentivirus') ERO:0001192 'transgenic lentivirus'
+[INFO] Cycle: ObjectSomeValuesFrom(ERO:0001056 'organism_generated_from_construct' ERO:0000594 'adenoviral plasmid') ERO:0000594 'adenoviral plasmid' ObjectSomeValuesFrom(ERO:0001055 'used_to_generate_organism' ERO:0001191 'transgenic adenovirus') ERO:0001191 'transgenic adenovirus'
+[INFO] Cycle: ERO:0000592 'retroviral plasmid' ObjectSomeValuesFrom(ERO:0001055 'used_to_generate_organism' ERO:0001190 'transgenic retrovirus ') ObjectSomeValuesFrom(ERO:0001056 'organism_generated_from_construct' ERO:0000592 'retroviral plasmid') ERO:0001190 'transgenic retrovirus '
+[INFO] Cycle: ERO:0000591 'baculoviral plasmid' ObjectSomeValuesFrom(ERO:0001056 'organism_generated_from_construct' ERO:0000591 'baculoviral plasmid') ObjectSomeValuesFrom(ERO:0001055 'used_to_generate_organism' ERO:0001189 'transgenic baculovirus') ERO:0001189 'transgenic baculovirus'
+[INFO] Cycle: ObjectSomeValuesFrom(ERO:0001055 'used_to_generate_organism' ERO:0001193 'transgenic adeno-associated virus') ERO:0000620 'adeno-associated viral plasmid' ObjectSomeValuesFrom(ERO:0001056 'organism_generated_from_construct' ERO:0000620 'adeno-associated viral plasmid') ERO:0001193 'transgenic adeno-associated virus'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.650 s
+[INFO] Finished at: 2017-12-03T00:50:34-07:00
+[INFO] Final Memory: 21M/1963M
+[INFO] ------------------------------------------------------------------------
+Sun Dec  3 00:50:34 MST 2017
