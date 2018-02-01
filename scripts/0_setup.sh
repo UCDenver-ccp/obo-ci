@@ -1,8 +1,11 @@
 #!/bin/bash -e
 
-# Download and preprocess all ontologies in the OBOFoundry.org catalog
 #
-# NOTE: input arguments must be absolute paths
+# This script creates and subsequently runs the setup script. The setup script does the following:
+#   * download the list of available Open Biomedical Ontologies
+#   * install the OWLTools library
+#   * cleans the download directory and creates other directories as needed.
+#
 
 function print_usage {
     echo "Usage:"
@@ -80,9 +83,6 @@ esac
 
 ### define directories that will be used in the scripts
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
-
-# This script first downloads all of the OBOs and creates a flattened (all imports included) version of each
-# owl file. It then creates a md5 hash of that flattened owl file and uses the hash to determine if
 
 mkdir -p ${SCRIPT_DIRECTORY}
 SCRIPT_FILE="${SCRIPT_DIRECTORY}/setup.sh"

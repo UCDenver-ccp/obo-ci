@@ -1,8 +1,10 @@
 #!/bin/bash -e
 
-# Download and preprocess all ontologies in the OBOFoundry.org catalog
 #
-# NOTE: input arguments must be absolute paths
+# This script creates a script that will download the list of available Open Biomedical Ontologies
+# and install the OWLTools library. The generated script also cleans the download directory and creates
+# other directories as needed.
+#
 
 function print_usage {
     echo "Usage:"
@@ -90,8 +92,8 @@ esac
 ### add the header to the script file if one has been specified
 . ${CODE_BASE_DIRECTORY}/scripts/util/handle_header.bash
 
-printf "\n###\n### This script will download the Open Biomedical Ontologies, validate the downloads as RDF, and process all imports for each ontology.\n###\n" >> ${SCRIPT_FILE}
-printf "\n### clean the download directory and create other directories as needed" >> ${SCRIPT_FILE}
+printf "\n###\n### This script will download the list of available Open Biomedical Ontologies and install the OWLTools library.\n###\n" >> ${SCRIPT_FILE}
+printf "\n### It also cleans the download directory and creates other directories as needed." >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nrm -Rf ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
@@ -101,15 +103,16 @@ printf "\nmkdir -p ${LOG_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY_PAIRS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${LOG_DIRECTORY_CHECKS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${LOG_DIRECTORY_CHECKS_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_CLASSIFY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${SCRIPT_DIRECTORY_CHECKS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${SCRIPT_DIRECTORY_CHECKS_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
-printf "\n\n### This script first downloads all of the OBOs and creates a flattened (all imports included)" >> ${SCRIPT_FILE}
-printf "\n### version of each owl file. It then creates a md5 hash of that flattened owl file and uses the" >> ${SCRIPT_FILE}
-printf "\n### hash to determine if the file is new and thus needs further processing.\n" >> ${SCRIPT_FILE}
 printf "\n### generate a list of all available ontologies in the OBOFoundry.org catalog" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/create-ontology-list-file.sh -l ${ONTOLOGY_LIST_FILE} -j ${JQ}" >> ${SCRIPT_FILE}
 printf "\n\n### download and install the most recent SNAPSHOT of the OWLTools-Runtime library" >> ${SCRIPT_FILE}
