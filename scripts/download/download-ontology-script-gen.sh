@@ -105,9 +105,13 @@ HEADER_JOB_NAME="${HEADER_JOB_NAME}_${ONT_ID}"
 
 printf "\n###\n### This script will download the Open Biomedical Ontologies, validate the downloads as RDF, and process all imports for each ontology.\n###\n" >> ${SCRIPT_FILE}
 printf "\n### clean the download directory and create other directories as needed" >> ${SCRIPT_FILE}
+printf "\n\n# Reset BASH time counter" >> ${SCRIPT_FILE}
+printf "\nSECONDS=0" >> ${SCRIPT_FILE}
 printf "\n\n### download each ontology" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/download-ontology.sh -i ${ONT_ID} -u ${ONT_URL} -d ${DOWNLOAD_DIRECTORY} -s ${STATUS_DIRECTORY_INDIVIDUAL} -m ${MAVEN} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
 printf "\n\n### for each ontology, download all owl:imports and consolidate (flatten) into a single OWL file per ontology" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/flatten-ontology.sh  -i ${ONT_ID} -d ${DOWNLOAD_DIRECTORY} -m ${MAVEN} -s ${STATUS_DIRECTORY_INDIVIDUAL} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
 printf "\n\n### for each flattened ontology file, generate the md5 message digest" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/checksum-gen-ontology.sh -i ${ONT_ID} -s ${STATUS_DIRECTORY_INDIVIDUAL} -d ${DOWNLOAD_DIRECTORY} -c ${CHECKSUM_BIN}" >> ${SCRIPT_FILE}
+printf "\n\n### output run time in seconds" >> ${SCRIPT_FILE}
+printf "\nprintf \"Script runtime in seconds: ${SECONDS}\"" >> ${SCRIPT_FILE}
