@@ -114,4 +114,4 @@ printf "\n${CODE_BASE_DIRECTORY}/scripts/download/flatten-ontology.sh  -i ${ONT_
 printf "\n\n### for each flattened ontology file, generate the md5 message digest" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/checksum-gen-ontology.sh -i ${ONT_ID} -s ${STATUS_DIRECTORY_INDIVIDUAL} -d ${DOWNLOAD_DIRECTORY} -c ${CHECKSUM_BIN}" >> ${SCRIPT_FILE}
 printf "\n\n### output run time in seconds" >> ${SCRIPT_FILE}
-printf "\nprintf \"Script runtime in seconds: ${SECONDS}\"" >> ${SCRIPT_FILE}
+printf "\n\nprintf \"Script runtime in seconds: \${SECONDS}\"" >> ${SCRIPT_FILE}
