@@ -75,6 +75,9 @@ ont_file="${dir}/${ONT_ID}.owl"
 flat_ont_file="${dir}/${ONT_ID}_flat.owl"
 LOG_FILE="${LOG_DIRECTORY}/${ONT_ID}_flat.log"
 
+# clean the log file
+> ${LOG_FILE}
+
 cp ${CODE_BASE_DIRECTORY}/scripts/template.json ${STATUS_DIR}/${ONT_ID}_flat.json
 sed -i 's/\"id\": null,/\"id\": \"'"${ONT_ID}"'\",/' "${STATUS_DIR}/${ONT_ID}_flat.json"
 
