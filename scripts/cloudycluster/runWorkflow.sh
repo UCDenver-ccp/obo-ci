@@ -21,12 +21,6 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 # Change directory to the Shared Filesystem specified before
 cd $SHARED_FS
 
-# Since this is the next step in the workflow that starts the submission the
-# large number of jobs, we will submit another CCQ job here that automatically
-# scales up the number of running instances to the appropriate amount
-# We may move this up to the first step so that the instances are being created
-# while the setup scripts are running to minimize wait time?
-ccqsub -js scripts/cloudycluster/createInstancesForWorkflow.sh
 
 # Check if the repo already exists, if it does pull and get the latest updates.
 # If not then clone the repo to the shared filesystem
@@ -37,6 +31,13 @@ else
   git clone https://github.com/UCDenver-ccp/obo-ci.git ${CODE_BASE_DIRECTORY}
   cd ${CODE_BASE_DIRECTORY}
 fi
+
+# Since this is the next step in the workflow that starts the submission the
+# large number of jobs, we will submit another CCQ job here that automatically
+# scales up the number of running instances to the appropriate amount
+# We may move this up to the first step so that the instances are being created
+# while the setup scripts are running to minimize wait time?
+ccqsub -js scripts/cloudycluster/createInstancesForWorkflow.sh
 
 # Run the setup script
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
@@ -59,7 +60,7 @@ fi
                                    -a ${CODE_BASE_DIRECTORY}/scripts/cloudycluster/headers/download.header.slurm \
                                    -n obo-download \
                                    -y ${SHARED_FS}/job-logs \
-                                   -k sbatchs
+                                   -k sbatch
 
 sleep 5000
 ## Run the second part of the workflow (I don't think this submits jobs?)
