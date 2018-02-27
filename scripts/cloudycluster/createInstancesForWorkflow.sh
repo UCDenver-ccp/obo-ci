@@ -15,7 +15,7 @@
 
 # Specify that this job is a placeholder job that will only create instances and
 # allow them to run for the specified timelimit. In this case 1 hour.
-#CC -si
+#CC -si yes
 #CC -cp
 #CC -tl 0:1:0
 

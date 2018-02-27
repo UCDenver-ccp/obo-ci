@@ -62,6 +62,9 @@ ccqsub -js scripts/cloudycluster/createInstancesForWorkflow.sh
                                    -y ${SHARED_FS}/job-logs \
                                    -k sbatch
 
+## TODO: wait script
+## TODO: spin up classify instances
+
 sleep 5000
 ## Run the second part of the workflow (I don't think this submits jobs?)
 ## ~~~ANSWER~~~: correct, this one does not submit jobs
@@ -98,6 +101,10 @@ sleep 5000
 ## Monitor the queue to determine when the jobs have completed
 ## TODO put monitoring code here may utilize ccautomaton
 ## custom workflow implementation here
+
+## TODO: wait script
+## TODO: spin up classify-pairs instances
+
 #
 #
 #### Question: can we also restart the 1 hour clock at this point?
@@ -117,6 +124,11 @@ sleep 5000
 ## TODO put monitoring code here may utilize ccautomaton
 ## custom workflow implementation here
 #
+
+## TODO: wait script
+## TODO: spin up cycle detection instances
+
+
 #### Question: can we also restart the 1 hour clock at this point?
 #
 ## After all the jobs finish run the 5th part of the workflow
@@ -134,6 +146,11 @@ sleep 5000
 ## TODO put monitoring code here may utilize ccautomaton
 ## custom workflow implementation here
 #
+
+## TODO: wait script
+## TODO: spin up cycle-detection pairs instances
+
+
 #### Question: can we also restart the 1 hour clock at this point?
 #
 ## After all the jobs finish run the 6th part of the workflow
@@ -145,6 +162,8 @@ sleep 5000
 #                                     -n obo-classify \
 #                                     -y ${SHARED_FS}/job-logs \
 #                                     -k sbatch
+
+## TODO: wait script
 
 
 aws s3 sync ${SHARED_FS}/obo-ci-data/status ${S3_PATH}/
