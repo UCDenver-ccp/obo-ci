@@ -11,7 +11,7 @@
 
 # Set the path to the shared filesystem where the data will be stored and persisted across runs
 export SHARED_FS=/mnt/efsdata
-export WORK_DIRECTORY=${SHARED_FS}/obo-ci_data
+export WORK_DIRECTORY=${SHARED_FS}/obo-ci-data
 export CODE_BASE_DIRECTORY=${SHARED_FS}/obo-ci.git
 export JOB_LOGS_DIRECTORY=${SHARED_FS}/job-logs
 export S3_PATH=s3://cc.obo-ci
