@@ -14,6 +14,7 @@ export SHARED_FS=/mnt/efsdata
 export WORK_DIRECTORY=${SHARED_FS}/obo-ci_data
 export CODE_BASE_DIRECTORY=${SHARED_FS}/obo-ci.git
 export JOB_LOGS_DIRECTORY=${SHARED_FS}/job-logs
+export S3_PATH=s3://cc.obo-ci
 
 mkdir -p ${JOB_LOGS_DIRECTORY}
 
@@ -25,16 +26,16 @@ cd $SHARED_FS
 # scales up the number of running instances to the appropriate amount
 # We may move this up to the first step so that the instances are being created
 # while the setup scripts are running to minimize wait time?
-ccqsub -js createInstancesForWorkflow.sh
+ccqsub -js scripts/cloudycluster/createInstancesForWorkflow.sh
 
 # Check if the repo already exists, if it does pull and get the latest updates.
 # If not then clone the repo to the shared filesystem
 if [ -d ${CODE_BASE_DIRECTORY} ]; then
   cd ${CODE_BASE_DIRECTORY}
   git pull https://github.com/UCDenver-ccp/obo-ci.git
-  cd scripts
 else
   git clone https://github.com/UCDenver-ccp/obo-ci.git ${CODE_BASE_DIRECTORY}
+  cd ${CODE_BASE_DIRECTORY}
 fi
 
 # Run the setup script
@@ -60,6 +61,7 @@ fi
                                    -y ${SHARED_FS}/job-logs \
                                    -k sbatchs
 
+sleep 5000
 ## Run the second part of the workflow (I don't think this submits jobs?)
 ## ~~~ANSWER~~~: correct, this one does not submit jobs
 #./scripts/2_modified_ontology_list_gen.sh -d ${WORK_DIRECTORY} \
@@ -142,3 +144,6 @@ fi
 #                                     -n obo-classify \
 #                                     -y ${SHARED_FS}/job-logs \
 #                                     -k sbatch
+
+
+aws s3 sync ${SHARED_FS}/obo-ci-data/status ${S3_PATH}/
