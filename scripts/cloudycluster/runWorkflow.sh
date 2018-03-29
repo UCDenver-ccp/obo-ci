@@ -19,33 +19,33 @@ export S3_PATH=s3://cc.obo-ci
 mkdir -p ${JOB_LOGS_DIRECTORY}
 
 # Change directory to the Shared Filesystem specified before
-cd $SHARED_FS
+cd ${SHARED_FS}
 
-
-# Check if the repo already exists, if it does pull and get the latest updates.
-# If not then clone the repo to the shared filesystem
-if [ -d ${CODE_BASE_DIRECTORY} ]; then
-  cd ${CODE_BASE_DIRECTORY}
-  git pull https://github.com/UCDenver-ccp/obo-ci.git
-else
-  git clone https://github.com/UCDenver-ccp/obo-ci.git ${CODE_BASE_DIRECTORY}
-  cd ${CODE_BASE_DIRECTORY}
-fi
+## Check if the repo already exists, if it does pull and get the latest updates.
+## If not then clone the repo to the shared filesystem
+#if [ -d ${CODE_BASE_DIRECTORY} ]; then
+#  cd ${CODE_BASE_DIRECTORY}
+#  git pull https://github.com/UCDenver-ccp/obo-ci.git
+#else
+#  git clone https://github.com/UCDenver-ccp/obo-ci.git ${CODE_BASE_DIRECTORY}
+#  cd ${CODE_BASE_DIRECTORY}
+#fi
 
 # Since this is the next step in the workflow that starts the submission the
 # large number of jobs, we will submit another CCQ job here that automatically
 # scales up the number of running instances to the appropriate amount
 # We may move this up to the first step so that the instances are being created
 # while the setup scripts are running to minimize wait time?
-ccqsub -js scripts/cloudycluster/createInstancesForWorkflow.sh
+INSTANCE_JOB_ID=$(ccqsub -js scripts/cloudycluster/createInstances_download.sh)
+echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
 
 # Run the setup script
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
 # ~~~ANSWER~~~: correct, 0_setup.sh can run either with or without the scheduler
-./scripts/0_setup.sh -d ${WORK_DIRECTORY} \
-             -m mvn \
-             -j jq \
-             -z ${CODE_BASE_DIRECTORY}
+#./scripts/0_setup.sh -d ${WORK_DIRECTORY} \
+#             -m mvn \
+#             -j jq \
+#             -z ${CODE_BASE_DIRECTORY}
 
 
 
@@ -53,16 +53,21 @@ ccqsub -js scripts/cloudycluster/createInstancesForWorkflow.sh
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
 # ~~~ANSWER~~~: This one does need the scheduler as it will kick off ~180 separate jobs (1 for each download process)
 #            So I've moved the createInstancesForWorkFlow.sh script to be just above this.
+JOB_NAME_DOWNLOAD="obo-download"
 ./scripts/1_download_ontologies.sh -d ${WORK_DIRECTORY} \
                                    -m mvn \
                                    -c md5sum \
                                    -z ${CODE_BASE_DIRECTORY} \
                                    -a ${CODE_BASE_DIRECTORY}/scripts/cloudycluster/headers/download.header.slurm \
-                                   -n obo-download \
+                                   -n ${JOB_NAME_DOWNLOAD} \
                                    -y ${SHARED_FS}/job-logs \
                                    -k sbatch
 
-## TODO: wait script
+WAIT_INTERVAL_IN_SEC=60
+python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill
+
+echo "Download phase complete. Download instances are shutting down."
+
 ## TODO: spin up classify instances
 
 sleep 5000
