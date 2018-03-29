@@ -25,14 +25,7 @@ def checkExperimentJobCompletion(jobPrefixString):
     else:
         return {"status": "success", "payload": False}
 
-def checkForCCQJobStatus(ccqsubJobSubmissionOutput):
-    # Get the job Id from the output from the ccqsub job submission command
-    ccqJobId = ""
-    try:
-        ccqJobId = str(ccqsubJobSubmissionOutput).split("job id is:")[1].split(" ")[0]
-    except Exception:
-        return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqsubJobSubmissionOutput)}
-    print "The CCQ Job Id is: " + str(ccqJobId)
+def checkForCCQJobStatus(ccqJobId):
 
     # Get the status of the job from CCQ
     status, output = commands.getstatusoutput("ccqstat -j " + str(ccqJobId))
@@ -79,19 +72,27 @@ def main():
     except Exception:
         jobUsername = ""
 
+    # Get the job Id from the output from the ccqsub job submission command
+    ccqJobId = ""
+    try:
+        ccqJobId = str(ccqJobSubmitOutput).split("job id is:")[1].split(" ")[0]
+    except Exception:
+        return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqJobSubmitOutput)}
+    print "The CCQ Job Id is: " + str(ccqJobId)
+
     print "======================================================================================="
     print "========== Compute instance shutdown will proceed when all jobs are complete =========="
     print "======================================================================================="
     print "=== Job name prefix: " + prefixString
     print "=== User: " + jobUsername
     print "=== Wait interval (s): " + str(timeToWait)
-    print "=== Instance job ID: " + ccqJobSubmitOutput
+    print "=== Instance job ID: " + ccqJobId
     print "======================================================================================="
 
     done = False
     while not done:
         # Check and make sure that the CCQ job has not entered the Completed or Error state
-        response = checkForCCQJobStatus(ccqJobSubmitOutput)
+        response = checkForCCQJobStatus(ccqJobId)
         print "CCQ status: " + str(response['status'])
         if str(response['status']) == "error":
             print "There was an error when checking the CCQ Job State."
