@@ -19,7 +19,7 @@ export S3_PATH=s3://cc.obo-ci
 mkdir -p ${JOB_LOGS_DIRECTORY}
 
 # Change directory to the Shared Filesystem specified before
-cd ${SHARED_FS}
+#cd ${SHARED_FS}
 
 ## Check if the repo already exists, if it does pull and get the latest updates.
 ## If not then clone the repo to the shared filesystem
