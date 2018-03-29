@@ -84,7 +84,7 @@ def main():
     print "======================================================================================="
     print "=== Job name prefix: " + prefixString
     print "=== User: " + jobUsername
-    print "=== Wait interval (s): " + timeToWait
+    print "=== Wait interval (s): " + str(timeToWait)
     print "=== Instance job ID: " + ccqJobSubmitOutput
     print "======================================================================================="
 
