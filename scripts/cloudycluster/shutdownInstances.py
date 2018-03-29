@@ -102,6 +102,7 @@ def main():
                 print "All jobs have completed (or errored). Shutting down compute instances..."
                 # The CCQ job is no longer running so we should cancel all of the jobs and then exit
                 status, output = commands.getstatusoutput("scancel -u " + str(jobUsername))
+                break
 
         # Wait the specified amount of time before checking the number of jobs running
         time.sleep(timeToWait)
