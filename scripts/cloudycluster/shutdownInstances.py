@@ -31,7 +31,7 @@ def checkForCCQJobStatus(ccqsubJobSubmissionOutput):
     try:
         ccqJobId = str(ccqsubJobSubmissionOutput).split("job id is:")[1].split(" ")[0]
     except Exception:
-        return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(output)}
+        return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqsubJobSubmissionOutput)}
     print "The CCQ Job Id is: " + str(ccqJobId)
 
     # Get the status of the job from CCQ
