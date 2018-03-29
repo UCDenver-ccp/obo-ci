@@ -78,7 +78,6 @@ def main():
         ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
     except Exception:
         return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqJobSubmitOutput)}
-    print "The CCQ Job Id is: " + str(ccqJobId)
 
     print "======================================================================================="
     print "========== Compute instance shutdown will proceed when all jobs are complete =========="
@@ -103,7 +102,6 @@ def main():
                 print "All jobs have completed (or errored). Shutting down compute instances..."
                 # The CCQ job is no longer running so we should cancel all of the jobs and then exit
                 status, output = commands.getstatusoutput("scancel -u " + str(jobUsername))
-                sys.exit(0)
 
         # Wait the specified amount of time before checking the number of jobs running
         time.sleep(timeToWait)
@@ -113,8 +111,8 @@ def main():
         # Set the variable done to the return of the checkExperimentJobCompletion function
         done = results['payload']
 
-    print "There are no more jobs meeting the criteria still in the queue."
+    print "There are no more jobs in the queue. Shutting down all compute instances."
+    status, output = commands.getstatusoutput("ccqdel -j " + ccqJobId)
     sys.exit(0)
-
 
 main()
