@@ -79,6 +79,15 @@ def main():
     except Exception:
         jobUsername = ""
 
+    print "======================================================================================="
+    print "========== Compute instance shutdown will proceed when all jobs are complete =========="
+    print "======================================================================================="
+    print "=== Job name prefix: " + prefixString
+    print "=== User: " + jobUsername
+    print "=== Wait interval (s): " + timeToWait
+    print "=== Instance job ID: " + ccqJobSubmitOutput
+    print "======================================================================================="
+
     done = False
     while not done:
         # Check and make sure that the CCQ job has not entered the Completed or Error state
