@@ -23,5 +23,5 @@ if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
     esac
     pattern="[/]"
     escaped_job_log_directory="${HEADER_JOB_LOG_DIRECTORY//$pattern/\/}"
-    sed -i 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/' ${SCRIPT_FILE}
+    sed -i 's/JOB_LOG_DIRECTORY/'${escaped_job_log_directory}'/g' ${SCRIPT_FILE}
 fi

@@ -60,6 +60,7 @@ JOB_NAME_DOWNLOAD="obo-download"
                                    -z ${CODE_BASE_DIRECTORY} \
                                    -a ${CODE_BASE_DIRECTORY}/scripts/cloudycluster/headers/download.header.slurm \
                                    -n ${JOB_NAME_DOWNLOAD} \
+                                   -e MY_EMAIL \
                                    -y ${SHARED_FS}/job-logs \
                                    -k sbatch
 
@@ -70,7 +71,7 @@ echo "Download phase complete. Download instances are shutting down."
 
 ## TODO: spin up classify instances
 
-sleep 5000
+#sleep 5000
 ## Run the second part of the workflow (I don't think this submits jobs?)
 ## ~~~ANSWER~~~: correct, this one does not submit jobs
 #./scripts/2_modified_ontology_list_gen.sh -d ${WORK_DIRECTORY} \
