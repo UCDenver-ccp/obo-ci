@@ -75,7 +75,7 @@ def main():
     # Get the job Id from the output from the ccqsub job submission command
     ccqJobId = ""
     try:
-        ccqJobId = str(ccqJobSubmitOutput).split("job id is:")[1].split(" ")[0]
+        ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
     except Exception:
         return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqJobSubmitOutput)}
     print "The CCQ Job Id is: " + str(ccqJobId)
