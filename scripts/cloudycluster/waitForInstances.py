@@ -19,7 +19,7 @@ def main():
         # call sinfo; if the job scheduler is ready, then sinfo will not return an error
         status, output = commands.getstatusoutput("sinfo")
         first_line = output.split("\n")[0]
-        if "sinfo: error: Parse error in file /opt/slurm/etc/slurm.conf" not in first_line:
+        if "sinfo: error:" not in first_line:
             done = True
 
         # Wait the specified amount of time before checking sinfo again
