@@ -48,6 +48,8 @@ echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
 #             -z ${CODE_BASE_DIRECTORY}
 
 
+# Wait for the compute instances to come online
+python scripts/cloudycluster/waitForInstances.py
 
 # Run the download_ontologies script
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
