@@ -90,6 +90,7 @@ def main():
 
     done = False
     while not done:
+        print "Checking " + prefixString + " job status..."
         # Check and make sure that the CCQ job has not entered the Completed or Error state
         response = checkForCCQJobStatus(ccqJobId)
         print "CCQ status: " + str(response['status'])
@@ -99,7 +100,7 @@ def main():
         else:
             ccqJobStatus = str(response['jobStatus'])
             if ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
-                print "All jobs have completed (or errored). Shutting down compute instances..."
+                print "All jobs have completed (or errored). Canceling remaining jobs..."
                 # The CCQ job is no longer running so we should cancel all of the jobs and then exit
                 status, output = commands.getstatusoutput("scancel -u " + str(jobUsername))
                 break
@@ -114,6 +115,7 @@ def main():
 
     print "There are no more jobs in the queue. Shutting down all compute instances."
     status, output = commands.getstatusoutput("ccqdel -j " + ccqJobId)
+    print "ccqdel response: " + output
     sys.exit(0)
 
 main()

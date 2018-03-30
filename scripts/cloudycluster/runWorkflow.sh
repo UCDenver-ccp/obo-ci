@@ -70,8 +70,8 @@ mkdir -p ${SLURM_LOG_DIRECTORY}
 
 WAIT_INTERVAL_IN_SEC=60
 python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill
+echo "Download phase complete."
 
-echo "Download phase complete. Download instances are shutting down."
 
 ## TODO: spin up classify instances
 
@@ -176,4 +176,4 @@ echo "Download phase complete. Download instances are shutting down."
 ## TODO: wait script
 
 
-aws s3 sync ${SHARED_FS}/obo-ci-data/status ${S3_PATH}/
+#aws s3 sync ${SHARED_FS}/obo-ci-data/status ${S3_PATH}/
