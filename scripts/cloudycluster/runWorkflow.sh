@@ -56,6 +56,8 @@ python scripts/cloudycluster/waitForInstances.py
 # ~~~ANSWER~~~: This one does need the scheduler as it will kick off ~180 separate jobs (1 for each download process)
 #            So I've moved the createInstancesForWorkFlow.sh script to be just above this.
 JOB_NAME_DOWNLOAD="obo-download"
+SLURM_LOG_DIRECTORY=${JOB_LOGS_DIRECTORY}/download
+mkdir -p ${SLURM_LOG_DIRECTORY}
 ./scripts/1_download_ontologies.sh -d ${WORK_DIRECTORY} \
                                    -m mvn \
                                    -c md5sum \
@@ -63,7 +65,7 @@ JOB_NAME_DOWNLOAD="obo-download"
                                    -a ${CODE_BASE_DIRECTORY}/scripts/cloudycluster/headers/download.header.slurm \
                                    -n ${JOB_NAME_DOWNLOAD} \
                                    -e MY_EMAIL \
-                                   -y ${SHARED_FS}/job-logs \
+                                   -y ${SLURM_LOG_DIRECTORY} \
                                    -k sbatch
 
 WAIT_INTERVAL_IN_SEC=60
