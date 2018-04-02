@@ -121,7 +121,7 @@ def main():
             # Wait the specified amount of time before checking the number of jobs running
             time.sleep(timeToWait)
             # Call the function to check if the jobs have completed
-            results = checkExperimentJobCompletion(prefixString)
+            results = checkExperimentJobCompletion(prefixString, logFile)
 
             # Set the variable done to the return of the checkExperimentJobCompletion function
             done = results['payload']
