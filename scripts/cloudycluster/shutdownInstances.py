@@ -2,7 +2,11 @@ import commands
 import sys
 import time
 
-def checkExperimentJobCompletion(jobPrefixString):
+def logMessage(msg, file):
+    print msg
+    file.write(msg)
+
+def checkExperimentJobCompletion(jobPrefixString, logFile):
     # Get the output from the squeue command that will show all the jobs that are currently running or waiting to run in the system
     status, output = commands.getstatusoutput("squeue")
     stillRunning = 0
@@ -15,9 +19,9 @@ def checkExperimentJobCompletion(jobPrefixString):
             stillRunning += 1
     
     if stillRunning == 1:
-        print "There is " + str(stillRunning) + " job still running."
+        logMessage("There is " + str(stillRunning) + " job still running.", logFile)
     else:
-        print "There are " + str(stillRunning) + " job(s) still running."
+        logMessage("There are " + str(stillRunning) + " job(s) still running.", logFile)
 
     # Return True if jobs are still running and False if they are not
     if stillRunning == 0:
@@ -72,6 +76,12 @@ def main():
     except Exception:
         jobUsername = ""
 
+
+    try:
+        logFilePath = sys.argv[5]
+    except Exception:
+        return {"status": "error"}
+
     # Get the job Id from the output from the ccqsub job submission command
     ccqJobId = ""
     try:
@@ -79,43 +89,46 @@ def main():
     except Exception:
         return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqJobSubmitOutput)}
 
-    print "======================================================================================="
-    print "========== Compute instance shutdown will proceed when all jobs are complete =========="
-    print "======================================================================================="
-    print "=== Job name prefix: " + prefixString
-    print "=== User: " + jobUsername
-    print "=== Wait interval (s): " + str(timeToWait)
-    print "=== Instance job ID: " + ccqJobId
-    print "======================================================================================="
 
-    done = False
-    while not done:
-        print "Checking " + prefixString + " job status..."
-        # Check and make sure that the CCQ job has not entered the Completed or Error state
-        response = checkForCCQJobStatus(ccqJobId)
-        print "CCQ status: " + str(response['status'])
-        if str(response['status']) == "error":
-            print "There was an error when checking the CCQ Job State."
-            print str(response['jobStatus'])
-        else:
-            ccqJobStatus = str(response['jobStatus'])
-            if ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
-                print "All jobs have completed (or errored). Canceling remaining jobs..."
-                # The CCQ job is no longer running so we should cancel all of the jobs and then exit
-                status, output = commands.getstatusoutput("scancel -u " + str(jobUsername))
-                break
+    with open(logFilePath, "a") as logFile:
 
-        # Wait the specified amount of time before checking the number of jobs running
-        time.sleep(timeToWait)
-        # Call the function to check if the jobs have completed
-        results = checkExperimentJobCompletion(prefixString)
+        logMessage("=======================================================================================", logFile)
+        logMessage("========== Compute instance shutdown will proceed when all jobs are complete ==========", logFile)
+        logMessage("=======================================================================================", logFile)
+        logMessage("=== Job name prefix: " + prefixString, logFile)
+        logMessage("=== User: " + jobUsername, logFile)
+        logMessage("=== Wait interval (s): " + str(timeToWait), logFile)
+        logMessage("=== Instance job ID: " + ccqJobId, logFile)
+        logMessage("=======================================================================================", logFile)
 
-        # Set the variable done to the return of the checkExperimentJobCompletion function
-        done = results['payload']
+        done = False
+        while not done:
+            logMessage( "Checking " + prefixString + " job status...", logFile)
+            # Check and make sure that the CCQ job has not entered the Completed or Error state
+            response = checkForCCQJobStatus(ccqJobId)
+            logMessage( "CCQ status: " + str(response['status']), logFile)
+            if str(response['status']) == "error":
+                logMessage("There was an error when checking the CCQ Job State.", logFile)
+                logMessage(str(response['jobStatus']), logFile)
+            else:
+                ccqJobStatus = str(response['jobStatus'])
+                if ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
+                    logMessage("All jobs have completed (or errored). Canceling remaining jobs...", logFile)
+                    # The CCQ job is no longer running so we should cancel all of the jobs and then exit
+                    status, output = commands.getstatusoutput("scancel -u " + str(jobUsername))
+                    break
 
-    print "There are no more jobs in the queue. Shutting down all compute instances."
-    status, output = commands.getstatusoutput("ccqdel -j " + ccqJobId)
-    print "ccqdel response: " + output
-    sys.exit(0)
+            # Wait the specified amount of time before checking the number of jobs running
+            time.sleep(timeToWait)
+            # Call the function to check if the jobs have completed
+            results = checkExperimentJobCompletion(prefixString)
+
+            # Set the variable done to the return of the checkExperimentJobCompletion function
+            done = results['payload']
+
+        logMessage("There are no more jobs in the queue. Shutting down all compute instances.", logFile)
+        status, output = commands.getstatusoutput("ccqdel -j " + ccqJobId)
+        logMessage("ccqdel response: " + output, logFile)
+        sys.exit(0)
 
 main()

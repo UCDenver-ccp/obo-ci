@@ -15,8 +15,12 @@ export WORK_DIRECTORY=${SHARED_FS}/obo-ci-data
 export CODE_BASE_DIRECTORY=${SHARED_FS}/obo-ci.git
 export JOB_LOGS_DIRECTORY=${SHARED_FS}/job-logs
 export S3_PATH=s3://cc.obo-ci
+export LOG_FILE=${JOB_LOGS_DIRECTORY}/workflow.log
 
 mkdir -p ${JOB_LOGS_DIRECTORY}
+
+# clean the log file
+> ${LOG_FILE}
 
 # Change directory to the Shared Filesystem specified before
 #cd ${SHARED_FS}
@@ -38,6 +42,7 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 # while the setup scripts are running to minimize wait time?
 INSTANCE_JOB_ID=$(ccqsub -js scripts/cloudycluster/createInstances_download.sh)
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
+echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}" >> ${LOG_FILE}
 
 # Run the setup script
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
@@ -47,9 +52,6 @@ echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
 #             -j jq \
 #             -z ${CODE_BASE_DIRECTORY}
 
-
-# Wait for the compute instances to come online
-python scripts/cloudycluster/waitForInstances.py
 
 # Run the download_ontologies script
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
@@ -68,8 +70,15 @@ mkdir -p ${SLURM_LOG_DIRECTORY}
                                    -y ${SLURM_LOG_DIRECTORY} \
                                    -k sbatch
 
+
+
+# ensure the instances came online before we try to shut them down
+echo "Download jobs have been submitted." >> ${LOG_FILE}
+python scripts/cloudycluster/waitForInstances.py ${INSTANCE_JOB_ID} ${LOG_FILE}
+
+echo "Compute instances are up. Waiting for downloads to complete before shutting them down." >> ${LOG_FILE}
 WAIT_INTERVAL_IN_SEC=60
-python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill
+python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill ${LOG_FILE}
 echo "Download phase complete."
 
 
