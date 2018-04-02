@@ -47,14 +47,14 @@ def main():
             "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format.\n" + str(ccqJobSubmitOutput)}
 
     with open(logFilePath, "a") as logFile:
-        logMessage("========================================================================", logFile)
-        logMessage("========== Waiting for SLURM compute instances to come online ==========", logFile)
-        logMessage("========================================================================", logFile)
+        logMessage("========================================================================\n", logFile)
+        logMessage("========== Waiting for SLURM compute instances to come online ==========\n", logFile)
+        logMessage("========================================================================\n", logFile)
 
 
         done = False
         while not done:
-            logMessage("Checking to see if compute instances are online for job " + ccqJobId + "...", logFile)
+            logMessage("Checking to see if compute instances are online for job " + ccqJobId + "...\n", logFile)
 
             # Wait the specified amount of time before checking sinfo again
             time.sleep(wait_interval)
@@ -62,13 +62,13 @@ def main():
             response = getCCQJobStatus(ccqJobId)
             logMessage("CCQ status: " + str(response['status']), logFile)
             if str(response['status']) == "error":
-                logMessage("There was an error when checking the CCQ Job State. Wait-for-instance check complete.", logFile)
-                logMessage(str(response['jobStatus']), logFile)
+                logMessage("There was an error when checking the CCQ Job State. Wait-for-instance check complete.\n", logFile)
+                logMessage(str(response['jobStatus'] + "\n"), logFile)
                 done = True
             else:
                 ccqJobStatus = str(response['jobStatus'])
                 if ccqJobStatus == "CCQueued" or ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
-                    logMessage("The compute instances appear to be up and running. Wait-for-instance check complete.", logFile)
+                    logMessage("The compute instances appear to be up and running. Wait-for-instance check complete.\n", logFile)
                     done = True
 
     sys.exit(0)
