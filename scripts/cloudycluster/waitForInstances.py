@@ -28,7 +28,7 @@ def getCCQJobStatus(ccqJobId):
 
 
 def main():
-    wait_interval = 60
+    wait_interval = 10
 
     try:
         ccqJobSubmitOutput = sys.argv[1]
