@@ -86,8 +86,11 @@ echo "Download phase complete." >> ${LOG_FILE}
 
 
 ## TODO: spin up classify instances
+echo "Sleeping for 20 minutes." >> ${LOG_FILE}
+date >> ${LOG_FILE}
+sleep 1200
 
-#sleep 5000
+
 ## Run the second part of the workflow (I don't think this submits jobs?)
 ## ~~~ANSWER~~~: correct, this one does not submit jobs
 #./scripts/2_modified_ontology_list_gen.sh -d ${WORK_DIRECTORY} \
