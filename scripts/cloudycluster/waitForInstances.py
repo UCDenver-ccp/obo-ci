@@ -54,7 +54,7 @@ def main():
 
         done = False
         while not done:
-            logMessage("Checking to see if compute instances are online for job " + prefixString + "...", logFile)
+            logMessage("Checking to see if compute instances are online for job " + ccqJobId + "...", logFile)
 
             # Wait the specified amount of time before checking sinfo again
             time.sleep(wait_interval)
