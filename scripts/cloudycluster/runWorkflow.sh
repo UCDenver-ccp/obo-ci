@@ -74,12 +74,15 @@ mkdir -p ${SLURM_LOG_DIRECTORY}
 
 # ensure the instances came online before we try to shut them down
 echo "Download jobs have been submitted." >> ${LOG_FILE}
+echo "Starting script to wait for compute instances to come online..." >> ${LOG_FILE}
 python scripts/cloudycluster/waitForInstances.py ${INSTANCE_JOB_ID} ${LOG_FILE}
+echo "Compute instances should now be online." >> ${LOG_FILE}
 
-echo "Compute instances are up. Waiting for downloads to complete before shutting them down." >> ${LOG_FILE}
+echo "Compute instances are up. Starting script to wait for downloads to complete before shutting them down." >> ${LOG_FILE}
 WAIT_INTERVAL_IN_SEC=60
 python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill ${LOG_FILE}
-echo "Download phase complete."
+echo "Compute instances should now be shutting down." >> ${LOG_FILE}
+echo "Download phase complete." >> ${LOG_FILE}
 
 
 ## TODO: spin up classify instances
