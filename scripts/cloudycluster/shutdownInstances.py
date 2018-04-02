@@ -90,7 +90,7 @@ def main():
         return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format." + str(ccqJobSubmitOutput)}
 
 
-    with open(logFilePath, "a") as logFile:
+    with open(logFilePath, "a", 0) as logFile:
 
         logMessage("=======================================================================================", logFile)
         logMessage("========== Compute instance shutdown will proceed when all jobs are complete ==========", logFile)
