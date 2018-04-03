@@ -39,6 +39,11 @@ echo "Calling NoArgs" >> ${LOG_FILE}
 python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py
 echo "NoArgs Done." >> ${LOG_FILE}
 
+echo "Calling NoArgs222" >> ${LOG_FILE}
+/mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.2.py
+echo "NoArgs Done.222" >> ${LOG_FILE}
+
+
 # Change directory to the Shared Filesystem specified before
 #cd ${SHARED_FS}
 
