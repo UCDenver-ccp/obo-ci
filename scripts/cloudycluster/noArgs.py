@@ -14,7 +14,7 @@ def logMessage(msg, file):
 def main():
 
     with open("/mnt/efsdata/job-logs/workflow.log", "a", 0) as logFile:
-        logMessage("------ WaitForInstances Arguments ------")
+        logMessage("------ WaitForInstances Arguments ------", logFile)
         logMessage("========================================================================", logFile)
         logMessage("========== NO ARGS!!!!!!! ==========", logFile)
         logMessage("========================================================================", logFile)
