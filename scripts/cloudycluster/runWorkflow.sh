@@ -22,6 +22,8 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 # clean the log file
 > ${LOG_FILE}
 
+python -V >> ${LOG_FILE}
+
 echo "Calling External" >> ${LOG_FILE}
 /mnt/efsdata/obo-ci.git/scripts/cloudycluster/external.sh
 echo "External Done." >> ${LOG_FILE}
@@ -31,6 +33,10 @@ echo "External Python Done." >> ${LOG_FILE}
 
 echo "Calling NoArgs" >> ${LOG_FILE}
 eval "/usr/bin/python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py"
+echo "NoArgs Done." >> ${LOG_FILE}
+
+echo "Calling NoArgs" >> ${LOG_FILE}
+python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py
 echo "NoArgs Done." >> ${LOG_FILE}
 
 # Change directory to the Shared Filesystem specified before
