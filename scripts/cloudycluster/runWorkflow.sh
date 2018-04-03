@@ -22,6 +22,11 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 # clean the log file
 > ${LOG_FILE}
 
+
+echo "Calling NoArgs" >> ${LOG_FILE}
+python scripts/cloudycluster/noArgs.py
+echo "NoArgs Done." >> ${LOG_FILE}
+
 # Change directory to the Shared Filesystem specified before
 #cd ${SHARED_FS}
 
