@@ -4,7 +4,7 @@
 # May not want to use Spot for this one to make sure it doesn't get killed?
 #CC -it r4.large
 #CC -sp 0.08
-#CC -tl 0:1:0
+#CC -tl 0:0:1
 #CC -ni 1
 
 #SBATCH -N 1
