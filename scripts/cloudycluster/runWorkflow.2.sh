@@ -17,6 +17,8 @@ export JOB_LOGS_DIRECTORY=${SHARED_FS}/job-logs
 export S3_PATH=s3://cc.obo-ci
 export LOG_FILE=${JOB_LOGS_DIRECTORY}/workflow.log
 
+touch ${JOB_LOGS_DIRECTORY}/workflow_2_ran.txt
+
 echo "PATH: "
 echo $PATH
 
