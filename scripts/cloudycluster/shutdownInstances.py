@@ -80,17 +80,25 @@ def main():
     try:
         logFilePath = sys.argv[5]
     except Exception:
-        return {"status": "error"}
+        logFilePath = ""
 
     # Get the job Id from the output from the ccqsub job submission command
     ccqJobId = ""
     try:
         ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
     except Exception:
-        return {"status": "error", "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format." + str(ccqJobSubmitOutput)}
+        ccqJobId = ""
 
 
     with open(logFilePath, "a", 0) as logFile:
+
+
+        logMessage("------ ShutdownInstances Arguments ------")
+        logMessage("Argument 1: " + prefixString, logFile)
+        logMessage("Argument 2: " + ccqJobSubmitOutput, logFile)
+        logMessage("Argument 3: " + jobUsername, logFile)
+        logMessage("Argument 4: " + logFilePath, logFile)
+        logMessage("ccqJobId: " + ccqJobId, logFile)
 
         logMessage("=======================================================================================", logFile)
         logMessage("========== Compute instance shutdown will proceed when all jobs are complete ==========", logFile)

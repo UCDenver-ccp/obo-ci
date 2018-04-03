@@ -30,6 +30,8 @@ def getCCQJobStatus(ccqJobId):
 def main():
     wait_interval = 10
 
+
+
     try:
         ccqJobSubmitOutput = sys.argv[1]
     except Exception:
@@ -38,15 +40,18 @@ def main():
     try:
         logFilePath = sys.argv[2]
     except Exception:
-        return {"status": "error"}
+        logFilePath = ""
 
     try:
         ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
     except Exception:
-        return {"status": "error",
-            "jobStatus": "The output passed into checkForCCQJobStatus was not in the appropriate format." + str(ccqJobSubmitOutput)}
+        ccqJobId = ""
 
     with open(logFilePath, "a", 0) as logFile:
+        logMessage("------ WaitForInstances Arguments ------")
+        logMessage("Argument 1: " + ccqJobSubmitOutput, logFile)
+        logMessage("Argument 2: " + logFilePath, logFile)
+        logMessage("ccqJobId: " + ccqJobId, logFile)
         logMessage("========================================================================", logFile)
         logMessage("========== Waiting for SLURM compute instances to come online ==========", logFile)
         logMessage("========================================================================", logFile)
