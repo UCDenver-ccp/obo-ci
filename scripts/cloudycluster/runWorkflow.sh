@@ -24,7 +24,7 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 
 
 echo "Calling NoArgs" >> ${LOG_FILE}
-/usr/bin/python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py
+/mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py
 echo "NoArgs Done." >> ${LOG_FILE}
 
 # Change directory to the Shared Filesystem specified before
