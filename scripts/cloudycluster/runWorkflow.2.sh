@@ -17,7 +17,7 @@ export JOB_LOGS_DIRECTORY=${SHARED_FS}/job-logs
 export S3_PATH=s3://cc.obo-ci
 export LOG_FILE=${JOB_LOGS_DIRECTORY}/workflow.log
 
-touch ${JOB_LOGS_DIRECTORY}/workflow_2_ran.txt
+touch ${JOB_LOGS_DIRECTORY}/workflow_begin.txt
 
 echo "PATH: "
 echo $PATH
@@ -27,4 +27,7 @@ python -V
 
 echo "JAVA VERSION: "
 java -version
+
+touch ${JOB_LOGS_DIRECTORY}/workflow_end.txt
+
 
