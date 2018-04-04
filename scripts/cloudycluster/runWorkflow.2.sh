@@ -6,6 +6,7 @@
 #CC -sp 0.08
 #CC -tl 0:1:0
 #CC -ni 1
+#CC -ti
 
 #SBATCH -N 1
 
