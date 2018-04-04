@@ -24,6 +24,8 @@ python -V
 echo "JAVA VERSION: "
 java -version
 
+python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/noArgs.py
+
 touch ${JOB_LOGS_DIRECTORY}/workflow_2_end.txt
 
 
