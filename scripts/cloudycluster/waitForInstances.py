@@ -72,10 +72,12 @@ def main():
                 done = True
             else:
                 ccqJobStatus = str(response['jobStatus'])
-                if ccqJobStatus == "CCQueued" or ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
-                    logMessage("The compute instances appear to be up and running. Wait-for-instance check complete.", logFile)
+                if ccqJobStatus == "CreatingCG" or ccqJobStatus == "CCQueued" or ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
+                    logMessage("The compute instances appear to be up and running. Wait-for-instance check complete. Waiting 5 minutes for good measure.", logFile)
                     done = True
+                    time.sleep(300)
 
+    logMessage("Exiting waitForInstances...", logFile)
     sys.exit(0)
 
     # done = False
