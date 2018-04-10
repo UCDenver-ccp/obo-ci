@@ -22,41 +22,6 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 # clean the log file
 > ${LOG_FILE}
 
-python -V >> ${LOG_FILE}
-
-echo "Calling External" >> ${LOG_FILE}
-/mnt/efsdata/obo-ci.git/scripts/cloudycluster/external.sh
-echo "External Done." >> ${LOG_FILE}
-echo "Calling External Python" >> ${LOG_FILE}
-/mnt/efsdata/obo-ci.git/scripts/cloudycluster/external-python.sh
-echo "External Python Done." >> ${LOG_FILE}
-
-echo "Calling NoArgs" >> ${LOG_FILE}
-eval "/usr/bin/python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py"
-echo "NoArgs Done." >> ${LOG_FILE}
-
-echo "Calling NoArgs" >> ${LOG_FILE}
-python /mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.py
-echo "NoArgs Done." >> ${LOG_FILE}
-
-echo "Calling NoArgs222" >> ${LOG_FILE}
-/mnt/efsdata/obo-ci.git/scripts/cloudycluster/scripts/cloudycluster/noArgs.2.py
-echo "NoArgs Done.222" >> ${LOG_FILE}
-
-
-# Change directory to the Shared Filesystem specified before
-#cd ${SHARED_FS}
-
-## Check if the repo already exists, if it does pull and get the latest updates.
-## If not then clone the repo to the shared filesystem
-#if [ -d ${CODE_BASE_DIRECTORY} ]; then
-#  cd ${CODE_BASE_DIRECTORY}
-#  git pull https://github.com/UCDenver-ccp/obo-ci.git
-#else
-#  git clone https://github.com/UCDenver-ccp/obo-ci.git ${CODE_BASE_DIRECTORY}
-#  cd ${CODE_BASE_DIRECTORY}
-#fi
-
 # Since this is the next step in the workflow that starts the submission the
 # large number of jobs, we will submit another CCQ job here that automatically
 # scales up the number of running instances to the appropriate amount
@@ -66,14 +31,11 @@ INSTANCE_JOB_ID=$(ccqsub -js scripts/cloudycluster/createInstances_download.sh)
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}" >> ${LOG_FILE}
 
-# Run the setup script
-# I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
-# ~~~ANSWER~~~: correct, 0_setup.sh can run either with or without the scheduler
+## Run the setup script
 #./scripts/0_setup.sh -d ${WORK_DIRECTORY} \
 #             -m mvn \
 #             -j jq \
 #             -z ${CODE_BASE_DIRECTORY}
-
 
 # Run the download_ontologies script
 # I think we said that this doesn't need to be submitted to the Scheduler but can be run just as a script?
@@ -97,22 +59,14 @@ mkdir -p ${SLURM_LOG_DIRECTORY}
 # ensure the instances came online before we try to shut them down
 echo "Download jobs have been submitted." >> ${LOG_FILE}
 echo "Starting script to wait for compute instances to come online..." >> ${LOG_FILE}
-a=$(python scripts/cloudycluster/waitForInstances.py ${INSTANCE_JOB_ID} ${LOG_FILE})
-echo "Output of python waitForInstances: ${a}" >> ${LOG_FILE}
+python scripts/cloudycluster/waitForInstances.py ${INSTANCE_JOB_ID} ${LOG_FILE}
 echo "Compute instances should now be online." >> ${LOG_FILE}
 
 echo "Compute instances are up. Starting script to wait for downloads to complete before shutting them down." >> ${LOG_FILE}
 WAIT_INTERVAL_IN_SEC=60
-b=$(python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill ${LOG_FILE})
-echo "Output of python shutdownInstances: ${b}" >> ${LOG_FILE}
+python scripts/cloudycluster/shutdownInstances.py ${JOB_NAME_DOWNLOAD} ${WAIT_INTERVAL_IN_SEC} ${INSTANCE_JOB_ID} bill ${LOG_FILE}
 echo "Compute instances should now be shutting down." >> ${LOG_FILE}
 echo "Download phase complete." >> ${LOG_FILE}
-
-
-## TODO: spin up classify instances
-echo "Sleeping for 20 minutes." >> ${LOG_FILE}
-date >> ${LOG_FILE}
-sleep 1200
 
 
 ## Run the second part of the workflow (I don't think this submits jobs?)
