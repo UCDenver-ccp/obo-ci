@@ -93,7 +93,7 @@ def main():
     with open(logFilePath, "a", 0) as logFile:
 
 
-        logMessage("------ ShutdownInstances Arguments ------")
+        logMessage("------ ShutdownInstances Arguments ------", logFile)
         logMessage("Argument 1: " + prefixString, logFile)
         logMessage("Argument 2: " + ccqJobSubmitOutput, logFile)
         logMessage("Argument 3: " + jobUsername, logFile)

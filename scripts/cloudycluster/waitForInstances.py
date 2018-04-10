@@ -48,7 +48,7 @@ def main():
         ccqJobId = ""
 
     with open(logFilePath, "a", 0) as logFile:
-        logMessage("------ WaitForInstances Arguments ------")
+        logMessage("------ WaitForInstances Arguments ------", logFile)
         logMessage("Argument 1: " + ccqJobSubmitOutput, logFile)
         logMessage("Argument 2: " + logFilePath, logFile)
         logMessage("ccqJobId: " + ccqJobId, logFile)
