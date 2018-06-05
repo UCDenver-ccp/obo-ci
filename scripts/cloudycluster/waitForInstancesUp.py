@@ -42,13 +42,21 @@ def main():
     except Exception:
         logFilePath = ""
 
+    # when run in the pipeline, the ccqJobSubmitOutput will contain a sentence that has the job ID embedded, e.g.
+    # "The job has successfully been submitted to the scheduler obocischeduler and is currently being processed. The job id is: 3756 you can use this id to look up the job status using the ccqstat utility."
+    # So it will need to be extracted from the sentence.
+    #
+    # For convenience (and debugging), if "job id is: " is not observed then it is assumed that the input is just the job id itself
     try:
-        ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
+        if "job id is: " in ccqJobSubmitOutput:
+            ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
+        else:
+            ccqJobId = str(ccqJobSubmitOutput)
     except Exception:
         ccqJobId = ""
 
     with open(logFilePath, "a", 0) as logFile:
-        logMessage("------ WaitForInstances Arguments ------", logFile)
+        logMessage("------ WaitForInstancesUp Arguments ------", logFile)
         logMessage("Argument 1: " + ccqJobSubmitOutput, logFile)
         logMessage("Argument 2: " + logFilePath, logFile)
         logMessage("ccqJobId: " + ccqJobId, logFile)
@@ -72,12 +80,13 @@ def main():
                 done = True
             else:
                 ccqJobStatus = str(response['jobStatus'])
-                if ccqJobStatus == "CreatingCG" or ccqJobStatus == "CCQueued" or ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
-                    logMessage("The compute instances appear to be up and running. Wait-for-instance check complete. Waiting 5 minutes for good measure.", logFile)
+                logMessage("CCQ JOB status: " + str(response['jobStatus']), logFile)
+                if ccqJobStatus == "CCQueued" or ccqJobStatus == "Completed" or ccqJobStatus == "deleted" or ccqJobStatus == "Error":
+                    logMessage("The compute instances appear to be up and running. Wait-for-instance check complete. Waiting 2 minutes for good measure.", logFile)
                     done = True
-                    time.sleep(300)
+                    time.sleep(120)
+                    logMessage("Exiting waitForInstancesUp...", logFile)
 
-    logMessage("Exiting waitForInstances...", logFile)
     sys.exit(0)
 
     # done = False

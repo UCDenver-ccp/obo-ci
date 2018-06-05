@@ -17,7 +17,7 @@
 # allow them to run for the specified timelimit. In this case 1 hour.
 #CC -si yes
 #CC -cp
-#CC -tl 0:2:0
+#CC -tl 0:12:0
 
 #SBATCH -N 1
 
