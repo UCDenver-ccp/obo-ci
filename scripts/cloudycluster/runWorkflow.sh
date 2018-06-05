@@ -90,10 +90,10 @@ INSTANCE_JOB_ID=$(ccqsub -js scripts/cloudycluster/createInstances_classify.sh)
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}" >> ${LOG_FILE}
 
-# ensure the instances come online before proceeding
-echo "Starting script to wait for compute instances to come online..." >> ${LOG_FILE}
-python scripts/cloudycluster/waitForInstancesUp.py ${INSTANCE_JOB_ID} ${LOG_FILE}
-echo "Compute instances should now be online." >> ${LOG_FILE}
+## ensure the instances come online before proceeding
+#echo "Starting script to wait for compute instances to come online..." >> ${LOG_FILE}
+#python scripts/cloudycluster/waitForInstancesUp.py ${INSTANCE_JOB_ID} ${LOG_FILE}
+#echo "Compute instances should now be online." >> ${LOG_FILE}
 
 ## Run reasoners over the individual ontologies
 JOB_NAME="obo-classify"
