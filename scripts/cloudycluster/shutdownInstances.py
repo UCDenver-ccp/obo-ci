@@ -8,7 +8,7 @@ def logMessage(msg, file):
 
 def checkExperimentJobCompletion(jobPrefixString, logFile):
     # Get the output from the squeue command that will show all the jobs that are currently running or waiting to run in the system
-    status, output = commands.getstatusoutput("squeue")
+    status, output = commands.getstatusoutput("squeue --Format=\"jobid,username,name:40\"")
     stillRunning = 0
     lineNum = 0
     # Cycle through the lines of the output and see if there are any jobs still running
@@ -127,8 +127,8 @@ def main():
             done = results['payload']
 
         logMessage("There are no more jobs in the queue. Shutting down all compute instances.", logFile)
-        status, output = commands.getstatusoutput("ccqdel -j " + ccqJobId)
-        logMessage("ccqdel response: " + output, logFile)
+        # status, output = commands.getstatusoutput("ccqdel -j " + ccqJobId)
+        # logMessage("ccqdel response: " + output, logFile)
         sys.exit(0)
 
 main()
