@@ -65,9 +65,9 @@ def main():
     # If the CCQ Job hits the timelimit, this script will cancel all the remaining jobs in the queue
     # May not be exactly what we want but I think this is what we discussed?
     try:
-        ccqJobSubmitOutput = sys.argv[3]
+        ccqJobId = sys.argv[3]
     except Exception:
-        ccqJobSubmitOutput = ""
+        ccqJobId = ""
 
     # In order to be able to cancel the jobs we will need to know the userId under which the jobs will be running
     # This will be the CloudyCluster username
@@ -82,29 +82,15 @@ def main():
     except Exception:
         logFilePath = ""
 
-    # when run in the pipeline, the ccqJobSubmitOutput will contain a sentence that has the job ID embedded, e.g.
-    # "The job has successfully been submitted to the scheduler obocischeduler and is currently being processed. The job id is: 3756 you can use this id to look up the job status using the ccqstat utility."
-    # So it will need to be extracted from the sentence.
-    #
-    # For convenience (and debugging), if "job id is: " is not observed then it is assumed that the input is just the job id itself
-    try:
-        if "job id is: " in ccqJobSubmitOutput:
-            ccqJobId = str(ccqJobSubmitOutput).split("job id is: ")[1].split(" ")[0]
-        else:
-            ccqJobId = str(ccqJobSubmitOutput)
-    except Exception:
-        ccqJobId = ""
-
 
     with open(logFilePath, "a", 0) as logFile:
 
 
         logMessage("------ ShutdownInstances Arguments ------", logFile)
         logMessage("Argument 1: " + prefixString, logFile)
-        logMessage("Argument 2: " + ccqJobSubmitOutput, logFile)
+        logMessage("Argument 2: " + ccqJobId, logFile)
         logMessage("Argument 3: " + jobUsername, logFile)
         logMessage("Argument 4: " + logFilePath, logFile)
-        logMessage("ccqJobId: " + ccqJobId, logFile)
 
         logMessage("=======================================================================================", logFile)
         logMessage("========== Compute instance shutdown will proceed when all jobs are complete ==========", logFile)

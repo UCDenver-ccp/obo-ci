@@ -86,7 +86,8 @@ mkdir -p ${JOB_LOGS_DIRECTORY}
 
 ## Initiate compute instances for individual ontology classification
 
-INSTANCE_JOB_ID=$(ccqsub -js scripts/cloudycluster/createInstances_classify.sh)
+CCQSUB_RESPONSE=$(ccqsub -js scripts/cloudycluster/createInstances_classify.sh)
+INSTANCE_JOB_ID=$(echo ${CCQSUB_RESPONSE} | sed -n 's/.*The job id is: \([0-9]*\) .*/\1/p')
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}"
 echo "INSTANCE_JOB_ID: ${INSTANCE_JOB_ID}" >> ${LOG_FILE}
 
