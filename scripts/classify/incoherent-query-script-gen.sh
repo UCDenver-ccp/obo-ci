@@ -161,7 +161,7 @@ else
 fi
 printf "\ne=\$?" >> ${SCRIPT_FILE}
 
-printf "\n### if the reasoner succeeded then log the status as 'true', otherwise log the status as 'false" >> ${SCRIPT_FILE}
+printf "\n### if the reasoner succeeded then log the status as 'true', otherwise log the status as 'false'" >> ${SCRIPT_FILE}
 printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
 printf "\n\tsed -i 's/\\\"'${REASONER_NAME}'\\\": \\\"timeout\\\"/\\\"'${REASONER_NAME}'\\\": true/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\n\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
@@ -177,4 +177,32 @@ printf "\n\tif grep -q 'java.lang.OutOfMemoryError' ${LOG_FILE}; then" >> ${SCRI
 printf "\n\t\tsed -i 's/\\\"${REASONER_NAME}\\\": false/\\\"${REASONER_NAME}\\\": \\\"out-of-memory\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
 printf "\n\tfi" >> ${SCRIPT_FILE}
 printf "\nfi" >> ${SCRIPT_FILE}
+
+# At this point, the initial reasoning run has completed, failed, or timed out. If the ontology was determined to be inconsistent,
+# re-run the reasoner but this time remove any instances prior to running the reasoner. The expected output is >0 incoherent classes.
+printf "\n### At this point, the initial reasoning run has completed, failed, or timed out. If the ontology was determined to be inconsistent,\n### re-run the reasoner but this time remove any instances prior to running the reasoner. The expected output is >0 incoherent classes." >> ${SCRIPT_FILE}
+printf "\nif grep -q 'InconsistentOntologyException: Inconsistent ontology' ${LOG_FILE}; then" >> ${SCRIPT_FILE}
+if [[ -z ${XTRA_ONT_ID} ]]; then
+    printf "\n\t${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query-remove-abox.sh -i ${owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+else
+    printf "\n\t${CODE_BASE_DIRECTORY}/scripts/classify/incoherent-query-remove-abox.sh -i ${owl_file} -x ${xtra_owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+fi
+printf "\n\te=\$?" >> ${SCRIPT_FILE}
+printf "\n\t### if the reasoner succeeded then keep the status as 'inconsistent' but count the incoherent classes" >> ${SCRIPT_FILE}
+printf "\n\tif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
+printf "\n\t\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
+printf "\n\t\tcnt=\$(grep -e '^\\[INFO\\] E: ' ${LOG_FILE} | grep -v 'owl:Nothing' | wc -l)" >> ${SCRIPT_FILE}
+printf "\n\t\tsed -i 's/\\\"${REASONER_NAME}_incoherent_count\\\": null/\\\"${REASONER_NAME}_incoherent_count\\\": '\${cnt}'/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\telse" >> ${SCRIPT_FILE}
+printf "\n\t\t### The reasoning process failed. Check the log to see if it is 1) inconsistent ontology, 2) out-of-memory error, or 3) undefined" >> ${SCRIPT_FILE}
+printf "\n\t\tsed -i 's/\\\"${REASONER_NAME}\\\": \\\"timeout\\\"/\\\"${REASONER_NAME}\\\": false/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\t\tif grep -q 'InconsistentOntologyException: Inconsistent ontology' ${LOG_FILE}; then" >> ${SCRIPT_FILE}
+printf "\n\t\t\tsed -i 's/\\\"${REASONER_NAME}\\\": inconsistent/\\\"${REASONER_NAME}\\\": \\\"inconsistent:inconsistent\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\t\tfi" >> ${SCRIPT_FILE}
+printf "\n\t\tif grep -q 'java.lang.OutOfMemoryError' ${LOG_FILE}; then" >> ${SCRIPT_FILE}
+printf "\n\t\t\tsed -i 's/\\\"${REASONER_NAME}\\\": inconsistent/\\\"${REASONER_NAME}\\\": \\\"inconsistent:out-of-memory\\\"/' \"${STATUS_DIR}/${STATUS_FILE}\"" >> ${SCRIPT_FILE}
+printf "\n\t\tfi" >> ${SCRIPT_FILE}
+printf "\n\tfi" >> ${SCRIPT_FILE}
+printf "\nfi" >> ${SCRIPT_FILE}
+
 
