@@ -31,6 +31,7 @@ ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.available.list"
 MODIFIED_ONTOLOGY_LIST_FILE="${WORK_DIRECTORY}/ontologies.modified.list"
 PAIRS_TO_PROCESS_FILE="${WORK_DIRECTORY}/ontologies.pairs.list"
 INCONSISTENT_ONTOLOGY_LIST_FILE_PREFIX="${WORK_DIRECTORY}/ontologies.inconsistent.list"
+INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX="${WORK_DIRECTORY}/ontologies.incoherent.list"
 
 # remove any duplicate slashes in file paths
 DOWNLOAD_DIRECTORY=$(echo "${DOWNLOAD_DIRECTORY}" | sed 's/\/\//\//g')
