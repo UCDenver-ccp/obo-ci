@@ -66,8 +66,8 @@ for index in ${!IDs[*]}; do
     id=${IDs[$index]}
     url=${URLs[$index]}
 
-    elk_status_file=$(echo "${STATUS_DIR}/individual/${id}_elk.json" | sed 's/\/\//\//g')
-    hermit_status_file=$(echo "${STATUS_DIR}/individual/${id}_hermit.json" | sed 's/\/\//\//g')
+    elk_status_file=$(echo "${STATUS_DIR}/${id}_elk.json" | sed 's/\/\//\//g')
+    hermit_status_file=$(echo "${STATUS_DIR}/${id}_hermit.json" | sed 's/\/\//\//g')
 
     if grep -q '"elk": "inconsistent",' ${elk_status_file}; then
        echo "${id},${url}" >> ${INCONSISTENT_ONTOLOGY_LIST_FILE_ELK}

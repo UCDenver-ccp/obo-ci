@@ -49,4 +49,4 @@ esac
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
 ### create a list of ontologies that are new or have changed from the previously downloaded version
-${CODE_BASE_DIRECTORY}/scripts/classify/create-inconsistent-ontology-list.sh -l ${MODIFIED_ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -b ${BASE_DIRECTORY} -o ${INCONSISTENT_ONTOLOGY_LIST_FILE_PREFIX}
+${CODE_BASE_DIRECTORY}/scripts/classify/create-inconsistent-ontology-list.sh -l ${MODIFIED_ONTOLOGY_LIST_FILE} -d ${DOWNLOAD_DIRECTORY} -b ${BASE_DIRECTORY} -o ${INCONSISTENT_ONTOLOGY_LIST_FILE_PREFIX} -s ${STATUS_DIRECTORY_INDIVIDUAL}
