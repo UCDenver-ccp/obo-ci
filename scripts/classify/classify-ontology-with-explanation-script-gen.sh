@@ -145,12 +145,12 @@ else
     #printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
     printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -x ${xtra_owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 fi
-printf "\ne=\$?" >> ${SCRIPT_FILE}
 
-# TODO: extract explanations here
-printf "\n### if the reasoner succeeded then extract the explanations." >> ${SCRIPT_FILE}
-printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
+# b/c of the incoherent classes, the reasoner will exit abnormally (i.e. exit code != 0) so we don't check for reasoner success here
+#printf "\ne=\$?" >> ${SCRIPT_FILE}
+#printf "\n### if the reasoner succeeded then extract the explanations." >> ${SCRIPT_FILE}
+#printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
 printf "\n\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
 printf "\n\tgrep -e '^\\[INFO\\] UNSAT: ' ${LOG_FILE} > ${EXPLANATION_DIR}/${EXPLANATIONS_FILE}" >> ${SCRIPT_FILE}
-printf "\nfi" >> ${SCRIPT_FILE}
+#printf "\nfi" >> ${SCRIPT_FILE}
 
