@@ -101,6 +101,7 @@ done
 
 IDs=( $(awk -F, '{print $1}' ${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX}.hermit) )
 for index in ${!IDs[*]}; do
+  id=${IDs[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.hermit.expl.sh"
   if [[ -z ${HEADER_FILE} ]]; then
     ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
