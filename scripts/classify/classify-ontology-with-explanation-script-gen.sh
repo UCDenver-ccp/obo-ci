@@ -151,6 +151,6 @@ printf "\ne=\$?" >> ${SCRIPT_FILE}
 printf "\n### if the reasoner succeeded then extract the explanations." >> ${SCRIPT_FILE}
 printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
 printf "\n\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
-printf "\n\tgrep -e '^UNSAT: ' ${LOG_FILE} > ${EXPLANATION_DIR}/${EXPLANATIONS_FILE}" >> ${SCRIPT_FILE}
+printf "\n\tgrep -e '^\\[INFO\\] UNSAT: ' ${LOG_FILE} > ${EXPLANATION_DIR}/${EXPLANATIONS_FILE}" >> ${SCRIPT_FILE}
 printf "\nfi" >> ${SCRIPT_FILE}
 
