@@ -113,6 +113,8 @@ printf "\nmkdir -p ${SCRIPT_DIRECTORY_CHECKS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_CHECKS_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${EXPLANATION_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
 printf "\n### generate a list of all available ontologies in the OBOFoundry.org catalog" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/create-ontology-list-file.sh -l ${ONTOLOGY_LIST_FILE} -j ${JQ}" >> ${SCRIPT_FILE}
 printf "\n\n### download and install the most recent SNAPSHOT of the OWLTools-Runtime library" >> ${SCRIPT_FILE}

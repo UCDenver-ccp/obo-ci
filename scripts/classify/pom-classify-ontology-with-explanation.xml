@@ -47,9 +47,10 @@
 						<classpath />
 						<argument>owltools.cli.CommandLineInterface</argument>
 						<argument>${ontologyFile}</argument> <!-- input ontology file -->
-						<argument> --reasoner</argument>
+						<argument>--reasoner</argument>
 						<argument>${reasonerName}</argument>
 						<argument>--run-reasoner</argument>
+						<argument>-u</argument>
 						<argument>-e</argument>
 					</arguments>
 				</configuration>

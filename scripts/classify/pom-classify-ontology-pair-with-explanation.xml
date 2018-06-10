@@ -52,6 +52,7 @@
 						<argument> --reasoner</argument>
 						<argument>${reasonerName}</argument>
 						<argument>--run-reasoner</argument>
+						<argument>-u</argument>
 						<argument>-e</argument>
 					</arguments>
 				</configuration>
