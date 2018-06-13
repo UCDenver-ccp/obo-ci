@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OBO-CI Dashboard</title>
+    <script src='javascript/d3.js' type='text/javascript'></script>
+    <script src='javascript/crossfilter.js' type='text/javascript'></script>
+    <script src='javascript/dc.js' type='text/javascript'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src='javascript/jquery-3.2.1.min.js' type='text/javascript'></script>-->
+    <script src='javascript/bootstrap.js' type='text/javascript'></script>
+
+    <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+    <link href='css/dc.css' rel='stylesheet' type='text/css'>
+
+    <script src='relations_dash.js' type='text/javascript'></script>
+
+    <style>
+
+
+
+    </style>
+</head>
+<body>
+    <div class='container' id='main-container'>
+        <div class='content'>
+            <div class='container' style='font: 10px sans-serif;'>
+                <h3>OBO-Relations Dashboard</h3>
+                <div class='row'>
+                    <!--entire page uses entire width-->
+                    <div class='col-md-12'>
+                        <div class='row-fluid'>
+                            <!--first row of charts has 2 bar charts-->
+                            <div class='col-md-6' id='file-count-bar-chart'>
+                                <h4>Distribution of relations over OWL Files<sup><img src="images/info-icon.svg" height="24px" title="Histogram showing that many relations (> 400) appear in only one OWL file. Fewer relations appear in many OWL files."/></sup></h4>
+                            </div>
+                            <div class='col-md-6' id='shares-label-bar-chart'>
+                                <h4>Relations with shared labels.<sup><img src="images/info-icon.svg" height="24px" title="Histogram showing instances of labels that are shared by multiple relations. For example, there are >80 relations that share a label with one other relation."/></sup></h4>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <!--second row of charts has 2 pie charts-->
+                            <div class='col-md-6' id='in-ro-pie'>
+                                <h4>Relations defined in the Relation Ontology<sup><img src="images/info-icon.svg" height="24px" title="A subset of the relations used by the OBOs is defined by the Relation Ontology."/></sup></h4>
+                            </div>
+                            <div class='col-md-6' id='occurrence-count-bar-chart'>
+                                <h4>Relation occurrences<sup><img src="images/info-icon.svg" height="24px" title="Histogram showing the frequency of occurrence (explicit, no inference) or relations used in the OBOs."/></sup></h4>
+                            </div>
+                        </div>
+                        <!-- third row contains the data table -->
+                        <div class='row'>
+                            <div class='col-md-12 counts'>
+                                <div class="dc-data-count">
+                                    <span class="filter-count"></span> selected out of <span class="total-count"></span> records | <a
+                                        href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class='col-md-12 table-graph'>
+                                <h4>Data Table for Filtered Relations<sup><img src="images/info-icon.svg" height="24px" title="This table summarizes results for all relations present in the OBOs. Rows in this table are filtered by selecting facets of the data in the donut and bar charts above."/></sup></h4>
+                                <table class='table table-hover dc-data-table' id='relation-table'>
+                                    <thead>
+                                    <tr class='header'>
+                                        <th>ID</th>
+                                        <th>Label(s)</th>
+                                        <th>In ro.owl</th>
+                                        <th>Occurrences</th>
+                                        <th>OWL file count</th>
+                                        <th>Shared label count</th>
+                                    </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
