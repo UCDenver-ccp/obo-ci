@@ -62,8 +62,6 @@ for index in ${!ID1s[*]}; do
     elk_status_file=$(echo "${STATUS_DIR}/${id1}+${id2}_elk.json" | sed 's/\/\//\//g')
     hermit_status_file=$(echo "${STATUS_DIR}/${id1}+${id2}_hermit.json" | sed 's/\/\//\//g')
 
-    echo "checking file: ${elk_status_file}"
-
     if grep -q '"elk": true,' ${elk_status_file}; then
         if grep -q '"elk_incoherent_count": 0,' ${elk_status_file}; then
         :
@@ -71,8 +69,6 @@ for index in ${!ID1s[*]}; do
            echo "${id1},${id2}," >> ${INCOHERENT_ONTOLOGY_LIST_FILE_ELK}
         fi
     fi
-
-    echo "checking file: ${hermit_status_file}"
 
     if grep -q '"hermit": true,' ${hermit_status_file}; then
         if grep -q '"hermit_incoherent_count": 0,' ${hermit_status_file}; then
