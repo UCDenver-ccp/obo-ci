@@ -50,4 +50,4 @@ esac
 
 # TODO: modify this to work with the pairs
 ### create a list of ontologies that are new or have changed from the previously downloaded version
-${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/create-incoherent-ontology-list-pairs.sh -l ${PAIRS_TO_PROCESS_FILE} -d ${WORK_DIRECTORY} -o ${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX} -s ${STATUS_DIRECTORY_PAIRS}
+${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/create-incoherent-ontology-list-pairs.sh -l ${PAIRS_TO_PROCESS_FILE} -d ${WORK_DIRECTORY} -o ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX} -s ${STATUS_DIRECTORY_PAIRS}
