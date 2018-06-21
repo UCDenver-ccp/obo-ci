@@ -99,6 +99,10 @@ printf "\nrm -Rf ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${BASE_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nrm -Rf ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${STATUS_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${STATUS_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY}" >> ${SCRIPT_FILE}
@@ -111,8 +115,6 @@ printf "\nmkdir -p ${SCRIPT_DIRECTORY_CLASSIFY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_CHECKS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY_CHECKS_PAIRS}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${STATUS_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${STATUS_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${EXPLANATION_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
 printf "\n### generate a list of all available ontologies in the OBOFoundry.org catalog" >> ${SCRIPT_FILE}
