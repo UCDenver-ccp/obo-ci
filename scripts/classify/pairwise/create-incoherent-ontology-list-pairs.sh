@@ -51,8 +51,11 @@ INCOHERENT_ONTOLOGY_LIST_FILE_HERMIT=$(echo "${INCOHERENT_ONTOLOGY_LIST_FILE_PRE
 > ${INCOHERENT_ONTOLOGY_LIST_FILE_ELK}
 > ${INCOHERENT_ONTOLOGY_LIST_FILE_HERMIT}
 
-ID1s=( $(awk -F, '{print $1}' ${PAIRS_TO_PROCESS_FILE}) )
-ID2s=( $(awk -F, '{print $2}' ${PAIRS_TO_PROCESS_FILE}) )
+echo "loading ids..."
+ID1s=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
+ID2s=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
+echo "id loading complete."
+
 for index in ${!ID1s[*]}; do
     id1=${ID1s[$index]}
     id2=${ID2s[$index]}
