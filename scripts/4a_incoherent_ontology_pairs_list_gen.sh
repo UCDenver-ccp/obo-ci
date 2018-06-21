@@ -7,15 +7,11 @@
 function print_usage {
     echo "Usage:"
     echo "$(basename $0) [OPTIONS]"
-    echo "  [-d <work directory>]: MUST BE ABSOLUTE PATH. The directory where all generated/downloaded files will be stored."
     echo "  [-z <code base directory>]: MUST BE ABSOLUTE PATH. Path to the base directory where this project has been downloaded."
 }
 
 while getopts "d:z:h" OPTION; do
     case ${OPTION} in
-        # The work directory where all intermediate files are stored
-        d) WORK_DIRECTORY=$OPTARG
-           ;;
         # The path to the directory where this project has been downloaded
         z) CODE_BASE_DIRECTORY=$OPTARG
            ;;
@@ -25,10 +21,9 @@ while getopts "d:z:h" OPTION; do
     esac
 done
 
-if [[ -z ${WORK_DIRECTORY} || -z ${CODE_BASE_DIRECTORY} ]]; then
+if [[ -z ${CODE_BASE_DIRECTORY} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "code base directory: ${CODE_BASE_DIRECTORY}"
-	echo "work directory: ${WORK_DIRECTORY}"
 	print_usage
     exit 1
 fi
@@ -50,4 +45,4 @@ esac
 
 # TODO: modify this to work with the pairs
 ### create a list of ontologies that are new or have changed from the previously downloaded version
-${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/create-incoherent-ontology-list-pairs.sh -l ${PAIRS_TO_PROCESS_FILE} -d ${DOWNLOAD_DIRECTORY} -b ${BASE_DIRECTORY} -o ${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX} -s ${STATUS_DIRECTORY_PAIRS}
+${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/create-incoherent-ontology-list-pairs.sh -l ${PAIRS_TO_PROCESS_FILE} -o ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX} -s ${STATUS_DIRECTORY_PAIRS}

@@ -7,8 +7,6 @@
 function print_usage {
     echo "Usage:"
     echo "$(basename $0) [OPTIONS]"
-    echo "  [-d <download directory>]: MUST BE ABSOLUTE PATH. The directory where all intermediate files will be stored."
-    echo "  [-b <base directory>]: MUST BE ABSOLUTE PATH. The directory where all previously downloaded versions of the ontologies are stored."
     echo "  [-l <ontology list file>]: MUST BE ABSOLUTE PATH. A file containing ontology id1,id2 pairs. This should be the ontology pairs file."
     echo "  [-o <incoherent ontology list file>]: MUST BE ABSOLUTE PATH. A file containing ontology id,url pairs where the ontology has been determined to be incoherent."
     echo "  [-s <ontology status directory>]: MUST BE ABSOLUTE PATH. The path to a directory where json files indicating ontology status are to be written."
@@ -17,12 +15,6 @@ function print_usage {
 
 while getopts "d:b:l:o:s:h" OPTION; do
     case ${OPTION} in
-        # The download directory
-        d) DOWNLOAD_DIRECTORY=$OPTARG
-           ;;
-        # The base directory (where previous versions of the ontologies are stored)
-        b) BASE_DIRECTORY=$OPTARG
-           ;;
         # The ontology list file (id,url pairs)
         l) ONTOLOGY_LIST_FILE=$OPTARG
            ;;
@@ -38,9 +30,8 @@ while getopts "d:b:l:o:s:h" OPTION; do
     esac
 done
 
-if [[ -z ${DOWNLOAD_DIRECTORY} || -z ${ONTOLOGY_LIST_FILE} || -z ${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX} || -z ${BASE_DIRECTORY} || -z ${STATUS_DIR} ]]; then
+if [[ -z ${ONTOLOGY_LIST_FILE} || -z ${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX} || -z ${STATUS_DIR} ]]; then
 	echo "missing input arguments!!!!!"
-	echo "work directory: ${DOWNLOAD_DIRECTORY}"
 	echo "ontology list file: ${ONTOLOGY_LIST_FILE}"
 	echo "incoherent ontology list file prefix: ${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX}"
 	echo "status dir: ${STATUS_DIR}"
@@ -56,8 +47,6 @@ fi
 INCOHERENT_ONTOLOGY_LIST_FILE_ELK=$(echo "${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX}.elk")
 INCOHERENT_ONTOLOGY_LIST_FILE_HERMIT=$(echo "${INCOHERENT_ONTOLOGY_LIST_FILE_PREFIX}.hermit")
 
-IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
-URLs=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
 # reset the ontology_list_to_process file in case it already exists
 > ${INCOHERENT_ONTOLOGY_LIST_FILE_ELK}
 > ${INCOHERENT_ONTOLOGY_LIST_FILE_HERMIT}
