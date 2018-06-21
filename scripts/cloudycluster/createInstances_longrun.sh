@@ -11,7 +11,7 @@
 # I don't think we decided on the exact number of instances that we wanted to use yet
 # So this is sort of a place holder for how many nodes we want to spin up to run the jobs
 #CC -sw 1
-#CC -fs 50
+#CC -fs 200
 
 # Specify that this job is a placeholder job that will only create instances and
 # allow them to run for the specified timelimit. In this case 1 hour.

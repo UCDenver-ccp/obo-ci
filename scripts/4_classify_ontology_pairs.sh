@@ -100,14 +100,21 @@ for index in ${!ID1s[*]}; do
   chmod 755 ${SCRIPT_FILE}
 done
 
-# run/submit each generated script
+# run/submit each generated script if the corresponding status file does not yet exist
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
-  ${RUN_CMD} ${SCRIPT_FILE}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
-  ${RUN_CMD} ${SCRIPT_FILE}
+
+  ELK_STATUS_FILE="${STATUS_DIRECTORY_PAIRS}/${id1}+${id2}_elk.json"
+  if [ ! -f ${ELK_STATUS_FILE} ]; then
+      SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
+      ${RUN_CMD} ${SCRIPT_FILE}
+  fi
+  HERMIT_STATUS_FILE="${STATUS_DIRECTORY_PAIRS}/${id1}+${id2}_hermit.json"
+  if [ ! -f ${HERMIT_STATUS_FILE} ]; then
+      SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
+      ${RUN_CMD} ${SCRIPT_FILE}
+  fi
 done
 
 
