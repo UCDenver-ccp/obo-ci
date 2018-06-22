@@ -86,7 +86,7 @@ ID2s=( $(awk -F, '{print $2}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.elk)
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.expl.sh"
   if [[ -z ${HEADER_FILE} ]]; then
     ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
   else
@@ -109,7 +109,7 @@ ID2s=( $(awk -F, '{print $2}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.herm
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.expl.sh"
   if [[ -z ${HEADER_FILE} ]]; then
     ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
   else

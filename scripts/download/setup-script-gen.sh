@@ -107,6 +107,8 @@ printf "\nmkdir -p ${LOG_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_DOWNLOAD}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY_PAIRS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY_EXPLANATIONS}" >> ${SCRIPT_FILE}
+printf "\nmkdir -p ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATIONS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CHECKS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY_CHECKS_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${SCRIPT_DIRECTORY}" >> ${SCRIPT_FILE}
