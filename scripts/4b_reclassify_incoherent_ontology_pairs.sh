@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+# TODO: modify this to work with the pairs
+
 # Attempt to classify the downloaded ontologies
 #
 # NOTE: input arguments must be absolute paths
@@ -79,23 +81,16 @@ esac
 #${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/pair-gen.sh -l ${MODIFIED_ONTOLOGY_LIST_FILE} -a ${ONTOLOGY_LIST_FILE} -o ${PAIRS_TO_PROCESS_FILE} -d ${BASE_DIRECTORY}
 
 # for each line in the pair file, create a run/submission script
-ID1s=( $(awk -F, '{print $1}' ${PAIRS_TO_PROCESS_FILE}) )
-ID2s=( $(awk -F, '{print $2}' ${PAIRS_TO_PROCESS_FILE}) )
+ID1s=( $(awk -F, '{print $1}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.elk) )
+ID2s=( $(awk -F, '{print $2}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.elk) )
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
-  fi
-  chmod 755 ${SCRIPT_FILE}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
-  if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
-  else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
   fi
   chmod 755 ${SCRIPT_FILE}
 done
@@ -104,9 +99,30 @@ done
 for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.sh"
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.expl.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
+done
+
+
+ID1s=( $(awk -F, '{print $1}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.hermit) )
+ID2s=( $(awk -F, '{print $2}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.hermit) )
+for index in ${!ID1s[*]}; do
+  id1=${ID1s[$index]}
+  id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
+  if [[ -z ${HEADER_FILE} ]]; then
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
+  else
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
+  fi
+  chmod 755 ${SCRIPT_FILE}
+done
+
+# run/submit each generated script
+for index in ${!ID1s[*]}; do
+  id1=${ID1s[$index]}
+  id2=${ID2s[$index]}
+  SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.expl.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
 done
 
