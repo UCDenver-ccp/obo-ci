@@ -87,6 +87,7 @@ for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.elk.expl.sh"
+  echo "building script: ${SCRIPT_FILE}"
   if [[ -z ${HEADER_FILE} ]]; then
     ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
   else
@@ -110,6 +111,7 @@ for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.expl.sh"
+  echo "building script: ${SCRIPT_FILE}"
   if [[ -z ${HEADER_FILE} ]]; then
     ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS} -p ${EXPLANATION_DIRECTORY_PAIRS}
   else
