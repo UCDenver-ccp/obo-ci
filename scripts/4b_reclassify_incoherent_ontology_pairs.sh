@@ -105,6 +105,7 @@ for index in ${!ID1s[*]}; do
     echo "OUTPUT FILE DNE: ${ELK_OUTPUT_FILE}"
     SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.elk.expl.sh"
     ${RUN_CMD} ${SCRIPT_FILE}
+    sleep 1
   fi
 done
 
@@ -133,6 +134,7 @@ for index in ${!ID1s[*]}; do
       echo "OUTPUT FILE DNE: ${HERMIT_OUTPUT_FILE}"
       SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.hermit.expl.sh"
       ${RUN_CMD} ${SCRIPT_FILE}
+      sleep 1
   fi
 done
 
