@@ -155,6 +155,6 @@ printf "\n\t### compute the number of incoherent classes observed by counting li
 printf "\n\tif [ -f '${LOG_FILE}' ] \n\tthen\n" >> ${SCRIPT_FILE}
 printf "\t\t\tif [ ! -f '${EXPLANATION_DIR}/${EXPLANATIONS_FILE}' ] \n\t\tthen" >> ${SCRIPT_FILE}
 printf "\n\t\tgrep -e '^\\[INFO\\] UNSAT: ' ${LOG_FILE} > ${EXPLANATION_DIR}/${EXPLANATIONS_FILE}" >> ${SCRIPT_FILE}
-printf "\nfi\nfi"
+printf "\nfi\nfi" >> ${SCRIPT_FILE}
 #printf "\nfi" >> ${SCRIPT_FILE}
 
