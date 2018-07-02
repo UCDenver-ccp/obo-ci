@@ -87,15 +87,18 @@ for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.elk.compile.expl.sh"
+  ELK_OUTPUT_FILE="${EXPLANATION_DIRECTORY_PAIRS}/${id1}+${id2}_elk.explanation"
   LOG_FILE="${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}+${id2}_elk.log"
-  if [[ -f ${LOG_FILE} ]]; then
-      echo "building script: ${SCRIPT_FILE}"
-      if [[ -z ${HEADER_FILE} ]]; then
-        ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
-      else
-        ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+  if [[ ! -f ${ELK_OUTPUT_FILE} ]]; then
+      if [[ -f ${LOG_FILE} ]]; then
+          echo "building script: ${SCRIPT_FILE}"
+          if [[ -z ${HEADER_FILE} ]]; then
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+          else
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+          fi
+          chmod 755 ${SCRIPT_FILE}
       fi
-      chmod 755 ${SCRIPT_FILE}
   fi
 done
 
@@ -123,14 +126,17 @@ for index in ${!ID1s[*]}; do
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.hermit.compile.expl.sh"
   echo "building script: ${SCRIPT_FILE}"
+  HERMIT_OUTPUT_FILE="${EXPLANATION_DIRECTORY_PAIRS}/${id1}+${id2}_hermit.explanation"
   LOG_FILE="${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}+${id2}_hermit.log"
-  if [[ -f ${LOG_FILE} ]]; then
-      if [[ -z ${HEADER_FILE} ]]; then
-        ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
-      else
-        ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+  if [[ ! -f ${HERMIT_OUTPUT_FILE} ]]; then
+      if [[ -f ${LOG_FILE} ]]; then
+          if [[ -z ${HEADER_FILE} ]]; then
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+          else
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+          fi
+          chmod 755 ${SCRIPT_FILE}
       fi
-      chmod 755 ${SCRIPT_FILE}
   fi
 done
 
