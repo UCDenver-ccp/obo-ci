@@ -121,12 +121,12 @@ if [[ -z ${XTRA_ONT_ID} ]]; then
     . ${CODE_BASE_DIRECTORY}/scripts/util/handle_header.bash
 
     printf "######## EXPLANATIONS ########" >> ${SCRIPT_FILE}
-    printf "###\n### This script will run the ${REASONER_NAME} reasoner over the ontology in ${owl_file}, using the OWLTools library.\n###\n" >> ${SCRIPT_FILE}
-    printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
-    printf "\nprintf \"classifying ${owl_file}...\"" >> ${SCRIPT_FILE}
+#    printf "###\n### This script will run the ${REASONER_NAME} reasoner over the ontology in ${owl_file}, using the OWLTools library.\n###\n" >> ${SCRIPT_FILE}
+#    printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
+#    printf "\nprintf \"classifying ${owl_file}...\"" >> ${SCRIPT_FILE}
     # don't reset the log file b/c we are re-classifying the owl file and want to add to the existing log
     #printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+#    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 else
     LOG_FILE="${LOG_DIRECTORY}/${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.log"
     EXPLANATIONS_FILE="${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.explanation"
@@ -138,19 +138,23 @@ else
     . ${CODE_BASE_DIRECTORY}/scripts/util/handle_header.bash
 
     printf "######## EXPLANATIONS ########" >> ${SCRIPT_FILE}
-    printf "###\n### This script will run the ${REASONER_NAME} reasoner over the merged ontologies in ${owl_file} and ${xtra_owl_file}, using the OWLTools library.\n###\n" >> ${SCRIPT_FILE}
-    printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
-    printf "\nprintf \"classifying ${owl_file} + ${xtra_owl_file}...\"" >> ${SCRIPT_FILE}
+#    printf "###\n### This script will run the ${REASONER_NAME} reasoner over the merged ontologies in ${owl_file} and ${xtra_owl_file}, using the OWLTools library.\n###\n" >> ${SCRIPT_FILE}
+#    printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
+#    printf "\nprintf \"classifying ${owl_file} + ${xtra_owl_file}...\"" >> ${SCRIPT_FILE}
     # don't reset the log file b/c we are re-classifying the owl file and want to add to the existing log
     #printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -x ${xtra_owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+#    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -x ${xtra_owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 fi
 
 # b/c of the incoherent classes, the reasoner will exit abnormally (i.e. exit code != 0) so we don't check for reasoner success here
 #printf "\ne=\$?" >> ${SCRIPT_FILE}
 #printf "\n### if the reasoner succeeded then extract the explanations." >> ${SCRIPT_FILE}
 #printf "\nif [ \${e} == 0 ]; then" >> ${SCRIPT_FILE}
-#printf "\n\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
-#printf "\n\tgrep -e '^\\[INFO\\] UNSAT: ' ${LOG_FILE} > ${EXPLANATION_DIR}/${EXPLANATIONS_FILE}" >> ${SCRIPT_FILE}
+printf "\n\t### compute the number of incoherent classes observed by counting lines in the log file that start with 'E: '" >> ${SCRIPT_FILE}
+# if the log file exists and if the explanations file does not exist
+printf "\n\tif [ -f '${LOG_FILE}' ] \n\tthen\n" >> ${SCRIPT_FILE}
+printf "\t\t\tif [ ! -f '${EXPLANATION_DIR}/${EXPLANATIONS_FILE}' ] \n\t\tthen" >> ${SCRIPT_FILE}
+printf "\n\t\tgrep -e '^\\[INFO\\] UNSAT: ' ${LOG_FILE} > ${EXPLANATION_DIR}/${EXPLANATIONS_FILE}" >> ${SCRIPT_FILE}
+printf "\nfi\nfi"
 #printf "\nfi" >> ${SCRIPT_FILE}
 
