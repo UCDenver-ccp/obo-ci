@@ -103,6 +103,8 @@ for index in ${!IDs[*]}; do
   id=${IDs[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.elk.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
+  sleep 1
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.hermit.sh"
   ${RUN_CMD} ${SCRIPT_FILE}
+  sleep 1
 done

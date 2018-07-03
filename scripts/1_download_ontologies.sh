@@ -107,4 +107,5 @@ for index in ${!IDs[*]}; do
       id=${IDs[$index]}
       SCRIPT_FILE="${SCRIPT_DIRECTORY_DOWNLOAD}/${id}.download.sh"
       ${RUN_CMD} ${SCRIPT_FILE}
+      sleep 1
 done
