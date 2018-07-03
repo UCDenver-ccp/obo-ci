@@ -79,7 +79,7 @@ esac
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
 # ensure the slurm log directory exists
-if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
+if [[ -n ${HEADER_JOB_LOG_DIRECTORY} ]]; then
     mkdir -p ${HEADER_JOB_LOG_DIRECTORY}
 fi
 
