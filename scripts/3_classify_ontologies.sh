@@ -76,6 +76,12 @@ esac
 ### define directories that will be used in the scripts
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
+# ensure the slurm log directory exists
+if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
+    mkdir -p ${HEADER_JOB_LOG_DIRECTORY}
+fi
+
+
 # This script attempts to classify any downloaded ontology that has been determined to have changed since the previous download.
 # for each line in the ontology list file, create a submission script for both elk and hermit
 

@@ -78,6 +78,12 @@ esac
 ### define directories that will be used in the scripts
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
+# ensure the slurm log directory exists
+if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
+    mkdir -p ${HEADER_JOB_LOG_DIRECTORY}
+fi
+
+
 #${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/pair-gen.sh -l ${MODIFIED_ONTOLOGY_LIST_FILE} -a ${ONTOLOGY_LIST_FILE} -o ${PAIRS_TO_PROCESS_FILE} -d ${BASE_DIRECTORY}
 
 # for each line in the pair file, create a run/submission script

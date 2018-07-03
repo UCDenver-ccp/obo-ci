@@ -78,14 +78,18 @@ case "${CODE_BASE_DIRECTORY}" in
     ;;
 esac
 
+# ensure the slurm log directory exists
+if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
+    mkdir -p ${HEADER_JOB_LOG_DIRECTORY}
+fi
+
 ### define directories that will be used in the scripts
 . ${CODE_BASE_DIRECTORY}/scripts/util/define_directories.bash
 
 # This script first downloads all of the OBOs and creates a flattened (all imports included) version of each
 # owl file. It then creates a md5 hash of that flattened owl file and uses the hash to determine if
 
-# for each line in the ontology list file, create a download script
-
+# for each line in the ontology list file, create a download scrip
 IDs=( $(awk -F, '{print $1}' ${ONTOLOGY_LIST_FILE}) )
 URLs=( $(awk -F, '{print $2}' ${ONTOLOGY_LIST_FILE}) )
 for index in ${!IDs[*]}; do
