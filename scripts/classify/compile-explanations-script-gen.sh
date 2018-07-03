@@ -110,7 +110,7 @@ esac
 # remove any duplicate forward slashes from the directory path
 dir=$(echo "${BASE_DIRECTORY}/ontologies/${ONT_ID}" | sed 's/\/\//\//g')
 owl_file="${dir}/${ONT_ID}_flat.owl"
-output_file="${dir}/${ONT_ID}_flat.inferred_${REASONER_NAME}.owl"
+#output_file="${dir}/${ONT_ID}_flat.inferred_${REASONER_NAME}.owl"
 
 if [[ -z ${XTRA_ONT_ID} ]]; then
     LOG_FILE=${LOG_DIRECTORY}/${ONT_ID}_${REASONER_NAME}.log
