@@ -79,7 +79,7 @@ case "${CODE_BASE_DIRECTORY}" in
 esac
 
 # ensure the slurm log directory exists
-if [[ ! -z ${HEADER_JOB_LOG_DIRECTORY} ]]; then
+if [[ -n "${HEADER_JOB_LOG_DIRECTORY}" ]]; then
     mkdir -p ${HEADER_JOB_LOG_DIRECTORY}
 fi
 
