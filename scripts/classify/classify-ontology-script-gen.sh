@@ -142,7 +142,7 @@ esac
 # remove any duplicate forward slashes from the directory path
 dir=$(echo "${BASE_DIRECTORY}/ontologies/${ONT_ID}" | sed 's/\/\//\//g')
 owl_file="${dir}/${ONT_ID}_flat.owl"
-output_file="${dir}/${ONT_ID}_flat.inferred_${REASONER_NAME}.owl"
+#output_file="${dir}/${ONT_ID}_flat.inferred_${REASONER_NAME}.owl"
 
 if [[ -z ${XTRA_ONT_ID} ]]; then
     LOG_FILE=${LOG_DIRECTORY}/${ONT_ID}_${REASONER_NAME}.log
@@ -161,14 +161,14 @@ if [[ -z ${XTRA_ONT_ID} ]]; then
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file}...\"" >> ${SCRIPT_FILE}
     printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify.sh -i ${owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify.sh -i ${owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 else
     LOG_FILE="${LOG_DIRECTORY}/${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.log"
     STATUS_FILE="${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.json"
     xtra_dir=$(echo "${BASE_DIRECTORY}/ontologies/${XTRA_ONT_ID}" | sed 's/\/\//\//g')
     xtra_owl_file="${xtra_dir}/${XTRA_ONT_ID}_flat.owl"
     output_dir=$(echo "${BASE_DIRECTORY}/pairs/${ONT_ID}+${XTRA_ONT_ID}" | sed 's/\/\//\//g')
-    output_file="${output_dir}/${ONT_ID}+${XTRA_ONT_ID}.inferred_${REASONER_NAME}.owl"
+    #output_file="${output_dir}/${ONT_ID}+${XTRA_ONT_ID}.inferred_${REASONER_NAME}.owl"
 
     HEADER_JOB_NAME="${HEADER_JOB_NAME}_${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}"
     ### add the header to the script file if one has been specified
@@ -185,7 +185,7 @@ else
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file} + ${xtra_owl_file}...\"" >> ${SCRIPT_FILE}
     printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify.sh -i ${owl_file} -x ${xtra_owl_file} -o ${output_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+    printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify.sh -i ${owl_file} -x ${xtra_owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 fi
 printf "\ne=\$?" >> ${SCRIPT_FILE}
 

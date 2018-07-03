@@ -11,19 +11,15 @@ function print_usage {
     echo "$(basename $0) [OPTIONS]"
     echo "  [-i <ontology file>]: MUST BE ABSOLUTE PATH. The ontology file to process. All imports for this ontology will be recursively downloaded and merged."
     echo "  [-r <reasoner name>]: MUST BE ABSOLUTE PATH. 'elk' or 'hermit'"
-    echo "  [-o <output file>]: MUST BE ABSOLUTE PATH. The file into which to place merged/flattened version of the ontology."
     echo "  [-m <maven>]: MUST BE ABSOLUTE PATH. The path to the mvn command."
     echo "  [-g <log file>]: MUST BE ABSOLUTE PATH. Path to the log file."
     echo "  [-x <xtra ontology>]: MUST BE ABSOLUTE PATH. [OPTIONAL] Merge extra ontology before processing."
 }
 
-while getopts "i:r:o:m:g:x:h" OPTION; do
+while getopts "i:r:m:g:x:h" OPTION; do
     case ${OPTION} in
         # The input ontology file
         i) ONT_FILE=$OPTARG
-           ;;
-        # The output file (will contain input ontology + content of all imports)
-        o) OUTPUT_FILE=$OPTARG
            ;;
         # The name of the reasoner to use
         r) REASONER_NAME=$OPTARG
@@ -43,11 +39,10 @@ while getopts "i:r:o:m:g:x:h" OPTION; do
     esac
 done
 
-if [[ -z ${ONT_FILE} || -z ${OUTPUT_FILE}|| -z ${MAVEN} || -z ${REASONER_NAME} || -z ${LOG_FILE} ]]; then
+if [[ -z ${ONT_FILE} || -z ${MAVEN} || -z ${REASONER_NAME} || -z ${LOG_FILE} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "ontology file: ${ONT_FILE}"
 	echo "reasoner name: ${REASONER_NAME}"
-	echo "output file: ${OUTPUT_FILE}"
 	echo "maven: ${MAVEN}"
 	echo "log file: ${LOG_FILE}"
     print_usage
@@ -67,7 +62,6 @@ echo "Classifying ontology file: ${ONT_FILE}" | tee -a ${LOG_FILE}
 ${MAVEN} -e -f scripts/classify/pom-classify-ontology.xml exec:exec \
         -DontologyFile=${ONT_FILE} \
         -DreasonerName=${REASONER_NAME} \
-        -DoutputFile=${OUTPUT_FILE} \
         -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
 else
 echo "Classifying ontology pair: ${ONT_FILE} ${XTRA_ONT_FILE}" | tee -a ${LOG_FILE}
@@ -75,7 +69,6 @@ ${MAVEN} -e -f scripts/classify/pom-classify-ontology-pair.xml exec:exec \
         -DontologyFile=${ONT_FILE} \
         -DxtraOntologyFile=${XTRA_ONT_FILE} \
         -DreasonerName=${REASONER_NAME} \
-        -DoutputFile=${OUTPUT_FILE} \
         -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
 fi
 e=${PIPESTATUS[0]}

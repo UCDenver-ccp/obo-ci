@@ -54,8 +54,6 @@
 						<argument> --remove-abox</argument>
 						<argument>--run-reasoner</argument>
 						<argument>--assert-implied</argument>
-						<argument>-o</argument>
-						<argument>${outputFile}</argument> <!-- output file (will contain ontology including all imports) -->
 					</arguments>
 				</configuration>
 			</plugin>
