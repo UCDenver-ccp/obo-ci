@@ -58,18 +58,18 @@ PATH_TO_ME=`pwd`
 
 date | tee -a ${LOG_FILE}
 if [[ -z ${XTRA_ONT_FILE} ]]; then
-echo "Classifying ontology file: ${ONT_FILE}" | tee -a ${LOG_FILE}
-${MAVEN} -e -f scripts/classify/pom-classify-ontology-with-explanation.xml exec:exec \
-        -DontologyFile=${ONT_FILE} \
-        -DreasonerName=${REASONER_NAME} \
-        -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
+    echo "Classifying ontology file: ${ONT_FILE}" | tee -a ${LOG_FILE}
+    ${MAVEN} -e -f scripts/classify/pom-classify-ontology-with-explanation.xml exec:exec \
+            -DontologyFile=${ONT_FILE} \
+            -DreasonerName=${REASONER_NAME} \
+            -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
 else
-echo "Classifying ontology pair: ${ONT_FILE} ${XTRA_ONT_FILE}" | tee -a ${LOG_FILE}
-${MAVEN} -e -f scripts/classify/pom-classify-ontology-pair-with-explanation.xml exec:exec \
-        -DontologyFile=${ONT_FILE} \
-        -DxtraOntologyFile=${XTRA_ONT_FILE} \
-        -DreasonerName=${REASONER_NAME} \
-        -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
+    echo "Classifying ontology pair: ${ONT_FILE} ${XTRA_ONT_FILE}" | tee -a ${LOG_FILE}
+    ${MAVEN} -e -f scripts/classify/pom-classify-ontology-pair-with-explanation.xml exec:exec \
+            -DontologyFile=${ONT_FILE} \
+            -DxtraOntologyFile=${XTRA_ONT_FILE} \
+            -DreasonerName=${REASONER_NAME} \
+            -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
 fi
 e=${PIPESTATUS[0]}
 date | tee -a ${LOG_FILE}

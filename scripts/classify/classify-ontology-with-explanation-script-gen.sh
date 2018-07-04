@@ -125,7 +125,7 @@ if [[ -z ${XTRA_ONT_ID} ]]; then
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file}...\"" >> ${SCRIPT_FILE}
     # don't reset the log file b/c we are re-classifying the owl file and want to add to the existing log
-    #printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
+    printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
     printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 else
     LOG_FILE="${LOG_DIRECTORY}/${ONT_ID}+${XTRA_ONT_ID}_${REASONER_NAME}.log"
@@ -142,7 +142,7 @@ else
     printf "\n\n### start the reasoner and log its output" >> ${SCRIPT_FILE}
     printf "\nprintf \"classifying ${owl_file} + ${xtra_owl_file}...\"" >> ${SCRIPT_FILE}
     # don't reset the log file b/c we are re-classifying the owl file and want to add to the existing log
-    #printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
+    printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
     printf "\n${CODE_BASE_DIRECTORY}/scripts/classify/classify-with-explanation.sh -i ${owl_file} -x ${xtra_owl_file} -r ${REASONER_NAME} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 fi
 
