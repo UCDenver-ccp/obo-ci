@@ -99,16 +99,6 @@ if ! [[ -e README.md ]]; then
 fi
 
 
-echo "code base directory: ${CODE_BASE_DIRECTORY}"
-	echo "base directory: ${BASE_DIRECTORY}"
-	echo "log directory: ${LOG_DIRECTORY}"
-	echo "ontology id: ${ONT_ID}"
-	echo "reasoner: ${REASONER_NAME}"
-	echo "maven: ${MAVEN}"
-	echo "script file: ${SCRIPT_FILE}"
-	echo "ontology status directory: ${STATUS_DIR}"
-	echo "explanation directory: ${EXPLANATION_DIR}"
-
 ### remove any trailing slash from the code base directory
 case "${CODE_BASE_DIRECTORY}" in
     */)
@@ -126,8 +116,6 @@ owl_file="${dir}/${ONT_ID}_flat.owl"
 if [[ -z ${XTRA_ONT_ID} ]]; then
     LOG_FILE=${LOG_DIRECTORY}/${ONT_ID}_${REASONER_NAME}.log
     EXPLANATIONS_FILE="${ONT_ID}_${REASONER_NAME}.explanation"
-
-    echo "log file: ${LOG_FILE}"
 
     HEADER_JOB_NAME="${HEADER_JOB_NAME}_${ONT_ID}_${REASONER_NAME}"
     ### add the header to the script file if one has been specified

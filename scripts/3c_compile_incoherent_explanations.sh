@@ -95,9 +95,9 @@ for index in ${!IDs[*]}; do
       if [[ -f ${LOG_FILE} ]]; then
           echo "building script: ${SCRIPT_FILE}"
           if [[ -z ${HEADER_FILE} ]]; then
-            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY}
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
           else
-            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY}
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
           fi
           chmod 755 ${SCRIPT_FILE}
       fi
@@ -130,9 +130,9 @@ for index in ${!IDs[*]}; do
       if [[ -f ${LOG_FILE} ]]; then
           echo "building script: ${SCRIPT_FILE}"
           if [[ -z ${HEADER_FILE} ]]; then
-            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY}
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
           else
-            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY}
+            ${CODE_BASE_DIRECTORY}/scripts/classify/compile-explanations-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
           fi
           chmod 755 ${SCRIPT_FILE}
       fi
