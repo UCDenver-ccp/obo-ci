@@ -84,6 +84,9 @@ if [[ -n ${HEADER_JOB_LOG_DIRECTORY} ]]; then
 fi
 
 
+rm -Rf ${EXPLANATION_DIRECTORY_PAIRS}
+mkdir -p ${EXPLANATION_DIRECTORY_PAIRS}
+
 #${CODE_BASE_DIRECTORY}/scripts/classify/pairwise/pair-gen.sh -l ${MODIFIED_ONTOLOGY_LIST_FILE} -a ${ONTOLOGY_LIST_FILE} -o ${PAIRS_TO_PROCESS_FILE} -d ${BASE_DIRECTORY}
 
 # for each line in the pair file, create a run/submission script

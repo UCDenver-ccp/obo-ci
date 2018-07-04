@@ -82,6 +82,10 @@ if [[ -n ${HEADER_JOB_LOG_DIRECTORY} ]]; then
 fi
 
 
+# clean the explanation directory
+rm -Rf ${EXPLANATION_DIRECTORY_INDIVIDUAL}
+mkdir -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
+
 # This script attempts to classify any downloaded ontology that has been determined to have changed since the previous download.
 # for each line in the ontology list file, create a submission script for both elk and hermit
 
