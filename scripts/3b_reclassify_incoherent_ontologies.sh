@@ -94,9 +94,9 @@ for index in ${!IDs[*]}; do
   id=${IDs[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.elk.expl.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r elk -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
   fi
   chmod 755 ${SCRIPT_FILE}
 done
@@ -114,9 +114,9 @@ for index in ${!IDs[*]}; do
   id=${IDs[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY}/${id}.hermit.expl.sh"
   if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
   else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
+    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -r hermit -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_EXPLANATION} -p ${EXPLANATION_DIRECTORY_INDIVIDUAL}
   fi
   chmod 755 ${SCRIPT_FILE}
 done
