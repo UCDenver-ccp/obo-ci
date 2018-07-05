@@ -99,8 +99,6 @@ printf "\nrm -Rf ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${DOWNLOAD_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${BASE_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nrm -Rf ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
-printf "\nmkdir -p ${STATUS_DIRECTORY}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY_INDIVIDUAL}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${STATUS_DIRECTORY_PAIRS}" >> ${SCRIPT_FILE}
 printf "\nmkdir -p ${LOG_DIRECTORY}" >> ${SCRIPT_FILE}
