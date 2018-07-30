@@ -52,7 +52,11 @@ esac
 
 date | tee -a ${LOG_FILE}
 echo "Ontology download URL: ${URL}" | tee -a ${LOG_FILE}
+if [ ${ID} = "pr" ]; then
+curl -L ${URL} -o ${OUTPUT_DIRECTORY}/${ID}.owl --insecure 2>&1 | tee -a ${LOG_FILE}
+else
 curl -L ${URL} -o ${OUTPUT_DIRECTORY}/${ID}.owl 2>&1 | tee -a ${LOG_FILE}
+fi
 e=${PIPESTATUS[0]}
 date | tee -a ${LOG_FILE}
 exit ${e}
