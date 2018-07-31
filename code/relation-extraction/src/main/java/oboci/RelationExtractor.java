@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -27,14 +26,26 @@ import org.semanticweb.owlapi.vocab.OWLRDFVocabulary;
 import owltools.graph.OWLGraphEdge;
 import owltools.graph.OWLGraphWrapper;
 import owltools.graph.OWLQuantifiedProperty;
+import uk.ac.manchester.cs.owl.owlapi.OWLObjectPropertyImpl;
 
 public class RelationExtractor {
 
 	private static Set<String> getLabels(OWLQuantifiedProperty property, OWLOntology ontology, OWLDataFactory df,
-			OWLGraphWrapper graph) {
+										 OWLGraphWrapper graph) {
+		OWLObjectProperty p = property.getProperty();
+		Set<String> labels = getObjectPropertyLabels(ontology, graph, df, p);
+		return labels;
+	}
+
+	private static Set<String> getLabels(OWLObjectPropertyImpl prop, OWLOntology ont, OWLDataFactory df,
+										 OWLGraphWrapper graph) {
+		return getObjectPropertyLabels(ont, graph, df, prop.asOWLObjectProperty());
+	}
+
+	public static Set<String> getObjectPropertyLabels(OWLOntology ontology, OWLGraphWrapper graph, OWLDataFactory df,
+													  OWLObjectProperty p) {
 		OWLAnnotationProperty label = df.getOWLAnnotationProperty(OWLRDFVocabulary.RDFS_LABEL.getIRI());
 		Set<String> labels = new HashSet<String>();
-		OWLObjectProperty p = property.getProperty();
 		if (p != null) {
 			OWLObjectProperty prop = graph.getOWLObjectProperty(p.getIRI());
 			for (OWLAnnotationAssertionAxiom annotation : ontology.getAnnotationAssertionAxioms(prop.getIRI())) {
@@ -56,24 +67,24 @@ public class RelationExtractor {
 		return labels;
 	}
 
-	private static String getLabel(List<OWLQuantifiedProperty> properties, OWLOntology ontology, OWLDataFactory df,
-			OWLGraphWrapper graph) {
-		String labelStr = "";
-		for (OWLQuantifiedProperty prop : properties) {
-			Set<String> labels = getLabels(prop, ontology, df, graph);
-			for (String label : labels) {
-				labelStr += (label + ",");
-			}
-			if (labelStr.length() > 0) {
-				// remove trailing comma
-				labelStr = labelStr.substring(0, labelStr.length() - 1);
-			}
-			labelStr = labelStr + "|";
-		}
-		// remove trailing pipe
-		labelStr = labelStr.substring(0, labelStr.length() - 1);
-		return labelStr;
-	}
+//	private static String getLabel(List<OWLQuantifiedProperty> properties, OWLOntology ontology, OWLDataFactory df,
+//			OWLGraphWrapper graph) {
+//		String labelStr = "";
+//		for (OWLQuantifiedProperty prop : properties) {
+//			Set<String> labels = getLabels(prop, ontology, df, graph);
+//			for (String label : labels) {
+//				labelStr += (label + ",");
+//			}
+//			if (labelStr.length() > 0) {
+//				// remove trailing comma
+//				labelStr = labelStr.substring(0, labelStr.length() - 1);
+//			}
+//			labelStr = labelStr + "|";
+//		}
+//		// remove trailing pipe
+//		labelStr = labelStr.substring(0, labelStr.length() - 1);
+//		return labelStr;
+//	}
 
 	private static String getPropString(OWLQuantifiedProperty prop) {
 		if (prop.getProperty() != null) {
@@ -83,10 +94,13 @@ public class RelationExtractor {
 		}
 	}
 
+	private static String getPropString(OWLObjectPropertyImpl prop) {
+		return prop.getIRI().toString();
+	}
+
 	public static void main(String[] args) throws IOException, OWLOntologyCreationException {
 
-
-		File owlFile  = new File(args[0]);
+		File owlFile = new File(args[0]);
 		if (owlFile.exists()) {
 			OWLOntologyManager inputOntologyManager = OWLManager.createOWLOntologyManager();
 			OWLOntology ont = inputOntologyManager.loadOntologyFromOntologyDocument(owlFile);
@@ -103,6 +117,18 @@ public class RelationExtractor {
 					if (count++ % 10000 == 0) {
 						System.out.println("Progress: " + (count - 1) + " of " + totalClassCount);
 					}
+					if (owlObject instanceof OWLObjectPropertyImpl) {
+						OWLObjectPropertyImpl prop = (OWLObjectPropertyImpl) owlObject;
+						System.out
+								.println("owl object: " + owlObject.toString() + " " + owlObject.getClass().getName());
+						String propStr = getPropString(prop);
+						Set<String> label = getLabels(prop, ont, df, graph);
+						String labelStr = label.toString().substring(1, label.toString().length() - 1);
+						if (labelStr.trim().isEmpty()) {
+							throw new IllegalStateException("empty label for " + propStr);
+						}
+						updatePropCount(relationCountMap, relationToLabelMap, propStr, labelStr);
+					}
 
 					Set<OWLGraphEdge> edges = graph.getOutgoingEdges(owlObject);
 					for (OWLGraphEdge edge : edges) {
@@ -111,24 +137,15 @@ public class RelationExtractor {
 							Set<String> label = getLabels(prop, ont, df, graph);
 							String labelStr = label.toString().substring(1, label.toString().length() - 1);
 							if (labelStr.trim().isEmpty()) {
-								throw new IllegalStateException(
-										"empty label for " + edge.getQuantifiedPropertyList().toString());
+								throw new IllegalStateException("empty label for " + propStr);
 							}
-							if (!relationToLabelMap.containsKey(propStr)) {
-								relationToLabelMap.put(propStr, labelStr);
-							}
-							if (relationCountMap.containsKey(propStr)) {
-								int propcount = relationCountMap.get(propStr) + 1;
-								relationCountMap.remove(propStr);
-								relationCountMap.put(propStr, propcount);
-							} else {
-								relationCountMap.put(propStr, 1);
-							}
+							updatePropCount(relationCountMap, relationToLabelMap, propStr, labelStr);
 						}
 					}
 				}
 
-				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(args[1]))));
+				BufferedWriter writer = new BufferedWriter(
+						new OutputStreamWriter(new FileOutputStream(new File(args[1]))));
 				try {
 					for (Entry<String, Integer> entry : relationCountMap.entrySet()) {
 						writer.write(entry.getKey() + "\t" + relationToLabelMap.get(entry.getKey()) + "\t"
@@ -140,6 +157,21 @@ public class RelationExtractor {
 			} finally {
 				graph.close();
 			}
+		}
+
+	}
+
+	public static void updatePropCount(Map<String, Integer> relationCountMap, Map<String, String> relationToLabelMap,
+									   String propStr, String labelStr) {
+		if (!relationToLabelMap.containsKey(propStr)) {
+			relationToLabelMap.put(propStr, labelStr);
+		}
+		if (relationCountMap.containsKey(propStr)) {
+			int propcount = relationCountMap.get(propStr) + 1;
+			relationCountMap.remove(propStr);
+			relationCountMap.put(propStr, propcount);
+		} else {
+			relationCountMap.put(propStr, 1);
 		}
 	}
 
