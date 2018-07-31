@@ -104,7 +104,7 @@ HEADER_JOB_NAME="${HEADER_JOB_NAME}_${ONT_ID}_relation_extraction"
 
 printf "###\n### This script will extract relations from ${owl_file}.\n###\n" >> ${SCRIPT_FILE}
 printf "\n> ${LOG_FILE}" >> ${SCRIPT_FILE}
-printf "\n${CODE_BASE_DIRECTORY}/scripts/relation_analyses/extract-relations.sh -i ${owl_file} -o ${output_file} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
+printf "\n${CODE_BASE_DIRECTORY}/scripts/relation-analysis/extract-relations.sh -i ${owl_file} -o ${output_file} -m ${MAVEN} -g ${LOG_FILE}" >> ${SCRIPT_FILE}
 
 printf "\ne=\$?" >> ${SCRIPT_FILE}
 
