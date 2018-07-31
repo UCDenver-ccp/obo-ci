@@ -27,7 +27,7 @@ import lombok.Data;
 public class RelationJsonBuilder {
 
 	private static void processFile(File relationsFile, Map<String, RelationData> relationIdToDataMap,
-			Set<String> roRelations) throws IOException {
+									Set<String> roRelations) throws IOException {
 		String line = null;
 		try (BufferedReader br = new BufferedReader(new FileReader(relationsFile))) {
 			while ((line = br.readLine()) != null) {
@@ -127,31 +127,35 @@ public class RelationJsonBuilder {
 	}
 
 	/**
-	 * arg[0] is json output file, 2-5 are ro files, rest are input relation
-	 * files
-	 * 
+	 * arg[0] is json output file, arg[1] is the directory containing the
+	 * relations files
+	 *
+	 *
 	 * @param args
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
 
 		File outputJsonFile = new File(args[0]);
+		File relationsFileDirectory = new File(args[1]);
 
 		Map<String, RelationData> relationIdToDataMap = new HashMap<String, RelationData>();
 
 		Set<String> roRelations = new HashSet<String>();
-		for (int i = 1; i < 6; i++) {
-			System.out.println("Extracting RO files: " + args[i]);
-			roRelations.addAll(getObjectProperties(new File(args[i])));
+		for (File f : relationsFileDirectory.listFiles()) {
+			if (f.getName().startsWith("ro_")) {
+				System.out.println("Extracting RO files: " + f);
+				roRelations.addAll(getObjectProperties(f));
+			}
 		}
 
 		for (String relation : roRelations) {
 			System.out.println("RO relation: " + relation);
 		}
 
-		for (int i = 6; i < args.length; i++) {
-			System.out.println("Processing file: " + args[i]);
-			processFile(new File(args[i]), relationIdToDataMap, roRelations);
+		for (File f : relationsFileDirectory.listFiles()) {
+			System.out.println("Processing file: " + f);
+			processFile(f, relationIdToDataMap, roRelations);
 		}
 
 		// remove redundant labels
@@ -219,13 +223,14 @@ public class RelationJsonBuilder {
 
 		File owlFileListDirectory = new File(outputJsonFile.getParentFile(), "owl_file_lists");
 		File sharedLabelListDirectory = new File(outputJsonFile.getParentFile(), "shared_label_lists");
-		
+
 		owlFileListDirectory.mkdirs();
 		sharedLabelListDirectory.mkdirs();
 
 		// write log files for visualization hyperlinks
 		for (RelationData rd : relationIdToDataMap.values()) {
-			File owlFileListFile = new File(owlFileListDirectory, rd.getId().replaceAll("[:/\\. -]", "_") + ".files.txt");
+			File owlFileListFile = new File(owlFileListDirectory,
+					rd.getId().replaceAll("[:/\\. -]", "_") + ".files.txt");
 			try (BufferedWriter writer = new BufferedWriter(
 					new OutputStreamWriter(new FileOutputStream(owlFileListFile)))) {
 				for (String f : rd.getFiles()) {
