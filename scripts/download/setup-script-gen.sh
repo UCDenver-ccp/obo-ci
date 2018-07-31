@@ -126,3 +126,6 @@ printf "\n### generate a list of all available ontologies in the OBOFoundry.org 
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/create-ontology-list-file.sh -l ${ONTOLOGY_LIST_FILE} -j ${JQ}" >> ${SCRIPT_FILE}
 printf "\n\n### download and install the most recent SNAPSHOT of the OWLTools-Runtime library" >> ${SCRIPT_FILE}
 printf "\n${CODE_BASE_DIRECTORY}/scripts/download/install-latest-owltools-runner-jar.sh -d ${WORK_DIRECTORY} -m ${MAVEN}" >> ${SCRIPT_FILE}
+printf "\n\n### build the relation extraction sub-project" >> ${SCRIPT_FILE}
+printf "\n${MAVEN} -f ${CODE_BASE_DIRECTORY}/code/relation-extraction/pom.xml clean install" >> ${SCRIPT_FILE}
+
