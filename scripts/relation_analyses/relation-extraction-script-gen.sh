@@ -61,7 +61,7 @@ while getopts "b:i:m:a:n:e:y:t:z:l:h" OPTION; do
     esac
 done
 
-if [[ -z ${BASE_DIRECTORY} || -z ${ONT_ID} || -z ${MAVEN} \
+if [[ -z ${BASE_DIRECTORY} || -z ${ONT_ID} || -z ${MAVEN} || -z ${RELATION_DIRECTORY_BY_ONTOLOGY} \
      || -z ${SCRIPT_FILE} || -z ${CODE_BASE_DIRECTORY} || -z ${LOG_DIRECTORY} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "code base directory: ${CODE_BASE_DIRECTORY}"
@@ -70,6 +70,7 @@ if [[ -z ${BASE_DIRECTORY} || -z ${ONT_ID} || -z ${MAVEN} \
 	echo "ontology id: ${ONT_ID}"
 	echo "maven: ${MAVEN}"
 	echo "script file: ${SCRIPT_FILE}"
+	echo "output directory: ${RELATION_DIRECTORY_BY_ONTOLOGY}"
     print_usage
     exit 1
 fi
