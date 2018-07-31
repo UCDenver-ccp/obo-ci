@@ -85,59 +85,62 @@ public class RelationExtractor {
 
 	public static void main(String[] args) throws IOException, OWLOntologyCreationException {
 
-		OWLOntologyManager inputOntologyManager = OWLManager.createOWLOntologyManager();
-		OWLOntology ont = inputOntologyManager.loadOntologyFromOntologyDocument(new File(args[0]));
-		OWLGraphWrapper graph = new OWLGraphWrapper(ont);
-		OWLDataFactory df = inputOntologyManager.getOWLDataFactory();
-		int totalClassCount = graph.getAllOWLObjects().size();
-		int count = 0;
 
-		Map<String, Integer> relationCountMap = new HashMap<String, Integer>();
-		Map<String, String> relationToLabelMap = new HashMap<String, String>();
+		File owlFile  = new File(args[0]);
+		if (owlFile.exists()) {
+			OWLOntologyManager inputOntologyManager = OWLManager.createOWLOntologyManager();
+			OWLOntology ont = inputOntologyManager.loadOntologyFromOntologyDocument(owlFile);
+			OWLGraphWrapper graph = new OWLGraphWrapper(ont);
+			OWLDataFactory df = inputOntologyManager.getOWLDataFactory();
+			int totalClassCount = graph.getAllOWLObjects().size();
+			int count = 0;
 
-		try {
-			for (OWLObject owlObject : graph.getAllOWLObjects()) {
-				if (count++ % 10000 == 0) {
-					System.out.println("Progress: " + (count - 1) + " of " + totalClassCount);
-				}
+			Map<String, Integer> relationCountMap = new HashMap<String, Integer>();
+			Map<String, String> relationToLabelMap = new HashMap<String, String>();
 
-				Set<OWLGraphEdge> edges = graph.getOutgoingEdges(owlObject);
-				for (OWLGraphEdge edge : edges) {
-					for (OWLQuantifiedProperty prop : edge.getQuantifiedPropertyList()) {
-						String propStr = getPropString(prop);
-						Set<String> label = getLabels(prop, ont, df, graph);
-						String labelStr = label.toString().substring(1, label.toString().length() - 1);
-						if (labelStr.trim().isEmpty()) {
-							throw new IllegalStateException(
-									"empty label for " + edge.getQuantifiedPropertyList().toString());
-						}
-						if (!relationToLabelMap.containsKey(propStr)) {
-							relationToLabelMap.put(propStr, labelStr);
-						}
-						if (relationCountMap.containsKey(propStr)) {
-							int propcount = relationCountMap.get(propStr) + 1;
-							relationCountMap.remove(propStr);
-							relationCountMap.put(propStr, propcount);
-						} else {
-							relationCountMap.put(propStr, 1);
+			try {
+				for (OWLObject owlObject : graph.getAllOWLObjects()) {
+					if (count++ % 10000 == 0) {
+						System.out.println("Progress: " + (count - 1) + " of " + totalClassCount);
+					}
+
+					Set<OWLGraphEdge> edges = graph.getOutgoingEdges(owlObject);
+					for (OWLGraphEdge edge : edges) {
+						for (OWLQuantifiedProperty prop : edge.getQuantifiedPropertyList()) {
+							String propStr = getPropString(prop);
+							Set<String> label = getLabels(prop, ont, df, graph);
+							String labelStr = label.toString().substring(1, label.toString().length() - 1);
+							if (labelStr.trim().isEmpty()) {
+								throw new IllegalStateException(
+										"empty label for " + edge.getQuantifiedPropertyList().toString());
+							}
+							if (!relationToLabelMap.containsKey(propStr)) {
+								relationToLabelMap.put(propStr, labelStr);
+							}
+							if (relationCountMap.containsKey(propStr)) {
+								int propcount = relationCountMap.get(propStr) + 1;
+								relationCountMap.remove(propStr);
+								relationCountMap.put(propStr, propcount);
+							} else {
+								relationCountMap.put(propStr, 1);
+							}
 						}
 					}
 				}
-			}
 
-			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(args[1]))));
-			try {
-				for (Entry<String, Integer> entry : relationCountMap.entrySet()) {
-					writer.write(entry.getKey() + "\t" + relationToLabelMap.get(entry.getKey()) + "\t"
-							+ entry.getValue() + "\n");
+				BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(args[1]))));
+				try {
+					for (Entry<String, Integer> entry : relationCountMap.entrySet()) {
+						writer.write(entry.getKey() + "\t" + relationToLabelMap.get(entry.getKey()) + "\t"
+								+ entry.getValue() + "\n");
+					}
+				} finally {
+					writer.close();
 				}
 			} finally {
-				writer.close();
+				graph.close();
 			}
-		} finally {
-			graph.close();
 		}
-
 	}
 
 }
