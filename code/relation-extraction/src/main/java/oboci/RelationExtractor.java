@@ -48,15 +48,17 @@ public class RelationExtractor {
 		Set<String> labels = new HashSet<String>();
 		if (p != null) {
 			OWLObjectProperty prop = graph.getOWLObjectProperty(p.getIRI());
-			for (OWLAnnotationAssertionAxiom annotation : ontology.getAnnotationAssertionAxioms(prop.getIRI())) {
-				if (annotation.getProperty().equals(label)) {
-					if (annotation.getValue() instanceof OWLLiteral) {
-						OWLLiteral val = (OWLLiteral) annotation.getValue();
-						String l = val.getLiteral().replaceAll("_", " ").replaceAll("-", " ");
-						if (l.trim().isEmpty()) {
-							l = "no_label";
+			if (ontology.getAnnotationAssertionAxioms(prop.getIRI()) != null) {
+				for (OWLAnnotationAssertionAxiom annotation : ontology.getAnnotationAssertionAxioms(prop.getIRI())) {
+					if (annotation.getProperty().equals(label)) {
+						if (annotation.getValue() instanceof OWLLiteral) {
+							OWLLiteral val = (OWLLiteral) annotation.getValue();
+							String l = val.getLiteral().replaceAll("_", " ").replaceAll("-", " ");
+							if (l.trim().isEmpty()) {
+								l = "no_label";
+							}
+							labels.add(l);
 						}
-						labels.add(l);
 					}
 				}
 			}
@@ -67,24 +69,25 @@ public class RelationExtractor {
 		return labels;
 	}
 
-//	private static String getLabel(List<OWLQuantifiedProperty> properties, OWLOntology ontology, OWLDataFactory df,
-//			OWLGraphWrapper graph) {
-//		String labelStr = "";
-//		for (OWLQuantifiedProperty prop : properties) {
-//			Set<String> labels = getLabels(prop, ontology, df, graph);
-//			for (String label : labels) {
-//				labelStr += (label + ",");
-//			}
-//			if (labelStr.length() > 0) {
-//				// remove trailing comma
-//				labelStr = labelStr.substring(0, labelStr.length() - 1);
-//			}
-//			labelStr = labelStr + "|";
-//		}
-//		// remove trailing pipe
-//		labelStr = labelStr.substring(0, labelStr.length() - 1);
-//		return labelStr;
-//	}
+	// private static String getLabel(List<OWLQuantifiedProperty> properties,
+	// OWLOntology ontology, OWLDataFactory df,
+	// OWLGraphWrapper graph) {
+	// String labelStr = "";
+	// for (OWLQuantifiedProperty prop : properties) {
+	// Set<String> labels = getLabels(prop, ontology, df, graph);
+	// for (String label : labels) {
+	// labelStr += (label + ",");
+	// }
+	// if (labelStr.length() > 0) {
+	// // remove trailing comma
+	// labelStr = labelStr.substring(0, labelStr.length() - 1);
+	// }
+	// labelStr = labelStr + "|";
+	// }
+	// // remove trailing pipe
+	// labelStr = labelStr.substring(0, labelStr.length() - 1);
+	// return labelStr;
+	// }
 
 	private static String getPropString(OWLQuantifiedProperty prop) {
 		if (prop.getProperty() != null) {
