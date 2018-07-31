@@ -99,6 +99,6 @@ for index in ${!IDs[*]}; do
   id=${IDs[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_RELATION_ANALYSIS}/${id}.relation_extraction.sh"
   echo "Submitting ${SCRIPT_FILE}..."
-  #${RUN_CMD} ${SCRIPT_FILE}
-  #sleep 1
+  ${RUN_CMD} ${SCRIPT_FILE}
+  sleep 1
 done
