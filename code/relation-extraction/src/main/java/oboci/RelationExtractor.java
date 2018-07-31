@@ -48,7 +48,7 @@ public class RelationExtractor {
 		Set<String> labels = new HashSet<String>();
 		if (p != null) {
 			OWLObjectProperty prop = graph.getOWLObjectProperty(p.getIRI());
-			if (ontology.getAnnotationAssertionAxioms(prop.getIRI()) != null) {
+			if (prop != null && ontology.getAnnotationAssertionAxioms(prop.getIRI()) != null) {
 				for (OWLAnnotationAssertionAxiom annotation : ontology.getAnnotationAssertionAxioms(prop.getIRI())) {
 					if (annotation.getProperty().equals(label)) {
 						if (annotation.getValue() instanceof OWLLiteral) {
