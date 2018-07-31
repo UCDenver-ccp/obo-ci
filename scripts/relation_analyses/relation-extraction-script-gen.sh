@@ -15,6 +15,7 @@ function print_usage {
     echo "  [-t <script file>]: MUST BE ABSOLUTE PATH. The path to the script file created by this script."
     echo "  [-z <code base directory>]: MUST BE ABSOLUTE PATH. Path to the base directory where this project has been downloaded."
     echo "  [-l <log directory>]: MUST BE ABSOLUTE PATH. Log directory."
+    echo "  [-o <output directory>]: MUST BE ABSOLUTE PATH. Output directory."
 
         ### header arguments
     echo "  [-n <job name>]: OPTIONALLY USED IN HEADER. Job name; will replace JOB_NAME in header file."
@@ -23,13 +24,16 @@ function print_usage {
 
 }
 
-while getopts "b:i:m:a:n:e:y:t:z:l:h" OPTION; do
+while getopts "b:i:o:m:a:n:e:y:t:z:l:h" OPTION; do
     case ${OPTION} in
         # The work directory
         b) BASE_DIRECTORY=$OPTARG
            ;;
         # The ontology id to process
         i) ONT_ID=$OPTARG
+           ;;
+        # The output directory
+        o) OUTPUT_DIRECTORY=$OPTARG
            ;;
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
@@ -61,7 +65,7 @@ while getopts "b:i:m:a:n:e:y:t:z:l:h" OPTION; do
     esac
 done
 
-if [[ -z ${BASE_DIRECTORY} || -z ${ONT_ID} || -z ${MAVEN} || -z ${RELATION_DIRECTORY_BY_ONTOLOGY} \
+if [[ -z ${BASE_DIRECTORY} || -z ${ONT_ID} || -z ${MAVEN} || -z ${OUTPUT_DIRECTORY} \
      || -z ${SCRIPT_FILE} || -z ${CODE_BASE_DIRECTORY} || -z ${LOG_DIRECTORY} ]]; then
 	echo "missing input arguments!!!!!"
 	echo "code base directory: ${CODE_BASE_DIRECTORY}"
@@ -70,7 +74,7 @@ if [[ -z ${BASE_DIRECTORY} || -z ${ONT_ID} || -z ${MAVEN} || -z ${RELATION_DIREC
 	echo "ontology id: ${ONT_ID}"
 	echo "maven: ${MAVEN}"
 	echo "script file: ${SCRIPT_FILE}"
-	echo "output directory: ${RELATION_DIRECTORY_BY_ONTOLOGY}"
+	echo "output directory: ${OUTPUT_DIRECTORY}"
     print_usage
     exit 1
 fi
@@ -92,7 +96,7 @@ esac
 # remove any duplicate forward slashes from the directory path
 dir=$(echo "${BASE_DIRECTORY}/ontologies/${ONT_ID}" | sed 's/\/\//\//g')
 owl_file="${dir}/${ONT_ID}_flat.owl"
-output_file="${RELATION_DIRECTORY_BY_ONTOLOGY}/${ONT_ID}_flat.owl.relations"
+output_file="${OUTPUT_DIRECTORY}/${ONT_ID}_flat.owl.relations"
 LOG_FILE="${LOG_DIRECTORY}/${ONT_ID}_relation-extraction.log"
 HEADER_JOB_NAME="${HEADER_JOB_NAME}_${ONT_ID}_relation_extraction"
 ### add the header to the script file if one has been specified
