@@ -13,13 +13,16 @@ function print_usage {
     echo "  [-g <log file>]: MUST BE ABSOLUTE PATH. Path to the log file."
 }
 
-while getopts "i:o:m:g:h" OPTION; do
+while getopts "i:o:d:m:g:h" OPTION; do
     case ${OPTION} in
         # The input ontology file
         i) RELATION_FILES_DIRECTORY=$OPTARG
            ;;
         # The output file where extracted relations are stored
         o) OUTPUT_FILE=$OPTARG
+           ;;
+        # directory where the owl files are located
+        d) DOWNLOAD_DIRECTORY=$OPTARG
            ;;
         # The path to the Apache Maven command
         m) MAVEN=$OPTARG
@@ -55,6 +58,7 @@ echo "Compiling relations from: ${RELATION_FILES_DIRECTORY}" | tee -a ${LOG_FILE
 ${MAVEN} -e -f scripts/relation-analysis/pom-compile-relation-analysis-results.xml exec:exec \
         -DrelationFilesDirectory=${RELATION_FILES_DIRECTORY} \
         -DoutputFile=${OUTPUT_FILE} \
+        -DdownloadDirectory=${DOWNLOAD_DIRECTORY} \
         -DlaunchDir=${PATH_TO_ME} 2>&1 | tee -a ${LOG_FILE}
 e=${PIPESTATUS[0]}
 date | tee -a ${LOG_FILE}

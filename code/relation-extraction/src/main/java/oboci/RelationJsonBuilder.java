@@ -138,14 +138,16 @@ public class RelationJsonBuilder {
 
 		File outputJsonFile = new File(args[0]);
 		File relationsFileDirectory = new File(args[1]);
+		File owlFileDirectory = new File(args[2]);
 
 		Map<String, RelationData> relationIdToDataMap = new HashMap<String, RelationData>();
 
 		Set<String> roRelations = new HashSet<String>();
-		for (File f : relationsFileDirectory.listFiles()) {
-			if (f.getName().startsWith("ro_")) {
-				System.out.println("Extracting RO files: " + f);
-				roRelations.addAll(getObjectProperties(f));
+		for (File f : owlFileDirectory.listFiles()) {
+			if (f.isDirectory() && (f.getName().equals("ro") || f.getName().startsWith("ro_"))) {
+				File owlFile = new File(f, f.getName() + "_flat.owl");
+				System.out.println("Extracting RO files: " + owlFile);
+				roRelations.addAll(getObjectProperties(owlFile));
 			}
 		}
 

@@ -120,18 +120,20 @@ public class RelationExtractor {
 					if (count++ % 10000 == 0) {
 						System.out.println("Progress: " + (count - 1) + " of " + totalClassCount);
 					}
-					if (owlObject instanceof OWLObjectPropertyImpl) {
-						OWLObjectPropertyImpl prop = (OWLObjectPropertyImpl) owlObject;
-						System.out
-								.println("owl object: " + owlObject.toString() + " " + owlObject.getClass().getName());
-						String propStr = getPropString(prop);
-						Set<String> label = getLabels(prop, ont, df, graph);
-						String labelStr = label.toString().substring(1, label.toString().length() - 1);
-						if (labelStr.trim().isEmpty()) {
-							throw new IllegalStateException("empty label for " + propStr);
-						}
-						updatePropCount(relationCountMap, relationToLabelMap, propStr, labelStr);
-					}
+					// this commented out block detects OWL Object Property definitions
+					// we are more interested in uses of the Object Properties so we'll comment this out for now
+//					if (owlObject instanceof OWLObjectPropertyImpl) {
+//						OWLObjectPropertyImpl prop = (OWLObjectPropertyImpl) owlObject;
+//						System.out
+//								.println("owl object: " + owlObject.toString() + " " + owlObject.getClass().getName());
+//						String propStr = getPropString(prop);
+//						Set<String> label = getLabels(prop, ont, df, graph);
+//						String labelStr = label.toString().substring(1, label.toString().length() - 1);
+//						if (labelStr.trim().isEmpty()) {
+//							throw new IllegalStateException("empty label for " + propStr);
+//						}
+//						updatePropCount(relationCountMap, relationToLabelMap, propStr, labelStr);
+//					}
 
 					Set<OWLGraphEdge> edges = graph.getOutgoingEdges(owlObject);
 					for (OWLGraphEdge edge : edges) {

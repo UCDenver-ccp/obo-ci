@@ -40,6 +40,7 @@
 						<argument>oboci.RelationJsonBuilder</argument>
 						<argument>${outputFile}</argument>
 						<argument>${relationFilesDirectory}</argument>
+						<argument>${downloadDirectory}</argument>
 					</arguments>
 				</configuration>
 			</plugin>
