@@ -151,7 +151,7 @@ public class RelationExtractor {
 						new OutputStreamWriter(new FileOutputStream(new File(args[1]))));
 				try {
 					for (Entry<String, Integer> entry : relationCountMap.entrySet()) {
-						writer.write(entry.getKey() + "\t" + relationToLabelMap.get(entry.getKey()) + "\t"
+						writer.write(entry.getKey() + "\t" + relationToLabelMap.get(entry.getKey()).replaceAll("\\n", " ") + "\t"
 								+ entry.getValue() + "\n");
 					}
 				} finally {
