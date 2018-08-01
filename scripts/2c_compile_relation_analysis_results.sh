@@ -83,4 +83,4 @@ fi
 
 output_file=${RELATION_DIRECTORY}/relations.json
 log_file=${RELATION_DIRECTORY}/relations.json.build.log
-${CODE_BASE_DIRECTORY}/scripts/relation-analysis/compile-relations.sh -i ${RELATION_DIRECTORY_BY_ONTOLOGY} -o ${output_file} -d ${DOWNLOAD_DIRECTORY} -m ${MAVEN} -g ${log_file}
+${CODE_BASE_DIRECTORY}/scripts/relation-analysis/compile-relations.sh -i ${RELATION_DIRECTORY_BY_ONTOLOGY} -o ${output_file} -d ${ONTOLOGIES_DIRECTORY} -m ${MAVEN} -g ${log_file}
