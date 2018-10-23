@@ -99,7 +99,6 @@ for index in ${!ID1s[*]}; do
   ELK_STATUS_FILE="${STATUS_DIRECTORY_PAIRS}/${id1}+${id2}_elk.json"
   if [ ! -f ${ELK_STATUS_FILE} ]; then
       ${RUN_CMD} ${SCRIPT_FILE}
-      sleep 1
   fi
 
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS}/${id1}_${id2}.hermit.sh"
