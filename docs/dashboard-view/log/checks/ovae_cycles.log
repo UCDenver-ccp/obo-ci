@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:28 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ovae/ovae_flat.owl
+Wed Oct 24 12:30:52 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/ovae/ovae_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,12 +8,10 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:33,396 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ovae/ovae_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ovae/ovae_flat.owl
-[INFO] 2017-12-03 00:50:36,982 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
-[INFO] 2017-12-03 00:50:36,984 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
-[INFO] 2017-12-03 00:50:37,031 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ovae.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ovae/ovae_flat.owl
+[INFO] 2018-10-24 12:30:56,529 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ovae/ovae_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ovae/ovae_flat.owl
+[INFO] 2018-10-24 12:31:15,667 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2018-10-24 12:31:15,668 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
+[INFO] 2018-10-24 12:31:15,722 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ovae.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ovae/ovae_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectAllValuesFrom(BFO:0000132 'part of occurrent' BFO:0000008 'temporal region') ObjectAllValuesFrom(BFO:0000117 'has occurrent part' BFO:0000008 'temporal region') BFO:0000008 'temporal region' BFO:0000001 'entity' BFO:0000003 'occurrent' ObjectSomeValuesFrom(BFO:0000108 'exists at' BFO:0000008 'temporal region')
 [INFO] Cycle: BFO:0000141 'immaterial entity' ObjectAllValuesFrom(BFO:0000187 'has continuant part at all times that part exists' BFO:0000006 'spatial region') BFO:0000006 'spatial region' ObjectAllValuesFrom(BFO:0000187 'has continuant part at all times that part exists' BFO:0000141 'immaterial entity') BFO:0000004 'independent continuant' ObjectAllValuesFrom(BFO:0000186 'part of continuant at all times that whole exists' BFO:0000006 'spatial region') ObjectAllValuesFrom(BFO:0000178 'has continuant part at some time' BFO:0000006 'spatial region') ObjectAllValuesFrom(BFO:0000176 'part of continuant at some time' BFO:0000006 'spatial region') ObjectAllValuesFrom(BFO:0000178 'has continuant part at some time' BFO:0000141 'immaterial entity') ObjectSomeValuesFrom(BFO:0000083 'occupies spatial region at some time' BFO:0000006 'spatial region')
@@ -79,8 +77,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 45.884 s
-[INFO] Finished at: 2017-12-03T00:51:15-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 1:28.558s
+[INFO] Finished at: Wed Oct 24 12:32:22 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:51:15 MST 2017
+Wed Oct 24 12:32:22 UTC 2018

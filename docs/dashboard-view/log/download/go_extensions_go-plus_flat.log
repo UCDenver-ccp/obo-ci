@@ -1,5 +1,5 @@
-Wed Nov 29 15:04:43 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl
+Mon Oct 22 16:53:47 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,64 +8,68 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 15:04:58,165 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl
-[INFO] 2017-11-29 15:04:58,991 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl
-[INFO] 2017-11-29 15:05:01,007 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/uberon_import_pre.owl from: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl
-[INFO] 2017-11-29 15:05:01,012 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl from: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
-[INFO] 2017-11-29 15:05:01,604 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl from: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
-[INFO] 2017-11-29 15:05:01,609 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/pr_import.owl from: http://purl.obolibrary.org/obo/go/imports/pr_import.owl
-[INFO] 2017-11-29 15:05:01,816 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/pr_import.owl from: http://purl.obolibrary.org/obo/go/imports/pr_import.owl
-[INFO] 2017-11-29 15:05:01,821 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl from: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
-[INFO] 2017-11-29 15:05:02,239 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl from: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
-[INFO] 2017-11-29 15:05:02,244 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/cl_import.owl from: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
-[INFO] 2017-11-29 15:05:02,430 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/cl_import.owl from: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
-[INFO] 2017-11-29 15:05:02,434 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/oba_import.owl from: http://purl.obolibrary.org/obo/go/imports/oba_import.owl
-[INFO] 2017-11-29 15:05:02,586 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/oba_import.owl from: http://purl.obolibrary.org/obo/go/imports/oba_import.owl
-[INFO] 2017-11-29 15:05:02,589 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/po_import.owl from: http://purl.obolibrary.org/obo/go/imports/po_import.owl
-[INFO] 2017-11-29 15:05:02,765 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/po_import.owl from: http://purl.obolibrary.org/obo/go/imports/po_import.owl
-[INFO] 2017-11-29 15:05:02,770 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/fao_import.owl from: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
-[INFO] 2017-11-29 15:05:02,914 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/fao_import.owl from: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
-[INFO] 2017-11-29 15:05:02,918 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl from: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl
-[INFO] 2017-11-29 15:05:03,084 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl from: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl
-[INFO] 2017-11-29 15:05:03,089 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl
-[INFO] 2017-11-29 15:05:04,195 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl
-[INFO] 2017-11-29 15:05:04,202 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/ro_import.owl from: http://purl.obolibrary.org/obo/go/imports/ro_import.owl
-[INFO] 2017-11-29 15:05:04,378 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/ro_import.owl from: http://purl.obolibrary.org/obo/go/imports/ro_import.owl
-[INFO] 2017-11-29 15:05:04,383 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:05:04,536 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/releases/2017-10-18/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:05:04,540 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/pato_import.owl from: http://purl.obolibrary.org/obo/go/imports/pato_import.owl
-[INFO] 2017-11-29 15:05:04,687 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/pato_import.owl from: http://purl.obolibrary.org/obo/go/imports/pato_import.owl
-[INFO] 2017-11-29 15:05:04,691 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/ro_pending.owl from: http://purl.obolibrary.org/obo/go/imports/ro_pending.owl
-[INFO] 2017-11-29 15:05:04,831 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl from: http://purl.obolibrary.org/obo/go/imports/ro_pending.owl
-[INFO] 2017-11-29 15:05:04,835 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/caro_import.owl from: http://purl.obolibrary.org/obo/go/imports/caro_import.owl
-[INFO] 2017-11-29 15:05:04,971 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/caro_import.owl from: http://purl.obolibrary.org/obo/go/imports/caro_import.owl
-[INFO] 2017-11-29 15:05:04,975 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/so_import.owl from: http://purl.obolibrary.org/obo/go/imports/so_import.owl
-[INFO] 2017-11-29 15:05:05,107 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/so_import.owl from: http://purl.obolibrary.org/obo/go/imports/so_import.owl
-[INFO] 2017-11-29 15:10:47,671 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-plus.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl
-[INFO] 2017-11-29 15:10:47,687 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/pato_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/pato_import.owl>))) [Axioms: 123 Logical Axioms: 21]
-[INFO] 2017-11-29 15:10:47,694 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/oba_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-25/imports/oba_import.owl>))) [Axioms: 662 Logical Axioms: 173]
-[INFO] 2017-11-29 15:10:47,699 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/extensions/go-gci.owl>) VersionIRI(<null>))) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:10:47,699 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/cl_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/cl_import.owl>))) [Axioms: 3266 Logical Axioms: 838]
-[INFO] 2017-11-29 15:10:47,977 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/fao_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/fao_import.owl>))) [Axioms: 143 Logical Axioms: 31]
-[INFO] 2017-11-29 15:10:47,979 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/chebi_import.owl>) VersionIRI(<null>))) [Axioms: 34839 Logical Axioms: 21784]
-[INFO] 2017-11-29 15:10:48,148 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/uberon_import_pre.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-11-03/imports/uberon_import.owl>))) [Axioms: 49840 Logical Axioms: 18886]
-[INFO] 2017-11-29 15:10:48,463 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/caro_import.owl>) VersionIRI(<null>))) [Axioms: 20 Logical Axioms: 7]
-[INFO] 2017-11-29 15:10:48,464 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl>) VersionIRI(<null>))) [Axioms: 177 Logical Axioms: 45]
-[INFO] 2017-11-29 15:10:48,465 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl>) VersionIRI(<null>))) [Axioms: 41 Logical Axioms: 14]
-[INFO] 2017-11-29 15:10:48,466 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/so_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/so_import.owl>))) [Axioms: 442 Logical Axioms: 111]
-[INFO] 2017-11-29 15:10:48,467 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/po_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/po_import.owl>))) [Axioms: 2380 Logical Axioms: 547]
-[INFO] 2017-11-29 15:10:48,472 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/releases/2017-10-18/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 880 Logical Axioms: 375]
-[INFO] 2017-11-29 15:10:48,475 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/pr_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-05-15/imports/pr_import.owl>))) [Axioms: 3419 Logical Axioms: 544]
-[INFO] 2017-11-29 15:10:48,483 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/ro_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-10-03/imports/ro_import.owl>))) [Axioms: 842 Logical Axioms: 287]
-[INFO] 2017-11-29 15:10:48,486 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl>) VersionIRI(<null>))) [Axioms: 115 Logical Axioms: 10]
-[INFO] 2017-11-29 15:10:48,490 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/go/extensions/go-plus.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:51,021 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl
+[INFO] 2018-10-22 16:53:51,202 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl from: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
+[INFO] 2018-10-22 16:53:52,545 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl from: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
+[INFO] 2018-10-22 16:53:52,547 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl from: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
+[INFO] 2018-10-22 16:53:53,111 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl from: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
+[INFO] 2018-10-22 16:53:53,112 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/caro_import.owl from: http://purl.obolibrary.org/obo/go/imports/caro_import.owl
+[INFO] 2018-10-22 16:53:53,433 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/caro_import.owl from: http://purl.obolibrary.org/obo/go/imports/caro_import.owl
+[INFO] 2018-10-22 16:53:53,434 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:56,716 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:56,722 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/cl_import.owl from: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:57,092 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/cl_import.owl from: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:57,098 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/fao_import.owl from: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
+[INFO] 2018-10-22 16:53:57,324 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/fao_import.owl from: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
+[INFO] 2018-10-22 16:53:57,331 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl from: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl
+[INFO] 2018-10-22 16:53:57,528 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+[INFO] 2018-10-22 16:54:04,528 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+[INFO] 2018-10-22 16:54:05,237 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl from: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl
+[INFO] 2018-10-22 16:54:05,255 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:54:05,629 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:54:05,644 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/oba_import.owl from: http://purl.obolibrary.org/obo/go/imports/oba_import.owl
+[INFO] 2018-10-22 16:54:05,881 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/oba_import.owl from: http://purl.obolibrary.org/obo/go/imports/oba_import.owl
+[INFO] 2018-10-22 16:54:05,895 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/pato_import.owl from: http://purl.obolibrary.org/obo/go/imports/pato_import.owl
+[INFO] 2018-10-22 16:54:06,165 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/pato_import.owl from: http://purl.obolibrary.org/obo/go/imports/pato_import.owl
+[INFO] 2018-10-22 16:54:06,181 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/po_import.owl from: http://purl.obolibrary.org/obo/go/imports/po_import.owl
+[INFO] 2018-10-22 16:54:06,484 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/po_import.owl from: http://purl.obolibrary.org/obo/go/imports/po_import.owl
+[INFO] 2018-10-22 16:54:06,499 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/pr_import.owl from: http://purl.obolibrary.org/obo/go/imports/pr_import.owl
+[INFO] 2018-10-22 16:54:06,828 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/pr_import.owl from: http://purl.obolibrary.org/obo/go/imports/pr_import.owl
+[INFO] 2018-10-22 16:54:06,845 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/ro_import.owl from: http://purl.obolibrary.org/obo/go/imports/ro_import.owl
+[INFO] 2018-10-22 16:54:07,130 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/ro_import.owl from: http://purl.obolibrary.org/obo/go/imports/ro_import.owl
+[INFO] 2018-10-22 16:54:07,145 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/ro_pending.owl from: http://purl.obolibrary.org/obo/go/imports/ro_pending.owl
+[INFO] 2018-10-22 16:54:07,413 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl from: http://purl.obolibrary.org/obo/go/imports/ro_pending.owl
+[INFO] 2018-10-22 16:54:07,428 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/so_import.owl from: http://purl.obolibrary.org/obo/go/imports/so_import.owl
+[INFO] 2018-10-22 16:54:07,717 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/so_import.owl from: http://purl.obolibrary.org/obo/go/imports/so_import.owl
+[INFO] 2018-10-22 16:54:07,733 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl
+[INFO] 2018-10-22 16:54:09,886 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl
+[INFO] 2018-10-22 16:54:09,901 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl from: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl
+[INFO] 2018-10-22 16:54:10,129 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl from: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl
+[INFO] 2018-10-22 16:54:33,228 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/go/extensions/go-plus.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/go_extensions_go-plus/go_extensions_go-plus.owl
+[INFO] 2018-10-22 16:54:33,243 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/pato_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/pato_import.owl>))) [Axioms: 123 Logical Axioms: 21]
+[INFO] 2018-10-22 16:54:33,252 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl>) VersionIRI(<null>))) [Axioms: 13900 Logical Axioms: 13832]
+[INFO] 2018-10-22 16:54:33,302 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl>) VersionIRI(<null>))) [Axioms: 120743 Logical Axioms: 13686]
+[INFO] 2018-10-22 16:54:34,064 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/oba_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-25/imports/oba_import.owl>))) [Axioms: 662 Logical Axioms: 173]
+[INFO] 2018-10-22 16:54:34,066 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/extensions/go-gci.owl>) VersionIRI(<null>))) [Axioms: 0 Logical Axioms: 0]
+[INFO] 2018-10-22 16:54:34,066 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/cl_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2018-07-30/imports/cl_import.owl>))) [Axioms: 3343 Logical Axioms: 848]
+[INFO] 2018-10-22 16:54:34,083 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/po_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2018-09-25/imports/po_import.owl>))) [Axioms: 2383 Logical Axioms: 539]
+[INFO] 2018-10-22 16:54:34,091 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/so_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2018-05-21/imports/so_import.owl>))) [Axioms: 446 Logical Axioms: 39]
+[INFO] 2018-10-22 16:54:34,092 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 939 Logical Axioms: 387]
+[INFO] 2018-10-22 16:54:34,095 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/ro_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2018-05-21/imports/ro_import.owl>))) [Axioms: 1413 Logical Axioms: 460]
+[INFO] 2018-10-22 16:54:34,102 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/fao_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-04-11/imports/fao_import.owl>))) [Axioms: 143 Logical Axioms: 31]
+[INFO] 2018-10-22 16:54:34,104 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/chebi_import.owl>) VersionIRI(<null>))) [Axioms: 37797 Logical Axioms: 23422]
+[INFO] 2018-10-22 16:54:34,247 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/caro_import.owl>) VersionIRI(<null>))) [Axioms: 20 Logical Axioms: 7]
+[INFO] 2018-10-22 16:54:34,248 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl>) VersionIRI(<null>))) [Axioms: 142 Logical Axioms: 44]
+[INFO] 2018-10-22 16:54:34,249 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl>) VersionIRI(<null>))) [Axioms: 41 Logical Axioms: 14]
+[INFO] 2018-10-22 16:54:34,249 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/pr_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2017-05-15/imports/pr_import.owl>))) [Axioms: 3419 Logical Axioms: 544]
+[INFO] 2018-10-22 16:54:34,258 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl>) VersionIRI(<null>))) [Axioms: 115 Logical Axioms: 10]
+[INFO] 2018-10-22 16:54:34,259 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/go/imports/uberon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/go/releases/2018-09-17/imports/uberon_import.owl>))) [Axioms: 50411 Logical Axioms: 19209]
+[INFO] 2018-10-22 16:54:34,419 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/go/extensions/go-plus.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 06:21 min
-[INFO] Finished at: 2017-11-29T15:11:07-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 1:05.831s
+[INFO] Finished at: Mon Oct 22 16:54:54 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:11:07 MST 2017
+Mon Oct 22 16:54:54 UTC 2018

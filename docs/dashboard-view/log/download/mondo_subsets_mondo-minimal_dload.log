@@ -1,0 +1,32 @@
+Mon Oct 22 16:53:58 UTC 2018
+Ontology download URL: http://purl.obolibrary.org/obo/mondo/subsets/mondo-minimal.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   298  100   298    0     0   1877      0 --:--:-- --:--:-- --:--:--  1886
+100   461  100   461    0     0    610      0 --:--:-- --:--:-- --:--:--   610
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0 52.2M    0   972    0     0    385      0 39:32:37  0:00:02 39:32:35  1437  1 52.2M    1 1055k    0     0   356k      0  0:02:30  0:00:02  0:02:28  944k  7 52.2M    7 3900k    0     0   984k      0  0:00:54  0:00:03  0:00:51 1843k 12 52.2M   12 6796k    0     0  1369k      0  0:00:39  0:00:04  0:00:35 2181k 18 52.2M   18  9.8M    0     0  1698k      0  0:00:31  0:00:05  0:00:26 2460k 28 52.2M   28 14.7M    0     0  2166k      0  0:00:24  0:00:06  0:00:18 3397k 39 52.2M   39 20.4M    0     0  2634k      0  0:00:20  0:00:07  0:00:13 3984k 86 52.2M   86 45.3M    0     0  5180k      0  0:00:10  0:00:08  0:00:02 8505k100 52.2M  100 52.2M    0     0  5634k      0  0:00:09  0:00:09 --:--:-- 10.0M
+Mon Oct 22 16:54:08 UTC 2018
+
+Mon Oct 22 16:54:09 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:54:13,041 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal.owl
+[INFO] 2018-10-22 16:54:27,932 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/subsets/mondo-minimal.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal.owl
+[INFO] 2018-10-22 16:54:27,945 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mondo/subsets/mondo-minimal.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29.636s
+[INFO] Finished at: Mon Oct 22 16:54:40 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:54:40 UTC 2018
+
+Download validation successful. Triple count = 1180612

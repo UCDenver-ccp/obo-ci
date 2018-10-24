@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:15 MST 2017
+Mon Oct 22 16:54:27 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/olatdv.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   1314      0 --:--:-- --:--:-- --:--:--  1320
-  0  128k    0   785    0     0   1393      0  0:01:34 --:--:--  0:01:34  1393100  128k  100  128k    0     0   199k      0 --:--:-- --:--:-- --:--:-- 1578k
-Wed Nov 29 14:59:16 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   1928      0 --:--:-- --:--:-- --:--:--  1932
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  128k  100  128k    0     0   149k      0 --:--:-- --:--:-- --:--:--  676k
+Mon Oct 22 16:54:28 UTC 2018
 
-Wed Nov 29 14:59:17 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/olatdv/olatdv.owl
+Mon Oct 22 16:54:28 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/olatdv/olatdv.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:24,991 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/olatdv/olatdv.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/olatdv/olatdv.owl
-[INFO] 2017-11-29 14:59:26,946 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/olatdv.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/olatdv/olatdv.owl
-[INFO] 2017-11-29 14:59:26,958 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/olatdv.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:32,361 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/olatdv/olatdv.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/olatdv/olatdv.owl
+[INFO] 2018-10-22 16:54:32,718 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/olatdv.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/olatdv/olatdv.owl
+[INFO] 2018-10-22 16:54:32,728 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/olatdv.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.221 s
-[INFO] Finished at: 2017-11-29T14:59:27-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.003s
+[INFO] Finished at: Mon Oct 22 16:54:32 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:27 MST 2017
+Mon Oct 22 16:54:33 UTC 2018
 
 Download validation successful. Triple count = 1337

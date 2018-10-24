@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
+Tue Oct 23 18:47:23 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,454 +8,459 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,341 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
-[INFO] 2017-12-02 12:52:21,458 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-12-02 12:52:21,528 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
+[INFO] 2018-10-23 18:47:27,137 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
+[INFO] 2018-10-23 18:47:28,204 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-23 18:47:28,221 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:21,834 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:28,266 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:21,985 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:22,913 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:22,916 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1fdfafd2
-[INFO] 2017-12-02 12:52:22,922 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:22,935 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:23,034 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#agent_in> <http://www.obofoundry.org/ro/ro.owl#has_agent>)
-[INFO] 2017-12-02 12:52:23,036 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,299 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:47:28,473 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:47:28,474 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@5b43fbf6
+[INFO] 2018-10-23 18:47:28,475 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:47:28,479 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:47:28,497 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/BFO_0000067>)
-[INFO] 2017-12-02 12:52:23,053 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,064 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,500 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001000> <http://purl.obolibrary.org/obo/RO_0001001>)
-[INFO] 2017-12-02 12:52:23,082 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,503 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000455> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,087 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,113 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,503 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/BFO_0000063>)
+[INFO] 2018-10-23 18:47:28,509 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000405> <http://purl.obolibrary.org/obo/IAO_0000400>)
-[INFO] 2017-12-02 12:52:23,119 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,510 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121>))
-[INFO] 2017-12-02 12:52:23,124 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,512 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000502> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#string>))
-[INFO] 2017-12-02 12:52:23,125 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,513 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000514> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,133 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,514 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000491> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,135 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,516 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
 [INFO] FunctionalDataProperty(<http://semanticscience.org/resource/CHEMINF_000009>)
-[INFO] 2017-12-02 12:52:23,139 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,517 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000143> <http://purl.obolibrary.org/obo/BFO_0000020>)
+[INFO] 2018-10-23 18:47:28,518 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo#is_tautomer_of>)
-[INFO] 2017-12-02 12:52:23,141 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,521 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,523 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000059> <http://purl.obolibrary.org/obo/BFO_0000031>)
-[INFO] 2017-12-02 12:52:23,142 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,523 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#has_proper_part> <http://www.obofoundry.org/ro/ro.owl#proper_part_of>)
-[INFO] 2017-12-02 12:52:23,143 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,524 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000452> <http://semanticscience.org/resource/CHEMINF_000453>)
-[INFO] 2017-12-02 12:52:23,176 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,528 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000039>)
-[INFO] 2017-12-02 12:52:23,177 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,179 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,531 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002002> <http://purl.obolibrary.org/obo/BFO_0000141>)
-[INFO] 2017-12-02 12:52:23,183 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,532 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,533 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000108> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.org/obo/owl/OBO_REL#bearer_of>) <http://purl.obolibrary.org/obo/CHEBI_33250>))
-[INFO] 2017-12-02 12:52:23,184 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,534 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000406> <http://purl.obolibrary.org/obo/IAO_0000400>)
-[INFO] 2017-12-02 12:52:23,185 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,535 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000103>))
-[INFO] 2017-12-02 12:52:23,196 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,536 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000085> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000079>))
-[INFO] 2017-12-02 12:52:23,203 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,204 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,536 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,540 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000457> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,205 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,554 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/RO_0000059>)
-[INFO] 2017-12-02 12:52:23,206 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,554 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000031> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.org/obo/owl/OBO_REL#bearer_of>) <http://purl.obolibrary.org/obo/CHEBI_23367>))
-[INFO] 2017-12-02 12:52:23,206 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,555 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/OBI_0000312>)
-[INFO] 2017-12-02 12:52:23,207 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,555 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/RO_0000057>)
-[INFO] 2017-12-02 12:52:23,209 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,557 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/OBI_0000011>)
-[INFO] 2017-12-02 12:52:23,211 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,558 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000200> <http://purl.obolibrary.org/obo/IAO_0000027>)
-[INFO] 2017-12-02 12:52:23,211 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,559 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
-[INFO] 2017-12-02 12:52:23,212 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,559 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000047> <http://purl.obolibrary.org/obo/IAO_0000033>)
-[INFO] 2017-12-02 12:52:23,213 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,560 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,561 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000295> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000293>))
-[INFO] 2017-12-02 12:52:23,226 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://www.obofoundry.org/ro/ro.owl#participates_in>)
-[INFO] 2017-12-02 12:52:23,227 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,561 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000407> <http://purl.obolibrary.org/obo/UO_0000001>)
-[INFO] 2017-12-02 12:52:23,228 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,561 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,562 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000058> <http://purl.obolibrary.org/obo/BFO_0000020>)
-[INFO] 2017-12-02 12:52:23,229 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,563 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000480> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,231 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,574 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://semanticscience.org/resource/CHEMINF_000009> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:23,232 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,574 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000081> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000087>))
-[INFO] 2017-12-02 12:52:23,233 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,575 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://semanticscience.org/resource/CHEMINF_000009> <http://purl.obolibrary.org/obo/IAO_0000030>)
-[INFO] 2017-12-02 12:52:23,234 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,236 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,576 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointObjectProperties. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo#is_enantiomer_of> <http://semanticscience.org/resource/CHEMINF_000463>)
-[INFO] 2017-12-02 12:52:23,237 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#contained_in> <http://www.obofoundry.org/ro/ro.owl#contains>)
-[INFO] 2017-12-02 12:52:23,238 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,577 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000606> <http://purl.obolibrary.org/obo/IAO_0000064>)
-[INFO] 2017-12-02 12:52:23,238 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,578 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo#is_tautomer_of> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,239 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,578 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
 [INFO] FunctionalDataProperty(<http://purl.obolibrary.org/obo/IAO_0000004>)
-[INFO] 2017-12-02 12:52:23,239 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,579 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000223> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,240 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#derived_into> <http://www.obofoundry.org/ro/ro.owl#derives_from>)
-[INFO] 2017-12-02 12:52:23,240 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,579 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000456> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,241 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,580 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000295>))
-[INFO] 2017-12-02 12:52:23,244 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,581 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000454> <http://purl.obolibrary.org/obo/PR_000000001>)
-[INFO] 2017-12-02 12:52:23,246 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,582 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000407>)
-[INFO] 2017-12-02 12:52:23,246 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000499> <http://semanticscience.org/resource/CHEMINF_000514>)
-[INFO] 2017-12-02 12:52:23,247 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,584 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000404> <http://purl.obolibrary.org/obo/IAO_0000400>)
-[INFO] 2017-12-02 12:52:23,247 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,248 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,585 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000221> ObjectInverseOf(<http://purl.obolibrary.org/obo/IAO_0000417>))
-[INFO] 2017-12-02 12:52:23,249 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#has_part> <http://www.obofoundry.org/ro/ro.owl#part_of>)
-[INFO] 2017-12-02 12:52:23,250 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,585 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000418> ObjectInverseOf(<http://purl.obolibrary.org/obo/IAO_0000419>))
-[INFO] 2017-12-02 12:52:23,250 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,586 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000312>))
-[INFO] 2017-12-02 12:52:23,251 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,587 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000459> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,253 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:28,587 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000403> DataExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000405>))
-[INFO] 2017-12-02 12:52:23,253 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,588 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000092> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000091>))
-[INFO] 2017-12-02 12:52:23,255 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,589 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000460> <http://semanticscience.org/resource/CHEMINF_000495>)
-[INFO] 2017-12-02 12:52:23,256 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,591 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000246> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,257 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,591 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000233> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,258 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,593 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/RO_0002351>)
-[INFO] 2017-12-02 12:52:23,259 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,593 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000331> <http://purl.obolibrary.org/obo/IAO_0000027>)
-[INFO] 2017-12-02 12:52:23,261 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,594 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/RO_0000087>)
-[INFO] 2017-12-02 12:52:23,262 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,594 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000080> <http://purl.obolibrary.org/obo/RO_0000086>)
-[INFO] 2017-12-02 12:52:23,264 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,595 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000004> <http://www.w3.org/2002/07/owl#topDataProperty>)
-[INFO] 2017-12-02 12:52:23,265 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,596 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000091> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000092>))
-[INFO] 2017-12-02 12:52:23,265 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#preceded_by> <http://www.obofoundry.org/ro/ro.owl#precedes>)
-[INFO] 2017-12-02 12:52:23,266 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,610 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000458> <http://semanticscience.org/resource/CHEMINF_000494>)
-[INFO] 2017-12-02 12:52:23,266 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,610 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000458> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,267 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,611 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000221> <http://purl.obolibrary.org/obo/IAO_0000417>)
-[INFO] 2017-12-02 12:52:23,267 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,611 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000406> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:23,267 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,612 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000419> ObjectInverseOf(<http://purl.obolibrary.org/obo/IAO_0000418>))
-[INFO] 2017-12-02 12:52:23,268 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,613 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/RO_0001025>)
-[INFO] 2017-12-02 12:52:23,268 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:28,613 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000401> DataExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000404>))
-[INFO] 2017-12-02 12:52:23,269 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,615 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://semanticscience.org/resource/CHEMINF_000498>)
-[INFO] 2017-12-02 12:52:23,270 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,615 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000456> <http://semanticscience.org/resource/CHEMINF_000491>)
-[INFO] 2017-12-02 12:52:23,272 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,623 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000583> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/IAO_0000109> ObjectComplementOf(<http://purl.obolibrary.org/obo/IAO_0000416>)))
-[INFO] 2017-12-02 12:52:23,273 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,623 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000079> <http://purl.obolibrary.org/obo/RO_0000085>)
-[INFO] 2017-12-02 12:52:23,274 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,624 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000002>)
-[INFO] 2017-12-02 12:52:23,275 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,625 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo#is_enantiomer_of> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,278 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,626 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000416> ObjectIntersectionOf(ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000003>) ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000413> <http://purl.obolibrary.org/obo/BFO_0000015>)))
-[INFO] 2017-12-02 12:52:23,278 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,628 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000459> <http://semanticscience.org/resource/CHEMINF_000489>)
-[INFO] 2017-12-02 12:52:23,279 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,628 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/BFO_0000016>)
-[INFO] 2017-12-02 12:52:23,280 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,629 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002217> <http://purl.obolibrary.org/obo/RO_0002218>)
+[INFO] 2018-10-23 18:47:28,629 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0001015> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>))
-[INFO] 2017-12-02 12:52:23,281 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,629 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001018> <http://purl.obolibrary.org/obo/RO_0001019>)
+[INFO] 2018-10-23 18:47:28,630 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000080> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000086>))
-[INFO] 2017-12-02 12:52:23,281 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,631 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000405> <http://semanticscience.org/resource/CHEMINF_000012>)
-[INFO] 2017-12-02 12:52:23,282 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,631 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000405> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:23,282 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,283 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,632 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,632 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/BFO_0000055>)
-[INFO] 2017-12-02 12:52:23,283 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:28,632 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000402> DataExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000404>))
-[INFO] 2017-12-02 12:52:23,286 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,633 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000055> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000054>))
-[INFO] 2017-12-02 12:52:23,286 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,633 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000067> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>))
-[INFO] 2017-12-02 12:52:23,287 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,634 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000414> ObjectIntersectionOf(ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/UO_0000002>) ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000221> <http://purl.obolibrary.org/obo/PATO_0000125>)))
-[INFO] 2017-12-02 12:52:23,302 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,634 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000244> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,303 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,635 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000058> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000059>))
-[INFO] 2017-12-02 12:52:23,304 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,635 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
-[INFO] 2017-12-02 12:52:23,305 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,637 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
-[INFO] 2017-12-02 12:52:23,306 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,637 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000497> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,311 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,638 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000032> DataMinCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000004>))
-[INFO] 2017-12-02 12:52:23,312 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,638 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,639 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000293> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,312 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,640 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000237> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#boolean>))
-[INFO] 2017-12-02 12:52:23,313 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,640 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000200> <http://semanticscience.org/resource/CHEMINF_000201>)
-[INFO] 2017-12-02 12:52:23,314 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,644 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)
-[INFO] 2017-12-02 12:52:23,315 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:28,645 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000403> DataExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000404>))
-[INFO] 2017-12-02 12:52:23,315 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,645 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2000/01/rdf-schema#Literal>))
-[INFO] 2017-12-02 12:52:23,316 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,645 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000406> <http://semanticscience.org/resource/CHEMINF_000012>)
-[INFO] 2017-12-02 12:52:23,316 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,646 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000404> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:23,316 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,647 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000404> <http://semanticscience.org/resource/CHEMINF_000012>)
-[INFO] 2017-12-02 12:52:23,317 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,647 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000054> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000055>))
-[INFO] 2017-12-02 12:52:23,317 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
-[INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#located_in> <http://www.obofoundry.org/ro/ro.owl#location_of>)
-[INFO] 2017-12-02 12:52:23,317 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,647 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000067>))
-[INFO] 2017-12-02 12:52:23,317 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,648 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000312> ObjectInverseOf(<http://purl.obolibrary.org/obo/OBI_0000299>))
-[INFO] 2017-12-02 12:52:23,318 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,318 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,649 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000232> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,319 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,649 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000059> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000058>))
-[INFO] 2017-12-02 12:52:23,319 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,650 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)
-[INFO] 2017-12-02 12:52:23,320 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,652 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000245> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,320 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,653 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
-[INFO] 2017-12-02 12:52:23,321 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,653 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,654 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000330> <http://purl.obolibrary.org/obo/IAO_0000027>)
-[INFO] 2017-12-02 12:52:23,321 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,329 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
-[INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000143> <http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant>)
-[INFO] 2017-12-02 12:52:23,329 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,655 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/OBI_0000295>)
-[INFO] 2017-12-02 12:52:23,330 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,656 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000294> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,331 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000057>))
-[INFO] 2017-12-02 12:52:23,331 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:28,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000402> DataExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000406>))
-[INFO] 2017-12-02 12:52:23,331 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://semanticscience.org/resource/CHEMINF_000204>)
-[INFO] 2017-12-02 12:52:23,332 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://semanticscience.org/resource/CHEMINF_000012> <http://purl.obolibrary.org/obo/IAO_0000027>)
-[INFO] 2017-12-02 12:52:23,332 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,658 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#has_integral_part> <http://www.obofoundry.org/ro/ro.owl#integral_part_of>)
-[INFO] 2017-12-02 12:52:23,333 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,658 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000499> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,334 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,659 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000079> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000085>))
-[INFO] 2017-12-02 12:52:23,334 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,661 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000004> <http://www.w3.org/2001/XMLSchema#double>)
-[INFO] 2017-12-02 12:52:23,335 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,662 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,663 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://semanticscience.org/resource/CHEMINF_000461>)
-[INFO] 2017-12-02 12:52:23,335 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,663 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000460> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,335 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,663 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/IAO_0000003>)
-[INFO] 2017-12-02 12:52:23,337 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,665 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0001001> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001000>))
-[INFO] 2017-12-02 12:52:23,337 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:28,665 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000403> DataExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000406>))
-[INFO] 2017-12-02 12:52:23,338 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,666 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://semanticscience.org/resource/CHEMINF_000455>)
-[INFO] 2017-12-02 12:52:23,338 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,667 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000243> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,341 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,668 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000032> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000039>))
-[INFO] 2017-12-02 12:52:23,342 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,668 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000057> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000056>))
-[INFO] 2017-12-02 12:52:23,342 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,668 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001015>))
-[INFO] 2017-12-02 12:52:23,342 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,669 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/BFO_0000004>)
-[INFO] 2017-12-02 12:52:23,343 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,669 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0001000> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001001>))
-[INFO] 2017-12-02 12:52:23,344 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,670 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000498> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,344 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,670 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://semanticscience.org/resource/CHEMINF_000009> <http://semanticscience.org/resource/CHEMINF_000012>)
-[INFO] 2017-12-02 12:52:23,345 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,671 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,672 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000240> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,345 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,346 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,672 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000050>))
-[INFO] 2017-12-02 12:52:23,347 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,673 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,674 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))
-[INFO] 2017-12-02 12:52:23,348 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,674 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000486> <http://semanticscience.org/resource/CHEMINF_000493>)
-[INFO] 2017-12-02 12:52:23,348 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,675 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000480> <http://semanticscience.org/resource/CHEMINF_000492>)
-[INFO] 2017-12-02 12:52:23,349 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,675 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000109> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000009> <http://www.w3.org/2001/XMLSchema#float>))
-[INFO] 2017-12-02 12:52:23,349 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,350 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,676 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000331> <http://semanticscience.org/resource/CHEMINF_000606>)
-[INFO] 2017-12-02 12:52:23,352 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,676 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000462> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,353 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,677 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/IAO_0000004> <http://purl.obolibrary.org/obo/IAO_0000032>)
-[INFO] 2017-12-02 12:52:23,353 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,354 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,678 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0002002> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002000>))
-[INFO] 2017-12-02 12:52:23,357 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,680 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000501> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> DataUnionOf(<http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#long>)))
-[INFO] 2017-12-02 12:52:23,358 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,680 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000091> <http://purl.obolibrary.org/obo/RO_0000092>)
-[INFO] 2017-12-02 12:52:23,362 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,681 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000254> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,363 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,681 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000404> <http://www.w3.org/2002/07/owl#topDataProperty>)
-[INFO] 2017-12-02 12:52:23,364 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,682 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/BFO_0000015>)
-[INFO] 2017-12-02 12:52:23,364 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,683 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000461> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,367 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,683 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000400> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000407>))
-[INFO] 2017-12-02 12:52:23,367 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,684 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000581> <http://purl.obolibrary.org/obo/IAO_0000416>)
-[INFO] 2017-12-02 12:52:23,368 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,684 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000051>))
-[INFO] 2017-12-02 12:52:23,369 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,685 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000405> <http://www.w3.org/2002/07/owl#topDataProperty>)
-[INFO] 2017-12-02 12:52:23,369 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,685 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421> <http://purl.obolibrary.org/obo/IAO_0000420>))
-[INFO] 2017-12-02 12:52:23,369 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,686 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000053>))
-[INFO] 2017-12-02 12:52:23,370 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,371 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,686 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,687 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002000> <http://purl.obolibrary.org/obo/RO_0002002>)
-[INFO] 2017-12-02 12:52:23,372 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,688 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/BFO_0000017>)
-[INFO] 2017-12-02 12:52:23,372 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,688 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000101> ObjectSomeValuesFrom(ObjectInverseOf(<http://purl.org/obo/owl/OBO_REL#bearer_of>) <http://semanticscience.org/resource/CHEMINF_000266>))
-[INFO] 2017-12-02 12:52:23,373 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,688 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000418> <http://purl.obolibrary.org/obo/IAO_0000419>)
-[INFO] 2017-12-02 12:52:23,373 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,689 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000023>)
-[INFO] 2017-12-02 12:52:23,374 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,690 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000406> <http://www.w3.org/2002/07/owl#topDataProperty>)
-[INFO] 2017-12-02 12:52:23,375 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,690 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0002351> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002350>))
-[INFO] 2017-12-02 12:52:23,376 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,691 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000053> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000052>))
-[INFO] 2017-12-02 12:52:23,377 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,691 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000085> <http://purl.obolibrary.org/obo/BFO_0000034>)
-[INFO] 2017-12-02 12:52:23,378 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,692 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0002000> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002002>))
-[INFO] 2017-12-02 12:52:23,379 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,692 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000489> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,379 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,692 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000413> <http://purl.obolibrary.org/obo/BFO_0000015>)
-[INFO] 2017-12-02 12:52:23,380 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,693 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000453> <http://purl.obolibrary.org/obo/GO_0005515>)
-[INFO] 2017-12-02 12:52:23,381 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,693 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000463> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,381 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,382 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,697 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,697 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/IAO_0000221> <http://purl.obolibrary.org/obo/BFO_0000019>)
-[INFO] 2017-12-02 12:52:23,383 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
-[INFO] ObjectPropertyRange(<http://purl.org/obo/owl/OBO_REL#bearer_of> <http://www.ifomis.org/bfo/1.1/snap#DependentContinuant>)
-[INFO] 2017-12-02 12:52:23,383 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,699 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0002350> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002351>))
-[INFO] 2017-12-02 12:52:23,386 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support IrreflexiveObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,700 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support IrreflexiveObjectProperty. Axiom ignored:
 [INFO] IrreflexiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>)
-[INFO] 2017-12-02 12:52:23,387 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,701 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/IAO_0000004> <http://semanticscience.org/resource/CHEMINF_000012>)
-[INFO] 2017-12-02 12:52:23,387 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,701 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000086> <http://purl.obolibrary.org/obo/BFO_0000019>)
-[INFO] 2017-12-02 12:52:23,388 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,701 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000086> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000080>))
-[INFO] 2017-12-02 12:52:23,388 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,702 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/IAO_0000417> ObjectInverseOf(<http://purl.obolibrary.org/obo/IAO_0000221>))
-[INFO] 2017-12-02 12:52:23,393 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,703 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
 [INFO] FunctionalDataProperty(<http://purl.obolibrary.org/obo/IAO_0000405>)
-[INFO] 2017-12-02 12:52:23,394 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,703 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
 [INFO] FunctionalDataProperty(<http://purl.obolibrary.org/obo/IAO_0000404>)
-[INFO] 2017-12-02 12:52:23,395 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,704 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.org/obo/owl/OBO_REL#bearer_of> <http://purl.obolibrary.org/obo/BFO_0000005>)
+[INFO] 2018-10-23 18:47:28,704 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000148> <http://www.w3.org/2002/07/owl#Thing>)
-[INFO] 2017-12-02 12:52:23,396 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,704 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalDataProperty. Axiom ignored:
 [INFO] FunctionalDataProperty(<http://purl.obolibrary.org/obo/IAO_0000406>)
-[INFO] 2017-12-02 12:52:23,396 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,705 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000263> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,397 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,705 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000581>)
-[INFO] 2017-12-02 12:52:23,397 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:23,398 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,706 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://semanticscience.org/resource/CHEMINF_000010> DataSomeValuesFrom(<http://semanticscience.org/resource/CHEMINF_000012> <http://www.w3.org/2001/XMLSchema#int>))
-[INFO] 2017-12-02 12:52:23,400 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,706 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
 [INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/RO_0000087> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0000081>))
-[INFO] 2017-12-02 12:52:23,401 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,706 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://semanticscience.org/resource/CHEMINF_000478> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-[INFO] 2017-12-02 12:52:23,403 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:28,707 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:28,708 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://semanticscience.org/resource/CHEMINF_000145> <http://www.semanticweb.org/ontologies/is_output_of>)
-[INFO] 2017-12-02 12:52:23,405 INFO  (LoggingStageExecutor:103) Loading of Axioms took 477 ms
-[INFO] 2017-12-02 12:52:23,405 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:23,407 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:23,408 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
-[INFO] 2017-12-02 12:52:23,408 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:23,428 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:23,549 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 140 ms
-[INFO] 2017-12-02 12:52:23,550 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:23,565 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:23,672 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 122 ms
-[INFO] 2017-12-02 12:52:23,672 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:23,675 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:23,686 INFO  (LoggingStageExecutor:103) Context Initialization took 13 ms
-[INFO] 2017-12-02 12:52:23,686 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:23,715 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:23,814 INFO  (LoggingStageExecutor:103) Consistency Checking took 127 ms
-[INFO] 2017-12-02 12:52:23,814 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:23,841 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:23,981 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 166 ms
+[INFO] 2018-10-23 18:47:28,709 INFO  (LoggingStageExecutor:103) Loading of Axioms took 231 ms
+[INFO] 2018-10-23 18:47:28,710 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:47:28,711 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:47:28,711 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:47:28,711 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:47:28,716 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:47:28,718 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 6 ms
+[INFO] 2018-10-23 18:47:28,718 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:47:28,720 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:47:28,726 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 7 ms
+[INFO] 2018-10-23 18:47:28,726 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:47:28,727 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:47:28,728 INFO  (LoggingStageExecutor:103) Context Initialization took 2 ms
+[INFO] 2018-10-23 18:47:28,728 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:47:28,735 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:47:28,779 INFO  (LoggingStageExecutor:103) Consistency Checking took 50 ms
+[INFO] 2018-10-23 18:47:28,780 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:47:28,788 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:47:28,982 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 202 ms
+[INFO] E: BFO:0000009 'two_dimensional_region'
+[INFO] E: BFO:0000026 'one-dimensional spatial region'
+[INFO] E: BFO:0000037 'processual_context'
+[INFO] E: BFO:0000014 'process_aggregate'
+[INFO] E: BFO:0000035 'process boundary'
+[INFO] E: BFO:0000034 'function'
+[INFO] E: IAO:0000402 'two dimensional cartesian spatial coordinate datum'
+[INFO] E: BFO:0000018 'zero_dimensional_region'
+[INFO] E: IAO:0000401 'one dimensional cartesian spatial coordinate datum'
+[INFO] E: BFO:0000006 'spatial_region'
+[INFO] E: BFO:0000028 'three_dimensional_region'
+[INFO] E: IAO:0000403 'three dimensional cartesian spatial coordinate datum'
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:23,988 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1fdfafd2
-[INFO] 2017-12-02 12:52:23,998 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:23,999 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1fdfafd2
+[INFO] E: IAO:0000400 'cartesian spatial coordinate datum'
+[INFO] E: BFO:0000033 'fiat_process_part'
+[INFO] E: CHEMINF:000178 'collection of 3D atomic coordinates'
+[INFO] 2018-10-23 18:47:28,988 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@5b43fbf6
+[INFO] 2018-10-23 18:47:28,998 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:47:28,998 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@5b43fbf6
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.736 s
-[INFO] Finished at: 2017-12-02T12:52:24-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.469s
+[INFO] Finished at: Tue Oct 23 18:47:29 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:24 MST 2017
+Tue Oct 23 18:47:29 UTC 2018

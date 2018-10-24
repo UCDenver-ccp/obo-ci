@@ -1,0 +1,12 @@
+Wed Oct 24 12:28:32 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] 2018-10-24 12:28:36,142 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl
+[INFO] 2018-10-24 13:14:29,093 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncit/ncit-plus.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl

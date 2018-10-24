@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:53:56 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mod.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1436      0 --:--:-- --:--:-- --:--:--  1441
-  0 15.9M    0  5792    0     0   7269      0  0:38:20 --:--:--  0:38:20  7269  6 15.9M    6 1117k    0     0   706k      0  0:00:23  0:00:01  0:00:22 1414k 15 15.9M   15 2512k    0     0   990k      0  0:00:16  0:00:02  0:00:14 1439k 23 15.9M   23 3885k    0     0  1098k      0  0:00:14  0:00:03  0:00:11 1416k 32 15.9M   32 5268k    0     0  1161k      0  0:00:14  0:00:04  0:00:10 1406k 40 15.9M   40 6665k    0     0  1204k      0  0:00:13  0:00:05  0:00:08 1405k 49 15.9M   49 8048k    0     0  1231k      0  0:00:13  0:00:06  0:00:07 1399k 55 15.9M   55 9130k    0     0  1211k      0  0:00:13  0:00:07  0:00:06 1324k 63 15.9M   63 10.0M    0     0  1208k      0  0:00:13  0:00:08  0:00:05 1286k 70 15.9M   70 11.2M    0     0  1205k      0  0:00:13  0:00:09  0:00:04 1245k 77 15.9M   77 12.3M    0     0  1204k      0  0:00:13  0:00:10  0:00:03 1204k 90 15.9M   90 14.4M    0     0  1279k      0  0:00:12  0:00:11  0:00:01 1340k100 15.9M  100 15.9M    0     0  1323k      0  0:00:12  0:00:12 --:--:-- 1498k
-Wed Nov 29 14:59:26 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1945      0 --:--:-- --:--:-- --:--:--  1937100   310  100   310    0     0   1944      0 --:--:-- --:--:-- --:--:--  1937
+ 19 15.9M   19 3234k    0     0  2938k      0  0:00:05  0:00:01  0:00:04 2938k 68 15.9M   68 10.9M    0     0  5340k      0  0:00:03  0:00:02  0:00:01 7987k100 15.9M  100 15.9M    0     0  6055k      0  0:00:02  0:00:02 --:--:-- 8205k
+Mon Oct 22 16:53:59 UTC 2018
 
-Wed Nov 29 14:59:35 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mod/mod.owl
+Mon Oct 22 16:53:59 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mod/mod.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:42,258 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mod/mod.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mod/mod.owl
-[INFO] 2017-11-29 15:00:11,732 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mod.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mod/mod.owl
-[INFO] 2017-11-29 15:00:11,745 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mod.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:03,753 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mod/mod.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mod/mod.owl
+[INFO] 2018-10-22 16:54:08,476 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mod.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mod/mod.owl
+[INFO] 2018-10-22 16:54:08,487 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mod.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 38.565 s
-[INFO] Finished at: 2017-11-29T15:00:14-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 10.398s
+[INFO] Finished at: Mon Oct 22 16:54:11 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:15 MST 2017
+Mon Oct 22 16:54:11 UTC 2018
 
 Download validation successful. Triple count = 205792

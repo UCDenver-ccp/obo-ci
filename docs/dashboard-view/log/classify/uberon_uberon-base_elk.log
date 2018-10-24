@@ -1,0 +1,319 @@
+Tue Oct 23 18:51:46 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/uberon_uberon-base/uberon_uberon-base_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:51:50,613 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/uberon_uberon-base/uberon_uberon-base_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/uberon_uberon-base/uberon_uberon-base_flat.owl
+[INFO] 2018-10-23 18:52:04,871 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/uberon-base.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/uberon_uberon-base/uberon_uberon-base_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:52:04,940 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:52:05,140 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:52:05,433 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:52:05,434 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@792bbc74
+[INFO] 2018-10-23 18:52:05,435 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:52:05,442 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:52:05,460 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,473 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0001468> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,494 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,501 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,516 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,542 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,566 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0009199> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0009198> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,585 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,591 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0009198> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002209> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,598 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0034909> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003685> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,598 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,606 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013220> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,609 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,620 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004111> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,627 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,628 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,640 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,646 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,648 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002489> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+[INFO] 2018-10-23 18:52:05,653 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,655 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,666 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,667 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007724> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,670 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007725> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,676 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007726> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,678 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,680 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005162> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002180>))
+[INFO] 2018-10-23 18:52:05,685 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,688 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002493> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+[INFO] 2018-10-23 18:52:05,690 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,691 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,698 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,712 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,714 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,718 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007729> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,720 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,723 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,723 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,724 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,732 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013216> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002180>))
+[INFO] 2018-10-23 18:52:05,735 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,736 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000124> <http://purl.obolibrary.org/obo/BSPO_0000125>)
+[INFO] 2018-10-23 18:52:05,738 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0011131> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,742 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,743 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,745 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,748 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0002490> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003685> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007730> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,754 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,763 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/uberon/core#distally_connected_to> <http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to>)
+[INFO] 2018-10-23 18:52:05,767 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,770 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000170> ObjectIntersectionOf(ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351>)))
+[INFO] 2018-10-23 18:52:05,772 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000170> ObjectIntersectionOf(ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351>)))
+[INFO] 2018-10-23 18:52:05,776 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0002492> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003685> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,781 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000098> <http://purl.obolibrary.org/obo/BSPO_0000102>)
+[INFO] 2018-10-23 18:52:05,783 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0008447> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,785 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0011135> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007844> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>))))
+[INFO] 2018-10-23 18:52:05,788 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006013> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>)))
+[INFO] 2018-10-23 18:52:05,790 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035116> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>)))
+[INFO] 2018-10-23 18:52:05,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035117> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>)))
+[INFO] 2018-10-23 18:52:05,796 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,797 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,799 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0000037> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/UBERON_0000039>) ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002180>)))
+[INFO] 2018-10-23 18:52:05,816 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,819 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,821 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012132> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,825 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,826 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010858> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:05,846 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,879 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,891 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,893 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0011132> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,894 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,895 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,897 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,900 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,906 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,909 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,926 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006606> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002213> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,927 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0009203> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0009199> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,939 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,944 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0011133> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:05,944 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034923> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002180>))
+[INFO] 2018-10-23 18:52:05,953 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,954 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007651> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))
+[INFO] 2018-10-23 18:52:05,958 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DisjointObjectProperties. Axiom ignored:
+[INFO] DisjointObjectProperties(<http://purl.obolibrary.org/obo/BSPO_0000126> <http://purl.obolibrary.org/obo/uberon/core#in_central_side_of>)
+[INFO] 2018-10-23 18:52:05,960 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,961 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,970 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035105> ObjectIntersectionOf(ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180>)))
+[INFO] 2018-10-23 18:52:05,973 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0000035> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001305> ObjectIntersectionOf(ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180>) ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180>))))
+[INFO] 2018-10-23 18:52:05,979 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,980 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0035119> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0012111> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>))))
+[INFO] 2018-10-23 18:52:05,981 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:05,982 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,207 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,208 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0013686> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,211 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,212 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,213 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+[INFO] 2018-10-23 18:52:06,214 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,218 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,220 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002005> <http://purl.obolibrary.org/obo/RO_0002134>)
+[INFO] 2018-10-23 18:52:06,226 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,228 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,229 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,237 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0016442> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0035127> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:06,237 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002476> <http://purl.obolibrary.org/obo/GO_0005634>)
+[INFO] 2018-10-23 18:52:06,240 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,242 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012111> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>)))
+[INFO] 2018-10-23 18:52:06,249 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002220>)
+[INFO] 2018-10-23 18:52:06,250 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006014> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>)))
+[INFO] 2018-10-23 18:52:06,251 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,256 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0002109> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0034925> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002351>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002351>))))
+[INFO] 2018-10-23 18:52:06,258 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006658> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:06,260 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,263 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,267 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0015854> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0006800> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:06,277 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,279 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002150>)
+[INFO] 2018-10-23 18:52:06,280 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,282 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,283 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/uberon/core#extends_fibers_into>)
+[INFO] 2018-10-23 18:52:06,284 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,285 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,289 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,293 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,297 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,299 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,305 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002203>)
+[INFO] 2018-10-23 18:52:06,306 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,309 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002223> <http://purl.obolibrary.org/obo/RO_0002224>)
+[INFO] 2018-10-23 18:52:06,310 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002219> <http://purl.obolibrary.org/obo/RO_0002221>)
+[INFO] 2018-10-23 18:52:06,314 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,317 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,326 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,328 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,328 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007722> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,331 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0036252> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>)))
+[INFO] 2018-10-23 18:52:06,331 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,332 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002551> <http://purl.obolibrary.org/obo/UBERON_0010912>)
+[INFO] 2018-10-23 18:52:06,336 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,342 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0035115> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0035119> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002220>))))
+[INFO] 2018-10-23 18:52:06,345 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,350 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,352 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,353 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,356 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007721> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,363 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/RO_0002351>)
+[INFO] 2018-10-23 18:52:06,367 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,368 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008982> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,369 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,369 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,373 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,374 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,375 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,380 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,382 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,388 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,389 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,390 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0016440> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005913> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:06,395 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,396 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,399 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,400 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0000036> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002387> <http://purl.obolibrary.org/obo/UBERON_0000037>) ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002180>)))
+[INFO] 2018-10-23 18:52:06,401 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006347> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001637> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>))))
+[INFO] 2018-10-23 18:52:06,402 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,403 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,406 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007727> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,408 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007728> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,409 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,410 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002002> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,413 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007731> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,415 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,416 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007732> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,417 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,419 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002380> <http://purl.obolibrary.org/obo/RO_0002569>)
+[INFO] 2018-10-23 18:52:06,425 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,429 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,431 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,433 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,434 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006012> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,437 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,439 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002551> <http://purl.obolibrary.org/obo/RO_0002576>)
+[INFO] 2018-10-23 18:52:06,440 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/uberon/core#channel_for> <http://purl.obolibrary.org/obo/UBERON_0000463>)
+[INFO] 2018-10-23 18:52:06,443 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,444 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,446 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/uberon/core#existence_starts_and_ends_during> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+[INFO] 2018-10-23 18:52:06,447 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007723> ObjectIntersectionOf(ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>) ObjectMaxCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176>)))
+[INFO] 2018-10-23 18:52:06,448 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:06,453 INFO  (LoggingStageExecutor:103) Loading of Axioms took 1013 ms
+[INFO] 2018-10-23 18:52:06,454 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:52:06,455 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:52:06,455 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:52:06,456 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:52:06,460 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:52:06,463 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 7 ms
+[INFO] 2018-10-23 18:52:06,463 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:52:06,466 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:52:06,487 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 23 ms
+[INFO] 2018-10-23 18:52:06,487 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:52:06,488 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:52:06,489 INFO  (LoggingStageExecutor:103) Context Initialization took 2 ms
+[INFO] 2018-10-23 18:52:06,489 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:52:06,495 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:52:06,517 INFO  (LoggingStageExecutor:103) Consistency Checking took 27 ms
+[INFO] 2018-10-23 18:52:06,517 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:52:06,527 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:52:11,090 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 4572 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:52:11,093 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@792bbc74
+[INFO] 2018-10-23 18:52:11,095 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:52:11,095 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@792bbc74
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.887s
+[INFO] Finished at: Tue Oct 23 18:52:11 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:52:11 UTC 2018

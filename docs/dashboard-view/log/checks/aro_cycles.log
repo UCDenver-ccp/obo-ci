@@ -1,0 +1,20 @@
+Wed Oct 24 12:18:33 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/aro/aro_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] 2018-10-24 12:18:37,604 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/aro/aro_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/aro/aro_flat.owl
+[INFO] 2018-10-24 12:19:05,846 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/antibiotic_resistance.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/aro/aro_flat.owl
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 32.630s
+[INFO] Finished at: Wed Oct 24 12:19:07 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Wed Oct 24 12:19:07 UTC 2018

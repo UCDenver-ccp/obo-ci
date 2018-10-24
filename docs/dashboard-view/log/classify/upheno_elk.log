@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:16 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/upheno/upheno_flat.owl
+Tue Oct 23 18:52:01 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/upheno/upheno_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,46 +8,1434 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:22,959 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/upheno/upheno_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/upheno/upheno_flat.owl
-[INFO] 2017-12-02 12:52:31,326 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/upheno/upheno_flat.owl
+[INFO] 2018-10-23 18:52:05,570 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/upheno/upheno_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/upheno/upheno_flat.owl
+[INFO] 2018-10-23 18:52:39,922 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/upheno/upheno_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:31,455 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:52:40,125 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:31,652 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:32,075 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:32,077 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@320de594
-[INFO] 2017-12-02 12:52:32,081 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:32,089 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:32,324 INFO  (LoggingStageExecutor:103) Loading of Axioms took 238 ms
-[INFO] 2017-12-02 12:52:32,324 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:32,327 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:32,327 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
-[INFO] 2017-12-02 12:52:32,327 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:32,340 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:32,354 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 26 ms
-[INFO] 2017-12-02 12:52:32,354 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:32,362 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:32,366 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 9 ms
-[INFO] 2017-12-02 12:52:32,366 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:32,368 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:32,374 INFO  (LoggingStageExecutor:103) Context Initialization took 8 ms
-[INFO] 2017-12-02 12:52:32,375 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:32,384 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:32,409 INFO  (LoggingStageExecutor:103) Consistency Checking took 33 ms
-[INFO] 2017-12-02 12:52:32,409 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:32,435 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:32,894 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 484 ms
+[INFO] 2018-10-23 18:52:40,685 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:52:41,246 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:52:41,247 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@22b53226
+[INFO] 2018-10-23 18:52:41,249 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:52:41,256 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:52:41,280 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,379 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,402 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,453 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,485 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,502 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002500> <http://purl.obolibrary.org/obo/RO_0002608>)
+[INFO] 2018-10-23 18:52:41,515 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,522 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,533 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,545 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,546 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/BFO_0000002>)
+[INFO] 2018-10-23 18:52:41,550 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2018-10-23 18:52:41,554 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/BFO_0000020>)
+[INFO] 2018-10-23 18:52:41,574 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,583 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,624 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002207> ObjectUnionOf(<http://purl.obolibrary.org/obo/CARO_0010000> <http://purl.obolibrary.org/obo/CL_0000000>))
+[INFO] 2018-10-23 18:52:41,656 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,668 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,692 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,716 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/BFO_0000023>)
+[INFO] 2018-10-23 18:52:41,720 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,721 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,794 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002434> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2018-10-23 18:52:41,867 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,950 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CARO_0010000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/CARO_0010000>))
+[INFO] 2018-10-23 18:52:41,953 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:41,965 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002595> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2018-10-23 18:52:41,970 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,017 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,027 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,036 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,047 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,074 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,093 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,101 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] SubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0001025> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0001025>)) <http://purl.obolibrary.org/obo/RO_0002379>)
+[INFO] 2018-10-23 18:52:42,116 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,150 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/RO_0000057>)
+[INFO] 2018-10-23 18:52:42,152 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/RO_0000053>)
+[INFO] 2018-10-23 18:52:42,168 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000081> <http://purl.obolibrary.org/obo/RO_0000087>)
+[INFO] 2018-10-23 18:52:42,182 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,188 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2018-10-23 18:52:42,194 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002334> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2018-10-23 18:52:42,196 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0001018> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2018-10-23 18:52:42,249 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,253 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,272 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,274 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002487> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2018-10-23 18:52:42,278 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,289 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,297 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2018-10-23 18:52:42,311 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,342 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,355 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>)
+[INFO] 2018-10-23 18:52:42,395 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,410 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2018-10-23 18:52:42,416 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,424 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/BFO_0000015>)
+[INFO] 2018-10-23 18:52:42,448 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2018-10-23 18:52:42,449 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,450 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,452 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2018-10-23 18:52:42,462 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,462 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,482 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,499 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002222> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2018-10-23 18:52:42,503 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,506 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2018-10-23 18:52:42,521 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,531 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,538 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002434>)
+[INFO] 2018-10-23 18:52:42,539 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002436>)
+[INFO] 2018-10-23 18:52:42,552 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,567 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectHasSelf. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))
+[INFO] 2018-10-23 18:52:42,575 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,584 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,598 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2018-10-23 18:52:42,601 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,635 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:42,651 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,111 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,152 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,172 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,196 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,200 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,218 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,231 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/BFO_0000002>)
+[INFO] 2018-10-23 18:52:43,239 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,249 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,265 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,268 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,290 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,296 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,319 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,321 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,344 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,378 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,414 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,416 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,421 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/RO_0003001>)
+[INFO] 2018-10-23 18:52:43,454 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,463 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,477 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,481 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,482 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,483 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,490 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,528 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/CARO_0000003>)
+[INFO] 2018-10-23 18:52:43,531 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,569 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,572 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,623 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,648 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/CL_0000000>))
+[INFO] 2018-10-23 18:52:43,649 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,658 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/BFO_0000004>)
+[INFO] 2018-10-23 18:52:43,665 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,676 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,692 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,709 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,710 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,711 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,712 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,715 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,724 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,730 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,736 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,742 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,750 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,755 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,774 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,786 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,800 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,803 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,816 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,835 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,836 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,847 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,851 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,855 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,877 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,882 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,890 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,893 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,895 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,904 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,908 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,926 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,935 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,940 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,950 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,976 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectInverseOf. Axiom ignored:
+[INFO] SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))
+[INFO] 2018-10-23 18:52:43,977 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,981 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,991 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:43,994 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/RO_0002090>)
+[INFO] 2018-10-23 18:52:44,004 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,014 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,037 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,039 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,039 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,042 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/BFO_0000067>)
+[INFO] 2018-10-23 18:52:44,042 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/BFO_0000063>)
+[INFO] 2018-10-23 18:52:44,084 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,088 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,089 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,090 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
+[INFO] 2018-10-23 18:52:44,102 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,109 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,111 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,126 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,129 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,141 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectHasSelf. Axiom ignored:
+[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GO_0044403> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002465>))
+[INFO] 2018-10-23 18:52:44,149 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,157 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,158 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0003001> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2018-10-23 18:52:44,159 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0003000> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2018-10-23 18:52:44,167 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,171 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,184 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,193 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002258> <http://purl.obolibrary.org/obo/RO_0002286>)
+[INFO] 2018-10-23 18:52:44,196 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,197 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,201 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,206 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/RO_0002203>)
+[INFO] 2018-10-23 18:52:44,207 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,210 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,212 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,215 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002207> <http://purl.obolibrary.org/obo/RO_0002210>)
+[INFO] 2018-10-23 18:52:44,223 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002254> <http://purl.obolibrary.org/obo/RO_0002255>)
+[INFO] 2018-10-23 18:52:44,231 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,243 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,249 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/RO_0002336>)
+[INFO] 2018-10-23 18:52:44,249 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002212> <http://purl.obolibrary.org/obo/RO_0002335>)
+[INFO] 2018-10-23 18:52:44,249 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002334>)
+[INFO] 2018-10-23 18:52:44,252 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,254 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,254 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002022> <http://purl.obolibrary.org/obo/RO_0002578>)
+[INFO] 2018-10-23 18:52:44,255 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/RO_0002352>)
+[INFO] 2018-10-23 18:52:44,265 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,268 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,273 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002501> <http://purl.obolibrary.org/obo/BFO_0000003>)
+[INFO] 2018-10-23 18:52:44,279 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002333>)
+[INFO] 2018-10-23 18:52:44,279 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002023> <http://purl.obolibrary.org/obo/RO_0002630>)
+[INFO] 2018-10-23 18:52:44,280 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002024> <http://purl.obolibrary.org/obo/RO_0002629>)
+[INFO] 2018-10-23 18:52:44,281 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,284 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002506> <http://purl.obolibrary.org/obo/BFO_0000040>)
+[INFO] 2018-10-23 18:52:44,291 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,291 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,296 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,297 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,304 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/RO_0002427>)
+[INFO] 2018-10-23 18:52:44,305 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,307 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002405> <http://purl.obolibrary.org/obo/RO_0002412>)
+[INFO] 2018-10-23 18:52:44,307 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,307 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002404> <http://purl.obolibrary.org/obo/RO_0002411>)
+[INFO] 2018-10-23 18:52:44,326 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,329 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,341 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,344 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,348 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,352 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,354 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/RO_0001025>)
+[INFO] 2018-10-23 18:52:44,355 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0001018> <http://purl.obolibrary.org/obo/RO_0001019>)
+[INFO] 2018-10-23 18:52:44,369 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,373 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,377 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,381 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,384 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002559> <http://purl.obolibrary.org/obo/RO_0002566>)
+[INFO] 2018-10-23 18:52:44,390 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,394 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:52:44,402 INFO  (LoggingStageExecutor:103) Loading of Axioms took 3148 ms
+[INFO] 2018-10-23 18:52:44,402 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:52:44,403 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:52:44,403 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:52:44,403 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:52:44,408 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:52:44,409 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 5 ms
+[INFO] 2018-10-23 18:52:44,409 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:52:44,412 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:52:44,435 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 25 ms
+[INFO] 2018-10-23 18:52:44,435 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:52:44,436 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:52:44,438 INFO  (LoggingStageExecutor:103) Context Initialization took 3 ms
+[INFO] 2018-10-23 18:52:44,438 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:52:44,446 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:52:44,513 INFO  (LoggingStageExecutor:103) Consistency Checking took 74 ms
+[INFO] 2018-10-23 18:52:44,513 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:52:44,520 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:52:54,096 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 9583 ms
+[INFO] E: ZP:0015136 'abnormal(ly) increased process quality neutrophil apoptotic process'
+[INFO] E: ZP:0015134 'abnormal(ly) increased process quality leukocyte protein nitrosylation'
+[INFO] E: ZP:0010923 'abnormal(ly) process quality dorsal aorta sprouting angiogenesis'
+[INFO] E: ZP:0017554 'abnormal(ly) process quality retinal ganglion cell asymmetric cell division'
+[INFO] E: ZP:0017796 'abnormal(ly) process quality otic vesicle Notch signaling pathway'
+[INFO] E: ZP:0017797 'abnormal(ly) process quality otic vesicle fibroblast growth factor receptor signaling pathway'
+[INFO] E: ZP:0017799 'abnormal(ly) occurrence statoacoustic (VIII) ganglion neuron differentiation'
+[INFO] E: ZP:0017562 'abnormal(ly) increased process quality visceral fat cell proliferation'
+[INFO] E: ZP:0017563 'abnormal(ly) process quality visceral fat collagen fibril organization'
+[INFO] E: ZP:0017564 'abnormal(ly) increased process quality fat cell cell proliferation'
+[INFO] E: ZP:0006899 'abnormal(ly) functionality cloacal chamber cilium'
+[INFO] E: ZP:0018418 'abnormal(ly) increased rate intestinal epithelial cell cell proliferation'
+[INFO] E: ZP:0009917 'abnormal(ly) increased occurrence melanocyte apoptotic process'
+[INFO] E: ZP:0017572 'abnormal(ly) process quality visceral fat cell proliferation'
+[INFO] E: ZP:0017573 'abnormal(ly) decreased process quality hypochord Notch signaling pathway'
+[INFO] E: ZP:0006885 'abnormal(ly) shortened olfactory pit cilium'
+[INFO] E: ZP:0006884 'abnormal(ly) truncated olfactory pit cilium'
+[INFO] E: ZP:0005315 'abnormal(ly) disrupted blastomere astral microtubule organization'
+[INFO] E: ZP:0014028 'abnormal(ly) process quality subintestinal vein blood vessel development'
+[INFO] E: ZP:0006440 'abnormal(ly) abnormal amacrine cell dendrite extension'
+[INFO] E: ZP:0014025 'abnormal(ly) decreased process quality hyaloid vessel sprouting angiogenesis'
+[INFO] E: ZP:0007772 'abnormal(ly) process quality retina cell proliferation'
+[INFO] E: ZP:0014023 'abnormal(ly) decreased process quality pharyngeal arch cell proliferation'
+[INFO] E: ZP:0017776 'abnormal(ly) decreased process quality otic vesicle Notch signaling pathway'
+[INFO] E: ZP:0017777 'abnormal(ly) decreased process quality otic vesicle fibroblast growth factor receptor signaling pathway'
+[INFO] E: ZP:0017778 'abnormal(ly) occurrence otic vesicle neuroblast fate specification'
+[INFO] E: ZP:0017779 'abnormal(ly) increased occurrence otic vesicle neuroblast fate specification'
+[INFO] E: ZP:0017539 'abnormal(ly) decreased process quality dorsal telencephalon Notch signaling pathway'
+[INFO] E: ZP:0017540 'abnormal(ly) increased occurrence dorsal telencephalon neurogenesis'
+[INFO] E: ZP:0017542 'abnormal(ly) decreased occurrence dorsal telencephalon neuron projection morphogenesis'
+[INFO] E: ZP:0014032 'abnormal(ly) process quality caudal vein plexus blood vessel development'
+[INFO] E: ZP:0014031 'abnormal(ly) decreased process quality regenerating fin angiogenesis'
+[INFO] E: ZP:0004017 'abnormal(ly) occurrence rhombomere pattern specification process'
+[INFO] E: ZP:0004018 'abnormal(ly) increased occurrence rhombomere neuron differentiation'
+[INFO] E: ZP:0005348 'abnormal(ly) decreased occurrence primordial germ cell cell motility'
+[INFO] E: ZP:0006437 'abnormal(ly) process quality amacrine cell dendrite morphogenesis'
+[INFO] E: ZP:0004019 'abnormal(ly) occurrence neuroectoderm pattern specification process'
+[INFO] E: ZP:0017309 'abnormal(ly) increased occurrence retinal inner nuclear layer cell death'
+[INFO] E: ZP:0015128 'abnormal(ly) process quality Kupffer's vesicle motile cilium assembly'
+[INFO] E: ZP:0014036 'abnormal(ly) process quality intersegmental vessel unidimensional cell growth'
+[INFO] E: ZP:0015124 'abnormal(ly) delayed intersegmental vessel sprouting angiogenesis'
+[INFO] E: ZP:0017786 'abnormal(ly) increased occurrence statoacoustic (VIII) ganglion apoptotic process'
+[INFO] E: ZP:0017303 'abnormal(ly) increased occurrence retinal ganglion cell layer cell death'
+[INFO] E: ZP:0017545 'abnormal(ly) decreased process quality ventricular zone Notch signaling pathway'
+[INFO] E: ZP:0017546 'abnormal(ly) decreased process quality paraxial mesoderm Notch signaling pathway'
+[INFO] E: ZP:0017547 'abnormal(ly) decreased process quality paraxial mesoderm fibroblast growth factor receptor signaling pathway'
+[INFO] E: ZP:0017550 'abnormal(ly) process quality caudal vein plexus sprouting angiogenesis'
+[INFO] E: ZP:0017792 'abnormal(ly) process quality cranium vasculature development'
+[INFO] E: ZP:0017310 'abnormal(ly) increased occurrence retinal photoreceptor layer cell death'
+[INFO] E: ZP:0017795 'abnormal(ly) occurrence statoacoustic (VIII) ganglion neuroblast proliferation'
+[INFO] E: ZP:0004488 'abnormal(ly) increased occurrence blood island apoptotic process'
+[INFO] E: ZP:0009932 'abnormal(ly) decreased process quality caudal fin blood circulation'
+[INFO] E: ZP:0013194 'abnormal(ly) process quality ventral mandibular arch neural crest cell migration'
+[INFO] E: ZP:0013192 'abnormal(ly) temporal distribution quality neural tube neural crest cell migration'
+[INFO] E: ZP:0009937 'abnormal(ly) decreased occurrence dorsal aorta alkaline phosphatase activity'
+[INFO] E: ZP:0013193 'abnormal(ly) temporal distribution quality neural tube neural crest cell delamination'
+[INFO] E: ZP:0014281 'abnormal(ly) decreased occurrence mesenchyme cell proliferation'
+[INFO] E: ZP:0014006 'abnormal(ly) decreased process quality atrioventricular canal cell proliferation'
+[INFO] E: ZP:0015579 'abnormal(ly) arrested macrophage phagocytosis'
+[INFO] E: ZP:0014489 'abnormal(ly) decreased process quality epiphysis circadian regulation of gene expression'
+[INFO] E: ZP:0014486 'abnormal(ly) increased process quality ventral wall of dorsal aorta hemopoiesis'
+[INFO] E: ZP:0017752 'abnormal(ly) decreased process quality liver organ growth'
+[INFO] E: ZP:0016664 'abnormal(ly) process quality neuron mitochondrion localization'
+[INFO] E: ZP:0017511 'abnormal(ly) decreased process quality epidermal basal stratum epithelial cell morphogenesis'
+[INFO] E: ZP:0017753 'abnormal(ly) decreased process quality pancreas organ growth'
+[INFO] E: ZP:0017513 'abnormal(ly) process quality spinal cord generation of neurons'
+[INFO] E: ZP:0017515 'abnormal(ly) decreased occurrence median fin fold epithelial cell proliferation'
+[INFO] E: ZP:0017517 'abnormal(ly) increased process quality epidermal basal stratum canonical Wnt signaling pathway'
+[INFO] E: ZP:0001168 'abnormal(ly) decreased process quality retina neuron differentiation'
+[INFO] E: ZP:0001167 'abnormal(ly) delayed retina neuron differentiation'
+[INFO] E: ZP:0001166 'abnormal(ly) decreased process quality retina neurogenesis'
+[INFO] E: ZP:0015583 'abnormal(ly) increased process quality frontal bone bone regeneration'
+[INFO] E: ZP:0006854 'abnormal(ly) absent intersegmental vessel blood vessel lumenization'
+[INFO] E: ZP:0006853 'abnormal(ly) disrupted common cardinal vein blood vessel endothelial cell migration'
+[INFO] E: ZP:0015581 'abnormal(ly) delayed macrophage phagocytosis, engulfment'
+[INFO] E: ZP:0015580 'abnormal(ly) delayed macrophage phagocytosis'
+[INFO] E: ZP:0014490 'abnormal(ly) decreased process quality blastema cell proliferation'
+[INFO] E: ZP:0017529 'abnormal(ly) process quality brain calcium-mediated signaling'
+[INFO] E: ZP:0014018 'abnormal(ly) process quality chondrocranium chondrocyte differentiation'
+[INFO] E: ZP:0014017 'abnormal(ly) process quality ceratohyal cartilage chondrocyte differentiation'
+[INFO] E: ZP:0014016 'abnormal(ly) process quality palatoquadrate cartilage chondrocyte differentiation'
+[INFO] E: ZP:0014015 'abnormal(ly) decreased process quality caudal vein blood circulation'
+[INFO] E: ZP:0017764 'abnormal(ly) increased process quality subintestinal vein sprouting angiogenesis'
+[INFO] E: ZP:0017524 'abnormal(ly) process quality glial cell apoptotic cell clearance'
+[INFO] E: ZP:0017766 'abnormal(ly) disrupted cranial nerve II axon regeneration'
+[INFO] E: ZP:0016678 'abnormal(ly) increased process quality pancreas tissue regeneration'
+[INFO] E: ZP:0016679 'abnormal(ly) increased process quality pancreatic B cell regeneration'
+[INFO] E: ZP:0017526 'abnormal(ly) increased occurrence median fin fold epithelial cell proliferation'
+[INFO] E: ZP:0017527 'abnormal(ly) decreased process quality epidermal basal stratum canonical Wnt signaling pathway'
+[INFO] E: ZP:0017530 'abnormal(ly) process quality glial cell response to wounding'
+[INFO] E: ZP:0017772 'abnormal(ly) increased process quality hepatic sinusoid inflammatory response'
+[INFO] E: ZP:0017531 'abnormal(ly) decreased process quality neutrophil peroxidase activity'
+[INFO] E: ZP:0017773 'abnormal(ly) increased process quality central vein inflammatory response'
+[INFO] E: ZP:0014022 'abnormal(ly) arrested pharyngeal arch mitotic cell cycle'
+[INFO] E: ZP:0005516 'abnormal(ly) decreased process quality dorsal aorta blood circulation'
+[INFO] E: ZP:0016649 'abnormal(ly) discontinuous vertebral column bone development'
+[INFO] E: ZP:0014469 'abnormal(ly) decreased process quality regenerating tissue cell proliferation'
+[INFO] E: ZP:0016405 'abnormal(ly) increased amount pleuroperitoneal cavity fat cell'
+[INFO] E: ZP:0017739 'abnormal(ly) decreased rate statoacoustic (VIII) ganglion neuron differentiation'
+[INFO] E: ZP:0014468 'abnormal(ly) decreased process quality regenerating fin cell proliferation'
+[INFO] E: ZP:0016404 'abnormal(ly) size pleuroperitoneal cavity fat cell'
+[INFO] E: ZP:0016403 'abnormal(ly) increased volume pleuroperitoneal cavity adipose tissue'
+[INFO] E: ZP:0015312 'abnormal(ly) increased process quality leukocyte nitric-oxide synthase activity'
+[INFO] E: ZP:0013132 'abnormal(ly) process quality interhyoideus sarcomere organization'
+[INFO] E: ZP:0015311 'abnormal(ly) process quality neutrophil response to bacterium'
+[INFO] E: ZP:0016883 'abnormal(ly) process quality otic vesicle neurogenesis'
+[INFO] E: ZP:0016884 'abnormal(ly) process quality statoacoustic (VIII) ganglion neurogenesis'
+[INFO] E: ZP:0016885 'abnormal(ly) process quality facial ganglion neurogenesis'
+[INFO] E: ZP:0017732 'abnormal(ly) increased process quality otic vesicle Notch signaling pathway'
+[INFO] E: ZP:0016886 'abnormal(ly) process quality anterior lateral line ganglion neurogenesis'
+[INFO] E: ZP:0017733 'abnormal(ly) increased process quality otic vesicle fibroblast growth factor receptor signaling pathway'
+[INFO] E: ZP:0016887 'abnormal(ly) process quality glossopharyngeal ganglion neurogenesis'
+[INFO] E: ZP:0017734 'abnormal(ly) decreased occurrence otic vesicle neuroblast fate specification'
+[INFO] E: ZP:0016888 'abnormal(ly) process quality vagal ganglion neurogenesis'
+[INFO] E: ZP:0017735 'abnormal(ly) decreased occurrence otic vesicle neurogenesis'
+[INFO] E: ZP:0017736 'abnormal(ly) occurrence otic vesicle hair cell differentiation'
+[INFO] E: ZP:0017978 'abnormal(ly) disrupted Mauthner neuron synaptic transmission, glycinergic'
+[INFO] E: ZP:0017979 'abnormal(ly) decreased occurrence Mauthner neuron synaptic transmission, glycinergic'
+[INFO] E: ZP:0016650 'abnormal(ly) disrupted vertebral column bone development'
+[INFO] E: ZP:0017981 'abnormal(ly) increased process quality head mesenchyme cell death'
+[INFO] E: ZP:0017982 'abnormal(ly) increased process quality neural keel cell death'
+[INFO] E: ZP:0012294 'abnormal(ly) mislocalised optic recess neuron'
+[INFO] E: ZP:0014470 'abnormal(ly) decreased process quality regenerating tissue neurogenesis'
+[INFO] E: ZP:0017749 'abnormal(ly) process quality head cell proliferation'
+[INFO] E: ZP:0012058 'abnormal(ly) process quality hindbrain interneuron neuron fate specification'
+[INFO] E: ZP:0013387 'abnormal(ly) present cloacal chamber ciliary basal body'
+[INFO] E: ZP:0013146 'abnormal(ly) process quality otic vesicle inner ear receptor cell differentiation'
+[INFO] E: ZP:0014476 'abnormal(ly) decreased occurrence spinal cord axon extension involved in regeneration'
+[INFO] E: ZP:0014475 'abnormal(ly) decreased occurrence whole organism swimming'
+[INFO] E: ZP:0012297 'abnormal(ly) increased process quality spinal cord apoptotic process'
+[INFO] E: ZP:0017983 'abnormal(ly) process quality head cell death'
+[INFO] E: ZP:0017984 'abnormal(ly) decreased process quality head cell death'
+[INFO] E: ZP:0017985 'abnormal(ly) increased process quality trunk cell death'
+[INFO] E: ZP:0017986 'abnormal(ly) increased process quality immature eye cell death'
+[INFO] E: ZP:0017751 'abnormal(ly) delayed intersegmental vessel vasculature development'
+[INFO] E: ZP:0012063 'abnormal(ly) increased occurrence adenohypophysis apoptotic process'
+[INFO] E: ZP:0012064 'abnormal(ly) decreased occurrence adenohypophysis corticotropin hormone secreting cell differentiation'
+[INFO] E: ZP:0013395 'abnormal(ly) process quality ventricular myocardium sarcomere organization'
+[INFO] E: ZP:0017718 'abnormal(ly) increased process quality forebrain apoptotic process'
+[INFO] E: ZP:0017719 'abnormal(ly) increased process quality brain cell death'
+[INFO] E: ZP:0011174 'abnormal(ly) increased process quality pharyngeal pouch 2 apoptotic process'
+[INFO] E: ZP:0014685 'abnormal(ly) increased process quality Muller cell cell proliferation'
+[INFO] E: ZP:0012021 'abnormal(ly) process quality pronephros cilium movement'
+[INFO] E: ZP:0011176 'abnormal(ly) increased process quality neurogenic placode apoptotic process'
+[INFO] E: ZP:0014441 'abnormal(ly) decreased occurrence retina cell proliferation'
+[INFO] E: ZP:0014683 'abnormal(ly) increased rate vH ionocyte ATP hydrolysis coupled proton transport'
+[INFO] E: ZP:0000283 'abnormal(ly) increased rate hindbrain cell death'
+[INFO] E: ZP:0016862 'abnormal(ly) process quality fast muscle cell skeletal myofibril assembly'
+[INFO] E: ZP:0016864 'abnormal(ly) process quality slow muscle cell skeletal myofibril assembly'
+[INFO] E: ZP:0017954 'abnormal(ly) decreased frequency Kupffer's vesicle cilium movement'
+[INFO] E: ZP:0017955 'abnormal(ly) process quality ventral wall of dorsal aorta apoptotic process'
+[INFO] E: ZP:0017956 'abnormal(ly) process quality ventral wall of dorsal aorta cell proliferation'
+[INFO] E: ZP:0006817 'abnormal(ly) increased occurrence proliferative region intrinsic apoptotic signaling pathway by p53 class mediator'
+[INFO] E: ZP:0016871 'abnormal(ly) decreased rate neutrophil pseudopodium assembly'
+[INFO] E: ZP:0012030 'abnormal(ly) arrested facial nerve motor nucleus cell migration'
+[INFO] E: ZP:0003783 'abnormal(ly) increased process quality head cell death'
+[INFO] E: ZP:0011181 'abnormal(ly) increased process quality neurogenic field apoptotic process'
+[INFO] E: ZP:0013128 'abnormal(ly) process quality adductor mandibulae sarcomere organization'
+[INFO] E: ZP:0014699 'abnormal(ly) decreased process quality retinal ganglion cell axon regeneration'
+[INFO] E: ZP:0012279 'abnormal(ly) delayed hindbrain exit from mitosis'
+[INFO] E: ZP:0014698 'abnormal(ly) increased rate retinal ganglion cell axon regeneration'
+[INFO] E: ZP:0012276 'abnormal(ly) increased process quality posterior lateral line primordium cell death'
+[INFO] E: ZP:0014697 'abnormal(ly) decreased rate retinal ganglion cell axon regeneration'
+[INFO] E: ZP:0011185 'abnormal(ly) process quality retinal pigmented epithelium melanosome localization'
+[INFO] E: ZP:0014696 'abnormal(ly) increased process quality cranial nerve II regeneration'
+[INFO] E: ZP:0014695 'abnormal(ly) decreased process quality spinal cord apoptotic process'
+[INFO] E: ZP:0014694 'abnormal(ly) decreased process quality brain apoptotic process'
+[INFO] E: ZP:0016872 'abnormal(ly) decreased rate neutrophil uropod retraction'
+[INFO] E: ZP:0017961 'abnormal(ly) process quality blood island cell cycle'
+[INFO] E: ZP:0016873 'abnormal(ly) decreased process quality neutrophil pseudopodium organization'
+[INFO] E: ZP:0017720 'abnormal(ly) increased process quality eye cell death'
+[INFO] E: ZP:0017962 'abnormal(ly) decreased process quality blood island cell proliferation'
+[INFO] E: ZP:0016632 'abnormal(ly) increased occurrence pancreatic B cell cell proliferation'
+[INFO] E: ZP:0017721 'abnormal(ly) decreased rate liver cell proliferation'
+[INFO] E: ZP:0017964 'abnormal(ly) decreased process quality atrium heart contraction'
+[INFO] E: ZP:0017967 'abnormal(ly) process quality atrioventricular valve blood circulation'
+[INFO] E: ZP:0001595 'abnormal(ly) decreased speed primordial germ cell cell motility'
+[INFO] E: ZP:0016882 'abnormal(ly) increased process quality integument GTPase activator activity'
+[INFO] E: ZP:0012283 'abnormal(ly) decreased process quality cranial lymph vessel lymphangiogenesis'
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:32,900 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@320de594
-[INFO] 2017-12-02 12:52:32,909 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:32,910 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@320de594
+[INFO] E: ZP:0014461 'abnormal(ly) decreased process quality spinal cord regeneration'
+[INFO] E: ZP:0011195 'abnormal(ly) disrupted lens collagen fibril organization'
+[INFO] E: ZP:0012281 'abnormal(ly) increased occurrence hindbrain neurogenesis'
+[INFO] E: ZP:0011194 'abnormal(ly) disrupted intersegmental vessel sprouting angiogenesis'
+[INFO] E: ZP:0013371 'abnormal(ly) occurrence brain cellular response to DNA damage stimulus'
+[INFO] E: ZP:0012280 'abnormal(ly) increased duration hindbrain neurogenesis'
+[INFO] E: ZP:0011191 'abnormal(ly) process quality amacrine cell dendrite extension'
+[INFO] E: ZP:0011157 'abnormal(ly) process quality dorsal longitudinal anastomotic vessel blood vessel lumenization'
+[INFO] E: ZP:0015999 'abnormal(ly) occurrence dorsal fin lepidotrichium apoptotic process'
+[INFO] E: ZP:0017936 'abnormal(ly) process quality forebrain commissural neuron axon guidance'
+[INFO] E: ZP:0011156 'abnormal(ly) process quality intersegmental vessel blood vessel lumenization'
+[INFO] E: ZP:0012006 'abnormal(ly) increased occurrence ceratohyal cartilage bone mineralization'
+[INFO] E: ZP:0016848 'abnormal(ly) occurrence optic vesicle apoptotic process'
+[INFO] E: ZP:0012003 'abnormal(ly) increased occurrence vertebra bone resorption'
+[INFO] E: ZP:0013576 'abnormal(ly) occurrence ethmoid cartilage apoptotic process'
+[INFO] E: ZP:0014666 'abnormal(ly) increased process quality thyroid stimulating hormone secreting cell programmed cell death'
+[INFO] E: ZP:0012488 'abnormal(ly) process quality neural plate cell motility'
+[INFO] E: ZP:0011153 'abnormal(ly) increased process quality retinal outer nuclear layer cell death'
+[INFO] E: ZP:0011152 'abnormal(ly) increased process quality retinal outer nuclear layer apoptotic process'
+[INFO] E: ZP:0012002 'abnormal(ly) increased occurrence vertebra bone mineralization'
+[INFO] E: ZP:0012241 'abnormal(ly) decreased process quality ventral wall of dorsal aorta cell proliferation'
+[INFO] E: ZP:0012483 'abnormal(ly) decreased velocity branchiomotor neuron neuron migration'
+[INFO] E: ZP:0012000 'abnormal(ly) decreased occurrence whole organism phosphodiesterase I activity'
+[INFO] E: ZP:0015518 'abnormal(ly) increased process quality solid lens vesicle apoptotic process'
+[INFO] E: ZP:0012007 'abnormal(ly) premature ceratohyal cartilage perichondral ossification'
+[INFO] E: ZP:0015517 'abnormal(ly) increased process quality epiphysis apoptotic process'
+[INFO] E: ZP:0011160 'abnormal(ly) arrested posterior lateral line nerve myelination'
+[INFO] E: ZP:0013581 'abnormal(ly) occurrence pharyngeal arch apoptotic process'
+[INFO] E: ZP:0012493 'abnormal(ly) process quality prechordal plate mesodermal cell migration'
+[INFO] E: ZP:0012490 'abnormal(ly) cellular spatiotemporal quality neural tube cell division'
+[INFO] E: ZP:0011161 'abnormal(ly) decreased process quality posterior lateral line nerve myelination'
+[INFO] E: ZP:0013105 'abnormal(ly) process quality retinal cone cell Golgi organization'
+[INFO] E: ZP:0017947 'abnormal(ly) delayed posterior cardinal vein blood coagulation, fibrin clot formation'
+[INFO] E: ZP:0017948 'abnormal(ly) onset quality posterior cardinal vein blood coagulation, fibrin clot formation'
+[INFO] E: ZP:0014677 'abnormal(ly) increased process quality liver cell proliferation'
+[INFO] E: ZP:0017707 'abnormal(ly) process quality brain transmission of nerve impulse'
+[INFO] E: ZP:0011164 'abnormal(ly) arrested motor neuron myelination'
+[INFO] E: ZP:0014675 'abnormal(ly) occurrence retinal ganglion cell cysteine-type endopeptidase activity'
+[INFO] E: ZP:0010076 'abnormal(ly) decreased process quality posterior lateral line primordium cell proliferation'
+[INFO] E: ZP:0011165 'abnormal(ly) decreased process quality motor neuron myelination'
+[INFO] E: ZP:0012011 'abnormal(ly) increased occurrence notochord outer sheath cell bone mineralization'
+[INFO] E: ZP:0017946 'abnormal(ly) occurrence posterior cardinal vein blood coagulation, fibrin clot formation'
+[INFO] E: ZP:0006821 'abnormal(ly) increased occurrence whole organism intrinsic apoptotic signaling pathway by p53 class mediator'
+[INFO] E: ZP:0011173 'abnormal(ly) increased process quality pharyngeal pouch 1 apoptotic process'
+[INFO] E: ZP:0006820 'abnormal(ly) increased occurrence caudal fin intrinsic apoptotic signaling pathway by p53 class mediator'
+[INFO] E: ZP:0006823 'abnormal(ly) increased occurrence trunk intrinsic apoptotic signaling pathway by p53 class mediator'
+[INFO] E: ZP:0006822 'abnormal(ly) increased occurrence head intrinsic apoptotic signaling pathway by p53 class mediator'
+[INFO] E: ZP:0012225 'abnormal(ly) increased process quality caudal vein plexus apoptotic process'
+[INFO] E: ZP:0013314 'abnormal(ly) morphology olfactory pit cilium'
+[INFO] E: ZP:0014404 'abnormal(ly) decreased process quality medial longitudinal fasciculus neuron projection regeneration'
+[INFO] E: ZP:0012226 'abnormal(ly) decreased process quality kidney cilium movement'
+[INFO] E: ZP:0014403 'abnormal(ly) decreased process quality intermediate reticular formation neuron projection regeneration'
+[INFO] E: ZP:0014645 'abnormal(ly) temporally extended DEL epiboly'
+[INFO] E: ZP:0009055 'abnormal(ly) decreased occurrence testis telomere maintenance'
+[INFO] E: ZP:0010048 'abnormal(ly) decreased occurrence Muller cell cell proliferation'
+[INFO] E: ZP:0011137 'abnormal(ly) process quality dorso-rostral cluster axon extension'
+[INFO] E: ZP:0013796 'abnormal(ly) process quality trunk vasculature Notch signaling pathway'
+[INFO] E: ZP:0014644 'abnormal(ly) arrested DEL epiboly'
+[INFO] E: ZP:0011136 'abnormal(ly) process quality supraoptic tract axon extension'
+[INFO] E: ZP:0014643 'abnormal(ly) temporally extended YSL epiboly'
+[INFO] E: ZP:0014885 'abnormal(ly) process quality spinal cord central nervous system myelination'
+[INFO] E: ZP:0012221 'abnormal(ly) disrupted palatoquadrate cartilage cartilage development'
+[INFO] E: ZP:0014642 'abnormal(ly) temporally extended EVL epiboly'
+[INFO] E: ZP:0017918 'abnormal(ly) increased process quality heart blood coagulation'
+[INFO] E: ZP:0017919 'abnormal(ly) increased occurrence posterior cardinal vein blood coagulation, fibrin clot formation'
+[INFO] E: ZP:0010286 'abnormal(ly) absent paraventricular organ neurotransmitter metabolic process'
+[INFO] E: ZP:0012461 'abnormal(ly) process quality intestinal epithelium Notch signaling pathway'
+[INFO] E: ZP:0013550 'abnormal(ly) process quality macrophage mitotic cell cycle'
+[INFO] E: ZP:0012220 'abnormal(ly) disrupted Meckel's cartilage cartilage development'
+[INFO] E: ZP:0011139 'abnormal(ly) decreased process quality retinal ganglion cell collateral sprouting in absence of injury'
+[INFO] E: ZP:0017911 'abnormal(ly) process quality hindbrain neurogenesis'
+[INFO] E: ZP:0014406 'abnormal(ly) decreased process quality superior reticular formation tegmentum neuron projection regeneration'
+[INFO] E: ZP:0014405 'abnormal(ly) decreased process quality superior reticular formation medial column neuron projection regeneration'
+[INFO] E: ZP:0011388 'abnormal(ly) disrupted dopaminergic neuron neuron development'
+[INFO] E: ZP:0013326 'abnormal(ly) occurrence hindbrain cell proliferation in hindbrain ventricular zone'
+[INFO] E: ZP:0017926 'abnormal(ly) disrupted forebrain axon guidance'
+[INFO] E: ZP:0011389 'abnormal(ly) disrupted hindbrain anterior/posterior pattern specification'
+[INFO] E: ZP:0015984 'abnormal(ly) disrupted dorsal longitudinal anastomotic vessel sprouting angiogenesis'
+[INFO] E: ZP:0015982 'abnormal(ly) disrupted thoracic duct lymphangiogenesis'
+[INFO] E: ZP:0002407 'abnormal(ly) increased duration retina cell division'
+[INFO] E: ZP:0013570 'abnormal(ly) process quality trunk vasculogenesis'
+[INFO] E: ZP:0014660 'abnormal(ly) decreased process quality cardiac ventricle heart contraction'
+[INFO] E: ZP:0002400 'abnormal(ly) arrested retina mitotic prometaphase'
+[INFO] E: ZP:0002401 'abnormal(ly) increased duration retina mitotic prometaphase'
+[INFO] E: ZP:0002402 'abnormal(ly) increased duration retina M phase'
+[INFO] E: ZP:0002403 'abnormal(ly) increased occurrence retina apoptotic process'
+[INFO] E: ZP:0011113 'abnormal(ly) abnormal rhombomere 3 neural keel formation'
+[INFO] E: ZP:0012445 'abnormal(ly) decreased process quality presumptive endocardium morphogenesis of an epithelial sheet'
+[INFO] E: ZP:0011112 'abnormal(ly) abnormal hindbrain neural keel formation'
+[INFO] E: ZP:0011354 'abnormal(ly) decreased process quality retinal ganglion cell neuron remodeling'
+[INFO] E: ZP:0011596 'abnormal(ly) process quality neural plate establishment of mitotic spindle orientation'
+[INFO] E: ZP:0012688 'abnormal(ly) increased occurrence hindbrain apoptotic process'
+[INFO] E: ZP:0014623 'abnormal(ly) arrested serotonergic neuron neuron differentiation'
+[INFO] E: ZP:0015712 'abnormal(ly) increased process quality sensory neuron apoptotic process'
+[INFO] E: ZP:0012685 'abnormal(ly) decreased process quality gut peristalsis'
+[INFO] E: ZP:0011114 'abnormal(ly) abnormal rhombomere 4 neural keel formation'
+[INFO] E: ZP:0012441 'abnormal(ly) process quality endocardium cardiac muscle cell differentiation'
+[INFO] E: ZP:0011350 'abnormal(ly) increased process quality trunk apoptotic process'
+[INFO] E: ZP:0011353 'abnormal(ly) decreased occurrence retinal ganglion cell cysteine-type endopeptidase activity'
+[INFO] E: ZP:0012440 'abnormal(ly) decreased process quality endocardium cell-cell junction organization'
+[INFO] E: ZP:0015719 'abnormal(ly) process quality liver connective tissue replacement involved in inflammatory response wound healing'
+[INFO] E: ZP:0015718 'abnormal(ly) process quality gall bladder lipid storage'
+[INFO] E: ZP:0013539 'abnormal(ly) process quality Mauthner neuron AMPA glutamate receptor activity'
+[INFO] E: ZP:0014868 'abnormal(ly) delayed DEL epiboly'
+[INFO] E: ZP:0015715 'abnormal(ly) decreased process quality melanocyte regeneration'
+[INFO] E: ZP:0014867 'abnormal(ly) delayed EVL epiboly'
+[INFO] E: ZP:0005948 'abnormal(ly) decreased length olfactory pit cilium'
+[INFO] E: ZP:0001341 'abnormal(ly) increased occurrence whole organism activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway'
+[INFO] E: ZP:0001340 'abnormal(ly) decreased occurrence whole organism cell cycle phase transition'
+[INFO] E: ZP:0011360 'abnormal(ly) occurrence retinal ganglion cell collateral sprouting in absence of injury'
+[INFO] E: ZP:0012456 'abnormal(ly) decreased occurrence posterior intestine peristalsis'
+[INFO] E: ZP:0011365 'abnormal(ly) decreased duration heart cardiac muscle cell action potential'
+[INFO] E: ZP:0012696 'abnormal(ly) increased occurrence epidermal basal stratum cell proliferation'
+[INFO] E: ZP:0012697 'abnormal(ly) increased occurrence periderm cell proliferation'
+[INFO] E: ZP:0012210 'abnormal(ly) occurrence melanocyte cellular pigment accumulation'
+[INFO] E: ZP:0015720 'abnormal(ly) process quality liver tissue remodeling'
+[INFO] E: ZP:0011361 'abnormal(ly) increased occurrence retinal ganglion cell collateral sprouting in absence of injury'
+[INFO] E: ZP:0012211 'abnormal(ly) decreased occurrence melanocyte cellular response to light intensity'
+[INFO] E: ZP:0012695 'abnormal(ly) increased occurrence peridermal cell apoptotic process'
+[INFO] E: ZP:0012450 'abnormal(ly) decreased occurrence hindbrain cell proliferation in hindbrain ventricular zone'
+[INFO] E: ZP:0012451 'abnormal(ly) premature hindbrain neurogenesis'
+[INFO] E: ZP:0012218 'abnormal(ly) decreased process quality caudal fin cell proliferation'
+[INFO] E: ZP:0012219 'abnormal(ly) decreased process quality trunk cell proliferation'
+[INFO] E: ZP:0012217 'abnormal(ly) decreased process quality liver cell proliferation'
+[INFO] E: ZP:0001339 'abnormal(ly) occurrence quality whole organism gene expression'
+[INFO] E: ZP:0001338 'abnormal(ly) arrested whole organism embryo development'
+[INFO] E: ZP:0001337 'abnormal(ly) increased occurrence whole organism apoptotic process'
+[INFO] E: ZP:0014844 'abnormal(ly) decreased process quality scale ossification involved in bone remodeling'
+[INFO] E: ZP:0007077 'abnormal(ly) disrupted pancreatic duct cell migration'
+[INFO] E: ZP:0011574 'abnormal(ly) process quality hypoblast convergent extension'
+[INFO] E: ZP:0014843 'abnormal(ly) process quality scale ossification involved in bone remodeling'
+[INFO] E: ZP:0011335 'abnormal(ly) process quality endodermal cell cell migration'
+[INFO] E: ZP:0011334 'abnormal(ly) delayed endodermal cell cell migration'
+[INFO] E: ZP:0011576 'abnormal(ly) increased process quality hindbrain cell death'
+[INFO] E: ZP:0014841 'abnormal(ly) decreased process quality retina cell proliferation'
+[INFO] E: ZP:0014840 'abnormal(ly) increased occurrence retinal ganglion cell layer cell proliferation'
+[INFO] E: ZP:0012420 'abnormal(ly) decreased process quality lateral plate mesoderm determination of left/right asymmetry in lateral mesoderm'
+[INFO] E: ZP:0013993 'abnormal(ly) increased occurrence subintestinal vein sprouting angiogenesis'
+[INFO] E: ZP:0014609 'abnormal(ly) occurrence brain ghrelin secretion'
+[INFO] E: ZP:0012429 'abnormal(ly) process quality habenula neurogenesis'
+[INFO] E: ZP:0011579 'abnormal(ly) absent post-vent region blood circulation'
+[INFO] E: ZP:0012428 'abnormal(ly) disrupted habenula determination of left/right symmetry'
+[INFO] E: ZP:0014847 'abnormal(ly) process quality scale bone remodeling'
+[INFO] E: ZP:0011339 'abnormal(ly) process quality heart rudiment cardioblast anterior-lateral migration'
+[INFO] E: ZP:0012667 'abnormal(ly) decreased process quality spinal cord myelination'
+[INFO] E: ZP:0014604 'abnormal(ly) process quality gut left/right pattern formation'
+[INFO] E: ZP:0014846 'abnormal(ly) increased process quality scale bone resorption'
+[INFO] E: ZP:0014845 'abnormal(ly) process quality scale bone resorption'
+[INFO] E: ZP:0000674 'abnormal(ly) decreased process quality fast muscle cell muscle fiber development'
+[INFO] E: ZP:0000673 'abnormal(ly) decreased process quality slow muscle cell muscle fiber development'
+[INFO] E: ZP:0009008 'abnormal(ly) decreased occurrence solid lens vesicle apoptotic process'
+[INFO] E: ZP:0009007 'abnormal(ly) increased occurrence retinal outer nuclear layer cell proliferation'
+[INFO] E: ZP:0009002 'abnormal(ly) increased occurrence brain apoptotic process'
+[INFO] E: ZP:0011346 'abnormal(ly) increased process quality hindbrain apoptotic process'
+[INFO] E: ZP:0011588 'abnormal(ly) disrupted intersegmental vein sprouting angiogenesis'
+[INFO] E: ZP:0012674 'abnormal(ly) increased process quality blood island cell death'
+[INFO] E: ZP:0014611 'abnormal(ly) increased occurrence digestive system ghrelin secretion'
+[INFO] E: ZP:0011587 'abnormal(ly) delayed intersegmental vein sprouting angiogenesis'
+[INFO] E: ZP:0012433 'abnormal(ly) process quality melanocyte developmental pigmentation'
+[INFO] E: ZP:0014610 'abnormal(ly) occurrence digestive system ghrelin secretion'
+[INFO] E: ZP:0015941 'abnormal(ly) decreased occurrence pronephros establishment of epithelial cell apical/basal polarity'
+[INFO] E: ZP:0009006 'abnormal(ly) increased occurrence optic cup apoptotic process'
+[INFO] E: ZP:0011340 'abnormal(ly) decreased process quality presumptive endocardium BMP signaling pathway involved in heart development'
+[INFO] E: ZP:0012430 'abnormal(ly) disrupted epithalamus determination of left/right symmetry'
+[INFO] E: ZP:0009005 'abnormal(ly) increased occurrence retina cell proliferation'
+[INFO] E: ZP:0009004 'abnormal(ly) increased occurrence retinal inner nuclear layer cell proliferation'
+[INFO] E: ZP:0011342 'abnormal(ly) increased occurrence caudal vein plexus sprouting angiogenesis'
+[INFO] E: ZP:0009003 'abnormal(ly) increased occurrence lens apoptotic process'
+[INFO] E: ZP:0011348 'abnormal(ly) increased process quality horizontal myoseptum apoptotic process'
+[INFO] E: ZP:0014617 'abnormal(ly) process quality otic vesicle establishment or maintenance of epithelial cell apical/basal polarity'
+[INFO] E: ZP:0011347 'abnormal(ly) increased process quality midbrain apoptotic process'
+[INFO] E: ZP:0011589 'abnormal(ly) disrupted intersegmental vein blood circulation'
+[INFO] E: ZP:0012678 'abnormal(ly) increased process quality myeloid cell cell death'
+[INFO] E: ZP:0011349 'abnormal(ly) increased process quality head apoptotic process'
+[INFO] E: ZP:0014614 'abnormal(ly) frequency motor neuron synaptic transmission, glycinergic'
+[INFO] E: ZP:0011590 'abnormal(ly) decreased occurrence intersegmental vein cell proliferation'
+[INFO] E: ZP:0003930 'abnormal(ly) increased occurrence neuron positive regulation of ERK1 and ERK2 cascade'
+[INFO] E: ZP:0011553 'abnormal(ly) process quality intersegmental vessel angiogenesis'
+[INFO] E: ZP:0011552 'abnormal(ly) process quality cranial vasculature angiogenesis'
+[INFO] E: ZP:0012644 'abnormal(ly) decreased duration Mauthner neuron N-methyl-D-aspartate selective glutamate receptor activity'
+[INFO] E: ZP:0015910 'abnormal(ly) increased process quality dorsal fin lepidotrichium canonical Wnt signaling pathway'
+[INFO] E: ZP:0008185 'abnormal(ly) decreased mobility cloacal chamber cilium'
+[INFO] E: ZP:0013730 'abnormal(ly) occurrence pharyngeal pouch protein localization to plasma membrane'
+[INFO] E: ZP:0012400 'abnormal(ly) decreased occurrence retinal ganglion cell dendrite morphogenesis'
+[INFO] E: ZP:0011792 'abnormal(ly) disrupted trunk neural crest cell contact inhibition'
+[INFO] E: ZP:0014828 'abnormal(ly) increased process quality hypothalamus apoptotic process'
+[INFO] E: ZP:0011557 'abnormal(ly) process quality eye pigmentation'
+[INFO] E: ZP:0012405 'abnormal(ly) decreased occurrence pharyngeal vasculature blood vessel endothelial cell differentiation'
+[INFO] E: ZP:0012647 'abnormal(ly) process quality Mauthner neuron dendrite morphogenesis'
+[INFO] E: ZP:0014826 'abnormal(ly) decreased process quality oligodendrocyte cell division'
+[INFO] E: ZP:0008184 'abnormal(ly) absent cloacal chamber cilium'
+[INFO] E: ZP:0012406 'abnormal(ly) decreased process quality pharyngeal vasculature pharyngeal arch artery morphogenesis'
+[INFO] E: ZP:0014825 'abnormal(ly) process quality neutrophil response to wounding'
+[INFO] E: ZP:0011317 'abnormal(ly) decreased occurrence pharyngeal pouch protein localization to plasma membrane'
+[INFO] E: ZP:0011559 'abnormal(ly) increased occurrence posterior cardinal vein endothelial cell apoptotic process'
+[INFO] E: ZP:0012403 'abnormal(ly) decreased process quality pharyngeal vasculature vasculogenesis'
+[INFO] E: ZP:0012645 'abnormal(ly) decreased process quality Mauthner neuron N-methyl-D-aspartate selective glutamate receptor activity'
+[INFO] E: ZP:0012404 'abnormal(ly) decreased process quality pharyngeal vasculature angioblast cell differentiation'
+[INFO] E: ZP:0018196 'abnormal(ly) occurrence brain neuron differentiation'
+[INFO] E: ZP:0018197 'abnormal(ly) occurrence brain astrocyte differentiation'
+[INFO] E: ZP:0018198 'abnormal(ly) occurrence brain neural precursor cell proliferation'
+[INFO] E: ZP:0018190 'abnormal(ly) occurrence trunk musculature apoptotic process'
+[INFO] E: ZP:0018191 'abnormal(ly) occurrence trunk musculature cell proliferation'
+[INFO] E: ZP:0011322 'abnormal(ly) irregular rhythm optic tectum neuronal action potential'
+[INFO] E: ZP:0011321 'abnormal(ly) increased frequency optic tectum neuronal action potential'
+[INFO] E: ZP:0011324 'abnormal(ly) process quality whole organism mitotic cell cycle'
+[INFO] E: ZP:0014831 'abnormal(ly) increased process quality retina cell death'
+[INFO] E: ZP:0011323 'abnormal(ly) decreased process quality optic tectum regulation of neuronal action potential'
+[INFO] E: ZP:0012411 'abnormal(ly) increased speed pharyngeal pouch cell migration'
+[INFO] E: ZP:0011329 'abnormal(ly) process quality endoderm cell migration'
+[INFO] E: ZP:0012416 'abnormal(ly) decreased process quality optic tectum innervation'
+[INFO] E: ZP:0014837 'abnormal(ly) increased process quality retinal outer nuclear layer cell division'
+[INFO] E: ZP:0011325 'abnormal(ly) increased process quality whole organism cell proliferation'
+[INFO] E: ZP:0014836 'abnormal(ly) increased process quality ciliary marginal zone cell division'
+[INFO] E: ZP:0011328 'abnormal(ly) decreased process quality endoderm cell proliferation'
+[INFO] E: ZP:0014835 'abnormal(ly) increased process quality retinal inner nuclear layer cell division'
+[INFO] E: ZP:0012415 'abnormal(ly) process quality retina dorsal/ventral pattern formation'
+[INFO] E: ZP:0002863 'abnormal(ly) disrupted melanocyte regulation of membrane potential'
+[INFO] E: ZP:0012620 'abnormal(ly) decreased occurrence cranium bone mineralization'
+[INFO] E: ZP:0007034 'abnormal(ly) process quality Kupffer's vesicle cilium movement'
+[INFO] E: ZP:0011771 'abnormal(ly) disrupted habenula axon extension involved in axon guidance'
+[INFO] E: ZP:0011539 'abnormal(ly) delayed enteric nervous system neuron migration'
+[INFO] E: ZP:0012629 'abnormal(ly) increased occurrence optic vesicle apoptotic process'
+[INFO] E: ZP:0012628 'abnormal(ly) decreased process quality optic vesicle regionalization'
+[INFO] E: ZP:0006180 'abnormal(ly) decreased process quality cephalic musculature skeletal muscle tissue development'
+[INFO] E: ZP:0011777 'abnormal(ly) absent tooth 4V tooth mineralization'
+[INFO] E: ZP:0011776 'abnormal(ly) decreased area opercle bone mineralization'
+[INFO] E: ZP:0011779 'abnormal(ly) absent ceratobranchial cartilage ossification'
+[INFO] E: ZP:0013712 'abnormal(ly) process quality spinal cord spinal cord motor neuron differentiation'
+[INFO] E: ZP:0014802 'abnormal(ly) decreased occurrence secondary motor neuron axon extension'
+[INFO] E: ZP:0011778 'abnormal(ly) disrupted tooth 4V tooth mineralization'
+[INFO] E: ZP:0018173 'abnormal(ly) increased occurrence brain neuron differentiation'
+[INFO] E: ZP:0018174 'abnormal(ly) decreased occurrence brain neural precursor cell proliferation'
+[INFO] E: ZP:0018175 'abnormal(ly) decreased duration hindbrain mitotic cell cycle'
+[INFO] E: ZP:0017081 'abnormal(ly) increased occurrence vascular endothelium Notch signaling pathway'
+[INFO] E: ZP:0017082 'abnormal(ly) process quality dorsal aorta blood vessel endothelial cell fate specification'
+[INFO] E: ZP:0008594 'abnormal(ly) decreased occurrence heart primordium cell proliferation'
+[INFO] E: ZP:0014811 'abnormal(ly) decreased process quality Muller cell cell proliferation'
+[INFO] E: ZP:0008595 'abnormal(ly) decreased occurrence midbrain cell proliferation'
+[INFO] E: ZP:0011541 'abnormal(ly) decreased occurrence enteric nervous system cell division'
+[INFO] E: ZP:0011544 'abnormal(ly) decreased process quality ventral wall of dorsal aorta Notch signaling pathway'
+[INFO] E: ZP:0011543 'abnormal(ly) increased process quality ventral wall of dorsal aorta apoptotic process'
+[INFO] E: ZP:0006177 'abnormal(ly) decreased occurrence somite cell proliferation'
+[INFO] E: ZP:0011780 'abnormal(ly) disrupted ceratobranchial cartilage ossification'
+[INFO] E: ZP:0011540 'abnormal(ly) decreased rate enteric nervous system neuron migration'
+[INFO] E: ZP:0008590 'abnormal(ly) disrupted brain axon extension'
+[INFO] E: ZP:0011546 'abnormal(ly) decreased process quality endothelial cell Notch signaling pathway'
+[INFO] E: ZP:0013725 'abnormal(ly) occurrence vagal placode 4 neurogenesis'
+[INFO] E: ZP:0008591 'abnormal(ly) disrupted brain innervation'
+[INFO] E: ZP:0015902 'abnormal(ly) increased process quality retinal outer nuclear layer cell proliferation'
+[INFO] E: ZP:0013724 'abnormal(ly) occurrence facial placode neurogenesis'
+[INFO] E: ZP:0014812 'abnormal(ly) process quality retina tissue regeneration'
+[INFO] E: ZP:0017098 'abnormal(ly) increased process quality thoracic duct lymphangiogenesis'
+[INFO] E: ZP:0008107 'abnormal(ly) disorganized olfactory pit cilium'
+[INFO] E: ZP:0008589 'abnormal(ly) decreased occurrence brain cell proliferation'
+[INFO] E: ZP:0018182 'abnormal(ly) process quality hindbrain exit from mitosis'
+[INFO] E: ZP:0009231 'abnormal(ly) decreased process quality neuron mitochondrion localization'
+[INFO] E: ZP:0008142 'abnormal(ly) decreased process quality intersegmental vessel sprouting angiogenesis'
+[INFO] E: ZP:0011991 'abnormal(ly) severe intensity notochord bone mineralization'
+[INFO] E: ZP:0011759 'abnormal(ly) process quality melanocyte neural crest cell migration'
+[INFO] E: ZP:0018148 'abnormal(ly) increased occurrence posterior lateral line primordium apoptotic process'
+[INFO] E: ZP:0018149 'abnormal(ly) decreased occurrence posterior lateral line primordium cell proliferation'
+[INFO] E: ZP:0013936 'abnormal(ly) decreased occurrence lens epithelium cell proliferation'
+[INFO] E: ZP:0008140 'abnormal(ly) increased occurrence midbrain cell death'
+[INFO] E: ZP:0018394 'abnormal(ly) process quality regenerating fin blood vessel endothelial cell migration'
+[INFO] E: ZP:0017067 'abnormal(ly) process quality liver apoptotic process'
+[INFO] E: ZP:0003928 'abnormal(ly) increased occurrence oligodendrocyte cell migration'
+[INFO] E: ZP:0012609 'abnormal(ly) disrupted cardiac muscle cell sarcomere organization'
+[INFO] E: ZP:0003929 'abnormal(ly) increased process quality oligodendrocyte cell migration'
+[INFO] E: ZP:0008139 'abnormal(ly) increased occurrence hindbrain cell death'
+[INFO] E: ZP:0018391 'abnormal(ly) increased amount spermatocyte apoptotic chromosome condensation'
+[INFO] E: ZP:0013700 'abnormal(ly) process efficacy lapillus otolith mineralization completed early in development'
+[INFO] E: ZP:0011764 'abnormal(ly) process quality parapineal organ determination of left/right asymmetry in diencephalon'
+[INFO] E: ZP:0011763 'abnormal(ly) process quality parapineal organ epithalamus development'
+[INFO] E: ZP:0012618 'abnormal(ly) decreased occurrence opercle bone mineralization'
+[INFO] E: ZP:0013707 'abnormal(ly) process quality otic vesicle otolith tethering'
+[INFO] E: ZP:0011769 'abnormal(ly) decreased process quality habenula cytoskeleton organization'
+[INFO] E: ZP:0012619 'abnormal(ly) decreased occurrence ceratohyal bone bone mineralization'
+[INFO] E: ZP:0012616 'abnormal(ly) decreased occurrence centrum bone mineralization'
+[INFO] E: ZP:0013701 'abnormal(ly) process quality lapillus otolith tethering'
+[INFO] E: ZP:0013702 'abnormal(ly) process efficacy sagitta otolith mineralization completed early in development'
+[INFO] E: ZP:0017073 'abnormal(ly) arrested neural tube cell division'
+[INFO] E: ZP:0017074 'abnormal(ly) increased occurrence posterior cardinal vein lipid oxidation'
+[INFO] E: ZP:0017076 'abnormal(ly) increased process quality caudal vein plexus nuclear fragmentation involved in apoptotic nuclear change'
+[INFO] E: ZP:0017078 'abnormal(ly) increased process quality pronephric glomerulus apoptotic process'
+[INFO] E: ZP:0017079 'abnormal(ly) decreased process quality pronephric glomerulus cell proliferation'
+[INFO] E: ZP:0001733 'abnormal(ly) arrested parachordal vessel venous endothelial cell migration involved in lymph vessel development'
+[INFO] E: ZP:0007474 'abnormal(ly) process quality hindbrain establishment or maintenance of epithelial cell apical/basal polarity'
+[INFO] E: ZP:0007475 'abnormal(ly) process quality diencephalon establishment or maintenance of epithelial cell apical/basal polarity'
+[INFO] E: ZP:0018126 'abnormal(ly) variability of rate ceratobranchial 5 replacement  tooth odontogenesis'
+[INFO] E: ZP:0011736 'abnormal(ly) decreased occurrence glossopharyngeal placode neurogenesis'
+[INFO] E: ZP:0011738 'abnormal(ly) decreased occurrence vagal placode 1 neurogenesis'
+[INFO] E: ZP:0010886 'abnormal(ly) present in greater numbers in organism pleuroperitoneal cavity vascular sprouts'
+[INFO] E: ZP:0010888 'abnormal(ly) increased process quality eye apoptotic process'
+[INFO] E: ZP:0010887 'abnormal(ly) increased process quality brain apoptotic process'
+[INFO] E: ZP:0011734 'abnormal(ly) decreased occurrence facial placode neurogenesis'
+[INFO] E: ZP:0018134 'abnormal(ly) occurrence cerebellum apoptotic process'
+[INFO] E: ZP:0018135 'abnormal(ly) occurrence cerebellum cell proliferation in hindbrain'
+[INFO] E: ZP:0018378 'abnormal(ly) absent mesenchyme pectoral fin cell proliferation'
+[INFO] E: ZP:0011740 'abnormal(ly) decreased occurrence vagal placode 2 neurogenesis'
+[INFO] E: ZP:0005281 'abnormal(ly) absent intersegmental vessel blood circulation'
+[INFO] E: ZP:0011742 'abnormal(ly) decreased occurrence vagal placode 3 neurogenesis'
+[INFO] E: ZP:0007463 'abnormal(ly) behavioral quality of a process postcranial axial skeleton skeletal system development'
+[INFO] E: ZP:0013927 'abnormal(ly) decreased process quality motor neuron synapse assembly'
+[INFO] E: ZP:0018137 'abnormal(ly) increased occurrence brain Notch signaling pathway'
+[INFO] E: ZP:0011747 'abnormal(ly) decreased process quality heart primordium cell proliferation'
+[INFO] E: ZP:0011508 'abnormal(ly) increased occurrence optic tectum cell proliferation in midbrain'
+[INFO] E: ZP:0011507 'abnormal(ly) increased occurrence optic tectum apoptotic process'
+[INFO] E: ZP:0011749 'abnormal(ly) process quality pharyngeal pouch pharyngeal system development'
+[INFO] E: ZP:0013926 'abnormal(ly) decreased process quality dorsal anterior lateral line nerve synapse assembly'
+[INFO] E: ZP:0011744 'abnormal(ly) decreased occurrence vagal placode 4 neurogenesis'
+[INFO] E: ZP:0018383 'abnormal(ly) decreased amount epidermal cell cell aggregation'
+[INFO] E: ZP:0018384 'abnormal(ly) process quality hindbrain cell death'
+[INFO] E: ZP:0018385 'abnormal(ly) process quality lateral plate mesoderm determination of left/right asymmetry in lateral mesoderm'
+[INFO] E: ZP:0011509 'abnormal(ly) process quality optic tectum regulation of neurogenesis'
+[INFO] E: ZP:0017056 'abnormal(ly) premature secondary islet endocrine pancreas development'
+[INFO] E: ZP:0017058 'abnormal(ly) decreased process quality trabecular layer of ventricle ventricular cardiac myofibril assembly'
+[INFO] E: ZP:0018389 'abnormal(ly) present gonad apoptotic chromosome condensation'
+[INFO] E: ZP:0011951 'abnormal(ly) increased occurrence hindbrain cell proliferation in hindbrain ventricular zone'
+[INFO] E: ZP:0010868 'abnormal(ly) increased process quality whole organism apoptotic process'
+[INFO] E: ZP:0018346 'abnormal(ly) decreased process quality hindbrain mitotic cell cycle'
+[INFO] E: ZP:0011956 'abnormal(ly) increased rate endothelial cell cell proliferation'
+[INFO] E: ZP:0018108 'abnormal(ly) increased occurrence cerebellum apoptotic process'
+[INFO] E: ZP:0018351 'abnormal(ly) growth quality of occurrent pancreas growth'
+[INFO] E: ZP:0018352 'abnormal(ly) increased process quality pancreas growth'
+[INFO] E: ZP:0018353 'abnormal(ly) delayed subintestinal vein angiogenesis'
+[INFO] E: ZP:0017023 'abnormal(ly) absent head blood circulation'
+[INFO] E: ZP:0018112 'abnormal(ly) decreased occurrence cerebellum cell proliferation in hindbrain'
+[INFO] E: ZP:0017024 'abnormal(ly) absent trunk blood circulation'
+[INFO] E: ZP:0015084 'abnormal(ly) decreased process quality posterior lateral line primordium adherens junction maintenance'
+[INFO] E: ZP:0007481 'abnormal(ly) disrupted intersegmental vessel membrane raft distribution'
+[INFO] E: ZP:0007482 'abnormal(ly) disrupted endothelial tip cell membrane raft distribution'
+[INFO] E: ZP:0011961 'abnormal(ly) decreased process quality common cardinal vein blood circulation'
+[INFO] E: ZP:0008335 'abnormal(ly) decreased process quality ventral wall of dorsal aorta hematopoietic stem cell differentiation'
+[INFO] E: ZP:0013903 'abnormal(ly) increased occurrence vertebral column bone mineralization'
+[INFO] E: ZP:0017029 'abnormal(ly) decreased occurrence pharyngeal pouch protein localization to cell junction'
+[INFO] E: ZP:0018119 'abnormal(ly) increased process quality nucleate erythrocyte apoptotic process'
+[INFO] E: ZP:0013902 'abnormal(ly) increased occurrence cranium bone mineralization'
+[INFO] E: ZP:0012810 'abnormal(ly) process quality pronephric proximal convoluted tubule cell differentiation involved in pronephros development'
+[INFO] E: ZP:0012811 'abnormal(ly) process quality pronephric proximal straight tubule cell differentiation involved in pronephros development'
+[INFO] E: ZP:0017032 'abnormal(ly) decreased process quality melanocyte cell death'
+[INFO] E: ZP:0018121 'abnormal(ly) decreased process quality vertebra bone development'
+[INFO] E: ZP:0013909 'abnormal(ly) increased occurrence endoderm apoptotic process'
+[INFO] E: ZP:0017033 'abnormal(ly) increased process quality melanocyte cell division'
+[INFO] E: ZP:0018122 'abnormal(ly) rate ceratobranchial 5 replacement  tooth odontogenesis'
+[INFO] E: ZP:0017035 'abnormal(ly) disrupted parapineal organ determination of left/right symmetry'
+[INFO] E: ZP:0008569 'abnormal(ly) arrested intersegmental vessel cell migration involved in sprouting angiogenesis'
+[INFO] E: ZP:0011934 'abnormal(ly) decreased process quality retina poly(A)+ mRNA export from nucleus'
+[INFO] E: ZP:0011936 'abnormal(ly) decreased process quality intestine poly(A)+ mRNA export from nucleus'
+[INFO] E: ZP:0010842 'abnormal(ly) decreased process quality dermal bone ossification'
+[INFO] E: ZP:0011930 'abnormal(ly) decreased process quality pancreas poly(A)+ mRNA export from nucleus'
+[INFO] E: ZP:0011933 'abnormal(ly) increased process quality retina apoptotic process'
+[INFO] E: ZP:0017485 'abnormal(ly) arrested fast muscle cell myoblast fusion'
+[INFO] E: ZP:0017244 'abnormal(ly) arrested head skeletal system development'
+[INFO] E: ZP:0015067 'abnormal(ly) increased process quality cardiac muscle cell cell death'
+[INFO] E: ZP:0015066 'abnormal(ly) increased process quality cardiac muscle cell apoptotic process'
+[INFO] E: ZP:0015062 'abnormal(ly) increased process quality intersegmental vessel cell proliferation'
+[INFO] E: ZP:0008758 'abnormal(ly) process quality intersegmental vessel sprouting angiogenesis'
+[INFO] E: ZP:0015061 'abnormal(ly) increased process quality intersegmental vessel cell migration involved in sprouting angiogenesis'
+[INFO] E: ZP:0010850 'abnormal(ly) delayed tooth 4V odontogenesis'
+[INFO] E: ZP:0015068 'abnormal(ly) increased process quality cardiac muscle cell cell proliferation'
+[INFO] E: ZP:0017004 'abnormal(ly) process quality integument chromosome organization'
+[INFO] E: ZP:0017005 'abnormal(ly) increased process quality retinal inner nuclear layer cell proliferation'
+[INFO] E: ZP:0011705 'abnormal(ly) increased process quality liver apoptotic process'
+[INFO] E: ZP:0010855 'abnormal(ly) disrupted axial chorda mesoderm cell fate commitment'
+[INFO] E: ZP:0017250 'abnormal(ly) absent eye pigmentation'
+[INFO] E: ZP:0017495 'abnormal(ly) process quality optic tectum transmission of nerve impulse'
+[INFO] E: ZP:0018342 'abnormal(ly) process quality epibranchial ganglion axon development'
+[INFO] E: ZP:0018101 'abnormal(ly) decreased occurrence brain neuron differentiation'
+[INFO] E: ZP:0018343 'abnormal(ly) decreased process quality vagal ganglion fasciculation of sensory neuron axon'
+[INFO] E: ZP:0018102 'abnormal(ly) increased occurrence brain astrocyte differentiation'
+[INFO] E: ZP:0018344 'abnormal(ly) increased process quality forebrain cell death'
+[INFO] E: ZP:0018103 'abnormal(ly) increased occurrence brain neural precursor cell proliferation'
+[INFO] E: ZP:0018345 'abnormal(ly) increased process quality midbrain cell death'
+[INFO] E: ZP:0015078 'abnormal(ly) decreased process quality posterior lateral line primordium cell division'
+[INFO] E: ZP:0006323 'abnormal(ly) increased process quality intestinal epithelial cell autophagy in response to ER overload'
+[INFO] E: ZP:0009834 'abnormal(ly) decreased process quality primary motor neuron axon extension'
+[INFO] E: ZP:0009832 'abnormal(ly) decreased process quality motor neuron axon extension'
+[INFO] E: ZP:0009836 'abnormal(ly) decreased process quality secondary motor neuron axon extension'
+[INFO] E: ZP:0011913 'abnormal(ly) arrested liver cell cycle'
+[INFO] E: ZP:0017213 'abnormal(ly) disrupted regenerating fin axon regeneration'
+[INFO] E: ZP:0011915 'abnormal(ly) increased process quality mandibular arch skeleton cell death'
+[INFO] E: ZP:0011914 'abnormal(ly) increased process quality inner ear cell death'
+[INFO] E: ZP:0011917 'abnormal(ly) decreased process quality hepatocyte DNA methylation'
+[INFO] E: ZP:0017220 'abnormal(ly) decreased occurrence blastema cell proliferation'
+[INFO] E: ZP:0017462 'abnormal(ly) decreased process quality intestinal epithelial cell DNA methylation'
+[INFO] E: ZP:0017463 'abnormal(ly) increased process quality intestinal epithelial cell apoptotic process'
+[INFO] E: ZP:0011919 'abnormal(ly) decreased process quality pronephric tubule ciliary basal body organization'
+[INFO] E: ZP:0017464 'abnormal(ly) process quality hypoblast calcium-mediated signaling'
+[INFO] E: ZP:0017465 'abnormal(ly) decreased process quality Kupffer's vesicle cilium movement'
+[INFO] E: ZP:0015289 'abnormal(ly) increased occurrence Muller cell interkinetic nuclear migration'
+[INFO] E: ZP:0010835 'abnormal(ly) decreased process quality otic vesicle motile cilium assembly'
+[INFO] E: ZP:0011924 'abnormal(ly) increased process quality skeletal muscle cell apoptotic process'
+[INFO] E: ZP:0017224 'abnormal(ly) process quality pectoral fin bud regulation of smoothened signaling pathway'
+[INFO] E: ZP:0017225 'abnormal(ly) decreased process quality apical ectodermal ridge pectoral fin bud embryonic pectoral fin morphogenesis'
+[INFO] E: ZP:0017468 'abnormal(ly) decreased process quality hematopoietic multipotent progenitor cell cell proliferation'
+[INFO] E: ZP:0017227 'abnormal(ly) decreased process quality fin fold pectoral fin bud embryonic pectoral fin morphogenesis'
+[INFO] E: ZP:0010831 'abnormal(ly) decreased process quality Kupffer's vesicle motile cilium assembly'
+[INFO] E: ZP:0017229 'abnormal(ly) frequency optic tectum neuronal action potential'
+[INFO] E: ZP:0018318 'abnormal(ly) disrupted regenerating fin blood vessel endothelial cell migration'
+[INFO] E: ZP:0017230 'abnormal(ly) rhythm quality optic tectum neuronal action potential'
+[INFO] E: ZP:0017231 'abnormal(ly) process quality optic tectum cellular response to heat'
+[INFO] E: ZP:0017232 'abnormal(ly) process quality optic tectum regulation of neuronal action potential'
+[INFO] E: ZP:0011929 'abnormal(ly) decreased process quality liver poly(A)+ mRNA export from nucleus'
+[INFO] E: ZP:0005015 'abnormal(ly) decreased process quality ciliated olfactory receptor neuron cilium-dependent cell motility'
+[INFO] E: ZP:0005014 'abnormal(ly) increased rate ciliated olfactory receptor neuron cilium-dependent cell motility'
+[INFO] E: ZP:0015292 'abnormal(ly) decreased process quality retinal outer nuclear layer cell proliferation'
+[INFO] E: ZP:0015291 'abnormal(ly) decreased process quality retinal inner nuclear layer cell proliferation'
+[INFO] E: ZP:0017435 'abnormal(ly) decreased process quality pronephros endocytosis'
+[INFO] E: ZP:0017436 'abnormal(ly) process quality pronephros endocytic recycling'
+[INFO] E: ZP:0017440 'abnormal(ly) process quality pronephros renal absorption'
+[INFO] E: ZP:0007626 'abnormal(ly) decreased process quality pronephros cilium-dependent cell motility'
+[INFO] E: ZP:0015267 'abnormal(ly) increased process quality interneuromast cell cell proliferation'
+[INFO] E: ZP:0010813 'abnormal(ly) increased occurrence Mauthner neuron action potential'
+[INFO] E: ZP:0017686 'abnormal(ly) increased process quality heart apoptotic process'
+[INFO] E: ZP:0010812 'abnormal(ly) process quality Mauthner neuron action potential'
+[INFO] E: ZP:0017687 'abnormal(ly) decreased process quality heart cell proliferation'
+[INFO] E: ZP:0010815 'abnormal(ly) process quality Mauthner neuron transmission of nerve impulse'
+[INFO] E: ZP:0010814 'abnormal(ly) temporal distribution quality Mauthner neuron action potential'
+[INFO] E: ZP:0011903 'abnormal(ly) increased occurrence nucleate erythrocyte autophagy'
+[INFO] E: ZP:0017689 'abnormal(ly) decreased process quality pectoral fin cell proliferation'
+[INFO] E: ZP:0010811 'abnormal(ly) increased duration CaP motoneuron motor neuron axon guidance'
+[INFO] E: ZP:0011900 'abnormal(ly) increased occurrence whole organism autophagy'
+[INFO] E: ZP:0011909 'abnormal(ly) disrupted heart calcium-mediated signaling'
+[INFO] E: ZP:0017690 'abnormal(ly) decreased process quality cardiac ventricle sarcomere organization'
+[INFO] E: ZP:0008949 'abnormal(ly) decreased process quality multi-ciliated epithelial cell cell migration involved in kidney development'
+[INFO] E: ZP:0017212 'abnormal(ly) disrupted intestine establishment of cell polarity'
+[INFO] E: ZP:0015274 'abnormal(ly) occurrence liver cell proliferation'
+[INFO] E: ZP:0015273 'abnormal(ly) occurrence gut cell proliferation'
+[INFO] E: ZP:0007651 'abnormal(ly) decreased occurrence brain branching morphogenesis of a nerve'
+[INFO] E: ZP:0017411 'abnormal(ly) decreased occurrence pronephric tubule establishment of epithelial cell apical/basal polarity'
+[INFO] E: ZP:0017413 'abnormal(ly) decreased occurrence pronephric proximal convoluted tubule endocytosis'
+[INFO] E: ZP:0017658 'abnormal(ly) increased occurrence retina neuron differentiation'
+[INFO] E: ZP:0017418 'abnormal(ly) increased occurrence pronephric proximal convoluted tubule apoptotic process'
+[INFO] E: ZP:0017660 'abnormal(ly) occurrence posterior lateral line myelination of posterior lateral line nerve axons'
+[INFO] E: ZP:0017662 'abnormal(ly) increased occurrence retinal inner nuclear layer neuron differentiation'
+[INFO] E: ZP:0003046 'abnormal(ly) increased occurrence brain cellular response to DNA damage stimulus'
+[INFO] E: ZP:0006319 'abnormal(ly) decreased process quality intestinal epithelial cell cell proliferation'
+[INFO] E: ZP:0006318 'abnormal(ly) increased occurrence intestinal epithelial cell autophagy'
+[INFO] E: ZP:0008731 'abnormal(ly) decreased occurrence whole organism laminin binding'
+[INFO] E: ZP:0005464 'abnormal(ly) disrupted subintestinal vein sprouting angiogenesis'
+[INFO] E: ZP:0005463 'abnormal(ly) disrupted intersegmental artery sprouting angiogenesis'
+[INFO] E: ZP:0017664 'abnormal(ly) increased occurrence Muller cell apoptotic process'
+[INFO] E: ZP:0017424 'abnormal(ly) decreased process quality pronephros renal absorption'
+[INFO] E: ZP:0017666 'abnormal(ly) decreased process quality posterior lateral line peripheral nervous system myelin formation'
+[INFO] E: ZP:0017667 'abnormal(ly) arrested posterior lateral line peripheral nervous system axon ensheathment'
+[INFO] E: ZP:0017668 'abnormal(ly) process quality posterior lateral line Schwann cell development'
+[INFO] E: ZP:0017669 'abnormal(ly) process quality posterior lateral line peripheral nervous system axon ensheathment'
+[INFO] E: ZP:0017430 'abnormal(ly) decreased process quality eye photoreceptor cell establishment of apical/basal cell polarity'
+[INFO] E: ZP:0006306 'abnormal(ly) increased process quality intestinal epithelial cell mitochondrion degradation'
+[INFO] E: ZP:0016305 'abnormal(ly) increased process quality motor neuron axon extension'
+[INFO] E: ZP:0011097 'abnormal(ly) abnormal rhombomere 5 rhombomere boundary formation'
+[INFO] E: ZP:0015213 'abnormal(ly) increased process quality blastema cell proliferation'
+[INFO] E: ZP:0015212 'abnormal(ly) decreased process quality regenerating fin ossification'
+[INFO] E: ZP:0011099 'abnormal(ly) abnormal rhombomere 3 rhombomere boundary formation'
+[INFO] E: ZP:0016785 'abnormal(ly) decreased occurrence neuromast hair cell regeneration'
+[INFO] E: ZP:0016789 'abnormal(ly) delayed vertebra bone mineralization'
+[INFO] E: ZP:0017636 'abnormal(ly) increased occurrence eye apoptotic process'
+[INFO] E: ZP:0016309 'abnormal(ly) decreased process quality liver DNA methylation'
+[INFO] E: ZP:0017637 'abnormal(ly) delayed eye cell cycle'
+[INFO] E: ZP:0016310 'abnormal(ly) increased process quality hepatocyte cell proliferation'
+[INFO] E: ZP:0003464 'abnormal(ly) increased occurrence intestine protein serine/threonine kinase activity'
+[INFO] E: ZP:0003461 'abnormal(ly) increased occurrence kidney protein serine/threonine kinase activity'
+[INFO] E: ZP:0017643 'abnormal(ly) process quality Mauthner neuron synapse assembly'
+[INFO] E: ZP:0017887 'abnormal(ly) process quality heart blood circulation'
+[INFO] E: ZP:0017649 'abnormal(ly) decreased process quality posterior lateral line Schwann cell development'
+[INFO] E: ZP:0017650 'abnormal(ly) arrested posterior lateral line myelination of posterior lateral line nerve axons'
+[INFO] E: ZP:0017892 'abnormal(ly) disrupted spinal cord motor neuron axon guidance'
+[INFO] E: ZP:0001275 'abnormal(ly) increased occurrence retina cell death'
+[INFO] E: ZP:0017651 'abnormal(ly) decreased occurrence posterior lateral line myelination of posterior lateral line nerve axons'
+[INFO] E: ZP:0017410 'abnormal(ly) process quality pronephros pronephric nephron tubule epithelial cell differentiation'
+[INFO] E: ZP:0003452 'abnormal(ly) increased occurrence brain protein serine/threonine kinase activity'
+[INFO] E: ZP:0003453 'abnormal(ly) increased occurrence spinal cord protein serine/threonine kinase activity'
+[INFO] E: ZP:0015473 'abnormal(ly) arrested intersegmental vessel blood vessel development'
+[INFO] E: ZP:0015472 'abnormal(ly) occurrence intersegmental vessel blood vessel development'
+[INFO] E: ZP:0003455 'abnormal(ly) increased occurrence eye protein serine/threonine kinase activity'
+[INFO] E: ZP:0015471 'abnormal(ly) decreased rate endothelial tip cell cell proliferation'
+[INFO] E: ZP:0003456 'abnormal(ly) increased occurrence liver protein serine/threonine kinase activity'
+[INFO] E: ZP:0015470 'abnormal(ly) arrested primordial hindbrain channel blood vessel development'
+[INFO] E: ZP:0017617 'abnormal(ly) process quality hypothalamus neurogenesis'
+[INFO] E: ZP:0012168 'abnormal(ly) increased occurrence midbrain apoptotic process'
+[INFO] E: ZP:0014589 'abnormal(ly) increased occurrence retina sensory epithelium regeneration'
+[INFO] E: ZP:0017619 'abnormal(ly) decreased occurrence intestine lumen chitin synthase activity'
+[INFO] E: ZP:0016523 'abnormal(ly) decreased duration retina cell cycle process'
+[INFO] E: ZP:0011075 'abnormal(ly) process quality forebrain axon guidance'
+[INFO] E: ZP:0012167 'abnormal(ly) increased occurrence forebrain apoptotic process'
+[INFO] E: ZP:0004341 'abnormal(ly) increased occurrence endothelial tip cell filopodium assembly'
+[INFO] E: ZP:0016521 'abnormal(ly) moderate intensity notochord bone mineralization'
+[INFO] E: ZP:0013012 'abnormal(ly) quality trunk neural crest cell development'
+[INFO] E: ZP:0016520 'abnormal(ly) increased process quality retinal pigmented epithelium cell death'
+[INFO] E: ZP:0016763 'abnormal(ly) increased process quality liver connective tissue replacement involved in inflammatory response wound healing'
+[INFO] E: ZP:0017611 'abnormal(ly) occurrence retina apoptotic process'
+[INFO] E: ZP:0017612 'abnormal(ly) process quality lens apoptotic process'
+[INFO] E: ZP:0016766 'abnormal(ly) increased occurrence liver apoptotic process'
+[INFO] E: ZP:0017613 'abnormal(ly) premature hypothalamus neurogenesis'
+[INFO] E: ZP:0017614 'abnormal(ly) increased process quality hypothalamus neurogenesis'
+[INFO] E: ZP:0017615 'abnormal(ly) process quality thalamus neurogenesis'
+[INFO] E: ZP:0017616 'abnormal(ly) decreased process quality hypothalamus neurogenesis'
+[INFO] E: ZP:0016771 'abnormal(ly) decreased frequency motor neuron synaptic transmission, glycinergic'
+[INFO] E: ZP:0012171 'abnormal(ly) decreased occurrence mesenchyme pectoral fin cell proliferation'
+[INFO] E: ZP:0013260 'abnormal(ly) process quality epiphysis circadian regulation of gene expression'
+[INFO] E: ZP:0002399 'abnormal(ly) increased duration retina mitotic M phase'
+[INFO] E: ZP:0014591 'abnormal(ly) decreased occurrence retina stem cell proliferation'
+[INFO] E: ZP:0014590 'abnormal(ly) decreased occurrence retina sensory epithelium regeneration'
+[INFO] E: ZP:0008937 'abnormal(ly) absent dorsal longitudinal anastomotic vessel blood circulation'
+[INFO] E: ZP:0012170 'abnormal(ly) decreased process quality ventral telencephalon neuron differentiation'
+[INFO] E: ZP:0008935 'abnormal(ly) absent caudal vein blood circulation'
+[INFO] E: ZP:0016537 'abnormal(ly) increased occurrence neuromast hair cell cell death'
+[INFO] E: ZP:0016536 'abnormal(ly) disrupted neuromast hair cell cellular calcium ion homeostasis'
+[INFO] E: ZP:0003482 'abnormal(ly) disrupted cranial neural crest neural crest cell development'
+[INFO] E: ZP:0011089 'abnormal(ly) process quality retinal ganglion cell axon guidance'
+[INFO] E: ZP:0013264 'abnormal(ly) rate anterior lateral plate mesoderm apoptotic process'
+[INFO] E: ZP:0016780 'abnormal(ly) increased process quality hepatocyte apoptotic process'
+[INFO] E: ZP:0017870 'abnormal(ly) occurrence pharyngeal arch cell proliferation'
+[INFO] E: ZP:0016783 'abnormal(ly) disrupted immature eye cell migration'
+[INFO] E: ZP:0012148 'abnormal(ly) decreased process quality cranial vault bone mineralization'
+[INFO] E: ZP:0016505 'abnormal(ly) increased process quality UV sensitive photoreceptor cell apoptotic process'
+[INFO] E: ZP:0016748 'abnormal(ly) delayed dorsal longitudinal anastomotic vessel angiogenesis'
+[INFO] E: ZP:0014568 'abnormal(ly) present raphe nucleus neurotransmitter metabolic process'
+[INFO] E: ZP:0012146 'abnormal(ly) decreased process quality hyomandibula bone mineralization'
+[INFO] E: ZP:0014567 'abnormal(ly) present paraventricular organ neurotransmitter metabolic process'
+[INFO] E: ZP:0017839 'abnormal(ly) increased occurrence retinal neural layer sensory epithelium regeneration'
+[INFO] E: ZP:0012147 'abnormal(ly) decreased process quality vertebra bone mineralization'
+[INFO] E: ZP:0012144 'abnormal(ly) decreased process quality ceratohyal bone bone mineralization'
+[INFO] E: ZP:0012386 'abnormal(ly) decreased process quality facial nerve motor nucleus motor neuron migration'
+[INFO] E: ZP:0012145 'abnormal(ly) decreased process quality quadrate bone mineralization'
+[INFO] E: ZP:0011056 'abnormal(ly) decreased process quality otic vesicle inner ear receptor cell differentiation'
+[INFO] E: ZP:0011298 'abnormal(ly) decreased rate vH ionocyte ATP hydrolysis coupled proton transport'
+[INFO] E: ZP:0012142 'abnormal(ly) decreased process quality opercle bone mineralization'
+[INFO] E: ZP:0012384 'abnormal(ly) decreased speed pharyngeal pouch cell migration'
+[INFO] E: ZP:0015652 'abnormal(ly) occurrence posterior lateral line myelination in peripheral nervous system'
+[INFO] E: ZP:0012143 'abnormal(ly) decreased process quality branchiostegal ray bone mineralization'
+[INFO] E: ZP:0017832 'abnormal(ly) disrupted trunk neuron development'
+[INFO] E: ZP:0016744 'abnormal(ly) process quality exocrine pancreas cell proliferation'
+[INFO] E: ZP:0017833 'abnormal(ly) disrupted post-vent region neuron development'
+[INFO] E: ZP:0015419 'abnormal(ly) process quality posterior lateral line nerve axon guidance'
+[INFO] E: ZP:0016745 'abnormal(ly) disrupted exocrine pancreas cell migration'
+[INFO] E: ZP:0016747 'abnormal(ly) delayed intersegmental vessel angiogenesis'
+[INFO] E: ZP:0017836 'abnormal(ly) decreased occurrence retinal neural layer sensory epithelium regeneration'
+[INFO] E: ZP:0011063 'abnormal(ly) increased variability rhombomere 3 establishment of mitotic spindle orientation'
+[INFO] E: ZP:0011062 'abnormal(ly) abnormal rhombomere 3 establishment of mitotic spindle orientation'
+[INFO] E: ZP:0016759 'abnormal(ly) increased process quality intersegmental vessel sprouting angiogenesis'
+[INFO] E: ZP:0011068 'abnormal(ly) decreased process quality ciliary marginal zone cell proliferation'
+[INFO] E: ZP:0015424 'abnormal(ly) decreased occurrence retina neuron migration'
+[INFO] E: ZP:0011065 'abnormal(ly) increased variability rhombomere 4 establishment of mitotic spindle orientation'
+[INFO] E: ZP:0012155 'abnormal(ly) disrupted dopaminergic neuron axon development'
+[INFO] E: ZP:0011064 'abnormal(ly) abnormal rhombomere 4 establishment of mitotic spindle orientation'
+[INFO] E: ZP:0011067 'abnormal(ly) increased process quality eye intrinsic apoptotic signaling pathway'
+[INFO] E: ZP:0012153 'abnormal(ly) decreased process quality pectoral fin bud embryonic pectoral fin morphogenesis'
+[INFO] E: ZP:0015421 'abnormal(ly) process quality posterior lateral line nerve axon regeneration'
+[INFO] E: ZP:0015663 'abnormal(ly) decreased process quality pharyngeal arch BMP signaling pathway'
+[INFO] E: ZP:0011066 'abnormal(ly) decreased process quality eye cell proliferation'
+[INFO] E: ZP:0015420 'abnormal(ly) delayed posterior lateral line nerve axon regeneration'
+[INFO] E: ZP:0016994 'abnormal(ly) occurrence neurohypophysis vasculogenesis'
+[INFO] E: ZP:0016995 'abnormal(ly) decreased process quality integument apoptotic process'
+[INFO] E: ZP:0017600 'abnormal(ly) increased occurrence Muller cell JAK-STAT cascade'
+[INFO] E: ZP:0016996 'abnormal(ly) increased process quality integument cell proliferation'
+[INFO] E: ZP:0017601 'abnormal(ly) decreased process quality caudal vein plexus endothelial cell migration'
+[INFO] E: ZP:0012162 'abnormal(ly) decreased process quality diencephalon neuron differentiation'
+[INFO] E: ZP:0014583 'abnormal(ly) increased process quality regenerating tissue bone resorption'
+[INFO] E: ZP:0013494 'abnormal(ly) process quality Kupffer's vesicle establishment of epithelial cell apical/basal polarity'
+[INFO] E: ZP:0014582 'abnormal(ly) decreased process quality regenerating tissue bone mineralization'
+[INFO] E: ZP:0014581 'abnormal(ly) process quality scale bone mineralization'
+[INFO] E: ZP:0006922 'abnormal(ly) present in fewer numbers in organism cloacal chamber cilium'
+[INFO] E: ZP:0006921 'abnormal(ly) decreased length cloacal chamber cilium'
+[INFO] E: ZP:0016726 'abnormal(ly) occurrence trabecular layer of ventricle cardiac muscle cell proliferation'
+[INFO] E: ZP:0016727 'abnormal(ly) decreased occurrence compact layer of ventricle cardiac muscle cell proliferation'
+[INFO] E: ZP:0016969 'abnormal(ly) increased process quality epibranchial ganglion cell death'
+[INFO] E: ZP:0011038 'abnormal(ly) disrupted endoderm cell migration involved in gastrulation'
+[INFO] E: ZP:0014787 'abnormal(ly) process quality retina regeneration'
+[INFO] E: ZP:0011273 'abnormal(ly) rate vH ionocyte ATP hydrolysis coupled proton transport'
+[INFO] E: ZP:0014541 'abnormal(ly) increased process quality pronephric tubule cell proliferation'
+[INFO] E: ZP:0014540 'abnormal(ly) increased process quality pronephric tubule apoptotic process'
+[INFO] E: ZP:0014782 'abnormal(ly) process quality trunk apoptotic process'
+[INFO] E: ZP:0016961 'abnormal(ly) premature parachordal vessel sprouting angiogenesis'
+[INFO] E: ZP:0017814 'abnormal(ly) decreased occurrence statoacoustic (VIII) ganglion neuron differentiation'
+[INFO] E: ZP:0013461 'abnormal(ly) process quality eye catechol oxidase activity'
+[INFO] E: ZP:0005622 'abnormal(ly) disrupted eye cell division'
+[INFO] E: ZP:0012370 'abnormal(ly) disrupted esophageal epithelium epithelial cell differentiation'
+[INFO] E: ZP:0014799 'abnormal(ly) decreased occurrence primary motor neuron axon extension'
+[INFO] E: ZP:0014798 'abnormal(ly) occurrence primary motor neuron axon extension'
+[INFO] E: ZP:0014797 'abnormal(ly) increased occurrence primary motor neuron ventral spinal cord interneuron specification'
+[INFO] E: ZP:0011043 'abnormal(ly) process quality presumptive endoderm cell migration involved in gastrulation'
+[INFO] E: ZP:0014554 'abnormal(ly) occurrence retinal bipolar neuron evoked neurotransmitter secretion'
+[INFO] E: ZP:0014796 'abnormal(ly) increased occurrence Kolmer-Agduhr neuron ventral spinal cord interneuron specification'
+[INFO] E: ZP:0014553 'abnormal(ly) increased occurrence retinal bipolar neuron spontaneous neurotransmitter secretion'
+[INFO] E: ZP:0014795 'abnormal(ly) decreased occurrence primary motor neuron spinal cord motor neuron cell fate specification'
+[INFO] E: ZP:0013462 'abnormal(ly) process quality melanocyte catechol oxidase activity'
+[INFO] E: ZP:0017824 'abnormal(ly) arrested trunk blood circulation'
+[INFO] E: ZP:0013229 'abnormal(ly) occurrence neural crest cell apoptotic process'
+[INFO] E: ZP:0016981 'abnormal(ly) process quality glioblast (sensu Vertebrata) cell division'
+[INFO] E: ZP:0012382 'abnormal(ly) decreased occurrence neurohypophysis innervation'
+[INFO] E: ZP:0015650 'abnormal(ly) decreased occurrence posterior lateral line myelination in peripheral nervous system'
+[INFO] E: ZP:0002342 'abnormal(ly) increased occurrence retina intrinsic apoptotic signaling pathway by p53 class mediator'
+[INFO] E: ZP:0011052 'abnormal(ly) abnormal retinal cone cell synaptic transmission'
+[INFO] E: ZP:0004522 'abnormal(ly) increased occurrence caudal fin apoptotic process'
+[INFO] E: ZP:0012381 'abnormal(ly) decreased occurrence neurohypophysis vasculogenesis'
+[INFO] E: ZP:0004523 'abnormal(ly) increased occurrence head apoptotic process'
+[INFO] E: ZP:0003677 'abnormal(ly) decreased process quality intersegmental artery patterning of blood vessels'
+[INFO] E: ZP:0015856 'abnormal(ly) process quality photoreceptor cell regeneration'
+[INFO] E: ZP:0015855 'abnormal(ly) delayed retinal inner nuclear layer cell proliferation'
+[INFO] E: ZP:0012587 'abnormal(ly) process quality trunk vasculature angiogenesis'
+[INFO] E: ZP:0011252 'abnormal(ly) abnormal trunk motor neuron axon guidance'
+[INFO] E: ZP:0012584 'abnormal(ly) decreased process quality posterior lateral line nerve myelination in peripheral nervous system'
+[INFO] E: ZP:0014762 'abnormal(ly) decreased process quality cranial nerve II myelination'
+[INFO] E: ZP:0012582 'abnormal(ly) process quality habenula determination of left/right asymmetry in diencephalon'
+[INFO] E: ZP:0013430 'abnormal(ly) occurrence adenohypophysis corticotropin hormone secreting cell differentiation'
+[INFO] E: ZP:0016940 'abnormal(ly) decreased process quality myeloid cell apoptotic process'
+[INFO] E: ZP:0012108 'abnormal(ly) increased process quality interneuromast cell Notch signaling pathway'
+[INFO] E: ZP:0012109 'abnormal(ly) increased process quality interneuromast cell fibroblast growth factor receptor signaling pathway'
+[INFO] E: ZP:0013680 'abnormal(ly) occurrence eye retina layer formation'
+[INFO] E: ZP:0012350 'abnormal(ly) process quality Rohon-Beard neuron neuronal action potential'
+[INFO] E: ZP:0002533 'abnormal(ly) process quality hindbrain motor neuron migration'
+[INFO] E: ZP:0005801 'abnormal(ly) present in fewer numbers in organism olfactory pit cilium'
+[INFO] E: ZP:0011267 'abnormal(ly) process quality parapineal organ determination of left/right asymmetry in nervous system'
+[INFO] E: ZP:0012357 'abnormal(ly) disrupted axial blood vessel blood circulation'
+[INFO] E: ZP:0017804 'abnormal(ly) decreased process quality cardiac muscle cell cell migration involved in heart formation'
+[INFO] E: ZP:0012358 'abnormal(ly) disrupted spinal cord spinal cord oligodendrocyte cell fate specification'
+[INFO] E: ZP:0014777 'abnormal(ly) decreased process quality neuromast hair cell detection of mechanical stimulus involved in sensory perception of sound'
+[INFO] E: ZP:0017805 'abnormal(ly) increased occurrence statoacoustic (VIII) ganglion neuroblast proliferation'
+[INFO] E: ZP:0012597 'abnormal(ly) decreased process quality compact layer of ventricle ventricular cardiac myofibril assembly'
+[INFO] E: ZP:0014776 'abnormal(ly) decreased process quality hindbrain neurogenesis'
+[INFO] E: ZP:0017806 'abnormal(ly) delayed statoacoustic (VIII) ganglion neuron differentiation'
+[INFO] E: ZP:0012356 'abnormal(ly) disrupted trunk vasculature blood circulation'
+[INFO] E: ZP:0014775 'abnormal(ly) increased process quality hindbrain cell proliferation'
+[INFO] E: ZP:0011263 'abnormal(ly) disrupted intestine epithelial tube morphogenesis'
+[INFO] E: ZP:0014774 'abnormal(ly) increased process quality optic tectum cell proliferation'
+[INFO] E: ZP:0017808 'abnormal(ly) increased process quality gill filament inflammatory response'
+[INFO] E: ZP:0011262 'abnormal(ly) decreased occurrence trunk blood circulation'
+[INFO] E: ZP:0012354 'abnormal(ly) process quality CaP motoneuron membrane repolarization'
+[INFO] E: ZP:0014773 'abnormal(ly) decreased process quality optic tectum cell proliferation'
+[INFO] E: ZP:0012351 'abnormal(ly) process quality CaP motoneuron neuronal action potential'
+[INFO] E: ZP:0012110 'abnormal(ly) increased process quality interneuromast cell canonical Wnt signaling pathway'
+[INFO] E: ZP:0012594 'abnormal(ly) decreased process quality ependymal cell cell proliferation'
+[INFO] E: ZP:0017800 'abnormal(ly) increased occurrence statoacoustic (VIII) ganglion neuron differentiation'
+[INFO] E: ZP:0012359 'abnormal(ly) disrupted spinal cord regulation of oligodendrocyte progenitor proliferation'
+[INFO] E: ZP:0016956 'abnormal(ly) rate cardiac muscle cell apoptotic process'
+[INFO] E: ZP:0012361 'abnormal(ly) increased occurrence glioblast (sensu Vertebrata) cell division'
+[INFO] E: ZP:0014780 'abnormal(ly) process quality lens enucleation'
+[INFO] E: ZP:0011272 'abnormal(ly) process quality vH ionocyte regulation of pH'
+[INFO] E: ZP:0011271 'abnormal(ly) increased duration hypothalamus mitotic S phase'
+[INFO] E: ZP:0011234 'abnormal(ly) process quality neuromast hair cell synapse organization'
+[INFO] E: ZP:0013895 'abnormal(ly) decreased process quality intestinal epithelium Notch signaling pathway'
+[INFO] E: ZP:0011235 'abnormal(ly) process quality neuromast hair cell cellular response to mechanical stimulus'
+[INFO] E: ZP:0014742 'abnormal(ly) intensity notochord bone mineralization'
+[INFO] E: ZP:0012321 'abnormal(ly) process quality vascular lymphangioblast cell migration'
+[INFO] E: ZP:0013894 'abnormal(ly) process quality intestinal epithelium endocytosis'
+[INFO] E: ZP:0012560 'abnormal(ly) process quality motor neuron axon extension'
+[INFO] E: ZP:0014509 'abnormal(ly) process quality forebrain Roundabout signaling pathway involved in axon guidance'
+[INFO] E: ZP:0014508 'abnormal(ly) process quality anterior commissure commissural neuron axon guidance'
+[INFO] E: ZP:0014507 'abnormal(ly) process quality postoptic commissure commissural neuron axon guidance'
+[INFO] E: ZP:0014749 'abnormal(ly) decreased frequency gut peristalsis'
+[INFO] E: ZP:0011479 'abnormal(ly) increased process quality neural tube apoptotic process'
+[INFO] E: ZP:0016921 'abnormal(ly) decreased process quality microvillous olfactory receptor neuron olfactory receptor activity'
+[INFO] E: ZP:0013899 'abnormal(ly) disrupted gut innervation'
+[INFO] E: ZP:0016922 'abnormal(ly) decreased process quality olfactory bulb olfactory receptor activity'
+[INFO] E: ZP:0002557 'abnormal(ly) decreased amount cloacal chamber ciliated cell'
+[INFO] E: ZP:0013424 'abnormal(ly) process quality hypophysis smoothened signaling pathway'
+[INFO] E: ZP:0014514 'abnormal(ly) increased rate motor neuron synaptic vesicle exocytosis'
+[INFO] E: ZP:0015603 'abnormal(ly) process quality maxillary barbel tissue regeneration'
+[INFO] E: ZP:0011002 'abnormal(ly) increased process quality Mauthner neuron myelination'
+[INFO] E: ZP:0014755 'abnormal(ly) increased process quality optic vesicle cell proliferation'
+[INFO] E: ZP:0014754 'abnormal(ly) increased process quality optic vesicle apoptotic process'
+[INFO] E: ZP:0011004 'abnormal(ly) increased process quality neuron myelination'
+[INFO] E: ZP:0012334 'abnormal(ly) decreased process quality Rohon-Beard neuron collateral sprouting'
+[INFO] E: ZP:0014753 'abnormal(ly) increased process quality retina cell proliferation'
+[INFO] E: ZP:0011483 'abnormal(ly) process quality Kolmer-Agduhr neuron axon guidance'
+[INFO] E: ZP:0014752 'abnormal(ly) increased process quality lens apoptotic process'
+[INFO] E: ZP:0011482 'abnormal(ly) process quality VeLD axon guidance'
+[INFO] E: ZP:0014751 'abnormal(ly) increased frequency gut peristalsis'
+[INFO] E: ZP:0014750 'abnormal(ly) decreased process quality gut acetylcholinesterase activity'
+[INFO] E: ZP:0011000 'abnormal(ly) decreased process quality oligodendrocyte cell migration'
+[INFO] E: ZP:0014518 'abnormal(ly) increased process quality secondary motor neuron axon extension'
+[INFO] E: ZP:0013429 'abnormal(ly) occurrence adenohypophysis apoptotic process'
+[INFO] E: ZP:0014517 'abnormal(ly) increased process quality primary motor neuron axon extension'
+[INFO] E: ZP:0012579 'abnormal(ly) disrupted eye catechol oxidase activity'
+[INFO] E: ZP:0014516 'abnormal(ly) increased rate motor neuron synaptic vesicle endocytosis'
+[INFO] E: ZP:0015604 'abnormal(ly) decreased process quality maxillary barbel tissue regeneration'
+[INFO] E: ZP:0011490 'abnormal(ly) process quality floor plate establishment of planar polarity'
+[INFO] E: ZP:0012581 'abnormal(ly) disrupted melanocyte catechol oxidase activity'
+[INFO] E: ZP:0002300 'abnormal(ly) decreased occurrence thymus cell proliferation'
+[INFO] E: ZP:0015812 'abnormal(ly) decreased frequency pectoral fin bud cell proliferation'
+[INFO] E: ZP:0016902 'abnormal(ly) decreased speed whole organism larval locomotory behavior'
+[INFO] E: ZP:0011456 'abnormal(ly) process quality endoderm convergent extension'
+[INFO] E: ZP:0011698 'abnormal(ly) increased process quality melanocyte cell death'
+[INFO] E: ZP:0012785 'abnormal(ly) process quality pronephric glomerulus renal system vasculature development'
+[INFO] E: ZP:0016905 'abnormal(ly) decreased process quality somite cell proliferation'
+[INFO] E: ZP:0011450 'abnormal(ly) disrupted anterior commissure commissural neuron axon guidance'
+[INFO] E: ZP:0011216 'abnormal(ly) process quality anterior commissure axon extension'
+[INFO] E: ZP:0013879 'abnormal(ly) process quality interrenal gland organ morphogenesis'
+[INFO] E: ZP:0012547 'abnormal(ly) process quality habenula determination of left/right symmetry'
+[INFO] E: ZP:0013878 'abnormal(ly) decreased occurrence interrenal gland epithelial to mesenchymal transition'
+[INFO] E: ZP:0003825 'abnormal(ly) decreased process quality CaP motoneuron collateral sprouting'
+[INFO] E: ZP:0012313 'abnormal(ly) decreased occurrence trigeminal sensory neuron extracellular matrix disassembly'
+[INFO] E: ZP:0011222 'abnormal(ly) process quality rhombomere 3 rhombomere boundary formation'
+[INFO] E: ZP:0012314 'abnormal(ly) decreased process quality trigeminal sensory neuron sensory neuron axon guidance'
+[INFO] E: ZP:0016914 'abnormal(ly) process quality dorsal longitudinal fasciculus axon ensheathment in central nervous system'
+[INFO] E: ZP:0008031 'abnormal(ly) decreased occurrence ventricular myocardium cardiac chamber ballooning'
+[INFO] E: ZP:0011225 'abnormal(ly) process quality rhombomere 3 neural keel formation'
+[INFO] E: ZP:0014732 'abnormal(ly) increased process quality dorsal fin lepidotrichium bone regeneration'
+[INFO] E: ZP:0006097 'abnormal(ly) process quality cranial nerve III axon extension'
+[INFO] E: ZP:0011224 'abnormal(ly) process quality hindbrain neural keel formation'
+[INFO] E: ZP:0014731 'abnormal(ly) increased occurrence osteoblast cell dedifferentiation'
+[INFO] E: ZP:0014730 'abnormal(ly) increased occurrence osteoblast cell proliferation'
+[INFO] E: ZP:0016918 'abnormal(ly) arrested branchiomotor neuron neuron migration'
+[INFO] E: ZP:0011221 'abnormal(ly) process quality rhombomere 5 rhombomere boundary formation'
+[INFO] E: ZP:0016919 'abnormal(ly) decreased occurrence branchiomotor neuron neuron migration'
+[INFO] E: ZP:0012550 'abnormal(ly) increased process quality pharyngeal arch apoptotic process'
+[INFO] E: ZP:0011226 'abnormal(ly) process quality rhombomere 4 neural keel formation'
+[INFO] E: ZP:0011229 'abnormal(ly) disrupted interrenal primordium cell migration'
+[INFO] E: ZP:0011228 'abnormal(ly) decreased occurrence interrenal gland steroid biosynthetic process'
+[INFO] E: ZP:0013889 'abnormal(ly) decreased occurrence intestinal epithelium endocytosis'
+[INFO] E: ZP:0014735 'abnormal(ly) delayed cranial cartilage cartilage development'
+[INFO] E: ZP:0011470 'abnormal(ly) increased process quality pharyngeal arch 3-7 cell death'
+[INFO] E: ZP:0000307 'abnormal(ly) arrested post-vent region segmentation'
+[INFO] E: ZP:0011674 'abnormal(ly) disrupted adductor mandibulae regulation of myofibril size'
+[INFO] E: ZP:0014701 'abnormal(ly) decreased process quality retinal ganglion cell axon extension involved in regeneration'
+[INFO] E: ZP:0014700 'abnormal(ly) increased process quality retinal ganglion cell axon regeneration'
+[INFO] E: ZP:0009153 'abnormal(ly) decreased process quality primary motor neuron collateral sprouting'
+[INFO] E: ZP:0012521 'abnormal(ly) process quality pharyngeal pouch epithelial cell migration'
+[INFO] E: ZP:0012763 'abnormal(ly) process quality trunk vasculature blood vessel morphogenesis'
+[INFO] E: ZP:0014706 'abnormal(ly) disrupted nucleus of the medial longitudinal fasciculus medulla oblongata axon regeneration'
+[INFO] E: ZP:0013857 'abnormal(ly) process quality epithalamus cell migration'
+[INFO] E: ZP:0014705 'abnormal(ly) process quality nucleus of the medial longitudinal fasciculus medulla oblongata axon regeneration'
+[INFO] E: ZP:0011677 'abnormal(ly) disrupted interhyoideus regulation of myofibril size'
+[INFO] E: ZP:0014704 'abnormal(ly) disrupted intermediate reticular formation axon regeneration'
+[INFO] E: ZP:0014703 'abnormal(ly) process quality intermediate reticular formation axon regeneration'
+[INFO] E: ZP:0010106 'abnormal(ly) abnormal anterior commissure axon extension'
+[INFO] E: ZP:0014702 'abnormal(ly) increased process quality retinal ganglion cell axon extension involved in regeneration'
+[INFO] E: ZP:0014944 'abnormal(ly) process quality ventral wall of dorsal aorta hematopoietic stem cell differentiation'
+[INFO] E: ZP:0018074 'abnormal(ly) increased occurrence neuromast apoptotic process'
+[INFO] E: ZP:0004937 'abnormal(ly) increased occurrence muscle cell apoptotic process'
+[INFO] E: ZP:0018076 'abnormal(ly) increased process quality epidermis cell proliferation'
+[INFO] E: ZP:0018077 'abnormal(ly) increased process quality mesenchyme cell proliferation'
+[INFO] E: ZP:0004938 'abnormal(ly) increased occurrence muscle cell cell death'
+[INFO] E: ZP:0002510 'abnormal(ly) increased amount cloacal chamber cell'
+[INFO] E: ZP:0002511 'abnormal(ly) increased height cloacal chamber cell'
+[INFO] E: ZP:0011202 'abnormal(ly) process quality retinal cone cell synaptic transmission'
+[INFO] E: ZP:0011444 'abnormal(ly) decreased process quality thoracic duct lymphangiogenesis'
+[INFO] E: ZP:0014951 'abnormal(ly) delayed habenula neurogenesis'
+[INFO] E: ZP:0012772 'abnormal(ly) process quality neural rod anterior/posterior pattern specification'
+[INFO] E: ZP:0011683 'abnormal(ly) decreased process quality trunk pigmentation'
+[INFO] E: ZP:0011209 'abnormal(ly) process quality rhombomere 4 establishment of mitotic spindle orientation'
+[INFO] E: ZP:0011208 'abnormal(ly) process quality rhombomere 3 establishment of mitotic spindle orientation'
+[INFO] E: ZP:0014717 'abnormal(ly) decreased process quality whole organism cell proliferation'
+[INFO] E: ZP:0011447 'abnormal(ly) disrupted forebrain commissural neuron axon guidance'
+[INFO] E: ZP:0014716 'abnormal(ly) decreased process quality whole organism apoptotic process'
+[INFO] E: ZP:0011446 'abnormal(ly) disrupted postoptic commissure commissural neuron axon guidance'
+[INFO] E: ZP:0014715 'abnormal(ly) increased process quality retinal ganglion cell apoptotic process'
+[INFO] E: ZP:0011207 'abnormal(ly) increased process quality fourth ventricle apoptotic process'
+[INFO] E: ZP:0013866 'abnormal(ly) process quality pharyngeal arch neural crest cell migration'
+[INFO] E: ZP:0014714 'abnormal(ly) increased process quality retinal inner nuclear layer apoptotic process'
+[INFO] E: ZP:0011206 'abnormal(ly) increased process quality diencephalon apoptotic process'
+[INFO] E: ZP:0011448 'abnormal(ly) disrupted cranial nerve II commissural neuron axon guidance'
+[INFO] E: ZP:0012778 'abnormal(ly) occurrence pharyngeal pouch protein localization to cell junction'
+[INFO] E: ZP:0011690 'abnormal(ly) process quality pineal complex circadian regulation of gene expression'
+[INFO] E: ZP:0011652 'abnormal(ly) increased occurrence ventral mesoderm cell proliferation'
+[INFO] E: ZP:0012501 'abnormal(ly) process quality posterior cardinal vein regulation of transcription involved in venous endothelial cell fate commitment'
+[INFO] E: ZP:0008240 'abnormal(ly) disrupted fast muscle cell muscle thin filament assembly'
+[INFO] E: ZP:0011412 'abnormal(ly) decreased occurrence liver cell proliferation'
+[INFO] E: ZP:0008002 'abnormal(ly) increased occurrence thymus apoptotic process'
+[INFO] E: ZP:0011650 'abnormal(ly) decreased process quality neural tube smoothened signaling pathway'
+[INFO] E: ZP:0011418 'abnormal(ly) increased duration somite 4 somitogenesis'
+[INFO] E: ZP:0011659 'abnormal(ly) increased process quality caudal fin apoptotic process'
+[INFO] E: ZP:0013837 'abnormal(ly) rate retina cell death'
+[INFO] E: ZP:0014926 'abnormal(ly) decreased process quality cranial neural crest cell cell proliferation'
+[INFO] E: ZP:0011656 'abnormal(ly) disrupted ciliary marginal zone cell proliferation'
+[INFO] E: ZP:0011897 'abnormal(ly) increased process quality blood apoptotic process'
+[INFO] E: ZP:0012747 'abnormal(ly) process quality cranial neural crest neural crest cell migration'
+[INFO] E: ZP:0010569 'abnormal(ly) process quality retinal ganglion cell dendrite guidance'
+[INFO] E: ZP:0014923 'abnormal(ly) process quality cardiac ventricle heart contraction'
+[INFO] E: ZP:0018295 'abnormal(ly) process quality motor neuron bleb assembly'
+[INFO] E: ZP:0008239 'abnormal(ly) disrupted fast muscle cell striated muscle myosin thick filament assembly'
+[INFO] E: ZP:0008238 'abnormal(ly) disrupted fast muscle cell sarcomere organization'
+[INFO] E: ZP:0012753 'abnormal(ly) increased occurrence pectoral fin bud cell death'
+[INFO] E: ZP:0011662 'abnormal(ly) decreased process quality ventral mandibular arch cell proliferation'
+[INFO] E: ZP:0012512 'abnormal(ly) decreased process quality postoptic commissure commissural neuron axon guidance'
+[INFO] E: ZP:0012754 'abnormal(ly) decreased occurrence pectoral fin bud cell proliferation'
+[INFO] E: ZP:0011665 'abnormal(ly) increased process quality intestine cell proliferation'
+[INFO] E: ZP:0012751 'abnormal(ly) process quality pharyngeal arch 1 neural crest cell migration'
+[INFO] E: ZP:0010570 'abnormal(ly) process quality retinal ganglion cell neuron projection guidance'
+[INFO] E: ZP:0008234 'abnormal(ly) disrupted slow muscle cell myofibril assembly'
+[INFO] E: ZP:0011660 'abnormal(ly) increased process quality pharynx apoptotic process'
+[INFO] E: ZP:0012519 'abnormal(ly) decreased occurrence pharyngeal pouch apical protein localization'
+[INFO] E: ZP:0011428 'abnormal(ly) process quality hyaloid vessel vasculature development'
+[INFO] E: ZP:0012517 'abnormal(ly) decreased process quality anterior commissure commissural neuron axon guidance'
+[INFO] E: ZP:0012518 'abnormal(ly) process quality pharyngeal pouch adherens junction organization'
+[INFO] E: ZP:0011425 'abnormal(ly) process quality Kupffer's vesicle calcium-mediated signaling'
+[INFO] E: ZP:0011427 'abnormal(ly) delayed hyaloid vessel vasculature development'
+[INFO] E: ZP:0012514 'abnormal(ly) increased process quality forebrain Roundabout signaling pathway involved in axon guidance'
+[INFO] E: ZP:0018065 'abnormal(ly) decreased process quality regenerating fin vasculature development'
+[INFO] E: ZP:0012720 'abnormal(ly) delayed otic vesicle otolith formation'
+[INFO] E: ZP:0010782 'abnormal(ly) process quality posterior lateral line primordium actin filament bundle organization'
+[INFO] E: ZP:0012721 'abnormal(ly) delayed otic vesicle otolith tethering'
+[INFO] E: ZP:0010301 'abnormal(ly) decreased process quality neutrophil phagocytosis'
+[INFO] E: ZP:0010300 'abnormal(ly) decreased process quality cardiac muscle cell cell proliferation'
+[INFO] E: ZP:0012728 'abnormal(ly) arrested pronephros epithelial cilium movement'
+[INFO] E: ZP:0018027 'abnormal(ly) decreased rate DEL cell migration'
+[INFO] E: ZP:0018269 'abnormal(ly) decreased process quality optic tectum generation of neurons'
+[INFO] E: ZP:0014906 'abnormal(ly) delayed optic tectum innervation'
+[INFO] E: ZP:0018028 'abnormal(ly) process quality DEL cell migration'
+[INFO] E: ZP:0014904 'abnormal(ly) process quality optic tectum innervation'
+[INFO] E: ZP:0011876 'abnormal(ly) process quality retina mitotic cell cycle'
+[INFO] E: ZP:0011878 'abnormal(ly) decreased process quality retina exit from mitosis'
+[INFO] E: ZP:0011877 'abnormal(ly) decreased process quality retina apoptotic process'
+[INFO] E: ZP:0000775 'abnormal(ly) delayed blastomere RNA localization'
+[INFO] E: ZP:0018274 'abnormal(ly) decreased process quality optic tectum mitotic cell cycle process'
+[INFO] E: ZP:0010794 'abnormal(ly) disrupted cranial vasculature blood circulation'
+[INFO] E: ZP:0011641 'abnormal(ly) process quality retinal cone cell autophagy'
+[INFO] E: ZP:0008012 'abnormal(ly) non-functional olfactory pit cilium'
+[INFO] E: ZP:0010796 'abnormal(ly) disrupted central artery blood vessel lumenization'
+[INFO] E: ZP:0011643 'abnormal(ly) process quality retinal cone cell endosomal transport'
+[INFO] E: ZP:0011642 'abnormal(ly) process quality retinal cone cell lysosome organization'
+[INFO] E: ZP:0008013 'abnormal(ly) decreased functionality olfactory pit cilium'
+[INFO] E: ZP:0010792 'abnormal(ly) disrupted axial vasculature blood circulation'
+[INFO] E: ZP:0010791 'abnormal(ly) disrupted dorsal aorta blood circulation'
+[INFO] E: ZP:0011649 'abnormal(ly) decreased process quality spinal cord smoothened signaling pathway'
+[INFO] E: ZP:0011409 'abnormal(ly) process quality trigeminal sensory neuron cell migration'
+[INFO] E: ZP:0014914 'abnormal(ly) decreased occurrence neuromast cell proliferation'
+[INFO] E: ZP:0010797 'abnormal(ly) disrupted post-vent vasculature blood circulation'
+[INFO] E: ZP:0011644 'abnormal(ly) decreased process quality retinal cone cell maintenance of Golgi location'
+[INFO] E: ZP:0013825 'abnormal(ly) present pronephric glomerular capillary blood circulation'
+[INFO] E: ZP:0014913 'abnormal(ly) increased occurrence neuromast cell death'
+[INFO] E: ZP:0018041 'abnormal(ly) decreased process quality hypothalamus cell proliferation'
+[INFO] E: ZP:0018042 'abnormal(ly) decreased process quality paraventricular organ cell proliferation'
+[INFO] E: ZP:0018043 'abnormal(ly) decreased process quality caudal fin I-kappaB kinase/NF-kappaB signaling'
+[INFO] E: ZP:0017197 'abnormal(ly) process quality otic vesicle neuron differentiation'
+[INFO] E: ZP:0018044 'abnormal(ly) increased process quality tail bud cell proliferation'
+[INFO] E: ZP:0018045 'abnormal(ly) increased process quality head cell proliferation'
+[INFO] E: ZP:0018280 'abnormal(ly) decreased process quality optic tectum cell division'
+[INFO] E: ZP:0018040 'abnormal(ly) process quality brain apoptotic process'
+[INFO] E: ZP:0010768 'abnormal(ly) increased occurrence dermatocranium bone resorption'
+[INFO] E: ZP:0011857 'abnormal(ly) decreased process quality dorsal longitudinal fasciculus axon ensheathment in central nervous system'
+[INFO] E: ZP:0018008 'abnormal(ly) decreased efficiency hepatocyte regeneration'
+[INFO] E: ZP:0010767 'abnormal(ly) decreased occurrence dermatocranium ossification involved in bone remodeling'
+[INFO] E: ZP:0018013 'abnormal(ly) increased process quality brain cell proliferation'
+[INFO] E: ZP:0018014 'abnormal(ly) increased process quality caudal fin cell proliferation'
+[INFO] E: ZP:0006018 'abnormal(ly) decreased magnitude epiphysis circadian regulation of gene expression'
+[INFO] E: ZP:0010772 'abnormal(ly) increased occurrence cranial vault bone resorption'
+[INFO] E: ZP:0011860 'abnormal(ly) decreased occurrence trigeminal ganglion collateral sprouting'
+[INFO] E: ZP:0011620 'abnormal(ly) decreased magnitude slow muscle cell neuromuscular synaptic transmission'
+[INFO] E: ZP:0011862 'abnormal(ly) decreased occurrence Rohon-Beard neuron anterograde axon cargo transport'
+[INFO] E: ZP:0006497 'abnormal(ly) process quality afferent neuron neuron projection development'
+[INFO] E: ZP:0012718 'abnormal(ly) arrested sagitta otolith tethering'
+[INFO] E: ZP:0012716 'abnormal(ly) decreased efficacy neuromast hair cell calcium ion import'
+[INFO] E: ZP:0011865 'abnormal(ly) decreased occurrence Rohon-Beard neuron collateral sprouting'
+[INFO] E: ZP:0010775 'abnormal(ly) increased process quality retinal cone cell detection of light stimulus involved in visual perception'
+[INFO] E: ZP:0011622 'abnormal(ly) arrested fast muscle cell neuromuscular synaptic transmission'
+[INFO] E: ZP:0011867 'abnormal(ly) decreased occurrence Rohon-Beard neuron retrograde transport, endosome to plasma membrane'
+[INFO] E: ZP:0011866 'abnormal(ly) increased rate Rohon-Beard neuron axon extension'
+[INFO] E: ZP:0018020 'abnormal(ly) increased rate caudal fin developmental growth'
+[INFO] E: ZP:0018264 'abnormal(ly) decreased process quality basilar artery Wnt signaling pathway'
+[INFO] E: ZP:0006247 'abnormal(ly) disrupted gall bladder lipid storage'
+[INFO] E: ZP:0010980 'abnormal(ly) increased occurrence hair cell anterior macula apoptotic process'
+[INFO] E: ZP:0009798 'abnormal(ly) decreased process quality habenular commissure axon extension involved in axon guidance'
+[INFO] E: ZP:0010747 'abnormal(ly) increased process quality retinal cone cell cell death'
+[INFO] E: ZP:0010989 'abnormal(ly) decreased process quality otic vesicle neurogenesis'
+[INFO] E: ZP:0011835 'abnormal(ly) increased occurrence trunk apoptotic process'
+[INFO] E: ZP:0010501 'abnormal(ly) increased duration retina cell cycle process'
+[INFO] E: ZP:0018229 'abnormal(ly) decreased process quality trunk vasculature blood vessel lumenization'
+[INFO] E: ZP:0011834 'abnormal(ly) increased occurrence head cell death'
+[INFO] E: ZP:0010502 'abnormal(ly) increased duration retina S phase'
+[INFO] E: ZP:0018230 'abnormal(ly) decreased occurrence Kupffer's vesicle detection of nodal flow'
+[INFO] E: ZP:0018231 'abnormal(ly) decreased process quality dorsal aorta blood vessel lumenization'
+[INFO] E: ZP:0011839 'abnormal(ly) decreased process quality intestine lymphangiogenesis'
+[INFO] E: ZP:0000979 'abnormal(ly) abnormal dorso-rostral cluster axon extension'
+[INFO] E: ZP:0000976 'abnormal(ly) abnormal supraoptic tract axon extension'
+[INFO] E: ZP:0010752 'abnormal(ly) process quality slow muscle cell muscle contraction'
+[INFO] E: ZP:0011841 'abnormal(ly) decreased process quality facial lymphatic vessel lymphangiogenesis'
+[INFO] E: ZP:0010990 'abnormal(ly) decreased process quality otic vesicle neuron differentiation'
+[INFO] E: ZP:0011605 'abnormal(ly) disrupted retina cell proliferation'
+[INFO] E: ZP:0018237 'abnormal(ly) decreased process quality dorsal root ganglion Wnt signaling pathway'
+[INFO] E: ZP:0018238 'abnormal(ly) decreased process quality primordial hindbrain channel Wnt signaling pathway'
+[INFO] E: ZP:0018239 'abnormal(ly) decreased process quality primordial hindbrain channel sprouting angiogenesis'
+[INFO] E: ZP:0010753 'abnormal(ly) process quality fast muscle cell muscle contraction'
+[INFO] E: ZP:0010995 'abnormal(ly) process quality motor neuron collateral sprouting'
+[INFO] E: ZP:0018240 'abnormal(ly) decreased process quality primordial hindbrain channel endothelial tip cell fate specification'
+[INFO] E: ZP:0018000 'abnormal(ly) increased process quality liver regeneration'
+[INFO] E: ZP:0018002 'abnormal(ly) decreased process quality hepatocyte regeneration'
+[INFO] E: ZP:0018003 'abnormal(ly) increased process quality hepatocyte regeneration'
+[INFO] E: ZP:0005371 'abnormal(ly) increased occurrence macula utricle cell death'
+[INFO] E: ZP:0008400 'abnormal(ly) decreased occurrence ethmoid cartilage chondrocyte proliferation'
+[INFO] E: ZP:0005373 'abnormal(ly) increased occurrence macula saccule cell death'
+[INFO] E: ZP:0017599 'abnormal(ly) occurrence retinal inner nuclear layer cell proliferation'
+[INFO] E: ZP:0018446 'abnormal(ly) process quality spinal cord neuron projection development'
+[INFO] E: ZP:0010723 'abnormal(ly) disrupted pharyngeal arch 1 embryonic morphogenesis'
+[INFO] E: ZP:0012908 'abnormal(ly) occurrence brain apoptotic process'
+[INFO] E: ZP:0017121 'abnormal(ly) process quality sensory neuron calcium ion import'
+[INFO] E: ZP:0012909 'abnormal(ly) occurrence eye apoptotic process'
+[INFO] E: ZP:0007547 'abnormal(ly) increased process quality spinal cord apoptotic DNA fragmentation'
+[INFO] E: ZP:0016275 'abnormal(ly) decreased process quality melanocyte catechol oxidase activity'
+[INFO] E: ZP:0007548 'abnormal(ly) increased process quality eye apoptotic DNA fragmentation'
+[INFO] E: ZP:0015182 'abnormal(ly) decreased occurrence Muller cell cell dedifferentiation'
+[INFO] E: ZP:0009962 'abnormal(ly) process quality neural crest hindbrain neural crest cell migration'
+[INFO] E: ZP:0010736 'abnormal(ly) increased occurrence intestine peristalsis'
+[INFO] E: ZP:0010977 'abnormal(ly) abnormal intersegmental vessel blood vessel lumenization'
+[INFO] E: ZP:0010738 'abnormal(ly) abnormal retinal pigmented epithelium melanosome localization'
+[INFO] E: ZP:0010979 'abnormal(ly) abnormal dorsal longitudinal anastomotic vessel blood vessel lumenization'
+[INFO] E: ZP:0017129 'abnormal(ly) increased process quality pancreatic B cell cell proliferation'
+[INFO] E: ZP:0012910 'abnormal(ly) occurrence retinal ganglion cell retinal ganglion cell axon guidance'
+[INFO] E: ZP:0015190 'abnormal(ly) present post-vent region blood circulation'
+[INFO] E: ZP:0009956 'abnormal(ly) arrested rhombomere 5 rhombomere boundary formation'
+[INFO] E: ZP:0009954 'abnormal(ly) arrested rhombomere 6 rhombomere boundary formation'
+[INFO] E: ZP:0009991 'abnormal(ly) decreased process quality CaP motoneuron axon extension'
+[INFO] E: ZP:0016488 'abnormal(ly) occurrence germ line cell apoptotic process'
+[INFO] E: ZP:0017101 'abnormal(ly) process quality heart heart process'
+[INFO] E: ZP:0008415 'abnormal(ly) decreased occurrence pharyngeal arch cell proliferation'
+[INFO] E: ZP:0008658 'abnormal(ly) decreased occurrence caudal vein plexus blood circulation'
+[INFO] E: ZP:0009988 'abnormal(ly) physical quality of a process CaP motoneuron axon guidance'
+[INFO] E: ZP:0008413 'abnormal(ly) decreased process quality pharyngeal arch chondrocyte differentiation'
+[INFO] E: ZP:0008414 'abnormal(ly) decreased process quality pharyngeal arch transforming growth factor beta receptor signaling pathway'
+[INFO] E: ZP:0017589 'abnormal(ly) premature Meckel's cartilage endochondral ossification'
+[INFO] E: ZP:0017107 'abnormal(ly) process quality macrophage response to wounding'
+[INFO] E: ZP:0011801 'abnormal(ly) arrested posterior lateral line myelination in peripheral nervous system'
+[INFO] E: ZP:0017109 'abnormal(ly) arrested otic vesicle otolith tethering'
+[INFO] E: ZP:0014080 'abnormal(ly) disrupted gut epithelium alkaline phosphatase activity'
+[INFO] E: ZP:0017593 'abnormal(ly) arrested melanocyte regeneration'
+[INFO] E: ZP:0017594 'abnormal(ly) decreased efficacy melanocyte regeneration'
+[INFO] E: ZP:0017596 'abnormal(ly) disrupted mandibular arch skeleton cartilage development'
+[INFO] E: ZP:0018201 'abnormal(ly) increased process quality pancreas cell proliferation'
+[INFO] 2018-10-23 18:52:54,321 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@22b53226
+[INFO] 2018-10-23 18:52:54,323 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:52:54,323 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@22b53226
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 15.216 s
-[INFO] Finished at: 2017-12-02T12:52:33-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 51.155s
+[INFO] Finished at: Tue Oct 23 18:52:54 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:33 MST 2017
+Tue Oct 23 18:52:54 UTC 2018

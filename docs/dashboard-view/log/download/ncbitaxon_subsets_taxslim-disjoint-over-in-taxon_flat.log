@@ -1,0 +1,24 @@
+Mon Oct 22 16:54:42 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:54:46,589 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon.owl
+[INFO] 2018-10-22 16:54:46,787 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+[INFO] 2018-10-22 16:54:54,245 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+[INFO] 2018-10-22 16:54:58,147 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon.owl
+[INFO] 2018-10-22 16:54:58,164 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl>) VersionIRI(<null>))) [Axioms: 120743 Logical Axioms: 13686]
+[INFO] 2018-10-22 16:54:58,957 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.016s
+[INFO] Finished at: Mon Oct 22 16:55:06 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:55:07 UTC 2018

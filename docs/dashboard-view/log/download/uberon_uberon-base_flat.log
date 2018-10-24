@@ -1,0 +1,21 @@
+Mon Oct 22 16:55:53 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/uberon_uberon-base/uberon_uberon-base.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:55:57,906 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_uberon-base/uberon_uberon-base.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_uberon-base/uberon_uberon-base.owl
+[INFO] 2018-10-22 16:56:11,312 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/uberon-base.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_uberon-base/uberon_uberon-base.owl
+[INFO] 2018-10-22 16:56:11,326 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/uberon-base.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.093s
+[INFO] Finished at: Mon Oct 22 16:56:21 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:56:21 UTC 2018

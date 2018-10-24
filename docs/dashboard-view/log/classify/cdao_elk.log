@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cdao/cdao_flat.owl
+Tue Oct 23 18:47:18 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/cdao/cdao_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,326 +8,324 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,164 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cdao/cdao_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cdao/cdao_flat.owl
-[INFO] 2017-12-02 12:52:19,753 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cdao.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cdao/cdao_flat.owl
+[INFO] 2018-10-23 18:47:22,324 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/cdao/cdao_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cdao/cdao_flat.owl
+[INFO] 2018-10-23 18:47:22,872 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cdao.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cdao/cdao_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:19,936 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:22,908 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:20,044 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:21,398 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:21,401 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@d8305c2
-[INFO] 2017-12-02 12:52:21,411 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:21,440 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:21,541 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:22,955 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:47:23,096 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:47:23,097 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@d8305c2
+[INFO] 2018-10-23 18:47:23,099 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:47:23,105 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:47:23,114 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000166> <http://purl.obolibrary.org/obo/CDAO_0000094>)
-[INFO] 2017-12-02 12:52:21,565 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,118 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000149> <http://purl.obolibrary.org/obo/CDAO_0000179>)
-[INFO] 2017-12-02 12:52:21,592 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,118 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000148>)
-[INFO] 2017-12-02 12:52:21,601 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,119 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000218> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:21,606 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,120 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000146> <http://purl.obolibrary.org/obo/CDAO_0000099>)
-[INFO] 2017-12-02 12:52:21,609 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,121 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000148> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,610 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,121 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000203> <http://purl.obolibrary.org/obo/CDAO_0000110>)
-[INFO] 2017-12-02 12:52:21,695 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,127 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000098> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000205>))
-[INFO] 2017-12-02 12:52:21,708 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,131 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421> <http://purl.obolibrary.org/obo/IAO_0000420>))
-[INFO] 2017-12-02 12:52:21,714 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,132 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000094> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000153> <http://purl.obolibrary.org/obo/CDAO_0000002>))
-[INFO] 2017-12-02 12:52:21,732 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,733 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,134 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,134 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000216> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:21,734 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,134 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000098> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000191>))
-[INFO] 2017-12-02 12:52:21,735 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,135 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000199> <http://purl.obolibrary.org/obo/CDAO_0000070>)
-[INFO] 2017-12-02 12:52:21,735 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,135 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000186> <http://purl.obolibrary.org/obo/CDAO_0000091>)
-[INFO] 2017-12-02 12:52:21,736 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,136 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000142> <http://purl.obolibrary.org/obo/CDAO_0000071>)
-[INFO] 2017-12-02 12:52:21,739 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,137 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CDAO_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CDAO_0000099> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000201>) ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000209>)))
-[INFO] 2017-12-02 12:52:21,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,142 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000165> <http://purl.obolibrary.org/obo/CDAO_0000104>)
-[INFO] 2017-12-02 12:52:21,787 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,143 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMaxCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000140> ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000143>))
-[INFO] 2017-12-02 12:52:21,788 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,144 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000059> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CDAO_0000118> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000198> <http://purl.obolibrary.org/obo/CDAO_0000140>)))
-[INFO] 2017-12-02 12:52:21,788 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,144 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000012> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000155> <http://purl.obolibrary.org/obo/CDAO_0000012>))
-[INFO] 2017-12-02 12:52:21,792 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,146 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,146 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))
-[INFO] 2017-12-02 12:52:21,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,146 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000193> <http://purl.obolibrary.org/obo/CDAO_0000040>)
-[INFO] 2017-12-02 12:52:21,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,147 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000177> <http://purl.obolibrary.org/obo/CDAO_0000139>)
-[INFO] 2017-12-02 12:52:21,794 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,148 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000173> <http://purl.obolibrary.org/obo/CDAO_0000131>)
-[INFO] 2017-12-02 12:52:21,801 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,149 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000120> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000178> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000151>)))
-[INFO] 2017-12-02 12:52:21,802 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,150 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000202> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,803 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,151 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000195> <http://purl.obolibrary.org/obo/CDAO_0000002>)
-[INFO] 2017-12-02 12:52:21,804 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,162 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000148> <http://purl.obolibrary.org/obo/CDAO_0000203>)
-[INFO] 2017-12-02 12:52:21,808 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,163 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000143> <http://purl.obolibrary.org/obo/CDAO_0000209>)
-[INFO] 2017-12-02 12:52:21,837 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,166 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000174> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,837 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,167 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000213> <http://www.w3.org/2001/XMLSchema#int>)
-[INFO] 2017-12-02 12:52:21,838 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,167 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CDAO_0000015> ObjectOneOf(<http://purl.obolibrary.org/obo/CDAO_0000223> <http://purl.obolibrary.org/obo/CDAO_0000222> <http://purl.obolibrary.org/obo/CDAO_0000221>))
-[INFO] 2017-12-02 12:52:21,839 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,168 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000145> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000015> <http://purl.obolibrary.org/obo/CDAO_0000133>))
-[INFO] 2017-12-02 12:52:21,840 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,169 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000150> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000003> <http://purl.obolibrary.org/obo/CDAO_0000095>))
-[INFO] 2017-12-02 12:52:21,840 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,169 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000178> <http://purl.obolibrary.org/obo/CDAO_0000194>)
-[INFO] 2017-12-02 12:52:21,841 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,170 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000191>)
-[INFO] 2017-12-02 12:52:21,841 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,170 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000206> <http://purl.obolibrary.org/obo/CDAO_0000050>)
-[INFO] 2017-12-02 12:52:21,844 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,171 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/CDAO_0000212> <http://purl.obolibrary.org/obo/CDAO_0000003>)
-[INFO] 2017-12-02 12:52:21,846 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,172 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000124> ObjectExactCardinality(2 <http://purl.obolibrary.org/obo/CDAO_0000177>))
-[INFO] 2017-12-02 12:52:21,847 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,172 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000211> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:21,847 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,172 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000168> <http://purl.obolibrary.org/obo/CDAO_0000112>)
-[INFO] 2017-12-02 12:52:21,850 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,173 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000159> <http://purl.obolibrary.org/obo/CDAO_0000091>)
-[INFO] 2017-12-02 12:52:21,853 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,174 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000181> <http://purl.obolibrary.org/obo/CDAO_0000098>)
-[INFO] 2017-12-02 12:52:21,855 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,174 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000155> <http://purl.obolibrary.org/obo/CDAO_0000006>)
-[INFO] 2017-12-02 12:52:21,856 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,175 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000163> <http://purl.obolibrary.org/obo/CDAO_0000059>)
-[INFO] 2017-12-02 12:52:21,856 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,175 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000151> <http://purl.obolibrary.org/obo/CDAO_0000022>)
-[INFO] 2017-12-02 12:52:21,856 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,175 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000196> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,857 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,177 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000109> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000153> <http://purl.obolibrary.org/obo/CDAO_0000057>))
-[INFO] 2017-12-02 12:52:21,858 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,177 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000185> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,858 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,178 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000204> <http://purl.obolibrary.org/obo/CDAO_0000097>)
-[INFO] 2017-12-02 12:52:21,859 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,178 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000078> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000153> <http://purl.obolibrary.org/obo/CDAO_0000136>))
-[INFO] 2017-12-02 12:52:21,859 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,179 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000173>)
-[INFO] 2017-12-02 12:52:21,860 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,179 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000157> <http://purl.obolibrary.org/obo/CDAO_0000193>)
-[INFO] 2017-12-02 12:52:21,862 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,180 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000068> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000153> <http://purl.obolibrary.org/obo/CDAO_0000019>))
-[INFO] 2017-12-02 12:52:21,863 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,180 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000152>)
-[INFO] 2017-12-02 12:52:21,864 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,864 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,181 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,181 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000212> <http://www.w3.org/2001/XMLSchema#integer>)
-[INFO] 2017-12-02 12:52:21,869 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,182 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/CDAO_0000213> <http://purl.obolibrary.org/obo/CDAO_0000215>)
-[INFO] 2017-12-02 12:52:21,870 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,183 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121>))
-[INFO] 2017-12-02 12:52:21,877 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,185 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)
-[INFO] 2017-12-02 12:52:21,878 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,185 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000200> <http://purl.obolibrary.org/obo/CDAO_0000110>)
-[INFO] 2017-12-02 12:52:21,886 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,186 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CDAO_0000108> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CDAO_0000140> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000149> ObjectComplementOf(<http://purl.obolibrary.org/obo/CDAO_0000140>))))
-[INFO] 2017-12-02 12:52:21,887 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,186 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000192> <http://purl.obolibrary.org/obo/CDAO_0000006>)
-[INFO] 2017-12-02 12:52:21,888 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,187 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000167> <http://purl.obolibrary.org/obo/CDAO_0000167>)
-[INFO] 2017-12-02 12:52:21,889 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,891 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,190 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,190 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000170> <http://purl.obolibrary.org/obo/CDAO_0000136>)
-[INFO] 2017-12-02 12:52:21,891 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,191 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CDAO_0000042> ObjectMinCardinality(3 <http://purl.obolibrary.org/obo/CDAO_0000177>))
-[INFO] 2017-12-02 12:52:21,892 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,191 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000177> <http://purl.obolibrary.org/obo/CDAO_0000201>)
-[INFO] 2017-12-02 12:52:21,893 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,893 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,894 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,192 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,193 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,193 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000149> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,894 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,193 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000201> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,894 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,194 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000207> <http://purl.obolibrary.org/obo/CDAO_0000019>)
-[INFO] 2017-12-02 12:52:21,895 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,194 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000097> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000186>))
-[INFO] 2017-12-02 12:52:21,896 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,195 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000201>)
-[INFO] 2017-12-02 12:52:21,898 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,195 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000062> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000186>))
-[INFO] 2017-12-02 12:52:21,898 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,199 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000062> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000169>))
-[INFO] 2017-12-02 12:52:21,902 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,200 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000117> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CDAO_0000118> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000198> <http://purl.obolibrary.org/obo/CDAO_0000071>)))
-[INFO] 2017-12-02 12:52:21,903 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,200 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000062> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000159>))
-[INFO] 2017-12-02 12:52:21,905 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,201 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000147> <http://purl.obolibrary.org/obo/CDAO_0000056>)
-[INFO] 2017-12-02 12:52:21,907 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,201 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000097> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000159>))
-[INFO] 2017-12-02 12:52:21,907 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,201 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000097> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000169>))
-[INFO] 2017-12-02 12:52:21,908 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,202 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000210> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,908 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,202 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000012> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000148>))
-[INFO] 2017-12-02 12:52:21,909 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,202 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000012> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000178> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000139> <http://purl.obolibrary.org/obo/CDAO_0000140>)))
-[INFO] 2017-12-02 12:52:21,910 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,203 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000205>)
-[INFO] 2017-12-02 12:52:21,910 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,204 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000156> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000015> <http://purl.obolibrary.org/obo/CDAO_0000076>))
-[INFO] 2017-12-02 12:52:21,911 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,204 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000154> <http://purl.obolibrary.org/obo/CDAO_0000008>)
-[INFO] 2017-12-02 12:52:21,911 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,204 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000022> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000165>))
-[INFO] 2017-12-02 12:52:21,911 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,205 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000187> <http://purl.obolibrary.org/obo/CDAO_0000138>)
-[INFO] 2017-12-02 12:52:21,913 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,205 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000026> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000194>))
-[INFO] 2017-12-02 12:52:21,913 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,205 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000190> <http://www.w3.org/2002/07/owl#Thing>)
-[INFO] 2017-12-02 12:52:21,915 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,206 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000219> <http://www.w3.org/2001/XMLSchema#integer>)
-[INFO] 2017-12-02 12:52:21,916 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,207 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000209>)
-[INFO] 2017-12-02 12:52:21,916 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,207 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000169> <http://purl.obolibrary.org/obo/CDAO_0000071>)
-[INFO] 2017-12-02 12:52:21,920 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
+[INFO] 2018-10-23 18:47:23,208 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataMinCardinality . Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000031> DataExactCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000215>))
-[INFO] 2017-12-02 12:52:21,920 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,209 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)
-[INFO] 2017-12-02 12:52:21,921 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,209 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000180> <http://purl.obolibrary.org/obo/CDAO_0000078>)
-[INFO] 2017-12-02 12:52:21,932 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,218 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000171> <http://purl.obolibrary.org/obo/CDAO_0000059>)
-[INFO] 2017-12-02 12:52:21,933 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,219 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000172> <http://purl.obolibrary.org/obo/CDAO_0000110>)
-[INFO] 2017-12-02 12:52:21,946 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,220 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000208> <http://purl.obolibrary.org/obo/CDAO_0000138>)
-[INFO] 2017-12-02 12:52:21,947 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,948 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,221 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,221 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000217> <http://www.w3.org/2001/XMLSchema#integer>)
-[INFO] 2017-12-02 12:52:21,949 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,222 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000006> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000178> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000099> <http://purl.obolibrary.org/obo/CDAO_0000140>)))
-[INFO] 2017-12-02 12:52:21,950 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,222 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000157> <http://www.w3.org/2002/07/owl#Thing>)
-[INFO] 2017-12-02 12:52:21,951 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,222 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000187> <http://purl.obolibrary.org/obo/CDAO_0000196>)
-[INFO] 2017-12-02 12:52:21,951 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,223 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000152> <http://purl.obolibrary.org/obo/CDAO_0000068>)
-[INFO] 2017-12-02 12:52:21,952 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,226 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000175> <http://purl.obolibrary.org/obo/CDAO_0000031>)
-[INFO] 2017-12-02 12:52:21,956 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,227 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000046> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000215> <http://www.w3.org/2000/01/rdf-schema#Literal>))
-[INFO] 2017-12-02 12:52:21,957 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,227 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000205> <http://purl.obolibrary.org/obo/CDAO_0000071>)
-[INFO] 2017-12-02 12:52:21,957 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,228 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000209> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,958 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,228 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000060> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000163>))
-[INFO] 2017-12-02 12:52:21,959 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,959 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,228 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,229 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SubDataPropertyOf. Axiom ignored:
 [INFO] SubDataPropertyOf(<http://purl.obolibrary.org/obo/CDAO_0000218> <http://purl.obolibrary.org/obo/CDAO_0000215>)
-[INFO] 2017-12-02 12:52:21,960 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,229 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000143> <http://purl.obolibrary.org/obo/CDAO_0000139>)
-[INFO] 2017-12-02 12:52:21,961 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,230 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000131> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000153> <http://purl.obolibrary.org/obo/CDAO_0000112>))
-[INFO] 2017-12-02 12:52:21,962 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,230 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000029> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000216> <http://www.w3.org/2001/XMLSchema#float>))
-[INFO] 2017-12-02 12:52:21,967 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,231 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000167>)
-[INFO] 2017-12-02 12:52:21,971 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,232 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000189> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000015> <http://purl.obolibrary.org/obo/CDAO_0000055>))
-[INFO] 2017-12-02 12:52:21,973 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,232 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000162> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,974 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,233 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000102> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000178> ObjectUnionOf(<http://purl.obolibrary.org/obo/CDAO_0000033> <http://purl.obolibrary.org/obo/CDAO_0000099> <http://purl.obolibrary.org/obo/CDAO_0000108>)))
-[INFO] 2017-12-02 12:52:21,974 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,233 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000214> <http://www.w3.org/2001/XMLSchema#float>)
-[INFO] 2017-12-02 12:52:21,974 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,233 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000144> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,975 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,234 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000030> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/CDAO_0000172>))
-[INFO] 2017-12-02 12:52:21,975 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,234 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000184> <http://purl.obolibrary.org/obo/CDAO_0000091>)
-[INFO] 2017-12-02 12:52:21,976 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,234 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000099> ObjectExactCardinality(2 <http://purl.obolibrary.org/obo/CDAO_0000162>))
-[INFO] 2017-12-02 12:52:21,976 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,235 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/CDAO_0000217> <http://purl.obolibrary.org/obo/CDAO_0000095>)
-[INFO] 2017-12-02 12:52:21,977 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,235 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000187>)
-[INFO] 2017-12-02 12:52:21,977 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,235 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000153> <http://purl.obolibrary.org/obo/CDAO_0000098>)
-[INFO] 2017-12-02 12:52:21,978 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,235 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000103>))
-[INFO] 2017-12-02 12:52:21,979 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,235 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000179> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,980 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,236 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.obolibrary.org/obo/CDAO_0000166>)
-[INFO] 2017-12-02 12:52:21,980 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,236 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000191> <http://purl.obolibrary.org/obo/CDAO_0000138>)
-[INFO] 2017-12-02 12:52:21,980 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,241 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000197> <http://purl.obolibrary.org/obo/CDAO_0000092>)
-[INFO] 2017-12-02 12:52:21,981 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,241 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000084> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/CDAO_0000149> <http://purl.obolibrary.org/obo/CDAO_0000108>))
-[INFO] 2017-12-02 12:52:21,981 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,242 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/CDAO_0000144> <http://purl.obolibrary.org/obo/CDAO_0000174>)
-[INFO] 2017-12-02 12:52:21,981 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,242 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000164> <http://www.w3.org/2002/07/owl#Thing>)
-[INFO] 2017-12-02 12:52:21,982 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,243 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/CDAO_0000188> <http://purl.obolibrary.org/obo/CDAO_0000140>)
-[INFO] 2017-12-02 12:52:21,983 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,243 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/CDAO_0000219> <http://purl.obolibrary.org/obo/CDAO_0000095>)
-[INFO] 2017-12-02 12:52:21,983 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,244 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/CDAO_0000053> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/CDAO_0000177>))
-[INFO] 2017-12-02 12:52:21,988 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,995 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:21,995 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:47:23,245 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,249 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:47:23,250 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/CDAO_0000140> ObjectMinCardinality(1 <http://purl.obolibrary.org/obo/CDAO_0000194>))
-[INFO] 2017-12-02 12:52:21,997 INFO  (LoggingStageExecutor:103) Loading of Axioms took 579 ms
-[INFO] 2017-12-02 12:52:21,997 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:22,008 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:22,009 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 12 ms
-[INFO] 2017-12-02 12:52:22,009 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:22,055 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:22,088 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 78 ms
-[INFO] 2017-12-02 12:52:22,089 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:22,111 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:22,194 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 105 ms
-[INFO] 2017-12-02 12:52:22,194 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:22,201 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:22,226 INFO  (LoggingStageExecutor:103) Context Initialization took 31 ms
-[INFO] 2017-12-02 12:52:22,226 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:22,286 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:22,371 INFO  (LoggingStageExecutor:103) Consistency Checking took 144 ms
-[INFO] 2017-12-02 12:52:22,371 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:22,424 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:22,553 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 181 ms
+[INFO] 2018-10-23 18:47:23,250 INFO  (LoggingStageExecutor:103) Loading of Axioms took 147 ms
+[INFO] 2018-10-23 18:47:23,250 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:47:23,251 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:47:23,252 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:47:23,252 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:47:23,256 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:47:23,258 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 5 ms
+[INFO] 2018-10-23 18:47:23,258 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:47:23,260 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:47:23,264 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 5 ms
+[INFO] 2018-10-23 18:47:23,264 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:47:23,265 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:47:23,267 INFO  (LoggingStageExecutor:103) Context Initialization took 2 ms
+[INFO] 2018-10-23 18:47:23,267 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:47:23,273 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:47:23,313 INFO  (LoggingStageExecutor:103) Consistency Checking took 46 ms
+[INFO] 2018-10-23 18:47:23,313 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:47:23,323 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:47:23,404 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 90 ms
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:22,562 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@d8305c2
-[INFO] 2017-12-02 12:52:22,567 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:22,567 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@d8305c2
+[INFO] 2018-10-23 18:47:23,407 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@d8305c2
+[INFO] 2018-10-23 18:47:23,408 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:47:23,408 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@d8305c2
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.110 s
-[INFO] Finished at: 2017-12-02T12:52:22-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.637s
+[INFO] Finished at: Tue Oct 23 18:47:23 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:22 MST 2017
+Tue Oct 23 18:47:23 UTC 2018

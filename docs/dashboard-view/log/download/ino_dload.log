@@ -1,0 +1,31 @@
+Mon Oct 22 16:53:41 UTC 2018
+Ontology download URL: http://purl.obolibrary.org/obo/ino.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   345  100   345    0     0   2036      0 --:--:-- --:--:-- --:--:--  2041
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  409k  100  409k    0     0   673k      0 --:--:-- --:--:-- --:--:-- 1534k
+Mon Oct 22 16:53:42 UTC 2018
+
+Mon Oct 22 16:53:42 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:53:46,541 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl
+[INFO] 2018-10-22 16:53:47,362 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ino.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl
+[INFO] 2018-10-22 16:53:47,376 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ino.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.868s
+[INFO] Finished at: Mon Oct 22 16:53:47 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:53:47 UTC 2018
+
+Download validation successful. Triple count = 7294

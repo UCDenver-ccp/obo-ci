@@ -1,0 +1,21 @@
+Mon Oct 22 16:52:48 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/snapshot_go/snapshot_go.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:52:51,779 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/snapshot_go/snapshot_go.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/snapshot_go/snapshot_go.owl
+[INFO] 2018-10-22 16:52:52,073 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/mnt/efsdata/obo-ci-data/download/ontologies/snapshot_go/snapshot_go.owl
+[INFO] 2018-10-22 16:52:52,085 INFO  (CommandRunner:3243) saving: using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.805s
+[INFO] Finished at: Mon Oct 22 16:52:52 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:52:52 UTC 2018

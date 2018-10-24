@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/caro/caro_flat.owl
+Tue Oct 23 18:47:17 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/caro/caro_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,23 +8,20 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,380 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/caro/caro_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/caro/caro_flat.owl
-[INFO] 2017-12-02 12:52:23,801 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002215 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002215>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))]
-[INFO] 2017-12-02 12:52:23,857 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/caro.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/caro/caro_flat.owl
+[INFO] 2018-10-23 18:47:20,886 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/caro/caro_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/caro/caro_flat.owl
+[INFO] 2018-10-23 18:47:23,662 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/caro.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/caro/caro_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:23,945 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:23,708 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:24,480 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@589b028e
+[INFO] 2018-10-23 18:47:24,158 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@3569edd5
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:25,197 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@589b028e
-[INFO] 2017-12-02 12:52:25,197 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@589b028e
+[INFO] 2018-10-23 18:47:28,199 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@3569edd5
+[INFO] 2018-10-23 18:47:28,200 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@3569edd5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.652 s
-[INFO] Finished at: 2017-12-02T12:52:25-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 9.721s
+[INFO] Finished at: Tue Oct 23 18:47:28 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:25 MST 2017
+Tue Oct 23 18:47:28 UTC 2018

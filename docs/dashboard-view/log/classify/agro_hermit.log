@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/agro/agro_flat.owl
+Tue Oct 23 18:47:05 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/agro/agro_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,22 +8,9 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,008 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/agro/agro_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/agro/agro_flat.owl
-[INFO] 2017-12-02 12:52:19,836 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/agro-edit.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/agro/agro_flat.owl
+[INFO] 2018-10-23 18:47:09,790 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/agro/agro_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/agro/agro_flat.owl
+[INFO] 2018-10-23 18:47:11,906 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/agro-edit.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/agro/agro_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:20,092 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:11,964 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:21,816 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@a50d709
-[INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:31,511 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@a50d709
-[INFO] 2017-12-02 12:52:31,511 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@a50d709
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 16.908 s
-[INFO] Finished at: 2017-12-02T12:52:31-07:00
-[INFO] Final Memory: 21M/1963M
-[INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:31 MST 2017
+[INFO] 2018-10-23 18:47:24,602 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@7de53206

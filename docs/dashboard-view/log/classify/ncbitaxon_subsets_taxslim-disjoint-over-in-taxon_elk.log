@@ -1,0 +1,51 @@
+Tue Oct 23 18:49:58 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:50:02,264 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl
+[INFO] 2018-10-23 18:50:13,055 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:50:13,144 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:50:13,289 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:50:13,561 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:50:13,562 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@57eda880
+[INFO] 2018-10-23 18:50:13,563 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:50:13,570 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:50:15,172 INFO  (LoggingStageExecutor:103) Loading of Axioms took 1604 ms
+[INFO] 2018-10-23 18:50:15,173 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:50:15,174 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:50:15,174 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:50:15,174 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:50:15,180 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:50:15,183 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 8 ms
+[INFO] 2018-10-23 18:50:15,183 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:50:15,187 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:50:15,188 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 4 ms
+[INFO] 2018-10-23 18:50:15,189 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:50:15,190 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:50:15,192 INFO  (LoggingStageExecutor:103) Context Initialization took 3 ms
+[INFO] 2018-10-23 18:50:15,192 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:50:15,201 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:50:15,245 INFO  (LoggingStageExecutor:103) Consistency Checking took 52 ms
+[INFO] 2018-10-23 18:50:15,245 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:50:15,254 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:50:17,763 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 2517 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:50:17,766 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@57eda880
+[INFO] 2018-10-23 18:50:17,767 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:50:17,768 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@57eda880
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.909s
+[INFO] Finished at: Tue Oct 23 18:50:17 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:50:17 UTC 2018

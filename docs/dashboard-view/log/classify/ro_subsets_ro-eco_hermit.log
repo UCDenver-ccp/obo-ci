@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:16 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl
+Tue Oct 23 18:51:13 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,22 +8,20 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:23,010 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl
-[INFO] 2017-12-02 12:52:24,220 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/subsets/ro-eco.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl
+[INFO] 2018-10-23 18:51:17,488 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl
+[INFO] 2018-10-23 18:51:18,324 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/subsets/ro-eco.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ro_subsets_ro-eco/ro_subsets_ro-eco_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:24,376 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:51:18,372 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:25,451 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@2c42b421
+[INFO] 2018-10-23 18:51:19,453 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@4d1f1ff5
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:25,494 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@2c42b421
-[INFO] 2017-12-02 12:52:25,494 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@2c42b421
+[INFO] 2018-10-23 18:51:19,464 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@4d1f1ff5
+[INFO] 2018-10-23 18:51:19,465 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@4d1f1ff5
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.945 s
-[INFO] Finished at: 2017-12-02T12:52:25-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.395s
+[INFO] Finished at: Tue Oct 23 18:51:19 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:25 MST 2017
+Tue Oct 23 18:51:19 UTC 2018

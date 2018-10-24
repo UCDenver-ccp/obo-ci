@@ -1,0 +1,27 @@
+Tue Oct 23 18:46:48 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:46:52,111 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl
+[INFO] 2018-10-23 18:46:52,294 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:46:52,333 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:46:52,489 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@10ded6a9
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:46:52,498 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@10ded6a9
+[INFO] 2018-10-23 18:46:52,498 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@10ded6a9
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.966s
+[INFO] Finished at: Tue Oct 23 18:46:52 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:46:52 UTC 2018

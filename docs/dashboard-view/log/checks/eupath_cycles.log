@@ -1,0 +1,27 @@
+Wed Oct 24 12:21:51 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] 2018-10-24 12:21:55,054 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl
+[INFO] 2018-10-24 12:21:56,122 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/eupath.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: OBI:0001909 'conclusion based on data' ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' OBI:0001909 'conclusion based on data') ObjectSomeValuesFrom(OBI:0000312 'is_specified_output_of' OBI:0000338 'drawing a conclusion based on data') OBI:0000338 'drawing a conclusion based on data'
+[INFO] Cycle: IAO:0000577 'centrally registered identifier symbol' IAO:0000578 'centrally registered identifier' ObjectSomeValuesFrom(BFO:0000051 'has part' IAO:0000577 'centrally registered identifier symbol') ObjectSomeValuesFrom(BFO:0000050 'part of' IAO:0000578 'centrally registered identifier')
+[INFO] Cycle: ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')) ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))) ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' ObjectIntersectionOf(IAO:0000030 'information content entity' ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))))) ObjectIntersectionOf(IAO:0000030 'information content entity' ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')))) OBI:0000067 'evaluant role' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role') ObjectSomeValuesFrom(BFO:0000055 'realizes' OBI:0000067 'evaluant role') ObjectAllValuesFrom(BFO:0000054 'realized in' OBI:0000070 'assay') ObjectSomeValuesFrom(OBI:0000293 'has_specified_input' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))) OBI:0000070 'assay'
+[INFO] Cycle: ObjectSomeValuesFrom(OBI:0000312 'is_specified_output_of' OBI:0600024 'maintaining cell culture') ObjectSomeValuesFrom(OBI:0000293 'has_specified_input' OBI:0100060 'cultured cell population') ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' OBI:0100060 'cultured cell population') OBI:0600024 'maintaining cell culture' OBI:0100060 'cultured cell population'
+[INFO] Cycle: ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' OBI:0001167 'age measurement datum') OBI:0001167 'age measurement datum' OBI:0001158 'age measurement assay' ObjectSomeValuesFrom(OBI:0000312 'is_specified_output_of' OBI:0001158 'age measurement assay')
+[INFO] Cycle: ObjectSomeValuesFrom(BFO:0000055 'realizes' OBI:1110093 'disposition to infect an organism') OBI:1110021 'infection' ObjectAllValuesFrom(BFO:0000054 'realized in' OBI:1110021 'infection') OBI:1110093 'disposition to infect an organism'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.263s
+[INFO] Finished at: Wed Oct 24 12:21:56 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Wed Oct 24 12:21:56 UTC 2018

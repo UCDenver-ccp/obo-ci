@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:10 MST 2017
+Mon Oct 22 16:52:32 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/po.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   341  100   341    0     0   1834      0 --:--:-- --:--:-- --:--:--  1843
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 6711k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 12 6711k   12  848k    0     0   379k      0  0:00:17  0:00:02  0:00:15  461k 34 6711k   34 2336k    0     0   722k      0  0:00:09  0:00:03  0:00:06  823k 70 6711k   70 4720k    0     0  1114k      0  0:00:06  0:00:04  0:00:02 1230k100 6711k  100 6711k    0     0  1394k      0  0:00:04  0:00:04 --:--:-- 1520k
-Wed Nov 29 14:59:16 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   341  100   341    0     0    832      0 --:--:-- --:--:-- --:--:--   831
+ 38 6795k   38 2592k    0     0  2223k      0  0:00:03  0:00:01  0:00:02 2223k100 6795k  100 6795k    0     0  4983k      0  0:00:01  0:00:01 --:--:-- 20.7M
+Mon Oct 22 16:52:33 UTC 2018
 
-Wed Nov 29 14:59:17 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl
+Mon Oct 22 16:52:34 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,20 +16,18 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:24,519 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl
-[INFO] 2017-11-29 14:59:25,193 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:26,790 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:37,310 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl
-[INFO] 2017-11-29 14:59:37,325 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/po.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:52:46,939 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl
+[INFO] 2018-10-22 16:52:47,412 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:52:49,576 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:52:51,883 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl
+[INFO] 2018-10-22 16:52:51,893 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/po.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 19.960 s
-[INFO] Finished at: 2017-11-29T14:59:38-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 14.714s
+[INFO] Finished at: Mon Oct 22 16:52:53 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:38 MST 2017
+Mon Oct 22 16:52:53 UTC 2018
 
-Download validation successful. Triple count = 80083
+Download validation successful. Triple count = 80809

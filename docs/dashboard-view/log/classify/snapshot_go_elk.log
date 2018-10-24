@@ -1,0 +1,51 @@
+Tue Oct 23 18:46:48 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:46:52,244 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl
+[INFO] 2018-10-23 18:46:52,418 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/mnt/efsdata/obo-ci-data/base/ontologies/snapshot_go/snapshot_go_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:46:52,464 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:46:52,483 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:46:52,629 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:46:52,630 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@6bea52d4
+[INFO] 2018-10-23 18:46:52,631 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:46:52,635 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:46:52,635 INFO  (LoggingStageExecutor:103) Loading of Axioms took 1 ms
+[INFO] 2018-10-23 18:46:52,635 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:46:52,636 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:46:52,637 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 0 ms
+[INFO] 2018-10-23 18:46:52,637 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:46:52,642 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:46:52,667 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 30 ms
+[INFO] 2018-10-23 18:46:52,668 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:46:52,671 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:46:52,677 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 7 ms
+[INFO] 2018-10-23 18:46:52,677 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:46:52,682 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:46:52,685 INFO  (LoggingStageExecutor:103) Context Initialization took 7 ms
+[INFO] 2018-10-23 18:46:52,685 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:46:52,689 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:46:52,695 INFO  (LoggingStageExecutor:103) Consistency Checking took 10 ms
+[INFO] 2018-10-23 18:46:52,695 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:46:52,706 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:46:52,711 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 15 ms
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:46:52,714 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@6bea52d4
+[INFO] 2018-10-23 18:46:52,714 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:46:52,714 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@6bea52d4
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.180s
+[INFO] Finished at: Tue Oct 23 18:46:52 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:46:52 UTC 2018

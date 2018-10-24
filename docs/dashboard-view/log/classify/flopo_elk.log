@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl
+Tue Oct 23 18:48:26 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/flopo/flopo_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,75 +8,73 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,817 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl
-[INFO] 2017-12-02 12:52:29,030 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/flopo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/flopo/flopo_flat.owl
+[INFO] 2018-10-23 18:48:30,598 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/flopo/flopo_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/flopo/flopo_flat.owl
+[INFO] 2018-10-23 18:48:39,206 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/flopo.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/flopo/flopo_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:29,147 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:48:39,304 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:29,236 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:29,595 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:29,597 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
-[INFO] 2017-12-02 12:52:29,600 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:29,608 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:29,734 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:39,447 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:48:39,701 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:48:39,702 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
+[INFO] 2018-10-23 18:48:39,703 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:48:39,711 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:48:39,840 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#similar_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,765 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:39,876 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#directly_associated_with> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,793 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
-[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#minExclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
-[INFO] 2017-12-02 12:52:29,834 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:48:39,897 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#minExclusive> "6"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
-[INFO] 2017-12-02 12:52:29,840 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:39,902 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#minExclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
+[INFO] 2018-10-23 18:48:39,998 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,846 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
-[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#maxInclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
-[INFO] 2017-12-02 12:52:29,893 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:29,894 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:29,921 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:40,155 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:40,156 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:40,235 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,992 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:40,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_dividend_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,997 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:29,998 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,100 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,100 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,102 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,102 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,153 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:40,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/FLOPO_0907309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PO_0009029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/FLOPO_0907302> DatatypeRestriction(<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/2001/XMLSchema#maxInclusive> "10"^^<http://www.w3.org/2001/XMLSchema#integer>)))))))
+[INFO] 2018-10-23 18:48:40,769 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:40,770 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,052 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,052 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,056 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,056 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,191 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#inversely_associated_with> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:30,154 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:41,193 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_divisor_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:30,161 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:41,225 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:30,181 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:41,272 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_ratio_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:30,187 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:41,281 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000056> <http://purl.obolibrary.org/obo/BFO_0000057>)
-[INFO] 2017-12-02 12:52:30,195 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,195 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,201 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,202 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:30,202 INFO  (LoggingStageExecutor:103) Loading of Axioms took 598 ms
-[INFO] 2017-12-02 12:52:30,203 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:30,205 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:30,205 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
-[INFO] 2017-12-02 12:52:30,205 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:30,217 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:30,235 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 29 ms
-[INFO] 2017-12-02 12:52:30,236 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:30,242 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:30,254 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 17 ms
-[INFO] 2017-12-02 12:52:30,254 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:30,256 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:30,262 INFO  (LoggingStageExecutor:103) Context Initialization took 7 ms
-[INFO] 2017-12-02 12:52:30,262 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:30,278 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:30,328 INFO  (LoggingStageExecutor:103) Consistency Checking took 65 ms
-[INFO] 2017-12-02 12:52:30,328 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:30,349 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:31,316 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 988 ms
+[INFO] 2018-10-23 18:48:41,324 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,324 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,349 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,350 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:41,350 INFO  (LoggingStageExecutor:103) Loading of Axioms took 1643 ms
+[INFO] 2018-10-23 18:48:41,351 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:48:41,352 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:48:41,352 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:48:41,352 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:48:41,359 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:48:41,362 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 9 ms
+[INFO] 2018-10-23 18:48:41,362 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:48:41,366 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:48:41,372 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 9 ms
+[INFO] 2018-10-23 18:48:41,372 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:48:41,373 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:48:41,376 INFO  (LoggingStageExecutor:103) Context Initialization took 3 ms
+[INFO] 2018-10-23 18:48:41,376 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:48:41,396 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:48:41,449 INFO  (LoggingStageExecutor:103) Consistency Checking took 72 ms
+[INFO] 2018-10-23 18:48:41,449 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:48:41,459 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:48:44,158 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 2708 ms
 [INFO] E: FLOPO:0016081 'epidermis prominent'
 [INFO] E: FLOPO:0004134 'involucre prominent'
 [INFO] E: FLOPO:0023977 'shoot system prominent'
@@ -185,14 +183,14 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] E: FLOPO:0014532 'palea prominent'
 [INFO] E: FLOPO:0011940 'aril prominent'
 [INFO] E: FLOPO:0014138 'root tip prominent'
-[INFO] 2017-12-02 12:52:31,336 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
-[INFO] 2017-12-02 12:52:31,343 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:31,343 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
+[INFO] 2018-10-23 18:48:44,186 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
+[INFO] 2018-10-23 18:48:44,188 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:48:44,189 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1f2f9244
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 16.423 s
-[INFO] Finished at: 2017-12-02T12:52:31-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 16.298s
+[INFO] Finished at: Tue Oct 23 18:48:44 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:31 MST 2017
+Tue Oct 23 18:48:44 UTC 2018

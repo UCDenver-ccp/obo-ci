@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/po/po_flat.owl
+Tue Oct 23 18:46:56 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/po/po_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,22 +8,20 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,100 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/po/po_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/po/po_flat.owl
-[INFO] 2017-12-02 12:52:24,134 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/po/po_flat.owl
+[INFO] 2018-10-23 18:46:59,826 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/po/po_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/po/po_flat.owl
+[INFO] 2018-10-23 18:47:02,220 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/po/po_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:24,364 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:02,272 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:25,087 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@75023c53
+[INFO] 2018-10-23 18:47:02,813 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@1ddc6db2
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:25,896 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@75023c53
-[INFO] 2017-12-02 12:52:25,896 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@75023c53
+[INFO] 2018-10-23 18:47:04,935 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@1ddc6db2
+[INFO] 2018-10-23 18:47:04,935 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@1ddc6db2
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 11.411 s
-[INFO] Finished at: 2017-12-02T12:52:25-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 7.622s
+[INFO] Finished at: Tue Oct 23 18:47:04 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:26 MST 2017
+Tue Oct 23 18:47:05 UTC 2018

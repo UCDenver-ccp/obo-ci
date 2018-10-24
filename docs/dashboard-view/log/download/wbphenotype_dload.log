@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:19 MST 2017
+Mon Oct 22 16:55:26 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/wbphenotype.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   318  100   318    0     0   1110      0 --:--:-- --:--:-- --:--:--  1108
-  0 4199k    0  2232    0     0   1892      0  0:37:52  0:00:01  0:37:51  1892  5 4199k    5  210k    0     0  99617      0  0:00:43  0:00:02  0:00:41  211k 12 4199k   12  542k    0     0   167k      0  0:00:25  0:00:03  0:00:22  261k 19 4199k   19  832k    0     0   201k      0  0:00:20  0:00:04  0:00:16  280k 25 4199k   25 1089k    0     0   211k      0  0:00:19  0:00:05  0:00:14  272k 33 4199k   33 1410k    0     0   230k      0  0:00:18  0:00:06  0:00:12  285k 42 4199k   42 1798k    0     0   252k      0  0:00:16  0:00:07  0:00:09  320k 51 4199k   51 2141k    0     0   263k      0  0:00:15  0:00:08  0:00:07  328k 60 4199k   60 2520k    0     0   276k      0  0:00:15  0:00:09  0:00:06  338k 73 4199k   73 3079k    0     0   303k      0  0:00:13  0:00:10  0:00:03  400k 92 4199k   92 3865k    0     0   347k      0  0:00:12  0:00:11  0:00:01  491k100 4199k  100 4199k    0     0   371k      0  0:00:11  0:00:11 --:--:--  572k
-Wed Nov 29 14:59:30 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   318  100   318    0     0   1092      0 --:--:-- --:--:-- --:--:--  1092
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 47 4236k   47 2004k    0     0  1286k      0  0:00:03  0:00:01  0:00:02 2644k100 4236k  100 4236k    0     0  2340k      0  0:00:01  0:00:01 --:--:-- 4199k
+Mon Oct 22 16:55:28 UTC 2018
 
-Wed Nov 29 14:59:40 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/wbphenotype/wbphenotype.owl
+Mon Oct 22 16:55:28 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/wbphenotype/wbphenotype.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:47,573 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/wbphenotype/wbphenotype.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/wbphenotype/wbphenotype.owl
-[INFO] 2017-11-29 14:59:59,641 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/wbphenotype.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/wbphenotype/wbphenotype.owl
-[INFO] 2017-11-29 14:59:59,656 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/wbphenotype.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:31,958 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/wbphenotype/wbphenotype.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/wbphenotype/wbphenotype.owl
+[INFO] 2018-10-22 16:55:33,632 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/wbphenotype.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/wbphenotype/wbphenotype.owl
+[INFO] 2018-10-22 16:55:33,644 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/wbphenotype.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 23.318 s
-[INFO] Finished at: 2017-11-29T15:00:04-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 5.006s
+[INFO] Finished at: Mon Oct 22 16:55:34 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:04 MST 2017
+Mon Oct 22 16:55:34 UTC 2018
 
-Download validation successful. Triple count = 49529
+Download validation successful. Triple count = 49980

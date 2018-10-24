@@ -1,0 +1,31 @@
+Mon Oct 22 16:54:47 UTC 2018
+Ontology download URL: http://purl.obolibrary.org/obo/ro/ro-base.owl
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   342  100   342    0     0   2010      0 --:--:-- --:--:-- --:--:--  2011
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  752k  100  752k    0     0  1117k      0 --:--:-- --:--:-- --:--:-- 2336k
+Mon Oct 22 16:54:48 UTC 2018
+
+Mon Oct 22 16:54:48 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/ro_ro-base/ro_ro-base.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:54:52,577 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ro_ro-base/ro_ro-base.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ro_ro-base/ro_ro-base.owl
+[INFO] 2018-10-22 16:54:53,551 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/ro-base.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ro_ro-base/ro_ro-base.owl
+[INFO] 2018-10-22 16:54:53,563 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ro/ro-base.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.017s
+[INFO] Finished at: Mon Oct 22 16:54:54 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:54:54 UTC 2018
+
+Download validation successful. Triple count = 12137

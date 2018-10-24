@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:52:52 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/cteno.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   352  100   352    0     0   1885      0 --:--:-- --:--:-- --:--:--  1892
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 33  282k   33 97461    0     0  70073      0  0:00:04  0:00:01  0:00:03  101k100  282k  100  282k    0     0   176k      0  0:00:01  0:00:01 --:--:--  247k
-Wed Nov 29 14:59:12 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   352  100   352    0     0   1210      0 --:--:-- --:--:-- --:--:--  1213
+100  282k  100  282k    0     0   393k      0 --:--:-- --:--:-- --:--:--  393k
+Mon Oct 22 16:52:53 UTC 2018
 
-Wed Nov 29 14:59:14 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/cteno/cteno.owl
+Mon Oct 22 16:52:53 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/cteno/cteno.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,34 +16,32 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:22,650 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cteno/cteno.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cteno/cteno.owl
-[INFO] 2017-11-29 14:59:23,305 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:25,257 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/ro_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:25,258 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: http://purl.obolibrary.org/obo/bspo.owl
-[INFO] 2017-11-29 14:59:25,993 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: http://purl.obolibrary.org/obo/bspo.owl
-[INFO] 2017-11-29 14:59:25,995 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:26,558 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:26,559 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/taxonomy.owl from: http://purl.obolibrary.org/obo/cteno/taxonomy.owl
-[INFO] 2017-11-29 14:59:27,416 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cteno/taxonomy.owl from: http://purl.obolibrary.org/obo/cteno/taxonomy.owl
-[INFO] 2017-11-29 14:59:27,417 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:27,902 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:27,903 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/bspo_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/bspo_import.owl
-[INFO] 2017-11-29 14:59:28,362 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/bspo_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/bspo_import.owl
-[INFO] 2017-11-29 14:59:28,363 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/cl_import.owl
-[INFO] 2017-11-29 14:59:28,788 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/cl_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/cl_import.owl
-[INFO] 2017-11-29 14:59:28,789 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/go_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/go_import.owl
-[INFO] 2017-11-29 14:59:29,246 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/go_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/go_import.owl
-[INFO] 2017-11-29 14:59:29,422 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cteno.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cteno/cteno.owl
-[INFO] 2017-11-29 14:59:29,436 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/cteno.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:02,644 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/cteno/cteno.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/cteno/cteno.owl
+[INFO] 2018-10-22 16:53:02,940 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:04,220 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/ro_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:04,222 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: http://purl.obolibrary.org/obo/bspo.owl
+[INFO] 2018-10-22 16:53:04,842 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: http://purl.obolibrary.org/obo/bspo.owl
+[INFO] 2018-10-22 16:53:04,844 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:05,139 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:05,140 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/taxonomy.owl from: http://purl.obolibrary.org/obo/cteno/taxonomy.owl
+[INFO] 2018-10-22 16:53:05,508 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cteno/taxonomy.owl from: http://purl.obolibrary.org/obo/cteno/taxonomy.owl
+[INFO] 2018-10-22 16:53:05,510 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:05,895 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:05,897 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/bspo_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/bspo_import.owl
+[INFO] 2018-10-22 16:53:06,187 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/bspo_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/bspo_import.owl
+[INFO] 2018-10-22 16:53:06,189 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:06,538 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/cl_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:06,539 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cteno/imports/go_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/go_import.owl
+[INFO] 2018-10-22 16:53:06,830 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/imports/go_import.owl from: http://purl.obolibrary.org/obo/cteno/imports/go_import.owl
+[INFO] 2018-10-22 16:53:06,959 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cteno.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/cteno/cteno.owl
+[INFO] 2018-10-22 16:53:06,968 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/cteno.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.265 s
-[INFO] Finished at: 2017-11-29T14:59:29-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 9.319s
+[INFO] Finished at: Mon Oct 22 16:53:07 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:29 MST 2017
+Mon Oct 22 16:53:07 UTC 2018
 
 Download validation successful. Triple count = 7418

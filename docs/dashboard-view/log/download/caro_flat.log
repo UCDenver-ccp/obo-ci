@@ -1,5 +1,5 @@
-Wed Nov 29 14:59:44 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/caro/caro.owl
+Mon Oct 22 16:53:06 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/caro/caro.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,58 +8,51 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:54,619 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/caro/caro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/caro/caro.owl
-[INFO] 2017-11-29 14:59:55,955 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/go_import.owl from: http://purl.obolibrary.org/obo/caro/imports/go_import.owl
-[INFO] 2017-11-29 14:59:57,944 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/dev/caro/imports/go_import.owl from: http://purl.obolibrary.org/obo/caro/imports/go_import.owl
-[INFO] 2017-11-29 14:59:57,945 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:58,355 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:59,029 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:59,030 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:59,428 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:59,429 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:59,813 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:59,889 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:59,890 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/bfo_classes_only.owl from: http://purl.obolibrary.org/obo/caro/imports/bfo_classes_only.owl
-[INFO] 2017-11-29 15:00:00,427 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/caro/imports/bfo_classes_only.owl
-[INFO] 2017-11-29 15:00:00,428 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl from: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl
-[INFO] 2017-11-29 15:00:01,553 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl.owl from: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl
-[INFO] 2017-11-29 15:00:01,554 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl
-[INFO] 2017-11-29 15:00:02,582 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl.owl from: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl
-[INFO] 2017-11-29 15:00:02,583 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl from: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl
-[INFO] 2017-11-29 15:00:03,574 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002215 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002215>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))]
-[INFO] 2017-11-29 15:00:03,575 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl.owl from: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl
-[INFO] 2017-11-29 15:00:03,576 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/pato_import.owl from: http://purl.obolibrary.org/obo/caro/imports/pato_import.owl
-[INFO] 2017-11-29 15:00:04,603 ERROR (OWLOntologyID:82) Ontology IRIs must be absolute; IRI /imports/pato_import.owl is relative and will be made absolute by prefixing urn:absolute: to it
-[INFO] 2017-11-29 15:00:04,609 INFO  (ParserWrapper:82) Finished loading ontology: urn:absolute:/imports/pato_import.owl from: http://purl.obolibrary.org/obo/caro/imports/pato_import.owl
-[INFO] 2017-11-29 15:00:04,610 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/caro_bridge.owl from: http://purl.obolibrary.org/obo/caro/caro_bridge.owl
-[INFO] 2017-11-29 15:00:05,703 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/caro/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:00:06,802 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl from: http://purl.obolibrary.org/obo/caro/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:00:06,804 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/cl_import.owl from: http://purl.obolibrary.org/obo/caro/imports/cl_import.owl
-[INFO] 2017-11-29 15:00:07,927 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/dev/CL_import.owl from: http://purl.obolibrary.org/obo/caro/imports/cl_import.owl
-[INFO] 2017-11-29 15:00:07,931 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/caro_bridge.owl from: http://purl.obolibrary.org/obo/caro/caro_bridge.owl
-[INFO] 2017-11-29 15:00:08,954 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002215 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002215>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))]
-[INFO] 2017-11-29 15:00:09,027 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/caro.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/caro/caro.owl
-[INFO] 2017-11-29 15:00:09,044 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/imports/pco_import.owl.owl>) VersionIRI(<null>))) [Axioms: 10 Logical Axioms: 1]
-[INFO] 2017-11-29 15:00:09,048 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/core.owl>) VersionIRI(<null>))) [Axioms: 278 Logical Axioms: 58]
-[INFO] 2017-11-29 15:00:09,055 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/bfo-axioms.owl>) VersionIRI(<null>))) [Axioms: 18 Logical Axioms: 7]
-[INFO] 2017-11-29 15:00:09,056 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/annotations.owl>) VersionIRI(<null>))) [Axioms: 61 Logical Axioms: 0]
-[INFO] 2017-11-29 15:00:09,057 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl>) VersionIRI(<null>))) [Axioms: 53 Logical Axioms: 12]
-[INFO] 2017-11-29 15:00:09,057 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/caro_bridge.owl>) VersionIRI(<null>))) [Axioms: 6 Logical Axioms: 6]
-[INFO] 2017-11-29 15:00:09,058 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl>) VersionIRI(<null>))) [Axioms: 13 Logical Axioms: 0]
-[INFO] 2017-11-29 15:00:09,058 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/dev/CL_import.owl>) VersionIRI(<null>))) [Axioms: 10 Logical Axioms: 0]
-[INFO] 2017-11-29 15:00:09,058 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/dev/caro/imports/go_import.owl>) VersionIRI(<null>))) [Axioms: 13 Logical Axioms: 1]
-[INFO] 2017-11-29 15:00:09,059 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<urn:absolute:/imports/pato_import.owl>) VersionIRI(<null>))) [Axioms: 62 Logical Axioms: 20]
-[INFO] 2017-11-29 15:00:09,059 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/imports/ro_import.owl.owl>) VersionIRI(<null>))) [Axioms: 70 Logical Axioms: 13]
-[INFO] 2017-11-29 15:00:09,060 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl.owl>) VersionIRI(<null>))) [Axioms: 23 Logical Axioms: 1]
-[INFO] 2017-11-29 15:00:09,061 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/classes-only.owl>))) [Axioms: 570 Logical Axioms: 45]
-[INFO] 2017-11-29 15:00:09,069 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/caro/caro.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:10,141 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/caro/caro.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/caro/caro.owl
+[INFO] 2018-10-22 16:53:10,394 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/go_import.owl from: http://purl.obolibrary.org/obo/caro/imports/go_import.owl
+[INFO] 2018-10-22 16:53:11,471 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/dev/caro/imports/go_import.owl from: http://purl.obolibrary.org/obo/caro/imports/go_import.owl
+[INFO] 2018-10-22 16:53:11,472 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:53:11,687 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:53:11,920 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:53:11,923 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:53:12,148 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:53:12,236 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:53:12,237 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/bfo_classes_only.owl from: http://purl.obolibrary.org/obo/caro/imports/bfo_classes_only.owl
+[INFO] 2018-10-22 16:53:12,589 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/caro/imports/bfo_classes_only.owl
+[INFO] 2018-10-22 16:53:12,590 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl from: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl
+[INFO] 2018-10-22 16:53:13,123 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl.owl from: http://purl.obolibrary.org/obo/caro/imports/pco_import.owl
+[INFO] 2018-10-22 16:53:13,124 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:13,663 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl.owl from: http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:13,663 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl from: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:14,217 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl.owl from: http://purl.obolibrary.org/obo/caro/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:14,218 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/pato_import.owl from: http://purl.obolibrary.org/obo/caro/imports/pato_import.owl
+[INFO] 2018-10-22 16:53:14,730 ERROR (OWLOntologyID:82) Ontology IRIs must be absolute; IRI /imports/pato_import.owl is relative and will be made absolute by prefixing urn:absolute: to it
+[INFO] 2018-10-22 16:53:14,734 INFO  (ParserWrapper:82) Finished loading ontology: urn:absolute:/imports/pato_import.owl from: http://purl.obolibrary.org/obo/caro/imports/pato_import.owl
+[INFO] 2018-10-22 16:53:14,734 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/caro_bridge.owl from: http://purl.obolibrary.org/obo/caro/caro_bridge.owl
+[INFO] 2018-10-22 16:53:15,297 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/caro/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:15,984 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl from: http://purl.obolibrary.org/obo/caro/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:15,985 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/caro/imports/cl_import.owl from: http://purl.obolibrary.org/obo/caro/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:16,895 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/dev/CL_import.owl from: http://purl.obolibrary.org/obo/caro/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:16,897 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/caro_bridge.owl from: http://purl.obolibrary.org/obo/caro/caro_bridge.owl
+[INFO] 2018-10-22 16:53:18,347 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/caro/caro.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/caro/caro.owl
+[INFO] 2018-10-22 16:53:18,359 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/imports/pco_import.owl.owl>) VersionIRI(<null>))) [Axioms: 10 Logical Axioms: 1]
+[INFO] 2018-10-22 16:53:18,362 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/core.owl>) VersionIRI(<null>))) [Axioms: 291 Logical Axioms: 62]
+[INFO] 2018-10-22 16:53:18,369 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/bfo-axioms.owl>) VersionIRI(<null>))) [Axioms: 18 Logical Axioms: 7]
+[INFO] 2018-10-22 16:53:18,370 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl>) VersionIRI(<null>))) [Axioms: 56 Logical Axioms: 13]
+[INFO] 2018-10-22 16:53:18,371 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/caro_bridge.owl>) VersionIRI(<null>))) [Axioms: 6 Logical Axioms: 6]
+[INFO] 2018-10-22 16:53:18,371 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/dev/NCBITaxon_import.owl>) VersionIRI(<null>))) [Axioms: 13 Logical Axioms: 0]
+[INFO] 2018-10-22 16:53:18,372 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/dev/CL_import.owl>) VersionIRI(<null>))) [Axioms: 10 Logical Axioms: 0]
+[INFO] 2018-10-22 16:53:18,372 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/dev/caro/imports/go_import.owl>) VersionIRI(<null>))) [Axioms: 13 Logical Axioms: 1]
+[INFO] 2018-10-22 16:53:18,373 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<urn:absolute:/imports/pato_import.owl>) VersionIRI(<null>))) [Axioms: 62 Logical Axioms: 20]
+[INFO] 2018-10-22 16:53:18,374 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/imports/ro_import.owl.owl>) VersionIRI(<null>))) [Axioms: 69 Logical Axioms: 14]
+[INFO] 2018-10-22 16:53:18,382 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/caro/imports/chebi_import.owl.owl>) VersionIRI(<null>))) [Axioms: 23 Logical Axioms: 1]
+[INFO] 2018-10-22 16:53:18,383 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/classes-only.owl>))) [Axioms: 570 Logical Axioms: 45]
+[INFO] 2018-10-22 16:53:18,388 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/caro/caro.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 25.401 s
-[INFO] Finished at: 2017-11-29T15:00:10-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 12.496s
+[INFO] Finished at: Mon Oct 22 16:53:20 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:11 MST 2017
+Mon Oct 22 16:53:20 UTC 2018

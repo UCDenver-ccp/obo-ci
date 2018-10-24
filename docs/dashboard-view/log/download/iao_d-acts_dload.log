@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:12 MST 2017
+Mon Oct 22 16:53:38 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/iao/d-acts.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   334  100   334    0     0   1764      0 --:--:-- --:--:-- --:--:--  1767
-  3 62936    3  1918    0     0   2391      0  0:00:26 --:--:--  0:00:26  2391100 62936  100 62936    0     0  67106      0 --:--:-- --:--:-- --:--:--  441k
-Wed Nov 29 14:59:13 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   334  100   334    0     0   2032      0 --:--:-- --:--:-- --:--:--  2036
+100 51999  100 51999    0     0  97334      0 --:--:-- --:--:-- --:--:-- 97334
+Mon Oct 22 16:53:39 UTC 2018
 
-Wed Nov 29 14:59:15 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_d-acts/iao_d-acts.owl
+Mon Oct 22 16:53:39 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/iao_d-acts/iao_d-acts.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,32 +16,20 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,662 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_d-acts/iao_d-acts.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_d-acts/iao_d-acts.owl
-[INFO] 2017-11-29 14:59:24,258 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
-[INFO] 2017-11-29 14:59:26,833 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
-[INFO] 2017-11-29 14:59:26,835 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:27,267 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:28,310 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:28,312 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:28,809 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:28,810 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:29,475 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:29,509 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:29,510 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
-[INFO] 2017-11-29 14:59:29,968 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
-[INFO] 2017-11-29 14:59:29,969 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
-[INFO] 2017-11-29 14:59:30,498 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
-[INFO] 2017-11-29 14:59:30,556 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/d-acts.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/iao_d-acts/iao_d-acts.owl
-[INFO] 2017-11-29 14:59:30,569 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/iao/d-acts.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:43,817 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/iao_d-acts/iao_d-acts.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/iao_d-acts/iao_d-acts.owl
+[INFO] 2018-10-22 16:53:43,987 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/pno.owl from: http://purl.obolibrary.org/obo/iao/pno.owl
+[INFO] 2018-10-22 16:53:44,828 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl from: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl
+[INFO] 2018-10-22 16:53:45,553 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl
+[INFO] 2018-10-22 16:53:45,603 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/pno.owl from: http://purl.obolibrary.org/obo/iao/pno.owl
+[INFO] 2018-10-22 16:53:45,646 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/d-acts.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/iao_d-acts/iao_d-acts.owl
+[INFO] 2018-10-22 16:53:45,658 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/iao/d-acts.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.316 s
-[INFO] Finished at: 2017-11-29T14:59:30-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.637s
+[INFO] Finished at: Mon Oct 22 16:53:45 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:30 MST 2017
+Mon Oct 22 16:53:45 UTC 2018
 
-Download validation successful. Triple count = 1081
+Download validation successful. Triple count = 827

@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:52:46 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/cheminf.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354  100   354    0     0   1888      0 --:--:-- --:--:-- --:--:--  1893
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  256k  100  256k    0     0   195k      0  0:00:01  0:00:01 --:--:--  291k
-Wed Nov 29 14:59:12 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354  100   354    0     0   1220      0 --:--:-- --:--:-- --:--:--  1224
+100  256k  100  256k    0     0   326k      0 --:--:-- --:--:-- --:--:--  326k
+Mon Oct 22 16:52:46 UTC 2018
 
-Wed Nov 29 14:59:13 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/cheminf/cheminf.owl
+Mon Oct 22 16:52:47 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/cheminf/cheminf.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,32 +16,30 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,111 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cheminf/cheminf.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cheminf/cheminf.owl
-[INFO] 2017-11-29 14:59:23,903 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao.owl
-[INFO] 2017-11-29 14:59:27,149 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao.owl
-[INFO] 2017-11-29 14:59:27,151 INFO  (ParserWrapper:75) Start loading ontology: http://semanticscience.org/ontology/cdk.owl from: http://semanticscience.org/ontology/cdk.owl
-[INFO] 2017-11-29 14:59:28,179 INFO  (ParserWrapper:75) Start loading ontology: http://semanticscience.org/ontology/cheminf-core.owl from: http://semanticscience.org/ontology/cheminf-core.owl
-[INFO] 2017-11-29 14:59:29,034 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-11-29 14:59:29,037 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf-core.owl from: http://semanticscience.org/ontology/cheminf-core.owl
-[INFO] 2017-11-29 14:59:29,038 INFO  (ParserWrapper:75) Start loading ontology: http://semanticscience.org/ontology/cheminf-external.owl from: http://semanticscience.org/ontology/cheminf-external.owl
-[INFO] 2017-11-29 14:59:29,789 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf-external.owl from: http://semanticscience.org/ontology/cheminf-external.owl
-[INFO] 2017-11-29 14:59:29,793 INFO  (ParserWrapper:75) Start loading ontology: http://semanticscience.org/ontology/cheminf-algorithms.owl from: http://semanticscience.org/ontology/cheminf-algorithms.owl
-[INFO] 2017-11-29 14:59:30,448 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-11-29 14:59:30,449 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf-algorithms.owl from: http://semanticscience.org/ontology/cheminf-algorithms.owl
-[INFO] 2017-11-29 14:59:30,458 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-11-29 14:59:30,458 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cdk.owl from: http://semanticscience.org/ontology/cdk.owl
-[INFO] 2017-11-29 14:59:30,763 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-11-29 14:59:30,765 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cheminf/cheminf.owl
-[INFO] 2017-11-29 14:59:30,777 INFO  (CommandRunner:3243) saving:http://semanticscience.org/ontology/cheminf.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:52:55,991 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/cheminf/cheminf.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/cheminf/cheminf.owl
+[INFO] 2018-10-22 16:52:56,394 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao.owl
+[INFO] 2018-10-22 16:52:58,302 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao.owl
+[INFO] 2018-10-22 16:52:58,309 INFO  (ParserWrapper:75) Start loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cdk.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cdk.owl
+[INFO] 2018-10-22 16:52:58,351 INFO  (ParserWrapper:75) Start loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-core.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-core.owl
+[INFO] 2018-10-22 16:52:58,542 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-22 16:52:58,545 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-core.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-core.owl
+[INFO] 2018-10-22 16:52:58,546 INFO  (ParserWrapper:75) Start loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-external.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-external.owl
+[INFO] 2018-10-22 16:52:58,617 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-external.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-external.owl
+[INFO] 2018-10-22 16:52:58,620 INFO  (ParserWrapper:75) Start loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-algorithms.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-algorithms.owl
+[INFO] 2018-10-22 16:52:58,663 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-22 16:52:58,663 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-algorithms.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf-algorithms.owl
+[INFO] 2018-10-22 16:52:58,670 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-22 16:52:58,671 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cdk.owl from: http://semanticchemistry.github.io/semanticchemistry/ontology/cdk.owl
+[INFO] 2018-10-22 16:52:58,804 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-22 16:52:58,806 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/cheminf/cheminf.owl
+[INFO] 2018-10-22 16:52:58,817 INFO  (CommandRunner:3243) saving:http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 15.611 s
-[INFO] Finished at: 2017-11-29T14:59:31-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 7.786s
+[INFO] Finished at: Mon Oct 22 16:52:59 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:31 MST 2017
+Mon Oct 22 16:52:59 UTC 2018
 
-Download validation successful. Triple count = 5993
+Download validation successful. Triple count = 6002

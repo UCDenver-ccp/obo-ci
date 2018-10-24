@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:28 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/trans/trans_flat.owl
+Wed Oct 24 12:34:07 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/trans/trans_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,15 +8,13 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:33,000 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/trans/trans_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/trans/trans_flat.owl
-[INFO] 2017-12-03 00:50:33,668 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/trans.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/trans/trans_flat.owl
+[INFO] 2018-10-24 12:34:11,535 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/trans/trans_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/trans/trans_flat.owl
+[INFO] 2018-10-24 12:34:11,802 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/trans.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/trans/trans_flat.owl
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 4.063 s
-[INFO] Finished at: 2017-12-03T00:50:33-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 2.590s
+[INFO] Finished at: Wed Oct 24 12:34:11 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:33 MST 2017
+Wed Oct 24 12:34:11 UTC 2018

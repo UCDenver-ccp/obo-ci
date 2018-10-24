@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:53:51 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/miapa.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   342  100   342    0     0   1547      0 --:--:-- --:--:-- --:--:--  1554
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 37095  100 37095    0     0  33476      0  0:00:01  0:00:01 --:--:-- 68567
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   342  100   342    0     0    822      0 --:--:-- --:--:-- --:--:--   824
+100 37095  100 37095    0     0  45549      0 --:--:-- --:--:-- --:--:-- 45549
+Mon Oct 22 16:53:52 UTC 2018
 
-Wed Nov 29 14:59:16 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/miapa/miapa.owl
+Mon Oct 22 16:53:52 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/miapa/miapa.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,28 +16,26 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:25,015 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/miapa/miapa.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/miapa/miapa.owl
-[INFO] 2017-11-29 14:59:25,733 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cdao.owl from: http://purl.obolibrary.org/obo/cdao.owl
-[INFO] 2017-11-29 14:59:27,070 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:28,227 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:28,404 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cdao.owl from: http://purl.obolibrary.org/obo/cdao.owl
-[INFO] 2017-11-29 14:59:28,407 INFO  (ParserWrapper:75) Start loading ontology: http://www.w3.org/ns/prov-o from: http://www.w3.org/ns/prov-o
-[INFO] 2017-11-29 14:59:29,238 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
-[INFO] 2017-11-29 14:59:29,238 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
-[INFO] 2017-11-29 14:59:29,240 INFO  (ParserWrapper:82) Finished loading ontology: http://www.w3.org/ns/prov-o# from: http://www.w3.org/ns/prov-o
-[INFO] 2017-11-29 14:59:29,300 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
-[INFO] 2017-11-29 14:59:29,300 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
-[INFO] 2017-11-29 14:59:29,301 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/miapa.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/miapa/miapa.owl
-[INFO] 2017-11-29 14:59:29,316 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/miapa.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:56,183 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/miapa/miapa.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/miapa/miapa.owl
+[INFO] 2018-10-22 16:53:56,364 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cdao.owl from: http://purl.obolibrary.org/obo/cdao.owl
+[INFO] 2018-10-22 16:53:57,737 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2018-10-22 16:53:58,062 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2018-10-22 16:53:58,303 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cdao.owl from: http://purl.obolibrary.org/obo/cdao.owl
+[INFO] 2018-10-22 16:53:58,310 INFO  (ParserWrapper:75) Start loading ontology: http://www.w3.org/ns/prov-o from: http://www.w3.org/ns/prov-o
+[INFO] 2018-10-22 16:53:58,897 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
+[INFO] 2018-10-22 16:53:58,897 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
+[INFO] 2018-10-22 16:53:58,899 INFO  (ParserWrapper:82) Finished loading ontology: http://www.w3.org/ns/prov-o# from: http://www.w3.org/ns/prov-o
+[INFO] 2018-10-22 16:53:58,940 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
+[INFO] 2018-10-22 16:53:58,941 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
+[INFO] 2018-10-22 16:53:58,941 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/miapa.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/miapa/miapa.owl
+[INFO] 2018-10-22 16:53:58,953 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/miapa.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 11.213 s
-[INFO] Finished at: 2017-11-29T14:59:29-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 5.373s
+[INFO] Finished at: Mon Oct 22 16:53:59 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:29 MST 2017
+Mon Oct 22 16:53:59 UTC 2018
 
 Download validation successful. Triple count = 920

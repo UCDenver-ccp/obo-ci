@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:24 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
+Wed Oct 24 12:19:23 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,18 +8,16 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:28,083 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
-[INFO] 2017-12-03 00:50:29,202 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-12-03 00:50:29,210 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
+[INFO] 2018-10-24 12:19:27,715 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
+[INFO] 2018-10-24 12:19:28,782 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-24 12:19:28,797 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
 [INFO] Found cycles in the graph
-[INFO] Cycle: IAO:0000577 'centrally registered identifier symbol' IAO:0000578 'centrally registered identifier' ObjectSomeValuesFrom(BFO:0000050 'part of' IAO:0000578 'centrally registered identifier') ObjectSomeValuesFrom(BFO:0000051 'has part' IAO:0000577 'centrally registered identifier symbol')
+[INFO] Cycle: IAO:0000577 'centrally registered identifier symbol' IAO:0000578 'centrally registered identifier' ObjectSomeValuesFrom(BFO:0000050 'part of' IAO:0000578 'centrally registered identifier') ObjectSomeValuesFrom(BFO:0000051 'has_part' IAO:0000577 'centrally registered identifier symbol')
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.777 s
-[INFO] Finished at: 2017-12-03T00:50:29-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.576s
+[INFO] Finished at: Wed Oct 24 12:19:29 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:29 MST 2017
+Wed Oct 24 12:19:29 UTC 2018

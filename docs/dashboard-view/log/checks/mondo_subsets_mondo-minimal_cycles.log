@@ -1,0 +1,25 @@
+Wed Oct 24 12:27:06 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] 2018-10-24 12:27:10,507 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal_flat.owl
+[INFO] 2018-10-24 12:31:44,089 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/subsets/mondo-minimal.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/mondo_subsets_mondo-minimal/mondo_subsets_mondo-minimal_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: MONDO:0000916 'intestinal infectious disease' ObjectSomeValuesFrom(RO:0004029 'disease has feature' MONDO:0001517 'dysentery') MONDO:0001517 'dysentery' MONDO:0002269 'gastroenteritis'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0004029 'disease has feature' MONDO:0006547 'exanthem (disease)') MONDO:0006547 'exanthem (disease)'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0004029 'disease has feature' MONDO:0013598 'myostatin-related muscle hypertrophy') MONDO:0013598 'myostatin-related muscle hypertrophy'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0004029 'disease has feature' MONDO:0000432 'lymphoplasmacytic lymphoma') MONDO:0000432 'lymphoplasmacytic lymphoma'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4:55.134s
+[INFO] Finished at: Wed Oct 24 12:32:03 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Wed Oct 24 12:32:03 UTC 2018

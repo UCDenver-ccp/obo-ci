@@ -1,5 +1,5 @@
-Wed Nov 29 14:59:36 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ogms/ogms.owl
+Mon Oct 22 16:54:27 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/ogms/ogms.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,25 +8,23 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:42,669 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ogms/ogms.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ogms/ogms.owl
-[INFO] 2017-11-29 14:59:43,191 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:44,558 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:44,559 INFO  (ParserWrapper:75) Start loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
-[INFO] 2017-11-29 14:59:45,539 INFO  (ParserWrapper:82) Finished loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
-[INFO] 2017-11-29 14:59:45,540 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
-[INFO] 2017-11-29 14:59:46,189 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
-[INFO] 2017-11-29 14:59:46,775 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ogms/ogms.owl
-[INFO] 2017-11-29 14:59:46,827 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl>) VersionIRI(<null>))) [Axioms: 75 Logical Axioms: 0]
-[INFO] 2017-11-29 14:59:46,835 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
-[INFO] 2017-11-29 14:59:46,841 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl>))) [Axioms: 357 Logical Axioms: 36]
-[INFO] 2017-11-29 14:59:46,845 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ogms.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:31,213 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ogms/ogms.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ogms/ogms.owl
+[INFO] 2018-10-22 16:54:31,382 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2018-10-22 16:54:32,231 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2018-10-22 16:54:32,232 INFO  (ParserWrapper:75) Start loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
+[INFO] 2018-10-22 16:54:32,447 INFO  (ParserWrapper:82) Finished loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
+[INFO] 2018-10-22 16:54:32,448 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
+[INFO] 2018-10-22 16:54:32,840 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
+[INFO] 2018-10-22 16:54:32,903 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ogms/ogms.owl
+[INFO] 2018-10-22 16:54:32,912 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl>) VersionIRI(<null>))) [Axioms: 75 Logical Axioms: 0]
+[INFO] 2018-10-22 16:54:32,917 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
+[INFO] 2018-10-22 16:54:32,926 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/iao/ontology-metadata.owl>) VersionIRI(<http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl>))) [Axioms: 357 Logical Axioms: 36]
+[INFO] 2018-10-22 16:54:32,933 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ogms.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.828 s
-[INFO] Finished at: 2017-11-29T14:59:47-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.339s
+[INFO] Finished at: Mon Oct 22 16:54:33 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:47 MST 2017
+Mon Oct 22 16:54:33 UTC 2018

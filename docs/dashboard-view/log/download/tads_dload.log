@@ -1,12 +1,12 @@
-Wed Nov 29 14:59:17 MST 2017
+Mon Oct 22 16:55:03 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/tads.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1312      0 --:--:-- --:--:-- --:--:--  1317
-  0     0    0   279    0     0    362      0 --:--:-- --:--:-- --:--:--   362  0     0    0   279    0     0    362      0 --:--:-- --:--:-- --:--:--     0
-Wed Nov 29 14:59:17 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1879      0 --:--:-- --:--:-- --:--:--  1884
+  0     0    0   279    0     0    745      0 --:--:-- --:--:-- --:--:--   745
+Mon Oct 22 16:55:03 UTC 2018
 
 WARNING: Error message detected in the downloaded file. Stale URL is likely cause.
 
 <?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>tads.owl</Key><RequestId>726DF81974C6E211</RequestId><HostId>HlDLo1XFyStcr+9zxTSC7CkplI5aiIW+R87V7HXm6+am5/vPsDruCxCsCRNWHY8gmw2CZWfJyj0=</HostId></Error>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>tads.owl</Key><RequestId>6C9D16B168999FD5</RequestId><HostId>FggPb7g47PGonQvqcgRX54VxvHsID/Y9pPnVciYBb47oJZTDF/mZlQgWNtu01Pau9PXtpxkss30=</HostId></Error>

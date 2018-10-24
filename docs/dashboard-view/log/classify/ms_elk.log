@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:15 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ms/ms_flat.owl
+Tue Oct 23 18:49:50 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/ms/ms_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,64 +8,62 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:21,973 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ms/ms_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ms/ms_flat.owl
-[INFO] 2017-12-02 12:52:28,603 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ms.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/ms/ms_flat.owl
+[INFO] 2018-10-23 18:49:54,192 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ms/ms_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ms/ms_flat.owl
+[INFO] 2018-10-23 18:49:56,950 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ms.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ms/ms_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:28,791 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:49:57,007 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:28,893 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:29,414 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:29,417 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@53d1b9b3
-[INFO] 2017-12-02 12:52:29,421 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:29,432 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:29,541 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,069 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:49:57,261 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:49:57,262 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@163d04ff
+[INFO] 2018-10-23 18:49:57,264 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:49:57,271 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:49:57,354 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#similar_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,548 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,365 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,563 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,386 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#directly_associated_with> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,622 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,440 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#inversely_associated_with> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,625 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,442 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_divisor_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,628 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,447 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,634 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,455 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,493 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_ratio_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,663 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:49:57,501 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/pato#has_dividend_quality> <http://purl.obolibrary.org/obo/PATO_0000001>)
-[INFO] 2017-12-02 12:52:29,680 INFO  (LoggingStageExecutor:103) Loading of Axioms took 252 ms
-[INFO] 2017-12-02 12:52:29,680 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:29,683 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:29,684 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 3 ms
-[INFO] 2017-12-02 12:52:29,686 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:29,705 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:29,732 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 45 ms
-[INFO] 2017-12-02 12:52:29,732 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:29,742 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:29,821 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 88 ms
-[INFO] 2017-12-02 12:52:29,821 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:29,824 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:29,834 INFO  (LoggingStageExecutor:103) Context Initialization took 12 ms
-[INFO] 2017-12-02 12:52:29,834 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:29,856 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:29,925 INFO  (LoggingStageExecutor:103) Consistency Checking took 90 ms
-[INFO] 2017-12-02 12:52:29,925 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:29,971 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:30,217 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 291 ms
+[INFO] 2018-10-23 18:49:57,519 INFO  (LoggingStageExecutor:103) Loading of Axioms took 251 ms
+[INFO] 2018-10-23 18:49:57,520 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:49:57,521 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:49:57,521 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:49:57,522 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:49:57,526 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:49:57,532 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 10 ms
+[INFO] 2018-10-23 18:49:57,533 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:49:57,536 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:49:57,541 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 7 ms
+[INFO] 2018-10-23 18:49:57,541 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:49:57,542 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:49:57,544 INFO  (LoggingStageExecutor:103) Context Initialization took 3 ms
+[INFO] 2018-10-23 18:49:57,544 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:49:57,554 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:49:57,568 INFO  (LoggingStageExecutor:103) Consistency Checking took 24 ms
+[INFO] 2018-10-23 18:49:57,569 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:49:57,575 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:49:58,040 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 470 ms
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:30,228 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@53d1b9b3
-[INFO] 2017-12-02 12:52:30,243 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:30,244 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@53d1b9b3
+[INFO] 2018-10-23 18:49:58,043 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@163d04ff
+[INFO] 2018-10-23 18:49:58,045 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:49:58,045 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@163d04ff
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13.624 s
-[INFO] Finished at: 2017-12-02T12:52:30-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 6.488s
+[INFO] Finished at: Tue Oct 23 18:49:58 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:30 MST 2017
+Tue Oct 23 18:49:58 UTC 2018

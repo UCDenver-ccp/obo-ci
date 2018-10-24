@@ -1,5 +1,5 @@
-Wed Nov 29 15:00:11 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl
+Mon Oct 22 16:53:05 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,43 +8,53 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 15:00:29,574 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl
-[INFO] 2017-11-29 15:00:30,113 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/obo/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
-[INFO] 2017-11-29 15:00:31,755 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/trans.owl from: http://purl.obolibrary.org/obo/trans.owl
-[INFO] 2017-11-29 15:00:32,278 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/trans.owl from: http://purl.obolibrary.org/obo/trans.owl
-[INFO] 2017-11-29 15:00:32,278 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/ncbitaxon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:00:32,585 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:00:32,585 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
-[INFO] 2017-11-29 15:00:33,194 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
-[INFO] 2017-11-29 15:00:33,195 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/uberon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/uberon_import.owl
-[INFO] 2017-11-29 15:00:34,007 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/uberon_import.owl
-[INFO] 2017-11-29 15:00:34,008 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/symp.owl from: http://purl.obolibrary.org/obo/symp.owl
-[INFO] 2017-11-29 15:00:34,431 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/symp.owl from: http://purl.obolibrary.org/obo/symp.owl
-[INFO] 2017-11-29 15:00:34,433 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/hp_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/hp_import.owl
-[INFO] 2017-11-29 15:00:34,899 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/hp_import.owl
-[INFO] 2017-11-29 15:00:34,900 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl
-[INFO] 2017-11-29 15:00:35,112 INFO  (ParserWrapper:82) Finished loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl
-[INFO] 2017-11-29 15:00:35,129 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/relations.owl from: http://purl.obolibrary.org/obo/doid/imports/relations.owl
-[INFO] 2017-11-29 15:00:37,211 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/relations.owl from: http://purl.obolibrary.org/obo/doid/imports/relations.owl
-[INFO] 2017-11-29 15:00:37,407 INFO  (ParserWrapper:82) Finished loading ontology: htts://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
-[INFO] 2017-11-29 15:01:00,881 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl
-[INFO] 2017-11-29 15:01:01,090 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<htts://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/ext.owl>) VersionIRI(<null>))) [Axioms: 3871 Logical Axioms: 1951]
-[INFO] 2017-11-29 15:01:01,124 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/cl_import.owl>) VersionIRI(<null>))) [Axioms: 7595 Logical Axioms: 3307]
-[INFO] 2017-11-29 15:01:01,155 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/symp.owl>) VersionIRI(<http://purl.obolibrary.org/obo/symp/releases/2013-06-03/symp.owl>))) [Axioms: 5962 Logical Axioms: 846]
-[INFO] 2017-11-29 15:01:01,198 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl>) VersionIRI(<null>))) [Axioms: 46773 Logical Axioms: 19877]
-[INFO] 2017-11-29 15:01:01,320 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/relations.owl>) VersionIRI(<null>))) [Axioms: 32 Logical Axioms: 1]
-[INFO] 2017-11-29 15:01:01,321 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 3469 Logical Axioms: 866]
-[INFO] 2017-11-29 15:01:01,327 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/trans.owl>) VersionIRI(<http://purl.obolibrary.org/obo/trans/releases/2014-08-23/trans.owl>))) [Axioms: 184 Logical Axioms: 24]
-[INFO] 2017-11-29 15:01:01,328 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/hp_import.owl>) VersionIRI(<null>))) [Axioms: 34631 Logical Axioms: 13732]
-[INFO] 2017-11-29 15:01:01,405 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl>) VersionIRI(<null>))) [Axioms: 46 Logical Axioms: 14]
-[INFO] 2017-11-29 15:01:01,408 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/doid.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:09,359 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl
+[INFO] 2018-10-22 16:53:09,540 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/obo/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
+[INFO] 2018-10-22 16:53:10,727 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl
+[INFO] 2018-10-22 16:53:11,540 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl
+[INFO] 2018-10-22 16:53:11,542 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl from: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl
+[INFO] 2018-10-22 16:53:11,803 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl from: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl
+[INFO] 2018-10-22 16:53:11,804 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl from: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl
+[INFO] 2018-10-22 16:53:11,993 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl from: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl
+[INFO] 2018-10-22 16:53:11,994 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:12,240 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
+[INFO] 2018-10-22 16:53:12,241 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:12,545 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:12,546 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl
+[INFO] 2018-10-22 16:53:12,739 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl
+[INFO] 2018-10-22 16:53:12,740 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:13,244 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:13,247 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:13,436 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:13,436 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:13,677 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:13,678 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl from: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl
+[INFO] 2018-10-22 16:53:13,861 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl from: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl
+[INFO] 2018-10-22 16:53:13,862 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl
+[INFO] 2018-10-22 16:53:14,122 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl
+[INFO] 2018-10-22 16:53:14,123 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/so_import.owl from: http://purl.obolibrary.org/obo/doid/imports/so_import.owl
+[INFO] 2018-10-22 16:53:14,851 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/so_import.owl from: http://purl.obolibrary.org/obo/doid/imports/so_import.owl
+[INFO] 2018-10-22 16:53:14,923 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/obo/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
+[INFO] 2018-10-22 16:53:20,567 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl
+[INFO] 2018-10-22 16:53:20,580 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/obo/ext.owl>) VersionIRI(<null>))) [Axioms: 190 Logical Axioms: 9]
+[INFO] 2018-10-22 16:53:20,587 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/geno_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/geno_import.owl>))) [Axioms: 44 Logical Axioms: 11]
+[INFO] 2018-10-22 16:53:20,588 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl>))) [Axioms: 1978 Logical Axioms: 577]
+[INFO] 2018-10-22 16:53:20,624 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl>))) [Axioms: 161 Logical Axioms: 50]
+[INFO] 2018-10-22 16:53:20,626 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/symp_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/symp_import.owl>))) [Axioms: 3929 Logical Axioms: 848]
+[INFO] 2018-10-22 16:53:20,721 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl>))) [Axioms: 3103 Logical Axioms: 1032]
+[INFO] 2018-10-22 16:53:20,739 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/trans_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/trans_import.owl>))) [Axioms: 139 Logical Axioms: 24]
+[INFO] 2018-10-22 16:53:20,741 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl>) VersionIRI(<null>))) [Axioms: 718 Logical Axioms: 282]
+[INFO] 2018-10-22 16:53:20,745 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl>))) [Axioms: 4208 Logical Axioms: 1209]
+[INFO] 2018-10-22 16:53:20,775 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/ro_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/ro_import.owl>))) [Axioms: 122 Logical Axioms: 24]
+[INFO] 2018-10-22 16:53:20,777 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/so_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/so_import.owl>))) [Axioms: 11736 Logical Axioms: 2322]
+[INFO] 2018-10-22 16:53:20,915 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/hp_import.owl>) VersionIRI(<null>))) [Axioms: 2487 Logical Axioms: 583]
+[INFO] 2018-10-22 16:53:20,929 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/doid/imports/cl_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/doid/imports/cl_import.owl>))) [Axioms: 708 Logical Axioms: 249]
+[INFO] 2018-10-22 16:53:20,935 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/doid.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 51.093 s
-[INFO] Finished at: 2017-11-29T15:01:05-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 19.638s
+[INFO] Finished at: Mon Oct 22 16:53:26 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:01:05 MST 2017
+Mon Oct 22 16:53:26 UTC 2018

@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:54:18 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/obib.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   344  100   344    0     0   1511      0 --:--:-- --:--:-- --:--:--  1508
-  0 2125k    0  1915    0     0   1554      0  0:23:20  0:00:01  0:23:19  1554 21 2125k   21  463k    0     0   220k      0  0:00:09  0:00:02  0:00:07  529k 47 2125k   47 1007k    0     0   325k      0  0:00:06  0:00:03  0:00:03  539k 72 2125k   72 1535k    0     0   374k      0  0:00:05  0:00:04  0:00:01  535k 91 2125k   91 1944k    0     0   381k      0  0:00:05  0:00:05 --:--:--  502k100 2125k  100 2125k    0     0   386k      0  0:00:05  0:00:05 --:--:--  497k
-Wed Nov 29 14:59:19 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   344  100   344    0     0   2159      0 --:--:-- --:--:-- --:--:--  2150
+ 37 2494k   37  927k    0     0   910k      0  0:00:02  0:00:01  0:00:01  910k100 2494k  100 2494k    0     0  1654k      0  0:00:01  0:00:01 --:--:-- 3204k
+Mon Oct 22 16:54:20 UTC 2018
 
-Wed Nov 29 14:59:21 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/obib/obib.owl
+Mon Oct 22 16:54:20 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/obib/obib.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:27,594 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/obib/obib.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/obib/obib.owl
-[INFO] 2017-11-29 14:59:31,185 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/obib.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/obib/obib.owl
-[INFO] 2017-11-29 14:59:31,195 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/obib.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:24,206 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/obib/obib.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/obib/obib.owl
+[INFO] 2018-10-22 16:54:25,671 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/obib.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/obib/obib.owl
+[INFO] 2018-10-22 16:54:25,681 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/obib.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 12.312 s
-[INFO] Finished at: 2017-11-29T14:59:34-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.833s
+[INFO] Finished at: Mon Oct 22 16:54:26 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:35 MST 2017
+Mon Oct 22 16:54:26 UTC 2018
 
-Download validation successful. Triple count = 31445
+Download validation successful. Triple count = 36395

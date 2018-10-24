@@ -1,0 +1,25 @@
+Wed Oct 24 12:32:18 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/ro_ro-base/ro_ro-base_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] 2018-10-24 12:32:22,734 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ro_ro-base/ro_ro-base_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ro_ro-base/ro_ro-base_flat.owl
+[INFO] 2018-10-24 12:32:23,675 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/ro-base.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ro_ro-base/ro_ro-base_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: ObjectAllValuesFrom(RO:0002214 'has prototype' BFO:0000002 'continuant') ObjectAllValuesFrom(RO:HOM0000000 'in similarity relationship with' BFO:0000002 'continuant') BFO:0000002 'continuant'
+[INFO] Cycle: ObjectAllValuesFrom(RO:HOM0000000 'in similarity relationship with' BFO:0000003 'occurrent') BFO:0000003 'occurrent'
+[INFO] Cycle: ObjectAllValuesFrom(RO:0002214 'has prototype' BFO:0000015 'process') BFO:0000015 'process'
+[INFO] Cycle: ObjectSomeValuesFrom(RO:0002524 'has subsequence' RO:0002533 'sequence atomic unit') RO:0002533 'sequence atomic unit' RO:0002532 'sequentially ordered entity'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.695s
+[INFO] Finished at: Wed Oct 24 12:32:23 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Wed Oct 24 12:32:23 UTC 2018

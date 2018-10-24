@@ -1,0 +1,27 @@
+Tue Oct 23 18:48:06 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:48:10,194 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl
+[INFO] 2018-10-23 18:48:11,247 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/eupath.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/eupath/eupath_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:48:11,301 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:48:12,013 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@75b6dd5b
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:48:18,586 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@75b6dd5b
+[INFO] 2018-10-23 18:48:18,586 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@75b6dd5b
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.708s
+[INFO] Finished at: Tue Oct 23 18:48:18 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:48:18 UTC 2018

@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:52:35 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/zfa.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1669      0 --:--:-- --:--:-- --:--:--  1675
-  0 8333k    0  5128    0     0   8547      0  0:16:38 --:--:--  0:16:38  8547 72 8333k   72 6006k    0     0  4411k      0  0:00:01  0:00:01 --:--:-- 7876k100 8333k  100 8333k    0     0  5518k      0  0:00:01  0:00:01 --:--:-- 9141k
-Wed Nov 29 14:59:12 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0    707      0 --:--:-- --:--:-- --:--:--   706
+  3 8440k    3  323k    0     0   269k      0  0:00:31  0:00:01  0:00:30  269k 21 8440k   21 1808k    0     0   812k      0  0:00:10  0:00:02  0:00:08 1446k 40 8440k   40 3394k    0     0  1059k      0  0:00:07  0:00:03  0:00:04 1531k 61 8440k   61 5149k    0     0  1225k      0  0:00:06  0:00:04  0:00:02 1606k 80 8440k   80 6785k    0     0  1303k      0  0:00:06  0:00:05  0:00:01 1613k 99 8440k   99 8400k    0     0  1359k      0  0:00:06  0:00:06 --:--:-- 1620k100 8440k  100 8440k    0     0  1365k      0  0:00:06  0:00:06 --:--:-- 1675k
+Mon Oct 22 16:52:41 UTC 2018
 
-Wed Nov 29 14:59:14 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/zfa/zfa.owl
+Mon Oct 22 16:52:42 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/zfa/zfa.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,649 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/zfa/zfa.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/zfa/zfa.owl
-[INFO] 2017-11-29 14:59:36,957 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/zfa.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/zfa/zfa.owl
-[INFO] 2017-11-29 14:59:36,970 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/zfa.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:52:51,355 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/zfa/zfa.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/zfa/zfa.owl
+[INFO] 2018-10-22 16:52:54,237 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/zfa.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/zfa/zfa.owl
+[INFO] 2018-10-22 16:52:54,249 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/zfa.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 22.554 s
-[INFO] Finished at: 2017-11-29T14:59:38-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 10.069s
+[INFO] Finished at: Mon Oct 22 16:52:56 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:38 MST 2017
+Mon Oct 22 16:52:56 UTC 2018
 
-Download validation successful. Triple count = 123826
+Download validation successful. Triple count = 124902

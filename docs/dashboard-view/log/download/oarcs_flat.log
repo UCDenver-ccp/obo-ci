@@ -1,5 +1,5 @@
-Wed Nov 29 14:59:39 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/oarcs/oarcs.owl
+Mon Oct 22 16:54:21 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/oarcs/oarcs.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,16 +8,14 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:47,254 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/oarcs/oarcs.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/oarcs/oarcs.owl
-[INFO] 2017-11-29 14:59:54,740 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oarcs.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/oarcs/oarcs.owl
-[INFO] 2017-11-29 14:59:54,753 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/oarcs.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:25,510 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/oarcs/oarcs.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/oarcs/oarcs.owl
+[INFO] 2018-10-22 16:54:26,458 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oarcs.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/oarcs/oarcs.owl
+[INFO] 2018-10-22 16:54:26,471 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/oarcs.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 15.048 s
-[INFO] Finished at: 2017-11-29T14:59:55-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.823s
+[INFO] Finished at: Mon Oct 22 16:54:27 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:55 MST 2017
+Mon Oct 22 16:54:27 UTC 2018

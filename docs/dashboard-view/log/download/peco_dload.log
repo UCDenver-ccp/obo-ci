@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:16 MST 2017
+Mon Oct 22 16:54:39 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/peco.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   367  100   367    0     0   1524      0 --:--:-- --:--:-- --:--:--  1529
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 1221k    0  1915    0     0    982      0  0:21:14  0:00:01  0:21:13  1403  5 1221k    5 64692    0     0  28404      0  0:00:44  0:00:02  0:00:42 38234 13 1221k   13  159k    0     0  50105      0  0:00:24  0:00:03  0:00:21 61092 26 1221k   26  319k    0     0  76596      0  0:00:16  0:00:04  0:00:12 88765 40 1221k   40  495k    0     0  96627      0  0:00:12  0:00:05  0:00:07  106k 53 1221k   53  655k    0     0   104k      0  0:00:11  0:00:06  0:00:05  151k 69 1221k   69  847k    0     0   116k      0  0:00:10  0:00:07  0:00:03  157k 94 1221k   94 1151k    0     0   139k      0  0:00:08  0:00:08 --:--:--  198k100 1221k  100 1221k    0     0   145k      0  0:00:08  0:00:08 --:--:--  217k
-Wed Nov 29 14:59:25 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   367  100   367    0     0   2296      0 --:--:-- --:--:-- --:--:--  2308
+  6 1834k    6  111k    0     0   190k      0  0:00:09 --:--:--  0:00:09  190k100 1834k  100 1834k    0     0  2327k      0 --:--:-- --:--:-- --:--:-- 8487k
+Mon Oct 22 16:54:40 UTC 2018
 
-Wed Nov 29 14:59:28 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/peco/peco.owl
+Mon Oct 22 16:54:40 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/peco/peco.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,32 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:37,116 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/peco/peco.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/peco/peco.owl
-[INFO] 2017-11-29 14:59:39,615 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/peco/peco.owl
-[INFO] 2017-11-29 14:59:39,627 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/peco.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:43,994 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/peco/peco.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/peco/peco.owl
+[INFO] 2018-10-22 16:54:44,171 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl
+[INFO] 2018-10-22 16:54:45,077 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl
+[INFO] 2018-10-22 16:54:45,078 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl
+[INFO] 2018-10-22 16:54:45,372 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl
+[INFO] 2018-10-22 16:54:45,374 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl
+[INFO] 2018-10-22 16:54:45,839 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl
+[INFO] 2018-10-22 16:54:45,841 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl
+[INFO] 2018-10-22 16:54:47,864 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl
+[INFO] 2018-10-22 16:54:47,867 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:54:48,238 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:54:48,243 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl from: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl
+[INFO] 2018-10-22 16:54:48,655 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl from: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl
+[INFO] 2018-10-22 16:54:48,660 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl
+[INFO] 2018-10-22 16:54:48,974 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl from: http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl
+[INFO] 2018-10-22 16:54:48,976 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl from: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl
+[INFO] 2018-10-22 16:54:49,343 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl from: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl
+[INFO] 2018-10-22 16:54:49,742 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/peco.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/peco/peco.owl
+[INFO] 2018-10-22 16:54:49,753 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/peco.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.563 s
-[INFO] Finished at: 2017-11-29T14:59:40-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 8.881s
+[INFO] Finished at: Mon Oct 22 16:54:50 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:40 MST 2017
+Mon Oct 22 16:54:50 UTC 2018
 
-Download validation successful. Triple count = 18036
+Download validation successful. Triple count = 34373

@@ -1,14 +1,14 @@
-Wed Nov 29 14:59:13 MST 2017
+Mon Oct 22 16:53:45 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mamo.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   302  100   302    0     0   1400      0 --:--:-- --:--:-- --:--:--  1404
-100   232  100   232    0     0    300      0 --:--:-- --:--:-- --:--:--   300100   232  100   232    0     0    300      0 --:--:-- --:--:-- --:--:--     0
- 43  184k   43 81920    0     0  48053      0  0:00:03  0:00:01  0:00:02 48053100  184k  100  184k    0     0   107k      0  0:00:01  0:00:01 --:--:-- 25.4M
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   302  100   302    0     0    717      0 --:--:-- --:--:-- --:--:--   717100   302  100   302    0     0    717      0 --:--:-- --:--:-- --:--:--   717
+100   232  100   232    0     0    239      0 --:--:-- --:--:-- --:--:--   239
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  184k  100  184k    0     0  97043      0  0:00:01  0:00:01 --:--:-- 1384k
+Mon Oct 22 16:53:47 UTC 2018
 
-Wed Nov 29 14:59:17 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mamo/mamo.owl
+Mon Oct 22 16:53:47 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mamo/mamo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -17,18 +17,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:24,998 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mamo/mamo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mamo/mamo.owl
-[INFO] 2017-11-29 14:59:28,222 INFO  (ParserWrapper:82) Finished loading ontology: http://identifiers.org/mamo from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mamo/mamo.owl
-[INFO] 2017-11-29 14:59:28,233 INFO  (CommandRunner:3243) saving:http://identifiers.org/mamo using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:51,097 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mamo/mamo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mamo/mamo.owl
+[INFO] 2018-10-22 16:53:51,472 INFO  (ParserWrapper:82) Finished loading ontology: http://identifiers.org/mamo from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mamo/mamo.owl
+[INFO] 2018-10-22 16:53:51,482 INFO  (CommandRunner:3243) saving:http://identifiers.org/mamo using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.001 s
-[INFO] Finished at: 2017-11-29T14:59:28-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 2.858s
+[INFO] Finished at: Mon Oct 22 16:53:51 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:28 MST 2017
+Mon Oct 22 16:53:51 UTC 2018
 
 Download validation successful. Triple count = 1905

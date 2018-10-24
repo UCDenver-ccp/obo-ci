@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:52:41 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/bcgo.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   365  100   365    0     0   1967      0 --:--:-- --:--:-- --:--:--  1972
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 3175k    0  1915    0     0   1290      0  0:42:00  0:00:01  0:41:59  1801 27 3175k   27  874k    0     0   386k      0  0:00:08  0:00:02  0:00:06  474k 86 3175k   86 2762k    0     0   846k      0  0:00:03  0:00:03 --:--:--  971k100 3175k  100 3175k    0     0   925k      0  0:00:03  0:00:03 --:--:-- 1055k
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   365  100   365    0     0    887      0 --:--:-- --:--:-- --:--:--   885100   365  100   365    0     0    886      0 --:--:-- --:--:-- --:--:--   885
+100 3175k  100 3175k    0     0  2394k      0  0:00:01  0:00:01 --:--:-- 2394k
+Mon Oct 22 16:52:42 UTC 2018
 
-Wed Nov 29 14:59:15 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/bcgo/bcgo.owl
+Mon Oct 22 16:52:43 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/bcgo/bcgo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,20 +16,18 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,635 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bcgo/bcgo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bcgo/bcgo.owl
-[INFO] 2017-11-29 14:59:30,225 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000062 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000062>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))]
-[INFO] 2017-11-29 14:59:30,227 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000063 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000063>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000063>))]
-[INFO] 2017-11-29 14:59:30,244 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bcgo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bcgo/bcgo.owl
-[INFO] 2017-11-29 14:59:30,255 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/bcgo.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:52:51,417 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/bcgo/bcgo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/bcgo/bcgo.owl
+[INFO] 2018-10-22 16:52:53,049 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000062 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000062>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))]
+[INFO] 2018-10-22 16:52:53,052 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000063 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000063>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000063>))]
+[INFO] 2018-10-22 16:52:53,081 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bcgo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/bcgo/bcgo.owl
+[INFO] 2018-10-22 16:52:53,090 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/bcgo.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.119 s
-[INFO] Finished at: 2017-11-29T14:59:31-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 7.047s
+[INFO] Finished at: Mon Oct 22 16:52:54 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:31 MST 2017
+Mon Oct 22 16:52:54 UTC 2018
 
 Download validation successful. Triple count = 47776

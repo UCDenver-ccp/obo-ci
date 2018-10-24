@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:24 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bcgo/bcgo_flat.owl
+Wed Oct 24 12:18:40 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/bcgo/bcgo_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,12 +8,10 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:28,055 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bcgo/bcgo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bcgo/bcgo_flat.owl
-[INFO] 2017-12-03 00:50:29,845 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000062 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000062>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))]
-[INFO] 2017-12-03 00:50:29,846 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000063 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000063>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000063>))]
-[INFO] 2017-12-03 00:50:29,868 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bcgo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bcgo/bcgo_flat.owl
+[INFO] 2018-10-24 12:18:44,629 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/bcgo/bcgo_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/bcgo/bcgo_flat.owl
+[INFO] 2018-10-24 12:18:56,699 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000062 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000062>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))]
+[INFO] 2018-10-24 12:18:56,700 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000063 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000063>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000063>))]
+[INFO] 2018-10-24 12:18:56,735 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bcgo.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/bcgo/bcgo_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')) ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))) OBI:0000070 'assay' ObjectSomeValuesFrom(OBI:0000299 'has_specified_output' ObjectIntersectionOf(IAO:0000030 'information content entity' ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role'))))) ObjectIntersectionOf(IAO:0000030 'information content entity' ObjectSomeValuesFrom(IAO:0000136 'is about' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')))) OBI:0000067 'evaluant role' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role') ObjectSomeValuesFrom(BFO:0000055 'realizes' OBI:0000067 'evaluant role') ObjectAllValuesFrom(BFO:0000054 'realized in' OBI:0000070 'assay') ObjectSomeValuesFrom(OBI:0000293 'has_specified_input' ObjectIntersectionOf(BFO:0000040 'material entity' ObjectSomeValuesFrom(RO:0000087 'has role' OBI:0000067 'evaluant role')))
 [INFO] Cycle: OBI:0000443 'analyte assay' ObjectAllValuesFrom(BFO:0000054 'realized in' OBI:0000443 'analyte assay') OBI:0000275 'analyte role' ObjectSomeValuesFrom(BFO:0000055 'realizes' OBI:0000275 'analyte role')
@@ -32,8 +30,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 5.513 s
-[INFO] Finished at: 2017-12-03T00:50:31-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 17.493s
+[INFO] Finished at: Wed Oct 24 12:18:59 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:31 MST 2017
+Wed Oct 24 12:18:59 UTC 2018

@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:25 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/foodon/foodon_flat.owl
+Wed Oct 24 12:23:14 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/foodon/foodon_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,18 +8,20 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:31,047 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/foodon/foodon_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/foodon/foodon_flat.owl
-[INFO] 2017-12-03 00:50:40,935 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/foodon/foodon_flat.owl
+[INFO] 2018-10-24 12:23:18,241 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/foodon/foodon_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/foodon/foodon_flat.owl
+[INFO] 2018-10-24 12:26:01,359 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/foodon.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/foodon/foodon_flat.owl
 [INFO] Found cycles in the graph
-[INFO] Cycle: ObjectSomeValuesFrom(FOODON:00001301 'has food substance analog' GENEPIO:0001098 'synthetic vanilla extract') GENEPIO:0001098 'synthetic vanilla extract' ObjectSomeValuesFrom(FOODON:00001301 'has food substance analog' FOODON:03316764 'vanilla extract') FOODON:03316764 'vanilla extract'
+[INFO] Cycle: ENVO:00003064 'drinking water' ObjectSomeValuesFrom(RO:0001000 'derives from' ENVO:00003064 'drinking water') FOODON:00002339 'water based soft drink'
+[INFO] Cycle: FOODON:03305146 'imitation maraschino cherry' ObjectSomeValuesFrom(FOODON:00001301 'has food substance analog' FOODON:03301256 'maraschino cherry') FOODON:03301256 'maraschino cherry' ObjectSomeValuesFrom(FOODON:00001301 'has food substance analog' FOODON:03305146 'imitation maraschino cherry')
 [INFO] Cycle: ObjectAllValuesFrom(RO:0001025 'located_in' GAZ:00005862 'Micronesia') GAZ:00005862 'Micronesia'
+[INFO] Cycle: ObjectSomeValuesFrom(FOODON:00001301 'has food substance analog' FOODON:00002396 'synthetic vanilla extract') ObjectSomeValuesFrom(FOODON:00001301 'has food substance analog' FOODON:03316764 'vanilla extract') FOODON:00002396 'synthetic vanilla extract' FOODON:03316764 'vanilla extract'
+[INFO] Cycle: ObjectAllValuesFrom(RO:0002207 'directly develops from' CARO:0010000 'multicellular anatomical structure') CARO:0010000 'multicellular anatomical structure'
+[INFO] Cycle: ObjectAllValuesFrom(RO:0002207 'directly develops from' CL:0000000 'cell') CL:0000000 'cell'
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 17.408 s
-[INFO] Finished at: 2017-12-03T00:50:44-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 2:57.661s
+[INFO] Finished at: Wed Oct 24 12:26:13 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:44 MST 2017
+Wed Oct 24 12:26:13 UTC 2018

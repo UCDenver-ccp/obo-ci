@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:54:01 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mp.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   309  100   309    0     0   1438      0 --:--:-- --:--:-- --:--:--  1443
-  0 33.1M    0  2229    0     0   4268      0  2:15:34 --:--:--  2:15:34  4268  4 33.1M    4 1463k    0     0   955k      0  0:00:35  0:00:01  0:00:34 1448k 11 33.1M   11 4044k    0     0  1619k      0  0:00:20  0:00:02  0:00:18 2046k 19 33.1M   19 6755k    0     0  1916k      0  0:00:17  0:00:03  0:00:14 2248k 27 33.1M   27 9349k    0     0  2076k      0  0:00:16  0:00:04  0:00:12 2347k 36 33.1M   36 12.2M    0     0  2271k      0  0:00:14  0:00:05  0:00:09 2507k 45 33.1M   45 15.0M    0     0  2361k      0  0:00:14  0:00:06  0:00:08 2793k 54 33.1M   54 18.1M    0     0  2482k      0  0:00:13  0:00:07  0:00:06 2912k 64 33.1M   64 21.2M    0     0  2556k      0  0:00:13  0:00:08  0:00:05 3010k 72 33.1M   72 23.9M    0     0  2585k      0  0:00:13  0:00:09  0:00:04 3044k 83 33.1M   83 27.4M    0     0  2683k      0  0:00:12  0:00:10  0:00:02 3140k100 33.1M  100 33.1M    0     0  3013k      0  0:00:11  0:00:11 --:--:-- 3908k
-Wed Nov 29 14:59:25 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   309  100   309    0     0   1656      0 --:--:-- --:--:-- --:--:--  1661
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  2 35.6M    2  991k    0     0   805k      0  0:00:45  0:00:01  0:00:44  954k  6 35.6M    6 2352k    0     0  1062k      0  0:00:34  0:00:02  0:00:32 1162k  9 35.6M    9 3563k    0     0  1107k      0  0:00:32  0:00:03  0:00:29 1177k 13 35.6M   13 4965k    0     0  1180k      0  0:00:30  0:00:04  0:00:26 1236k 17 35.6M   17 6428k    0     0  1236k      0  0:00:29  0:00:05  0:00:24 1283k 21 35.6M   21 7906k    0     0  1275k      0  0:00:28  0:00:06  0:00:22 1391k 25 35.6M   25 9395k    0     0  1305k      0  0:00:27  0:00:07  0:00:20 1413k 30 35.6M   30 10.7M    0     0  1338k      0  0:00:27  0:00:08  0:00:19 1487k 34 35.6M   34 12.1M    0     0  1352k      0  0:00:26  0:00:09  0:00:17 1497k 38 35.6M   38 13.7M    0     0  1380k      0  0:00:26  0:00:10  0:00:16 1530k 43 35.6M   43 15.4M    0     0  1415k      0  0:00:25  0:00:11  0:00:14 1590k 48 35.6M   48 17.1M    0     0  1442k      0  0:00:25  0:00:12  0:00:13 1639k 52 35.6M   52 18.5M    0     0  1438k      0  0:00:25  0:00:13  0:00:12 1603k 54 35.6M   54 19.3M    0     0  1395k      0  0:00:26  0:00:14  0:00:12 1472k 57 35.6M   57 20.3M    0     0  1371k      0  0:00:26  0:00:15  0:00:11 1351k 60 35.6M   60 21.5M    0     0  1362k      0  0:00:26  0:00:16  0:00:10 1245k 64 35.6M   64 22.9M    0     0  1365k      0  0:00:26  0:00:17  0:00:09 1178k 68 35.6M   68 24.3M    0     0  1373k      0  0:00:26  0:00:18  0:00:08 1200k 73 35.6M   73 26.0M    0     0  1387k      0  0:00:26  0:00:19  0:00:07 1366k 77 35.6M   77 27.7M    0     0  1405k      0  0:00:25  0:00:20  0:00:05 1508k 82 35.6M   82 29.3M    0     0  1417k      0  0:00:25  0:00:21  0:00:04 1596k 87 35.6M   87 31.1M    0     0  1436k      0  0:00:25  0:00:22  0:00:03 1683k 92 35.6M   92 33.0M    0     0  1460k      0  0:00:24  0:00:23  0:00:01 1776k 98 35.6M   98 35.1M    0     0  1485k      0  0:00:24  0:00:24 --:--:-- 1863k100 35.6M  100 35.6M    0     0  1493k      0  0:00:24  0:00:24 --:--:-- 1917k
+Mon Oct 22 16:54:26 UTC 2018
 
-Wed Nov 29 14:59:31 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl
+Mon Oct 22 16:54:26 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mp/mp.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,40 +16,38 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:38,786 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl
-[INFO] 2017-11-29 14:59:39,387 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl
-[INFO] 2017-11-29 14:59:40,736 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl
-[INFO] 2017-11-29 14:59:40,739 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/extra.owl from: http://purl.obolibrary.org/obo/upheno/imports/extra.owl
-[INFO] 2017-11-29 14:59:41,217 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl
-[INFO] 2017-11-29 14:59:41,888 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl
-[INFO] 2017-11-29 14:59:41,914 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/extra.owl from: http://purl.obolibrary.org/obo/upheno/imports/extra.owl
-[INFO] 2017-11-29 14:59:41,916 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:42,711 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:42,716 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:45,200 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:45,209 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:45,877 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:45,892 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl
-[INFO] 2017-11-29 14:59:46,452 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl
-[INFO] 2017-11-29 14:59:46,459 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl
-[INFO] 2017-11-29 14:59:47,150 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl
-[INFO] 2017-11-29 14:59:47,158 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl
-[INFO] 2017-11-29 14:59:47,825 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl
-[INFO] 2017-11-29 14:59:47,839 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl
-[INFO] 2017-11-29 14:59:48,428 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl
-[INFO] 2017-11-29 14:59:48,438 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl
-[INFO] 2017-11-29 14:59:50,551 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl
-[INFO] 2017-11-29 15:00:45,069 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mp.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mp/mp.owl
-[INFO] 2017-11-29 15:00:45,085 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mp.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:30,354 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mp/mp.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mp/mp.owl
+[INFO] 2018-10-22 16:54:30,516 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl
+[INFO] 2018-10-22 16:54:31,842 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl
+[INFO] 2018-10-22 16:54:31,844 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl
+[INFO] 2018-10-22 16:54:32,264 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl
+[INFO] 2018-10-22 16:54:32,267 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl
+[INFO] 2018-10-22 16:54:32,453 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl
+[INFO] 2018-10-22 16:54:32,456 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/extra.owl from: http://purl.obolibrary.org/obo/upheno/imports/extra.owl
+[INFO] 2018-10-22 16:54:32,653 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl
+[INFO] 2018-10-22 16:54:32,991 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl
+[INFO] 2018-10-22 16:54:33,003 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/extra.owl from: http://purl.obolibrary.org/obo/upheno/imports/extra.owl
+[INFO] 2018-10-22 16:54:33,005 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl
+[INFO] 2018-10-22 16:54:35,630 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/go_import.owl
+[INFO] 2018-10-22 16:54:35,638 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl
+[INFO] 2018-10-22 16:54:35,917 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl
+[INFO] 2018-10-22 16:54:35,926 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl
+[INFO] 2018-10-22 16:54:36,125 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl
+[INFO] 2018-10-22 16:54:36,140 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl
+[INFO] 2018-10-22 16:54:36,332 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl
+[INFO] 2018-10-22 16:54:36,339 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl
+[INFO] 2018-10-22 16:54:36,612 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl
+[INFO] 2018-10-22 16:54:36,621 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl
+[INFO] 2018-10-22 16:54:38,316 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl
+[INFO] 2018-10-22 16:54:43,257 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mp.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mp/mp.owl
+[INFO] 2018-10-22 16:54:43,267 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mp.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:15 min
-[INFO] Finished at: 2017-11-29T15:00:49-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 22.752s
+[INFO] Finished at: Mon Oct 22 16:54:50 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:50 MST 2017
+Mon Oct 22 16:54:50 UTC 2018
 
-Download validation successful. Triple count = 457480
+Download validation successful. Triple count = 490770

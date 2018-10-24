@@ -1,5 +1,5 @@
-Wed Nov 29 14:59:44 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl
+Mon Oct 22 16:54:48 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/ontoneo/ontoneo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,135 +8,128 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:54,616 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl
-[INFO] 2017-11-29 14:59:55,180 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl
-[INFO] 2017-11-29 14:59:56,384 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl
-[INFO] 2017-11-29 14:59:56,385 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl
-[INFO] 2017-11-29 14:59:56,907 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl
-[INFO] 2017-11-29 14:59:56,908 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl
-[INFO] 2017-11-29 14:59:57,351 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl
-[INFO] 2017-11-29 14:59:57,354 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl
-[INFO] 2017-11-29 14:59:57,775 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl
-[INFO] 2017-11-29 14:59:57,776 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl
-[INFO] 2017-11-29 14:59:58,362 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl
-[INFO] 2017-11-29 14:59:58,364 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl
-[INFO] 2017-11-29 14:59:58,755 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl
-[INFO] 2017-11-29 14:59:58,756 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl
-[INFO] 2017-11-29 14:59:59,156 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl
-[INFO] 2017-11-29 14:59:59,157 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl
-[INFO] 2017-11-29 14:59:59,640 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl
-[INFO] 2017-11-29 14:59:59,642 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl
-[INFO] 2017-11-29 15:00:00,043 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl
-[INFO] 2017-11-29 15:00:00,045 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl
-[INFO] 2017-11-29 15:00:00,458 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl
-[INFO] 2017-11-29 15:00:00,459 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl
-[INFO] 2017-11-29 15:00:20,482 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl
-[INFO] 2017-11-29 15:00:26,618 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl
-[INFO] 2017-11-29 15:00:26,623 ERROR (CommandRunner:4317) could not parse:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl
-[INFO] org.semanticweb.owlapi.model.UnloadableImportException: Could not load imported ontology: <http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl> Cause: connect timed out
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1690)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPImportsHandler.handleTriple(TripleHandlers.java:1558)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$HandlerAccessor.handleStreaming(TripleHandlers.java:194)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.OWLRDFConsumer.statementWithResourceValue(OWLRDFConsumer.java:1501)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.statementWithResourceValue(RDFParser.java:365)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.EmptyPropertyElement.startElement(StartRDF.java:236)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.PropertyElementList.startElement(StartRDF.java:658)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.startElement(RDFParser.java:196)
-[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.dtd.XMLDTDValidator.emptyElement(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.parse(RDFParser.java:140)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:73)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
-[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
-[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
-[INFO] 	at owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
-[INFO] 	at owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
-[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:76)
-[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:68)
-[INFO] 	at owltools.cli.CommandLineInterface.main(CommandLineInterface.java:12)
-[INFO] Caused by: org.semanticweb.owlapi.io.OWLOntologyCreationIOException: connect timed out
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:207)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadImports(OWLOntologyManagerImpl.java:1648)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1684)
-[INFO] 	... 33 more
-[INFO] Caused by: java.net.SocketTimeoutException: connect timed out
-[INFO] 	at java.net.PlainSocketImpl.socketConnect(Native Method)
-[INFO] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-[INFO] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-[INFO] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-[INFO] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-[INFO] 	at java.net.Socket.connect(Socket.java:589)
-[INFO] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
-[INFO] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
-[INFO] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
-[INFO] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
-[INFO] 	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
-[INFO] 	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
-[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream(AbstractOWLParser.java:102)
-[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputSource(AbstractOWLParser.java:232)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:72)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
-[INFO] 	... 38 more
+[INFO] 2018-10-22 16:54:51,789 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ontoneo/ontoneo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ontoneo/ontoneo.owl
+[INFO] 2018-10-22 16:54:51,990 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl
+[INFO] 2018-10-22 16:54:52,835 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl
+[INFO] 2018-10-22 16:54:52,836 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl
+[INFO] 2018-10-22 16:54:53,135 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl
+[INFO] 2018-10-22 16:54:53,136 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl
+[INFO] 2018-10-22 16:54:53,361 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl
+[INFO] 2018-10-22 16:54:53,363 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl
+[INFO] 2018-10-22 16:54:53,552 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl
+[INFO] 2018-10-22 16:54:53,554 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl
+[INFO] 2018-10-22 16:54:54,043 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl
+[INFO] 2018-10-22 16:54:54,047 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl
+[INFO] 2018-10-22 16:54:54,227 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl
+[INFO] 2018-10-22 16:54:54,229 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl
+[INFO] 2018-10-22 16:54:54,432 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl
+[INFO] 2018-10-22 16:54:54,434 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl
+[INFO] 2018-10-22 16:54:54,804 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl
+[INFO] 2018-10-22 16:54:54,806 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl
+[INFO] 2018-10-22 16:54:55,027 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl
+[INFO] 2018-10-22 16:54:55,028 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl
+[INFO] 2018-10-22 16:54:55,282 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl
+[INFO] 2018-10-22 16:54:55,284 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl
+[INFO] 2018-10-22 16:54:55,521 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000404 in punning not allowed [Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000404>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000404>))]
+[INFO] 2018-10-22 16:54:55,522 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000405 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000405>)), Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000405>))]
+[INFO] 2018-10-22 16:54:55,522 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000406 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000406>)), Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000406>))]
+[INFO] 2018-10-22 16:54:55,522 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000407 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000407>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000407>))]
+[INFO] 2018-10-22 16:54:55,524 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl
+[INFO] 2018-10-22 16:54:55,525 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/mp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/mp_import.owl
+[INFO] 2018-10-22 16:54:55,747 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/mp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/mp_import.owl
+[INFO] 2018-10-22 16:54:55,749 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/mpath_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/mpath_import.owl
+[INFO] 2018-10-22 16:54:55,933 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/mpath_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/mpath_import.owl
+[INFO] 2018-10-22 16:54:55,935 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/oae_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/oae_import.owl
+[INFO] 2018-10-22 16:54:56,164 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/oae_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/oae_import.owl
+[INFO] 2018-10-22 16:54:56,166 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/obi_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/obi_import.owl
+[INFO] 2018-10-22 16:54:56,370 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/obi_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/obi_import.owl
+[INFO] 2018-10-22 16:54:56,372 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ogms_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ogms_import.owl
+[INFO] 2018-10-22 16:54:56,584 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ogms_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ogms_import.owl
+[INFO] 2018-10-22 16:54:56,586 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/omiabis_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/omiabis_import.owl
+[INFO] 2018-10-22 16:54:56,775 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/omiabis_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/omiabis_import.owl
+[INFO] 2018-10-22 16:54:56,777 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/omrse_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/omrse_import.owl
+[INFO] 2018-10-22 16:54:56,998 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OMRSE_00000136 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMRSE_00000136>)), Declaration(DataProperty(<http://purl.obolibrary.org/obo/OMRSE_00000136>))]
+[INFO] 2018-10-22 16:54:56,999 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/omrse_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/omrse_import.owl
+[INFO] 2018-10-22 16:54:57,001 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/pato_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/pato_import.owl
+[INFO] 2018-10-22 16:54:57,219 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/pato_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/pato_import.owl
+[INFO] 2018-10-22 16:54:57,222 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ro_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ro_import.owl
+[INFO] 2018-10-22 16:54:57,520 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002514 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002514>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002514>))]
+[INFO] 2018-10-22 16:54:57,520 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002009 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002009>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002009>))]
+[INFO] 2018-10-22 16:54:57,520 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002226 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002226>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002226>))]
+[INFO] 2018-10-22 16:54:57,521 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002303 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002303>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002303>))]
+[INFO] 2018-10-22 16:54:57,521 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002565 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002565>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002565>))]
+[INFO] 2018-10-22 16:54:57,521 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002576 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002576>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002576>))]
+[INFO] 2018-10-22 16:54:57,522 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002507 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002507>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002507>))]
+[INFO] 2018-10-22 16:54:57,522 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002093 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002093>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002093>))]
+[INFO] 2018-10-22 16:54:57,522 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002476 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002476>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002476>))]
+[INFO] 2018-10-22 16:54:57,523 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002256 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002256>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002256>))]
+[INFO] 2018-10-22 16:54:57,523 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002254 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002254>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002254>))]
+[INFO] 2018-10-22 16:54:57,523 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002100 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002100>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002100>))]
+[INFO] 2018-10-22 16:54:57,523 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002086 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002086>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002086>))]
+[INFO] 2018-10-22 16:54:57,524 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002295 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002295>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002295>))]
+[INFO] 2018-10-22 16:54:57,524 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002010 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002010>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002010>))]
+[INFO] 2018-10-22 16:54:57,524 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002150 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002150>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002150>))]
+[INFO] 2018-10-22 16:54:57,527 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/ro_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/ro_import.owl
+[INFO] 2018-10-22 16:54:57,529 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/sio_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/sio_import.owl
+[INFO] 2018-10-22 16:54:57,721 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/sio_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/sio_import.owl
+[INFO] 2018-10-22 16:54:57,724 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/symp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/symp_import.owl
+[INFO] 2018-10-22 16:54:57,937 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/symp_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/symp_import.owl
+[INFO] 2018-10-22 16:54:57,940 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/uberon_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/uberon_import.owl
+[INFO] 2018-10-22 16:54:58,150 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/uberon_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/uberon_import.owl
+[INFO] 2018-10-22 16:54:58,153 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/vo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/vo_import.owl
+[INFO] 2018-10-22 16:54:58,358 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/import/vo_import.owl from: http://purl.obolibrary.org/obo/ontoneo/import/vo_import.owl
+[INFO] 2018-10-22 16:54:58,494 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002514 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002514>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002514>))]
+[INFO] 2018-10-22 16:54:58,494 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002009 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002009>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002009>))]
+[INFO] 2018-10-22 16:54:58,494 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002226 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002226>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002226>))]
+[INFO] 2018-10-22 16:54:58,494 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002303 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002303>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002303>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002565 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002565>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002565>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002576 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002576>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002576>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002507 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002507>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002507>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OMRSE_00000136 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMRSE_00000136>)), Declaration(DataProperty(<http://purl.obolibrary.org/obo/OMRSE_00000136>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002093 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002093>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002093>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002476 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002476>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002476>))]
+[INFO] 2018-10-22 16:54:58,495 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002256 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002256>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002256>))]
+[INFO] 2018-10-22 16:54:58,496 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002254 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002254>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002254>))]
+[INFO] 2018-10-22 16:54:58,496 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002100 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002100>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002100>))]
+[INFO] 2018-10-22 16:54:58,496 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000404 in punning not allowed [Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000404>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000404>))]
+[INFO] 2018-10-22 16:54:58,496 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002086 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002086>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002086>))]
+[INFO] 2018-10-22 16:54:58,496 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002295 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002295>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002295>))]
+[INFO] 2018-10-22 16:54:58,496 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000405 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000405>)), Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000405>))]
+[INFO] 2018-10-22 16:54:58,497 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002010 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002010>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002010>))]
+[INFO] 2018-10-22 16:54:58,497 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000406 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000406>)), Declaration(DataProperty(<http://purl.obolibrary.org/obo/IAO_0000406>))]
+[INFO] 2018-10-22 16:54:58,497 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002150 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002150>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002150>))]
+[INFO] 2018-10-22 16:54:58,497 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/IAO_0000407 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000407>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000407>))]
+[INFO] 2018-10-22 16:54:58,500 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ontoneo/ontoneo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ontoneo/ontoneo.owl
+[INFO] 2018-10-22 16:54:58,514 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/hp_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/hp_import.owl>))) [Axioms: 850 Logical Axioms: 121]
+[INFO] 2018-10-22 16:54:58,531 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/cl_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/cl_import.owl>))) [Axioms: 128 Logical Axioms: 16]
+[INFO] 2018-10-22 16:54:58,536 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/sio_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/sio_import.owl>))) [Axioms: 87 Logical Axioms: 17]
+[INFO] 2018-10-22 16:54:58,537 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/obi_import.owl>) VersionIRI(<http://purl.bioontology.org/ontoneo/releases/2017-03-04/obi_import.owl>))) [Axioms: 305 Logical Axioms: 38]
+[INFO] 2018-10-22 16:54:58,539 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/go_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/go_import.owl>))) [Axioms: 743 Logical Axioms: 136]
+[INFO] 2018-10-22 16:54:58,543 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/symp_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/symp_import.owl>))) [Axioms: 1533 Logical Axioms: 199]
+[INFO] 2018-10-22 16:54:58,552 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/fma_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/FMA_import.owl>))) [Axioms: 2695 Logical Axioms: 659]
+[INFO] 2018-10-22 16:54:58,568 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/bcgo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/bcgo_import.owl>))) [Axioms: 7 Logical Axioms: 3]
+[INFO] 2018-10-22 16:54:58,568 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/iao_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/iao_import.owl>))) [Axioms: 673 Logical Axioms: 76]
+[INFO] 2018-10-22 16:54:58,572 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/doid_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/doid_import.owl>))) [Axioms: 3299 Logical Axioms: 216]
+[INFO] 2018-10-22 16:54:58,589 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/ero_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/ero_import.owl>))) [Axioms: 44 Logical Axioms: 5]
+[INFO] 2018-10-22 16:54:58,589 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/pato_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/pato_import.owl>))) [Axioms: 1112 Logical Axioms: 171]
+[INFO] 2018-10-22 16:54:58,595 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/mpath_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/mpath_import.owl>))) [Axioms: 55 Logical Axioms: 8]
+[INFO] 2018-10-22 16:54:58,596 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/ogms_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/ogms_import.owl>))) [Axioms: 351 Logical Axioms: 29]
+[INFO] 2018-10-22 16:54:58,598 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/mp_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/mp_import.owl>))) [Axioms: 399 Logical Axioms: 69]
+[INFO] 2018-10-22 16:54:58,603 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/efo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/efo_import.owl>))) [Axioms: 52 Logical Axioms: 6]
+[INFO] 2018-10-22 16:54:58,604 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/ro_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/ro_import.owl>))) [Axioms: 2949 Logical Axioms: 592]
+[INFO] 2018-10-22 16:54:58,622 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/omiabis_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/omiabis_import.owl>))) [Axioms: 8 Logical Axioms: 2]
+[INFO] 2018-10-22 16:54:58,623 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/bfo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/BFO_import.owl>))) [Axioms: 492 Logical Axioms: 34]
+[INFO] 2018-10-22 16:54:58,625 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/uberon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/uberon_import.owl>))) [Axioms: 742 Logical Axioms: 99]
+[INFO] 2018-10-22 16:54:58,629 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/omrse_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/omrse_import.owl>))) [Axioms: 369 Logical Axioms: 68]
+[INFO] 2018-10-22 16:54:58,632 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/oae_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/oae_import.owl>))) [Axioms: 499 Logical Axioms: 67]
+[INFO] 2018-10-22 16:54:58,634 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/d-acts_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/d-acts_import.owl>))) [Axioms: 25 Logical Axioms: 7]
+[INFO] 2018-10-22 16:54:58,635 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ontoneo/import/vo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/ontoneo/releases/2017-03-04/vo_import.owl>))) [Axioms: 136 Logical Axioms: 26]
+[INFO] 2018-10-22 16:54:58,637 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ontoneo/ontoneo.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 40.984 s
-[INFO] Finished at: 2017-11-29T15:00:26-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 10.387s
+[INFO] Finished at: Mon Oct 22 16:54:59 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl --merge-import-closure -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo_flat.owl execution is: '1'. -> [Help 1]
-org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl --merge-import-closure -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo_flat.owl execution is: '1'.
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:216)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:347)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
-Caused by: org.apache.maven.plugin.MojoExecutionException: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo.owl --merge-import-closure -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/ontoneo/ontoneo_flat.owl execution is: '1'.
-	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:260)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
-	... 19 more
-[ERROR] 
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
-Wed Nov 29 15:00:27 MST 2017
+Mon Oct 22 16:54:59 UTC 2018

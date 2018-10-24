@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:13 MST 2017
+Mon Oct 22 16:53:47 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mfmo.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   342  100   342    0     0   1576      0 --:--:-- --:--:-- --:--:--  1590
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  195k  100  195k    0     0   152k      0  0:00:01  0:00:01 --:--:--  278k
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   342  100   342    0     0    837      0 --:--:-- --:--:-- --:--:--   836
+100  195k  100  195k    0     0   226k      0 --:--:-- --:--:-- --:--:--  226k
+Mon Oct 22 16:53:48 UTC 2018
 
-Wed Nov 29 14:59:16 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mfmo/mfmo.owl
+Mon Oct 22 16:53:48 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,42 +16,162 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,651 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mfmo/mfmo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mfmo/mfmo.owl
-[INFO] 2017-11-29 14:59:24,274 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro.owl from: http://purl.obolibrary.org/obo/ro.owl
-[INFO] 2017-11-29 14:59:26,637 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:27,391 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:27,392 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/pato_import.owl from: http://purl.obolibrary.org/obo/ro/pato_import.owl
-[INFO] 2017-11-29 14:59:28,065 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/pato_import.owl from: http://purl.obolibrary.org/obo/ro/pato_import.owl
-[INFO] 2017-11-29 14:59:28,066 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl from: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl
-[INFO] 2017-11-29 14:59:28,488 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:29,030 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:30,479 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:30,481 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:31,141 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:31,203 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:31,224 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl from: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl
-[INFO] 2017-11-29 14:59:31,225 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/go_cc_import.owl from: http://purl.obolibrary.org/obo/ro/go_cc_import.owl
-[INFO] 2017-11-29 14:59:31,733 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/go_cc_import.owl from: http://purl.obolibrary.org/obo/ro/go_cc_import.owl
-[INFO] 2017-11-29 14:59:31,735 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/go_mf_import.owl from: http://purl.obolibrary.org/obo/ro/go_mf_import.owl
-[INFO] 2017-11-29 14:59:32,088 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/go_mf_import.owl from: http://purl.obolibrary.org/obo/ro/go_mf_import.owl
-[INFO] 2017-11-29 14:59:32,089 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/rohom.owl from: http://purl.obolibrary.org/obo/ro/rohom.owl
-[INFO] 2017-11-29 14:59:32,537 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/rohom.owl from: http://purl.obolibrary.org/obo/ro/rohom.owl
-[INFO] 2017-11-29 14:59:32,538 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/go-biotic.owl from: http://purl.obolibrary.org/obo/ro/go-biotic.owl
-[INFO] 2017-11-29 14:59:32,923 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/go-biotic.owl from: http://purl.obolibrary.org/obo/ro/go-biotic.owl
-[INFO] 2017-11-29 14:59:32,924 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/el-constraints.owl from: http://purl.obolibrary.org/obo/ro/el-constraints.owl
-[INFO] 2017-11-29 14:59:33,323 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/el-constraints.owl from: http://purl.obolibrary.org/obo/ro/el-constraints.owl
-[INFO] 2017-11-29 14:59:33,555 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro.owl from: http://purl.obolibrary.org/obo/ro.owl
-[INFO] 2017-11-29 14:59:34,700 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mfmo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mfmo/mfmo.owl
-[INFO] 2017-11-29 14:59:34,711 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mfmo.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:52,094 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl
+[INFO] 2018-10-22 16:53:52,274 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro.owl from: http://purl.obolibrary.org/obo/ro.owl
+[INFO] 2018-10-22 16:53:53,465 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
+[INFO] 2018-10-22 16:53:53,820 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
+[INFO] 2018-10-22 16:53:53,822 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/pato_import.owl from: http://purl.obolibrary.org/obo/ro/pato_import.owl
+[INFO] 2018-10-22 16:53:54,103 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/pato_import.owl from: http://purl.obolibrary.org/obo/ro/pato_import.owl
+[INFO] 2018-10-22 16:53:54,104 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl from: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl
+[INFO] 2018-10-22 16:53:54,384 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:53:54,581 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:53:54,785 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:53:54,786 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:53:54,980 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:53:55,057 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:53:55,092 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl from: http://purl.obolibrary.org/obo/ro/temporal-intervals.owl
+[INFO] 2018-10-22 16:53:55,096 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/go_cc_import.owl from: http://purl.obolibrary.org/obo/ro/go_cc_import.owl
+[INFO] 2018-10-22 16:53:55,392 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/go_cc_import.owl from: http://purl.obolibrary.org/obo/ro/go_cc_import.owl
+[INFO] 2018-10-22 16:53:55,397 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/chemical.owl from: http://purl.obolibrary.org/obo/ro/chemical.owl
+[INFO] 2018-10-22 16:53:55,689 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/ro/chemical.owl
+[INFO] 2018-10-22 16:53:55,690 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/ro.owl
+[INFO] 2018-10-22 16:53:55,701 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl
+[INFO] 2018-10-22 16:53:55,701 ERROR (CommandRunner:4317) could not parse:/mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl
+[INFO] org.semanticweb.owlapi.model.UnloadableImportException: Could not load imported ontology: <http://purl.obolibrary.org/obo/ro/chemical.owl> Cause: https://raw.githubusercontent.com/oborel/obo-relations/master/chemical.owl
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1690)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPImportsHandler.handleTriple(TripleHandlers.java:1558)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$HandlerAccessor.handleStreaming(TripleHandlers.java:194)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.OWLRDFConsumer.statementWithResourceValue(OWLRDFConsumer.java:1501)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.statementWithResourceValue(RDFParser.java:365)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.EmptyPropertyElement.startElement(StartRDF.java:236)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.PropertyElementList.startElement(StartRDF.java:658)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.startElement(RDFParser.java:196)
+[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.parse(RDFParser.java:140)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:73)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadImports(OWLOntologyManagerImpl.java:1648)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1684)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPImportsHandler.handleTriple(TripleHandlers.java:1558)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$HandlerAccessor.handleStreaming(TripleHandlers.java:194)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.OWLRDFConsumer.statementWithResourceValue(OWLRDFConsumer.java:1501)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.statementWithResourceValue(RDFParser.java:365)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.EmptyPropertyElement.startElement(StartRDF.java:236)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.PropertyElementList.startElement(StartRDF.java:658)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.startElement(RDFParser.java:196)
+[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.dtd.XMLDTDValidator.emptyElement(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.parse(RDFParser.java:140)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:73)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
+[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
+[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
+[INFO] 	at owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
+[INFO] 	at owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
+[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:76)
+[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:68)
+[INFO] 	at owltools.cli.CommandLineInterface.main(CommandLineInterface.java:12)
+[INFO] Caused by: org.semanticweb.owlapi.io.OWLOntologyCreationIOException: https://raw.githubusercontent.com/oborel/obo-relations/master/chemical.owl
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:207)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadImports(OWLOntologyManagerImpl.java:1648)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1684)
+[INFO] 	... 59 more
+[INFO] Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/oborel/obo-relations/master/chemical.owl
+[INFO] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[INFO] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[INFO] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[INFO] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+[INFO] 	at java.security.AccessController.doPrivileged(Native Method)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+[INFO] 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStreamFromContentEncoding(AbstractOWLParser.java:165)
+[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream(AbstractOWLParser.java:127)
+[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputSource(AbstractOWLParser.java:232)
+[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:72)
+[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
+[INFO] 	... 64 more
+[INFO] Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/oborel/obo-relations/master/chemical.owl
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:3000)
+[INFO] 	at java.net.URLConnection.getContentEncoding(URLConnection.java:523)
+[INFO] 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getContentEncoding(HttpsURLConnectionImpl.java:419)
+[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream(AbstractOWLParser.java:122)
+[INFO] 	... 67 more
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
+[INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 17.163 s
-[INFO] Finished at: 2017-11-29T14:59:35-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 5.897s
+[INFO] Finished at: Mon Oct 22 16:53:55 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:35 MST 2017
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /mnt/efsdata/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/mnt/efsdata/obo-ci.git -classpath /mnt/efsdata/obo-ci.git/scripts/download/target/classes:/home/bill/.m2/repository/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl -o -f nt /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl.nt execution is: '1'. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /mnt/efsdata/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/mnt/efsdata/obo-ci.git -classpath /mnt/efsdata/obo-ci.git/scripts/download/target/classes:/home/bill/.m2/repository/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl -o -f nt /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl.nt execution is: '1'.
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:217)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:414)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:357)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Result of /bin/sh -c cd /mnt/efsdata/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/mnt/efsdata/obo-ci.git -classpath /mnt/efsdata/obo-ci.git/scripts/download/target/classes:/home/bill/.m2/repository/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl -o -f nt /mnt/efsdata/obo-ci-data/download/ontologies/mfmo/mfmo.owl.nt execution is: '1'.
+	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:260)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	... 19 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Mon Oct 22 16:53:55 UTC 2018
 
-Download validation successful. Triple count = 4487
+WARNING: Download validation failed due to error. See above.
+

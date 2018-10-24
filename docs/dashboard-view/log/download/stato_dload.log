@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:16 MST 2017
+Mon Oct 22 16:54:59 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/stato.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   356  100   356    0     0   1450      0 --:--:-- --:--:-- --:--:--  1453
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 2743k    0  1915    0     0    990      0  0:47:17  0:00:01  0:47:16  1726  5 2743k    5  159k    0     0  58788      0  0:00:47  0:00:02  0:00:45 83587 15 2743k   15  415k    0     0   111k      0  0:00:24  0:00:03  0:00:21  142k 30 2743k   30  831k    0     0   175k      0  0:00:15  0:00:04  0:00:11  212k 46 2743k   46 1279k    0     0   222k      0  0:00:12  0:00:05  0:00:07  259k 63 2743k   63 1739k    0     0   258k      0  0:00:10  0:00:06  0:00:04  361k 81 2743k   81 2235k    0     0   288k      0  0:00:09  0:00:07  0:00:02  418k100 2743k  100 2743k    0     0   325k      0  0:00:08  0:00:08 --:--:--  497k
-Wed Nov 29 14:59:25 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   356  100   356    0     0   2100      0 --:--:-- --:--:-- --:--:--  2094
+100 1921k  100 1921k    0     0  2185k      0 --:--:-- --:--:-- --:--:-- 2185k
+Mon Oct 22 16:55:00 UTC 2018
 
-Wed Nov 29 14:59:28 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/stato/stato.owl
+Mon Oct 22 16:55:01 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/stato/stato.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:36,259 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/stato/stato.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/stato/stato.owl
-[INFO] 2017-11-29 14:59:40,165 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/stato.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/stato/stato.owl
-[INFO] 2017-11-29 14:59:40,180 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/stato.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:04,935 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/stato/stato.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/stato/stato.owl
+[INFO] 2018-10-22 16:55:06,192 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/stato.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/stato/stato.owl
+[INFO] 2018-10-22 16:55:06,205 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/stato.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 11.320 s
-[INFO] Finished at: 2017-11-29T14:59:41-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.594s
+[INFO] Finished at: Mon Oct 22 16:55:07 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:41 MST 2017
+Mon Oct 22 16:55:07 UTC 2018
 
-Download validation successful. Triple count = 22630
+Download validation successful. Triple count = 30324

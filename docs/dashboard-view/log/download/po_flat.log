@@ -1,5 +1,5 @@
-Wed Nov 29 14:59:41 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl
+Mon Oct 22 16:52:53 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,19 +8,17 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:47,584 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl
-[INFO] 2017-11-29 14:59:48,294 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:49,607 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:00:07,490 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/po/po.owl
-[INFO] 2017-11-29 15:00:07,510 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 64 Logical Axioms: 10]
-[INFO] 2017-11-29 15:00:07,528 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/po.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:52:57,726 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl
+[INFO] 2018-10-22 16:52:57,898 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:52:58,699 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:00,804 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/po/po.owl
+[INFO] 2018-10-22 16:53:00,817 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 64 Logical Axioms: 10]
+[INFO] 2018-10-22 16:53:00,822 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/po.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 26.207 s
-[INFO] Finished at: 2017-11-29T15:00:08-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 7.209s
+[INFO] Finished at: Mon Oct 22 16:53:02 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:09 MST 2017
+Mon Oct 22 16:53:02 UTC 2018

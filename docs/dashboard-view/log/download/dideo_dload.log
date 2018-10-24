@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:52:57 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/dideo.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   331  100   331    0     0   1831      0 --:--:-- --:--:-- --:--:--  1838
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 54  961k   54  527k    0     0   386k      0  0:00:02  0:00:01  0:00:01  536k100  961k  100  961k    0     0   674k      0  0:00:01  0:00:01 --:--:--  922k
-Wed Nov 29 14:59:12 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   331  100   331    0     0   1915      0 --:--:-- --:--:-- --:--:--  1924
+  0  961k    0  1915    0     0   3268      0  0:05:01 --:--:--  0:05:01  3268100  961k  100  961k    0     0  1302k      0 --:--:-- --:--:-- --:--:-- 6352k
+Mon Oct 22 16:52:58 UTC 2018
 
-Wed Nov 29 14:59:14 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/dideo/dideo.owl
+Mon Oct 22 16:52:58 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/dideo/dideo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,30 +16,26 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,105 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/dideo/dideo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/dideo/dideo.owl
-[INFO] 2017-11-29 14:59:23,907 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl from: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl
-[INFO] 2017-11-29 14:59:26,039 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl
-[INFO] 2017-11-29 14:59:26,041 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
-[INFO] 2017-11-29 14:59:26,971 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
-[INFO] 2017-11-29 14:59:26,973 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:27,385 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:28,054 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:28,055 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:28,862 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:28,863 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:29,312 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:29,330 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:30,068 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dideo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/dideo/dideo.owl
-[INFO] 2017-11-29 14:59:30,083 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/dideo.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:02,526 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/dideo/dideo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/dideo/dideo.owl
+[INFO] 2018-10-22 16:53:02,709 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl from: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl
+[INFO] 2018-10-22 16:53:04,406 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl
+[INFO] 2018-10-22 16:53:04,410 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
+[INFO] 2018-10-22 16:53:04,966 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
+[INFO] 2018-10-22 16:53:04,967 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:53:05,147 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:53:05,350 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:53:05,351 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:53:05,542 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:53:05,563 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:53:05,856 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/dideo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/dideo/dideo.owl
+[INFO] 2018-10-22 16:53:05,868 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/dideo.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 15.001 s
-[INFO] Finished at: 2017-11-29T14:59:30-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 6.587s
+[INFO] Finished at: Mon Oct 22 16:53:06 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:30 MST 2017
+Mon Oct 22 16:53:06 UTC 2018
 
-Download validation successful. Triple count = 12405
+Download validation successful. Triple count = 12404

@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:25 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/miapa/miapa_flat.owl
+Wed Oct 24 12:26:24 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/miapa/miapa_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,12 +8,10 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:30,151 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/miapa/miapa_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/miapa/miapa_flat.owl
-[INFO] 2017-12-03 00:50:31,248 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
-[INFO] 2017-12-03 00:50:31,249 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
-[INFO] 2017-12-03 00:50:31,261 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/miapa.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/miapa/miapa_flat.owl
+[INFO] 2018-10-24 12:26:28,806 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/miapa/miapa_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/miapa/miapa_flat.owl
+[INFO] 2018-10-24 12:26:29,504 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
+[INFO] 2018-10-24 12:26:29,505 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
+[INFO] 2018-10-24 12:26:29,510 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/miapa.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/miapa/miapa_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectExactCardinality(1 CDAO:0000205 'belongs_to_Character' CDAO:0000071 'Character') CDAO:0000098 'CharacterStateDatum' ObjectSomeValuesFrom(CDAO:0000153 'has_Datum' CDAO:0000098 'CharacterStateDatum') CDAO:0000071 'Character'
 [INFO] Cycle: ObjectIntersectionOf(CDAO:0000040 'CDAOAnnotation' ObjectSomeValuesFrom(CDAO:0000157 'is_annotation_of' CDAO:0000056 'CharacterStateDataMatrix')) ObjectSomeValuesFrom(CDAO:0000178 'has' CDAO:0000025 'CharacterStateDataMatrixAnnotation') CDAO:0000056 'CharacterStateDataMatrix' ObjectSomeValuesFrom(CDAO:0000157 'is_annotation_of' CDAO:0000056 'CharacterStateDataMatrix') CDAO:0000025 'CharacterStateDataMatrixAnnotation'
@@ -22,8 +20,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 4.649 s
-[INFO] Finished at: 2017-12-03T00:50:31-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.517s
+[INFO] Finished at: Wed Oct 24 12:26:29 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:31 MST 2017
+Wed Oct 24 12:26:29 UTC 2018

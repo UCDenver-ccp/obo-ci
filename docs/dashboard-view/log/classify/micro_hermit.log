@@ -1,0 +1,48 @@
+Tue Oct 23 18:49:28 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/micro/micro_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:49:32,217 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/micro/micro_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/micro/micro_flat.owl
+[INFO] 2018-10-23 18:49:40,038 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000054 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000054>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))]
+[INFO] 2018-10-23 18:49:40,039 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002526 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002526>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002526>))]
+[INFO] 2018-10-23 18:49:40,039 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name in punning not allowed [Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name>)), Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Display_Name>))]
+[INFO] 2018-10-23 18:49:40,039 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#UMLS_CUI>))]
+[INFO] 2018-10-23 18:49:40,040 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002303 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002303>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002303>))]
+[INFO] 2018-10-23 18:49:40,040 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/BFO_0000055 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000055>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000055>))]
+[INFO] 2018-10-23 18:49:40,040 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002576 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002576>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002576>))]
+[INFO] 2018-10-23 18:49:40,040 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI in punning not allowed [Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI>)), Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#NUI>))]
+[INFO] 2018-10-23 18:49:40,040 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI in punning not allowed [Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI>)), Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_DUI>))]
+[INFO] 2018-10-23 18:49:40,041 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_CUI in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_CUI>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_CUI>))]
+[INFO] 2018-10-23 18:49:40,041 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002509 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002509>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002509>))]
+[INFO] 2018-10-23 18:49:40,041 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#Synonym>))]
+[INFO] 2018-10-23 18:49:40,041 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_Name in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_Name>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_Name>))]
+[INFO] 2018-10-23 18:49:40,042 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2018-10-23 18:49:40,042 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#RxNorm_CUI>))]
+[INFO] 2018-10-23 18:49:40,043 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/RO_0002220 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002220>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/RO_0002220>))]
+[INFO] 2018-10-23 18:49:40,045 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Name>))]
+[INFO] 2018-10-23 18:49:40,046 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Definition in punning not allowed [Declaration(DataProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Definition>)), Declaration(AnnotationProperty(<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#MeSH_Definition>))]
+[INFO] 2018-10-23 18:49:40,046 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
+[INFO] 2018-10-23 18:49:41,371 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MicrO.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/micro/micro_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:49:41,464 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:49:53,134 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@3ffb32ef
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] E: MICRO:0003190 'veratraldehyde assimilation assay'
+[INFO] E: MICRO:0000768 '2-dehydro-D-gluconic acid fermentation assay'
+[INFO] 2018-10-23 19:46:29,534 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@3ffb32ef
+[INFO] 2018-10-23 19:46:29,535 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@3ffb32ef
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 56:59.845s
+[INFO] Finished at: Tue Oct 23 19:46:29 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 19:46:29 UTC 2018

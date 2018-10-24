@@ -1,12 +1,12 @@
-Wed Nov 29 14:59:12 MST 2017
+Mon Oct 22 16:53:41 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/idomal.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   1712      0 --:--:-- --:--:-- --:--:--  1719
-  0     0    0   281    0     0    283      0 --:--:-- --:--:-- --:--:--   283  0     0    0   281    0     0    283      0 --:--:-- --:--:-- --:--:--     0
-Wed Nov 29 14:59:13 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   1827      0 --:--:-- --:--:-- --:--:--  1830
+  0     0    0   281    0     0    806      0 --:--:-- --:--:-- --:--:--   806
+Mon Oct 22 16:53:41 UTC 2018
 
 WARNING: Error message detected in the downloaded file. Stale URL is likely cause.
 
 <?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>idomal.owl</Key><RequestId>C2DBB205C28AEE6C</RequestId><HostId>EaGL8+cwiuxU1sha6QSeHA+Ntiq/lK8jfQ7wi6uiPE1GoiBPhUb+ZnGJCi4LVVznMDiKpQd/KE4=</HostId></Error>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>idomal.owl</Key><RequestId>F3AEA62B59D8B9E9</RequestId><HostId>XOv5Cz//jyAY6VvANtGlsfScDZ4LlIVHpf3k1ICOHVRg5krWpm6mEQo436vncOKXtCYVNda++4w=</HostId></Error>

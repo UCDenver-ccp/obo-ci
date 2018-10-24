@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:17 MST 2017
+Mon Oct 22 16:55:20 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/vario.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   312  100   312    0     0   1324      0 --:--:-- --:--:-- --:--:--  1322100   312  100   312    0     0   1324      0 --:--:-- --:--:-- --:--:--  1322
-  5  549k    5 30097    0     0  23600      0  0:00:23  0:00:01  0:00:22 23600 45  549k   45  247k    0     0   112k      0  0:00:04  0:00:02  0:00:02  236k 92  549k   92  508k    0     0   155k      0  0:00:03  0:00:03 --:--:--  240k100  549k  100  549k    0     0   164k      0  0:00:03  0:00:03 --:--:--  252k
-Wed Nov 29 14:59:21 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   312  100   312    0     0   1642      0 --:--:-- --:--:-- --:--:--  1650
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  1  637k    1 12888    0     0  10562      0  0:01:01  0:00:01  0:01:00 12875100  637k  100  637k    0     0   391k      0  0:00:01  0:00:01 --:--:--  452k
+Mon Oct 22 16:55:22 UTC 2018
 
-Wed Nov 29 14:59:22 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/vario/vario.owl
+Mon Oct 22 16:55:22 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/vario/vario.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:30,556 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/vario/vario.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/vario/vario.owl
-[INFO] 2017-11-29 14:59:34,730 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vario.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/vario/vario.owl
-[INFO] 2017-11-29 14:59:34,741 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/vario.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:26,107 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/vario/vario.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/vario/vario.owl
+[INFO] 2018-10-22 16:55:26,917 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vario.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/vario/vario.owl
+[INFO] 2018-10-22 16:55:26,931 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/vario.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.983 s
-[INFO] Finished at: 2017-11-29T14:59:35-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.517s
+[INFO] Finished at: Mon Oct 22 16:55:27 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:35 MST 2017
+Mon Oct 22 16:55:27 UTC 2018
 
-Download validation successful. Triple count = 7875
+Download validation successful. Triple count = 9100

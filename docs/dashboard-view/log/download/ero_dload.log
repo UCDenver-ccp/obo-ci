@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:53:08 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/ero.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1739      0 --:--:-- --:--:-- --:--:--  1747
-  0 4002k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 22 4002k   22  896k    0     0   468k      0  0:00:08  0:00:01  0:00:07  902k100 4002k  100 4002k    0     0  1552k      0  0:00:02  0:00:02 --:--:-- 2415k
-Wed Nov 29 14:59:14 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1838      0 --:--:-- --:--:-- --:--:--  1840
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 14 4002k   14  576k    0     0   367k      0  0:00:10  0:00:01  0:00:09  604k100 4002k  100 4002k    0     0  1846k      0  0:00:02  0:00:02 --:--:-- 2575k
+Mon Oct 22 16:53:10 UTC 2018
 
-Wed Nov 29 14:59:14 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ero/ero.owl
+Mon Oct 22 16:53:10 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/ero/ero.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,083 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ero/ero.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ero/ero.owl
-[INFO] 2017-11-29 14:59:31,075 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ero.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ero/ero.owl
-[INFO] 2017-11-29 14:59:31,090 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ero.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:14,492 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ero/ero.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ero/ero.owl
+[INFO] 2018-10-22 16:53:16,123 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ero.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ero/ero.owl
+[INFO] 2018-10-22 16:53:16,136 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ero.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 18.247 s
-[INFO] Finished at: 2017-11-29T14:59:34-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 5.329s
+[INFO] Finished at: Mon Oct 22 16:53:17 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:34 MST 2017
+Mon Oct 22 16:53:17 UTC 2018
 
 Download validation successful. Triple count = 60637

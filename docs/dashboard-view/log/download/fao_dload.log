@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:53:12 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/fao.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354  100   354    0     0   1911      0 --:--:-- --:--:-- --:--:--  1923
-  1  150k    1  1916    0     0   1801      0  0:01:25  0:00:01  0:01:24  1801100  150k  100  150k    0     0   122k      0  0:00:01  0:00:01 --:--:--  871k
-Wed Nov 29 14:59:12 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354  100   354    0     0   2155      0 --:--:-- --:--:-- --:--:--  2158
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  181k  100  181k    0     0   296k      0 --:--:-- --:--:-- --:--:--  855k
+Mon Oct 22 16:53:12 UTC 2018
 
-Wed Nov 29 14:59:13 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/fao/fao.owl
+Mon Oct 22 16:53:13 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/fao/fao.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,084 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fao/fao.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fao/fao.owl
-[INFO] 2017-11-29 14:59:24,543 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fao.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fao/fao.owl
-[INFO] 2017-11-29 14:59:24,554 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/fao.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:16,817 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/fao/fao.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/fao/fao.owl
+[INFO] 2018-10-22 16:53:17,286 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fao.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/fao/fao.owl
+[INFO] 2018-10-22 16:53:17,296 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/fao.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.634 s
-[INFO] Finished at: 2017-11-29T14:59:25-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.051s
+[INFO] Finished at: Mon Oct 22 16:53:17 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:25 MST 2017
+Mon Oct 22 16:53:17 UTC 2018
 
-Download validation successful. Triple count = 2088
+Download validation successful. Triple count = 2499

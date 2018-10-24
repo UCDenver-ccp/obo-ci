@@ -1,0 +1,16 @@
+Tue Oct 23 18:50:04 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:50:07,760 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl
+[INFO] 2018-10-23 18:51:36,695 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncit/ncit-plus.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncit_ncit-plus/ncit_ncit-plus_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:51:36,871 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:52:27,247 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@6198feee

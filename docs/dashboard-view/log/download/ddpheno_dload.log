@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:09 MST 2017
+Mon Oct 22 16:52:56 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/ddpheno.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   314  100   314    0     0   1923      0 --:--:-- --:--:-- --:--:--  1926
-  0 1519k    0   784    0     0    597      0  0:43:25  0:00:01  0:43:24   597100 1519k  100 1519k    0     0   924k      0  0:00:01  0:00:01 --:--:-- 4573k
-Wed Nov 29 14:59:11 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   314  100   314    0     0   1854      0 --:--:-- --:--:-- --:--:--  1857
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 79 1541k   79 1223k    0     0   726k      0  0:00:02  0:00:01  0:00:01 1217k100 1541k  100 1541k    0     0   820k      0  0:00:01  0:00:01 --:--:-- 1283k
+Mon Oct 22 16:52:58 UTC 2018
 
-Wed Nov 29 14:59:11 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ddpheno/ddpheno.owl
+Mon Oct 22 16:52:58 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/ddpheno/ddpheno.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:20,942 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ddpheno/ddpheno.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ddpheno/ddpheno.owl
-[INFO] 2017-11-29 14:59:24,651 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ddpheno.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ddpheno/ddpheno.owl
-[INFO] 2017-11-29 14:59:24,663 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ddpheno.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:02,375 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ddpheno/ddpheno.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ddpheno/ddpheno.owl
+[INFO] 2018-10-22 16:53:03,488 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ddpheno.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ddpheno/ddpheno.owl
+[INFO] 2018-10-22 16:53:03,500 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ddpheno.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 12.536 s
-[INFO] Finished at: 2017-11-29T14:59:25-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.255s
+[INFO] Finished at: Mon Oct 22 16:53:04 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:25 MST 2017
+Mon Oct 22 16:53:04 UTC 2018
 
-Download validation successful. Triple count = 20885
+Download validation successful. Triple count = 21149

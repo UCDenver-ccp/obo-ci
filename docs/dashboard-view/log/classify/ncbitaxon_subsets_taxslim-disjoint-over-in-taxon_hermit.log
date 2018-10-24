@@ -1,0 +1,27 @@
+Tue Oct 23 18:49:59 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:50:03,658 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl
+[INFO] 2018-10-23 18:50:14,917 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon/ncbitaxon_subsets_taxslim-disjoint-over-in-taxon_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:50:14,996 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:50:21,994 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@d62634d
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:50:24,547 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@d62634d
+[INFO] 2018-10-23 18:50:24,548 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@d62634d
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.742s
+[INFO] Finished at: Tue Oct 23 18:50:24 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:50:24 UTC 2018

@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:17 MST 2017
+Mon Oct 22 16:55:11 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/uberon/ext.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    643      0 --:--:-- --:--:-- --:--:--   644
-  0 68.7M    0 30168    0     0  32325      0  0:37:08 --:--:--  0:37:08 32325  2 68.7M    2 1841k    0     0   950k      0  0:01:14  0:00:01  0:01:13 1804k  6 68.7M    6 4906k    0     0  1655k      0  0:00:42  0:00:02  0:00:40 2402k 10 68.7M   10 7358k    0     0  1869k      0  0:00:37  0:00:03  0:00:34 2441k 14 68.7M   14 10.0M    0     0  2092k      0  0:00:33  0:00:04  0:00:29 2573k 19 68.7M   19 13.3M    0     0  2310k      0  0:00:30  0:00:05  0:00:25 2736k 24 68.7M   24 16.6M    0     0  2465k      0  0:00:28  0:00:06  0:00:22 3053k 30 68.7M   30 21.1M    0     0  2728k      0  0:00:25  0:00:07  0:00:18 3367k 38 68.7M   38 26.7M    0     0  3061k      0  0:00:22  0:00:08  0:00:14 3998k 47 68.7M   47 32.8M    0     0  3385k      0  0:00:20  0:00:09  0:00:11 4658k 58 68.7M   58 40.0M    0     0  3747k      0  0:00:18  0:00:10  0:00:08 5451k 69 68.7M   69 47.4M    0     0  4074k      0  0:00:17  0:00:11  0:00:06 6304k 80 68.7M   80 55.4M    0     0  4298k      0  0:00:16  0:00:13  0:00:03 6657k 91 68.7M   91 63.0M    0     0  4633k      0  0:00:15  0:00:13  0:00:02 7456k100 68.7M  100 68.7M    0     0  4852k      0  0:00:14  0:00:14 --:--:-- 8052k
-Wed Nov 29 14:59:34 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1624      0 --:--:-- --:--:-- --:--:--  1625
+  0 68.7M    0  178k    0     0   235k      0  0:04:58 --:--:--  0:04:58  235k  7 68.7M    7 5279k    0     0  2987k      0  0:00:23  0:00:01  0:00:22 5050k 14 68.7M   14  9.9M    0     0  3696k      0  0:00:19  0:00:02  0:00:17 5005k 21 68.7M   21 14.6M    0     0  3985k      0  0:00:17  0:00:03  0:00:14 4931k 28 68.7M   28 19.8M    0     0  4278k      0  0:00:16  0:00:04  0:00:12 5043k 36 68.7M   36 25.4M    0     0  4522k      0  0:00:15  0:00:05  0:00:10 5171k 45 68.7M   45 31.1M    0     0  4713k      0  0:00:14  0:00:06  0:00:08 5324k 54 68.7M   54 37.6M    0     0  4975k      0  0:00:14  0:00:07  0:00:07 5680k 63 68.7M   63 43.6M    0     0  5100k      0  0:00:13  0:00:08  0:00:05 5938k 71 68.7M   71 49.1M    0     0  5153k      0  0:00:13  0:00:09  0:00:04 5986k 80 68.7M   80 55.4M    0     0  5271k      0  0:00:13  0:00:10  0:00:03 6133k 89 68.7M   89 61.5M    0     0  5364k      0  0:00:13  0:00:11  0:00:02 6244k 98 68.7M   98 67.8M    0     0  5444k      0  0:00:12  0:00:12 --:--:-- 6171k100 68.7M  100 68.7M    0     0  5459k      0  0:00:12  0:00:12 --:--:-- 6220k
+Mon Oct 22 16:55:25 UTC 2018
 
-Wed Nov 29 14:59:44 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl
+Mon Oct 22 16:55:26 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,36 +16,34 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:54,614 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl
-[INFO] 2017-11-29 14:59:55,152 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
-[INFO] 2017-11-29 14:59:56,638 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
-[INFO] 2017-11-29 14:59:56,642 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
-[INFO] 2017-11-29 14:59:58,079 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
-[INFO] 2017-11-29 14:59:58,083 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
-[INFO] 2017-11-29 14:59:58,597 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
-[INFO] 2017-11-29 14:59:58,602 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:59,403 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:59,410 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
-[INFO] 2017-11-29 15:00:00,080 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
-[INFO] 2017-11-29 15:00:00,084 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
-[INFO] 2017-11-29 15:00:00,579 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
-[INFO] 2017-11-29 15:00:00,584 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
-[INFO] 2017-11-29 15:00:01,108 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
-[INFO] 2017-11-29 15:00:01,114 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
-[INFO] 2017-11-29 15:00:01,924 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
-[INFO] 2017-11-29 15:00:01,932 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
-[INFO] 2017-11-29 15:00:02,492 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
-[INFO] 2017-11-29 15:01:37,743 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ext.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl
-[INFO] 2017-11-29 15:01:37,758 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/ext.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:29,736 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl
+[INFO] 2018-10-22 16:55:29,902 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
+[INFO] 2018-10-22 16:55:31,445 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
+[INFO] 2018-10-22 16:55:31,447 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
+[INFO] 2018-10-22 16:55:32,624 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
+[INFO] 2018-10-22 16:55:32,629 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
+[INFO] 2018-10-22 16:55:33,131 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
+[INFO] 2018-10-22 16:55:33,135 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:33,887 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:33,893 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
+[INFO] 2018-10-22 16:55:34,559 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
+[INFO] 2018-10-22 16:55:34,567 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
+[INFO] 2018-10-22 16:55:34,896 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
+[INFO] 2018-10-22 16:55:34,900 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
+[INFO] 2018-10-22 16:55:35,226 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
+[INFO] 2018-10-22 16:55:35,230 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
+[INFO] 2018-10-22 16:55:36,038 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
+[INFO] 2018-10-22 16:55:36,043 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
+[INFO] 2018-10-22 16:55:36,418 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
+[INFO] 2018-10-22 16:55:46,663 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ext.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl
+[INFO] 2018-10-22 16:55:46,670 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/ext.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:58 min
-[INFO] Finished at: 2017-11-29T15:01:43-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 29.783s
+[INFO] Finished at: Mon Oct 22 16:55:57 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:01:44 MST 2017
+Mon Oct 22 16:55:57 UTC 2018
 
-Download validation successful. Triple count = 928364
+Download validation successful. Triple count = 926739

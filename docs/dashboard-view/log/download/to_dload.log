@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:17 MST 2017
+Mon Oct 22 16:55:05 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/to.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   347  100   347    0     0   1421      0 --:--:-- --:--:-- --:--:--  1427
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3 3940k    3  127k    0     0  90264      0  0:00:44  0:00:01  0:00:43  132k 12 3940k   12  511k    0     0   209k      0  0:00:18  0:00:02  0:00:16  261k 21 3940k   21  863k    0     0   250k      0  0:00:15  0:00:03  0:00:12  291k 31 3940k   31 1231k    0     0   277k      0  0:00:14  0:00:04  0:00:10  311k 41 3940k   41 1654k    0     0   304k      0  0:00:12  0:00:05  0:00:07  333k 52 3940k   52 2086k    0     0   324k      0  0:00:12  0:00:06  0:00:06  392k 66 3940k   66 2630k    0     0   353k      0  0:00:11  0:00:07  0:00:04  423k 85 3940k   85 3366k    0     0   398k      0  0:00:09  0:00:08  0:00:01  500k100 3940k  100 3940k    0     0   434k      0  0:00:09  0:00:09 --:--:--  584k
-Wed Nov 29 14:59:26 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   347  100   347    0     0   2262      0 --:--:-- --:--:-- --:--:--  2267
+ 21 3643k   21  783k    0     0  1056k      0  0:00:03 --:--:--  0:00:03 1056k100 3643k  100 3643k    0     0  3689k      0 --:--:-- --:--:-- --:--:-- 11.3M
+Mon Oct 22 16:55:06 UTC 2018
 
-Wed Nov 29 14:59:30 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/to/to.owl
+Mon Oct 22 16:55:07 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/to/to.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,32 +16,36 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:38,423 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/to/to.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/to/to.owl
-[INFO] 2017-11-29 14:59:39,352 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/ro_import.owl from: http://purl.obolibrary.org/obo/to/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:40,654 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/ro_import.owl from: http://purl.obolibrary.org/obo/to/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:40,656 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/pato_import.owl from: http://purl.obolibrary.org/obo/to/imports/pato_import.owl
-[INFO] 2017-11-29 14:59:41,560 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/pato_import.owl from: http://purl.obolibrary.org/obo/to/imports/pato_import.owl
-[INFO] 2017-11-29 14:59:41,561 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/peco_import.owl from: http://purl.obolibrary.org/obo/to/imports/peco_import.owl
-[INFO] 2017-11-29 14:59:42,082 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/peco_import.owl from: http://purl.obolibrary.org/obo/to/imports/peco_import.owl
-[INFO] 2017-11-29 14:59:42,083 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:43,250 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:43,251 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po.owl from: http://purl.obolibrary.org/obo/po.owl
-[INFO] 2017-11-29 14:59:43,717 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:44,435 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:45,253 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: http://purl.obolibrary.org/obo/po.owl
-[INFO] 2017-11-29 14:59:45,256 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/go_import.owl from: http://purl.obolibrary.org/obo/to/imports/go_import.owl
-[INFO] 2017-11-29 14:59:45,885 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/go_import.owl from: http://purl.obolibrary.org/obo/to/imports/go_import.owl
-[INFO] 2017-11-29 14:59:55,079 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/to/to.owl
-[INFO] 2017-11-29 14:59:55,093 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/to.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:10,673 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/to/to.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/to/to.owl
+[INFO] 2018-10-22 16:55:10,835 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/ro_import.owl from: http://purl.obolibrary.org/obo/to/imports/ro_import.owl
+[INFO] 2018-10-22 16:55:11,960 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/ro_import.owl from: http://purl.obolibrary.org/obo/to/imports/ro_import.owl
+[INFO] 2018-10-22 16:55:11,962 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/pato_import.owl from: http://purl.obolibrary.org/obo/to/imports/pato_import.owl
+[INFO] 2018-10-22 16:55:12,540 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/pato_import.owl from: http://purl.obolibrary.org/obo/to/imports/pato_import.owl
+[INFO] 2018-10-22 16:55:12,541 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/peco_import.owl from: http://purl.obolibrary.org/obo/to/imports/peco_import.owl
+[INFO] 2018-10-22 16:55:13,349 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/peco_import.owl from: http://purl.obolibrary.org/obo/to/imports/peco_import.owl
+[INFO] 2018-10-22 16:55:13,353 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl from: http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl
+[INFO] 2018-10-22 16:55:13,959 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl from: http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl
+[INFO] 2018-10-22 16:55:13,961 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl
+[INFO] 2018-10-22 16:55:14,845 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl
+[INFO] 2018-10-22 16:55:14,849 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po.owl from: http://purl.obolibrary.org/obo/po.owl
+[INFO] 2018-10-22 16:55:15,037 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:15,264 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:16,561 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/po.owl from: http://purl.obolibrary.org/obo/po.owl
+[INFO] 2018-10-22 16:55:16,564 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/envo_import.owl from: http://purl.obolibrary.org/obo/to/imports/envo_import.owl
+[INFO] 2018-10-22 16:55:16,922 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/envo_import.owl from: http://purl.obolibrary.org/obo/to/imports/envo_import.owl
+[INFO] 2018-10-22 16:55:16,926 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/go_import.owl from: http://purl.obolibrary.org/obo/to/imports/go_import.owl
+[INFO] 2018-10-22 16:55:17,344 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/go_import.owl from: http://purl.obolibrary.org/obo/to/imports/go_import.owl
+[INFO] 2018-10-22 16:55:17,348 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:17,674 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:18,262 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/to.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/to/to.owl
+[INFO] 2018-10-22 16:55:18,272 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/to.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 25.070 s
-[INFO] Finished at: 2017-11-29T14:59:56-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 11.054s
+[INFO] Finished at: Mon Oct 22 16:55:19 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:56 MST 2017
+Mon Oct 22 16:55:19 UTC 2018
 
-Download validation successful. Triple count = 68520
+Download validation successful. Triple count = 63223

@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:28 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl
+Wed Oct 24 12:31:34 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/poro/poro_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,10 +8,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:33,378 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl
-[INFO] 2017-12-03 00:50:35,040 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/poro/poro_flat.owl
+[INFO] 2018-10-24 12:31:38,248 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/poro/poro_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/poro/poro_flat.owl
+[INFO] 2018-10-24 12:31:39,642 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/poro.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/poro/poro_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectSomeValuesFrom(RO:0002224 'starts with' UBERON:0000106 'zygote stage') UBERON:0000105 'life cycle stage' UBERON:0000104 'life cycle' UBERON:0000109 'gastrula stage' UBERON:0000108 'blastula stage' UBERON:0000107 'cleavage stage' UBERON:0000106 'zygote stage' ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000092 'post-embryonic stage') UBERON:0000068 'embryo stage' UBERON:0000067 'embryo stage part' UBERON:0000066 'fully formed stage' UBERON:0000071 'death stage' UBERON:0000092 'post-embryonic stage' ObjectSomeValuesFrom(RO:0002230 'ends with' UBERON:0000071 'death stage') ObjectSomeValuesFrom(BFO:0000063 'precedes' UBERON:0000066 'fully formed stage') ObjectSomeValuesFrom(RO:0002229 'ends' UBERON:0000104 'life cycle') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000110 'neurula stage') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000111 'organogenesis stage') ObjectSomeValuesFrom(BFO:0000063 'precedes' UBERON:0000092 'post-embryonic stage') ObjectSomeValuesFrom(RO:0002223 'starts' UBERON:0000104 'life cycle') ObjectSomeValuesFrom(RO:0002087 'immediately_preceded_by' UBERON:0000106 'zygote stage') ObjectSomeValuesFrom(BFO:0000063 'precedes' UBERON:0000071 'death stage') UBERON:0000111 'organogenesis stage' UBERON:0000110 'neurula stage' ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000107 'cleavage stage') ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000104 'life cycle') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000108 'blastula stage') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000109 'gastrula stage') ObjectSomeValuesFrom(BFO:0000050 'part_of' UBERON:0000068 'embryo stage') ObjectSomeValuesFrom(BFO:0000062 'preceded_by' UBERON:0000068 'embryo stage')
 [INFO] Cycle: PORO:0000023 'pinacocyte' ObjectSomeValuesFrom(lined_by lined_by PORO:0000023 'pinacocyte') ObjectSomeValuesFrom(BFO:0000050 'part_of' PORO:0000043 'pinacoderm') PORO:0000043 'pinacoderm'
@@ -25,8 +23,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.327 s
-[INFO] Finished at: 2017-12-03T00:50:37-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 7.566s
+[INFO] Finished at: Wed Oct 24 12:31:43 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:37 MST 2017
+Wed Oct 24 12:31:43 UTC 2018

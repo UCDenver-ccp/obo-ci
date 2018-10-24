@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
+Tue Oct 23 18:47:24 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,23 +8,36 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,158 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
-[INFO] 2017-12-02 12:52:20,431 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
-[INFO] 2017-12-02 12:52:20,470 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticscience.org/ontology/cheminf.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cheminf/cheminf_flat.owl
+[INFO] 2018-10-23 18:47:27,868 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
+[INFO] 2018-10-23 18:47:28,991 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://www.w3.org/2004/02/skos/core#prefLabel in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>)), Declaration(DataProperty(<http://www.w3.org/2004/02/skos/core#prefLabel>))]
+[INFO] 2018-10-23 18:47:29,009 INFO  (ParserWrapper:82) Finished loading ontology: http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cheminf/cheminf_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:20,772 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:29,056 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:22,535 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@3e8799f
+[INFO] 2018-10-23 18:47:29,902 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@554188ac
+[INFO] E: BFO:0000009 'two_dimensional_region'
+[INFO] E: BFO:0000026 'one-dimensional spatial region'
+[INFO] E: BFO:0000037 'processual_context'
+[INFO] E: BFO:0000014 'process_aggregate'
+[INFO] E: BFO:0000035 'process boundary'
+[INFO] E: BFO:0000034 'function'
+[INFO] E: IAO:0000402 'two dimensional cartesian spatial coordinate datum'
+[INFO] E: BFO:0000018 'zero_dimensional_region'
+[INFO] E: IAO:0000401 'one dimensional cartesian spatial coordinate datum'
+[INFO] E: BFO:0000028 'three_dimensional_region'
+[INFO] E: BFO:0000006 'spatial_region'
+[INFO] E: IAO:0000403 'three dimensional cartesian spatial coordinate datum'
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:26,890 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@3e8799f
-[INFO] 2017-12-02 12:52:26,890 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@3e8799f
+[INFO] E: IAO:0000400 'cartesian spatial coordinate datum'
+[INFO] E: BFO:0000033 'fiat_process_part'
+[INFO] E: CHEMINF:000178 'collection of 3D atomic coordinates'
+[INFO] 2018-10-23 18:47:34,964 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@554188ac
+[INFO] 2018-10-23 18:47:34,964 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@554188ac
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 12.377 s
-[INFO] Finished at: 2017-12-02T12:52:26-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 9.630s
+[INFO] Finished at: Tue Oct 23 18:47:34 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:27 MST 2017
+Tue Oct 23 18:47:35 UTC 2018

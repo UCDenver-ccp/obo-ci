@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:53:55 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mmusdv.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   1471      0 --:--:-- --:--:-- --:--:--  1476
-  1  303k    1  3681    0     0   7189      0  0:00:43 --:--:--  0:00:43  7189100  303k  100  303k    0     0   361k      0 --:--:-- --:--:-- --:--:--  915k
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    767      0 --:--:-- --:--:-- --:--:--   769
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  303k  100  303k    0     0   208k      0  0:00:01  0:00:01 --:--:--  563k
+Mon Oct 22 16:53:57 UTC 2018
 
-Wed Nov 29 14:59:15 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mmusdv/mmusdv.owl
+Mon Oct 22 16:53:57 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mmusdv/mmusdv.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:21,955 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mmusdv/mmusdv.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mmusdv/mmusdv.owl
-[INFO] 2017-11-29 14:59:23,206 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mmusdv.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mmusdv/mmusdv.owl
-[INFO] 2017-11-29 14:59:23,218 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mmusdv.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:01,321 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mmusdv/mmusdv.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mmusdv/mmusdv.owl
+[INFO] 2018-10-22 16:54:02,220 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mmusdv.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mmusdv/mmusdv.owl
+[INFO] 2018-10-22 16:54:02,230 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mmusdv.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.147 s
-[INFO] Finished at: 2017-11-29T14:59:23-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.893s
+[INFO] Finished at: Mon Oct 22 16:54:02 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:24 MST 2017
+Mon Oct 22 16:54:02 UTC 2018
 
 Download validation successful. Triple count = 4266

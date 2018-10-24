@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:25 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fma/fma_flat.owl
+Wed Oct 24 12:23:08 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/fma/fma_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,10 +8,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:30,926 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fma/fma_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fma/fma_flat.owl
-[INFO] 2017-12-03 00:50:56,090 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fma.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/fma/fma_flat.owl
+[INFO] 2018-10-24 12:23:12,318 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/fma/fma_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/fma/fma_flat.owl
+[INFO] 2018-10-24 12:28:42,348 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fma.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/fma/fma_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectSomeValuesFrom(attaches_to 'attaches_to' FMA:12225 'Chorda tendinea') FMA:12225 'Chorda tendinea' FMA:67598 'Leaf of cardiac valve' ObjectSomeValuesFrom(attaches_to 'attaches_to' FMA:67598 'Leaf of cardiac valve')
 [INFO] Cycle: FMA:7274 'Wall of heart' ObjectSomeValuesFrom(attaches_to 'attaches_to' FMA:9496 'Fibrous skeleton of heart') FMA:9496 'Fibrous skeleton of heart' ObjectSomeValuesFrom(attaches_to 'attaches_to' FMA:7274 'Wall of heart')
@@ -35,8 +33,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:29 min
-[INFO] Finished at: 2017-12-03T00:52:56-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 8:18.225s
+[INFO] Finished at: Wed Oct 24 12:31:27 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:52:56 MST 2017
+Wed Oct 24 12:31:28 UTC 2018

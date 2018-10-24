@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:15 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/opl/opl_flat.owl
+Tue Oct 23 18:50:41 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/opl/opl_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,513 +8,511 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:22,682 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/opl/opl_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/opl/opl_flat.owl
-[INFO] 2017-12-02 12:52:24,124 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/opl.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/opl/opl_flat.owl
+[INFO] 2018-10-23 18:50:45,845 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/opl/opl_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/opl/opl_flat.owl
+[INFO] 2018-10-23 18:50:46,684 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/opl.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/opl/opl_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:24,339 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:50:46,731 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:24,418 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:25,109 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:25,113 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@63b1d4fa
-[INFO] 2017-12-02 12:52:25,124 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:25,140 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:25,183 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,757 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:50:46,939 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:50:46,939 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@63b1d4fa
+[INFO] 2018-10-23 18:50:46,941 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:50:46,945 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:50:46,952 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#has_part> <http://www.obofoundry.org/ro/ro.owl#part_of>)
-[INFO] 2017-12-02 12:52:25,242 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,261 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,958 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,961 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_5691> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OPL_0000055> <http://purl.obolibrary.org/obo/NCBITaxon_7393>))
-[INFO] 2017-12-02 12:52:25,262 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,962 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000242> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000245>))
-[INFO] 2017-12-02 12:52:25,263 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,963 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000067> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000120>))
-[INFO] 2017-12-02 12:52:25,263 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,273 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,964 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,966 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000207> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000243> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000244>)))
-[INFO] 2017-12-02 12:52:25,274 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,966 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000182> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000175>))
-[INFO] 2017-12-02 12:52:25,280 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,970 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000126> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000071>))
-[INFO] 2017-12-02 12:52:25,282 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,283 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,300 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,971 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,971 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,973 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000209> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_5664>)))
-[INFO] 2017-12-02 12:52:25,301 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,973 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000190> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000093>))
-[INFO] 2017-12-02 12:52:25,302 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,973 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000218> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000045>))
-[INFO] 2017-12-02 12:52:25,312 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,974 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000020> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000159>))
-[INFO] 2017-12-02 12:52:25,331 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,977 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000114> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,335 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,978 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://www.ifomis.org/bfo/1.1/span#Occurrent>)
-[INFO] 2017-12-02 12:52:25,338 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,979 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125>)
-[INFO] 2017-12-02 12:52:25,342 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,344 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,980 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,981 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000211> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000082> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000128>)))
-[INFO] 2017-12-02 12:52:25,345 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,982 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000250> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000261> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000257>)))
-[INFO] 2017-12-02 12:52:25,350 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,982 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000116> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000131>))
-[INFO] 2017-12-02 12:52:25,355 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,983 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000099> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000202>))
-[INFO] 2017-12-02 12:52:25,368 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,369 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,983 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,984 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000082> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,371 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,985 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000095> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,384 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,986 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000100> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000095> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000038>)))
-[INFO] 2017-12-02 12:52:25,385 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,986 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000077> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000118>))
-[INFO] 2017-12-02 12:52:25,386 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,987 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000210> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000070> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000168>)))
-[INFO] 2017-12-02 12:52:25,388 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,988 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000063> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000172> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000025>)))
-[INFO] 2017-12-02 12:52:25,388 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,988 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000145> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000184>))
-[INFO] 2017-12-02 12:52:25,389 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,988 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000039> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000046>))
-[INFO] 2017-12-02 12:52:25,390 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,989 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000221> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000123>)))
-[INFO] 2017-12-02 12:52:25,390 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,391 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,989 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,990 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_5693> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OPL_0000055> <http://purl.obolibrary.org/obo/NCBITaxon_70999>))
-[INFO] 2017-12-02 12:52:25,391 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,990 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000016> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000189>))
-[INFO] 2017-12-02 12:52:25,392 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,991 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000222> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000042>))
-[INFO] 2017-12-02 12:52:25,393 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,991 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000188> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000022> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000182>)))
-[INFO] 2017-12-02 12:52:25,393 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,992 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000143> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000050>)))
-[INFO] 2017-12-02 12:52:25,394 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,994 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000201> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000124>))
-[INFO] 2017-12-02 12:52:25,395 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,994 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000228> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000239> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000198>)))
-[INFO] 2017-12-02 12:52:25,396 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,995 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000064> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000114> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000061>)))
-[INFO] 2017-12-02 12:52:25,398 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,996 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000031> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000081>))
-[INFO] 2017-12-02 12:52:25,399 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,400 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,996 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,997 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000034> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000056>))
-[INFO] 2017-12-02 12:52:25,402 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,997 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000179> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000023>))
-[INFO] 2017-12-02 12:52:25,403 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,407 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,998 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:46,998 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000123> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000014>))
-[INFO] 2017-12-02 12:52:25,408 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,999 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000192> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000150> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000249>)))
-[INFO] 2017-12-02 12:52:25,410 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:46,999 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000187> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000153> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000089>)))
-[INFO] 2017-12-02 12:52:25,411 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,000 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000086> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000030>)))
-[INFO] 2017-12-02 12:52:25,412 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,002 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000038> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000100>))
-[INFO] 2017-12-02 12:52:25,413 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,002 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000157> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000114> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000204>)))
-[INFO] 2017-12-02 12:52:25,414 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,004 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000230>)
-[INFO] 2017-12-02 12:52:25,415 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,004 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000263> ObjectAllValuesFrom(<http://purl.org/obo/owl/OBO_REL#unfolds_in> <http://purl.obolibrary.org/obo/CL_0000232>))
-[INFO] 2017-12-02 12:52:25,416 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,004 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000163> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000086> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000109>)))
-[INFO] 2017-12-02 12:52:25,417 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,005 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000131> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000149> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000116>)))
-[INFO] 2017-12-02 12:52:25,417 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,418 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,005 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,006 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000030> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000184>))
-[INFO] 2017-12-02 12:52:25,418 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,006 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000107> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000183> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000090>)))
-[INFO] 2017-12-02 12:52:25,419 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,007 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000109> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000163>))
-[INFO] 2017-12-02 12:52:25,419 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,007 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000231> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000236>))
-[INFO] 2017-12-02 12:52:25,420 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,422 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,010 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,010 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000144> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000212>))
-[INFO] 2017-12-02 12:52:25,423 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,011 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000181> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>)))
-[INFO] 2017-12-02 12:52:25,424 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,011 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000240> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000230>))
-[INFO] 2017-12-02 12:52:25,424 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,011 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000071> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000082> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000126>)))
-[INFO] 2017-12-02 12:52:25,425 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,012 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000186> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000098> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000094>)))
-[INFO] 2017-12-02 12:52:25,426 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,426 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,013 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,014 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000223> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000108> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000049>)))
-[INFO] 2017-12-02 12:52:25,427 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,014 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000079> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000101>))
-[INFO] 2017-12-02 12:52:25,427 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,015 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.org/obo/owl/OBO_REL#inheres_in> <http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant>)
-[INFO] 2017-12-02 12:52:25,441 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,015 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.org/obo/owl/OBO_REL#bearer_of> <http://purl.org/obo/owl/OBO_REL#inheres_in>)
-[INFO] 2017-12-02 12:52:25,444 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,017 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000061> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000064>))
-[INFO] 2017-12-02 12:52:25,445 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,017 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000066> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000201>)))
-[INFO] 2017-12-02 12:52:25,455 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,027 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000208> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000112>))
-[INFO] 2017-12-02 12:52:25,456 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,027 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000160> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000058>))
-[INFO] 2017-12-02 12:52:25,457 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,028 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000234> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000127> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000235>)))
-[INFO] 2017-12-02 12:52:25,457 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,028 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000087> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000111>))
-[INFO] 2017-12-02 12:52:25,458 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,458 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,029 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,030 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000053> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000106>))
-[INFO] 2017-12-02 12:52:25,459 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,030 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://www.ifomis.org/bfo/1.1/snap#Continuant>)
-[INFO] 2017-12-02 12:52:25,459 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,031 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000246> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000247> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000241>)))
-[INFO] 2017-12-02 12:52:25,460 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,460 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,031 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,032 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000204> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000157>))
-[INFO] 2017-12-02 12:52:25,461 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,032 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000225> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000239> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000229>)))
-[INFO] 2017-12-02 12:52:25,461 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,032 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000245> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000248> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000242>)))
-[INFO] 2017-12-02 12:52:25,461 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,033 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000142> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000214> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000196>)))
-[INFO] 2017-12-02 12:52:25,462 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,033 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000251> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000057> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_5833>)))
-[INFO] 2017-12-02 12:52:25,462 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,034 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000081> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000076> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000031>)))
-[INFO] 2017-12-02 12:52:25,463 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,034 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000073> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,463 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,034 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000169> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000033> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000164>)))
-[INFO] 2017-12-02 12:52:25,464 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,035 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000259> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000252>))
-[INFO] 2017-12-02 12:52:25,464 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,035 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000258> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000262>))
-[INFO] 2017-12-02 12:52:25,464 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,036 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000086> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000191>)))
-[INFO] 2017-12-02 12:52:25,464 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,036 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000060> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000158>))
-[INFO] 2017-12-02 12:52:25,465 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,036 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000147> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000041>))
-[INFO] 2017-12-02 12:52:25,465 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,037 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000203> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_6183>)))
-[INFO] 2017-12-02 12:52:25,465 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,050 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000025> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000063>))
-[INFO] 2017-12-02 12:52:25,466 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,051 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000011> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000074>))
-[INFO] 2017-12-02 12:52:25,487 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,051 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000221> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000205>)))
-[INFO] 2017-12-02 12:52:25,489 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,051 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000191> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000220>))
-[INFO] 2017-12-02 12:52:25,489 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,052 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000132> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000195>))
-[INFO] 2017-12-02 12:52:25,490 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,052 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000106> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000183> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000053>)))
-[INFO] 2017-12-02 12:52:25,497 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,053 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000230>))
-[INFO] 2017-12-02 12:52:25,498 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,054 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000021> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000193>))
-[INFO] 2017-12-02 12:52:25,498 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,054 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000135> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000180> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000105>)))
-[INFO] 2017-12-02 12:52:25,498 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,054 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000255> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000254>))
-[INFO] 2017-12-02 12:52:25,499 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,055 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000012> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000069>))
-[INFO] 2017-12-02 12:52:25,499 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,055 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000129> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000172> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000029>)))
-[INFO] 2017-12-02 12:52:25,499 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,056 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000165> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_5833>)))
-[INFO] 2017-12-02 12:52:25,500 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,056 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000174> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000170>))
-[INFO] 2017-12-02 12:52:25,501 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,057 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000153> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,501 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,057 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000235> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000234>))
-[INFO] 2017-12-02 12:52:25,502 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,058 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000028> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000206>)))
-[INFO] 2017-12-02 12:52:25,503 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,058 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000033> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,504 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,059 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000049> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000223>))
-[INFO] 2017-12-02 12:52:25,506 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,068 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000101> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000070> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000079>)))
-[INFO] 2017-12-02 12:52:25,507 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,507 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,068 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,069 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000046> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000066> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000039>)))
-[INFO] 2017-12-02 12:52:25,512 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,069 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000205> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000062>))
-[INFO] 2017-12-02 12:52:25,513 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,514 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,070 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,070 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_5833> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OPL_0000055> <http://purl.obolibrary.org/obo/NCBITaxon_7164>))
-[INFO] 2017-12-02 12:52:25,514 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,071 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000249> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000192>))
-[INFO] 2017-12-02 12:52:25,515 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,071 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000111> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000148> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000087>)))
-[INFO] 2017-12-02 12:52:25,516 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,071 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000036> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,517 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,072 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000136> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000217>))
-[INFO] 2017-12-02 12:52:25,517 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,072 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000185> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_5693>)))
-[INFO] 2017-12-02 12:52:25,518 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,519 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,073 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,073 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000035> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000078> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000110>)))
-[INFO] 2017-12-02 12:52:25,519 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,074 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000244> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000207>))
-[INFO] 2017-12-02 12:52:25,520 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,076 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000217> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000148> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000136>)))
-[INFO] 2017-12-02 12:52:25,520 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,077 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000166> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000008>))
-[INFO] 2017-12-02 12:52:25,520 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,077 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000196> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000142>))
-[INFO] 2017-12-02 12:52:25,521 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,078 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000018> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000179>)))
-[INFO] 2017-12-02 12:52:25,521 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,078 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000125> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000180> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000200>)))
-[INFO] 2017-12-02 12:52:25,521 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,079 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000050> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000010>))
-[INFO] 2017-12-02 12:52:25,522 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,079 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000120> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000017> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000067>)))
-[INFO] 2017-12-02 12:52:25,522 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,079 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000080> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,522 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,080 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000262> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000260> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000258>)))
-[INFO] 2017-12-02 12:52:25,523 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,080 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000037> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000091>))
-[INFO] 2017-12-02 12:52:25,523 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,081 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000130> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000103>))
-[INFO] 2017-12-02 12:52:25,523 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,524 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,081 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,082 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000094> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000186>))
-[INFO] 2017-12-02 12:52:25,524 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,082 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000224> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000127> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000238>)))
-[INFO] 2017-12-02 12:52:25,524 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,082 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))
-[INFO] 2017-12-02 12:52:25,524 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,083 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000162> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000007>))
-[INFO] 2017-12-02 12:52:25,525 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,083 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000018> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,525 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,084 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000102> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000006> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000002>)))
-[INFO] 2017-12-02 12:52:25,528 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,085 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000103> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000036> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000130>)))
-[INFO] 2017-12-02 12:52:25,529 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,086 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.org/obo/owl/OBO_REL#bearer_of> <http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant>)
-[INFO] 2017-12-02 12:52:25,530 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,087 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000119> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000162>)))
-[INFO] 2017-12-02 12:52:25,532 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,088 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000085> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,532 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,088 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000098> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,532 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,089 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000108> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,533 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,089 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000224>)
-[INFO] 2017-12-02 12:52:25,533 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,090 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://www.obofoundry.org/ro/ro.owl#participates_in>)
-[INFO] 2017-12-02 12:52:25,534 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,090 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000167> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000075>))
-[INFO] 2017-12-02 12:52:25,534 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,091 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000075> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000085> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000167>)))
-[INFO] 2017-12-02 12:52:25,535 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,091 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000197> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000095> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000178>)))
-[INFO] 2017-12-02 12:52:25,535 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,091 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000149> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000034>)))
-[INFO] 2017-12-02 12:52:25,536 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,092 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000152> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,536 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,092 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000137> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000115>))
-[INFO] 2017-12-02 12:52:25,537 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,096 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000252> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000256> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000259>)))
-[INFO] 2017-12-02 12:52:25,537 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,096 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000110> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000035>))
-[INFO] 2017-12-02 12:52:25,537 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,538 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,097 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,097 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000199> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000106> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000161>)))
-[INFO] 2017-12-02 12:52:25,539 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,098 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000170> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000026> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000174>)))
-[INFO] 2017-12-02 12:52:25,539 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,098 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)
-[INFO] 2017-12-02 12:52:25,540 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,099 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000029> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000129>))
-[INFO] 2017-12-02 12:52:25,540 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,540 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,099 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,100 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000263> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,541 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,100 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000072> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000180> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000052>)))
-[INFO] 2017-12-02 12:52:25,545 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,101 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://www.obofoundry.org/ro/ro.owl#located_in> <http://www.ifomis.org/bfo/1.1/snap#Continuant>)
-[INFO] 2017-12-02 12:52:25,546 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,101 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000115> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000152> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000137>)))
-[INFO] 2017-12-02 12:52:25,546 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,101 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000052> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000072>))
-[INFO] 2017-12-02 12:52:25,547 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,102 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000158> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000084> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000060>)))
-[INFO] 2017-12-02 12:52:25,547 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,102 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000175> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000033> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000182>)))
-[INFO] 2017-12-02 12:52:25,547 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,103 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000089> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000187>))
-[INFO] 2017-12-02 12:52:25,548 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,111 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000090> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000107>))
-[INFO] 2017-12-02 12:52:25,548 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,111 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000164> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000169>))
-[INFO] 2017-12-02 12:52:25,548 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,112 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000161> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000199>))
-[INFO] 2017-12-02 12:52:25,549 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,112 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000216> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000108> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000092>)))
-[INFO] 2017-12-02 12:52:25,549 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,112 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000241> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000246>))
-[INFO] 2017-12-02 12:52:25,550 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,551 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,113 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,113 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000212> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000214> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000144>)))
-[INFO] 2017-12-02 12:52:25,554 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,114 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://www.obofoundry.org/ro/ro.owl#located_in> <http://www.obofoundry.org/ro/ro.owl#location_of>)
-[INFO] 2017-12-02 12:52:25,554 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,114 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000236> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000127> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000231>)))
-[INFO] 2017-12-02 12:52:25,555 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,115 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://www.obofoundry.org/ro/ro.owl#location_of> <http://www.ifomis.org/bfo/1.1/snap#Continuant>)
-[INFO] 2017-12-02 12:52:25,556 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,556 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,557 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,115 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,116 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,116 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000156> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_6182>)))
-[INFO] 2017-12-02 12:52:25,557 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,117 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000206> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000068>))
-[INFO] 2017-12-02 12:52:25,557 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,117 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000026> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,560 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,121 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support FunctionalObjectProperty. Axiom ignored:
 [INFO] FunctionalObjectProperty(<http://purl.org/obo/owl/OBO_REL#inheres_in>)
-[INFO] 2017-12-02 12:52:25,561 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,122 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000069> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000018> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000012>)))
-[INFO] 2017-12-02 12:52:25,561 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,123 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000042> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000140> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000222>)))
-[INFO] 2017-12-02 12:52:25,561 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,123 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000070> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,562 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,123 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000159> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000221> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000020>)))
-[INFO] 2017-12-02 12:52:25,562 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,124 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000066> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000218>)))
-[INFO] 2017-12-02 12:52:25,563 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,124 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121>))
-[INFO] 2017-12-02 12:52:25,564 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,125 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000198> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000228>))
-[INFO] 2017-12-02 12:52:25,564 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,125 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000113> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000073> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000138>)))
-[INFO] 2017-12-02 12:52:25,565 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,565 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,125 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,131 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)
-[INFO] 2017-12-02 12:52:25,566 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,131 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000091> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000082> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000037>)))
-[INFO] 2017-12-02 12:52:25,568 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,132 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000043> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000009>))
-[INFO] 2017-12-02 12:52:25,568 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,132 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000080> ObjectAllValuesFrom(<http://purl.org/obo/owl/OBO_REL#unfolds_in> <http://purl.obolibrary.org/obo/UBERON_0002107>))
-[INFO] 2017-12-02 12:52:25,569 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,132 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000230> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000239> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000240>)))
-[INFO] 2017-12-02 12:52:25,569 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,133 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000189> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000151> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000016>)))
-[INFO] 2017-12-02 12:52:25,570 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,133 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000257> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000250>))
-[INFO] 2017-12-02 12:52:25,572 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,134 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_5664> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/OPL_0000055> <http://purl.obolibrary.org/obo/NCBITaxon_7198>))
-[INFO] 2017-12-02 12:52:25,572 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,135 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000044> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000160>)))
-[INFO] 2017-12-02 12:52:25,572 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,135 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000195> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000172> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000132>)))
-[INFO] 2017-12-02 12:52:25,573 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,135 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000084> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,573 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,136 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000118> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000095> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000077>)))
-[INFO] 2017-12-02 12:52:25,574 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,136 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000229> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000225>))
-[INFO] 2017-12-02 12:52:25,574 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,136 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000112> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000018> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000208>)))
-[INFO] 2017-12-02 12:52:25,574 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,136 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000051> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000139>))
-[INFO] 2017-12-02 12:52:25,575 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,137 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000202> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000183> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000099>)))
-[INFO] 2017-12-02 12:52:25,576 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,137 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000135>))
-[INFO] 2017-12-02 12:52:25,576 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,138 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000173> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,577 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,138 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000178> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000197>))
-[INFO] 2017-12-02 12:52:25,577 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,138 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000146> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000251>))
-[INFO] 2017-12-02 12:52:25,577 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,139 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000138> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000113>))
-[INFO] 2017-12-02 12:52:25,578 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,139 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000048> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_5691>)))
-[INFO] 2017-12-02 12:52:25,578 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,579 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,579 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,139 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,140 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,140 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000151> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,579 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,141 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000238> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000224>))
-[INFO] 2017-12-02 12:52:25,580 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,141 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000128> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000211>))
-[INFO] 2017-12-02 12:52:25,580 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,141 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000008> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000098> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000166>)))
-[INFO] 2017-12-02 12:52:25,581 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,147 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000098> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000147>)))
-[INFO] 2017-12-02 12:52:25,581 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,148 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000017> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000011>)))
-[INFO] 2017-12-02 12:52:25,582 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,149 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000254> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000253> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000255>)))
-[INFO] 2017-12-02 12:52:25,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,149 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000200> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000125>))
-[INFO] 2017-12-02 12:52:25,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,150 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000093> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000059> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000190>)))
-[INFO] 2017-12-02 12:52:25,584 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,150 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000148> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000051>)))
-[INFO] 2017-12-02 12:52:25,584 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,151 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000193> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000017> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000021>)))
-[INFO] 2017-12-02 12:52:25,585 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,151 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000092> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000216>))
-[INFO] 2017-12-02 12:52:25,585 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,151 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000184> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000214> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000145>)))
-[INFO] 2017-12-02 12:52:25,586 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,152 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000168> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000210>))
-[INFO] 2017-12-02 12:52:25,586 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:25,587 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,152 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:50:47,152 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OPL_0000070> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000043>)))
-[INFO] 2017-12-02 12:52:25,590 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,153 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000057> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/OPL_0000232>))
-[INFO] 2017-12-02 12:52:25,590 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,153 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/OPL_0000002> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#participates_in> <http://purl.obolibrary.org/obo/OPL_0000102>))
-[INFO] 2017-12-02 12:52:25,591 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:50:47,153 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/OPL_0000177> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000105> ObjectAllValuesFrom(<http://www.obofoundry.org/ro/ro.owl#has_participant> <http://purl.obolibrary.org/obo/NCBITaxon_6185>)))
-[INFO] 2017-12-02 12:52:25,592 INFO  (LoggingStageExecutor:103) Loading of Axioms took 459 ms
-[INFO] 2017-12-02 12:52:25,599 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:25,605 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:25,607 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 7 ms
-[INFO] 2017-12-02 12:52:25,608 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:25,626 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:25,659 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 51 ms
-[INFO] 2017-12-02 12:52:25,660 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:25,668 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:25,692 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 32 ms
-[INFO] 2017-12-02 12:52:25,693 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:25,695 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:25,703 INFO  (LoggingStageExecutor:103) Context Initialization took 9 ms
-[INFO] 2017-12-02 12:52:25,703 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:25,733 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:25,895 INFO  (LoggingStageExecutor:103) Consistency Checking took 191 ms
-[INFO] 2017-12-02 12:52:25,895 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:25,937 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:26,055 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 159 ms
+[INFO] 2018-10-23 18:50:47,154 INFO  (LoggingStageExecutor:103) Loading of Axioms took 210 ms
+[INFO] 2018-10-23 18:50:47,154 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:50:47,155 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:50:47,156 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:50:47,156 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:50:47,160 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:50:47,162 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 5 ms
+[INFO] 2018-10-23 18:50:47,162 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:50:47,164 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:50:47,167 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 5 ms
+[INFO] 2018-10-23 18:50:47,167 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:50:47,168 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:50:47,170 INFO  (LoggingStageExecutor:103) Context Initialization took 2 ms
+[INFO] 2018-10-23 18:50:47,170 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:50:47,177 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:50:47,193 INFO  (LoggingStageExecutor:103) Consistency Checking took 22 ms
+[INFO] 2018-10-23 18:50:47,193 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:50:47,201 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:50:47,340 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 146 ms
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:26,065 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@63b1d4fa
-[INFO] 2017-12-02 12:52:26,086 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:26,086 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@63b1d4fa
+[INFO] 2018-10-23 18:50:47,343 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@63b1d4fa
+[INFO] 2018-10-23 18:50:47,344 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:50:47,344 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@63b1d4fa
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.686 s
-[INFO] Finished at: 2017-12-02T12:52:26-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.179s
+[INFO] Finished at: Tue Oct 23 18:50:47 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:26 MST 2017
+Tue Oct 23 18:50:47 UTC 2018

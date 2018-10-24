@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:16 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vo/vo_flat.owl
+Tue Oct 23 18:52:09 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/vo/vo_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,24 +8,22 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:23,034 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vo/vo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vo/vo_flat.owl
-[INFO] 2017-12-02 12:52:28,461 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
-[INFO] 2017-12-02 12:52:28,462 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
-[INFO] 2017-12-02 12:52:28,512 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vo/vo_flat.owl
+[INFO] 2018-10-23 18:52:13,231 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/vo/vo_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/vo/vo_flat.owl
+[INFO] 2018-10-23 18:52:15,803 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000293 in punning not allowed [Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000293>)), Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))]
+[INFO] 2018-10-23 18:52:15,804 ERROR (OWLOntologyManagerImpl:1138) Illegal redeclarations of entities: reuse of entity http://purl.obolibrary.org/obo/OBI_0000299 in punning not allowed [Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>)), Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))]
+[INFO] 2018-10-23 18:52:15,902 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vo.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/vo/vo_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:28,631 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:52:15,962 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:30,072 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@39f1e9fc
+[INFO] 2018-10-23 18:52:17,028 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@6db99c79
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 13:12:28,055 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@39f1e9fc
-[INFO] 2017-12-02 13:12:28,056 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@39f1e9fc
+[INFO] 2018-10-23 18:59:07,228 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@6db99c79
+[INFO] 2018-10-23 18:59:07,229 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@6db99c79
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 20:10 min
-[INFO] Finished at: 2017-12-02T13:12:28-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 6:56.322s
+[INFO] Finished at: Tue Oct 23 18:59:07 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 13:12:28 MST 2017
+Tue Oct 23 18:59:07 UTC 2018

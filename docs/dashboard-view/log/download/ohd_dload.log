@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:54:23 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/ohd.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   385  100   385    0     0   1785      0 --:--:-- --:--:-- --:--:--  1782
-  0 3894k    0  1915    0     0   1553      0  0:42:48  0:00:01  0:42:47  1553  7 3894k    7  309k    0     0   147k      0  0:00:26  0:00:02  0:00:24  353k 16 3894k   16  645k    0     0   208k      0  0:00:18  0:00:03  0:00:15  345k 26 3894k   26 1034k    0     0   252k      0  0:00:15  0:00:04  0:00:11  359k 35 3894k   35 1386k    0     0   271k      0  0:00:14  0:00:05  0:00:09  358k 43 3894k   43 1706k    0     0   279k      0  0:00:13  0:00:06  0:00:07  350k 54 3894k   54 2106k    0     0   296k      0  0:00:13  0:00:07  0:00:06  359k 65 3894k   65 2570k    0     0   317k      0  0:00:12  0:00:08  0:00:04  384k 77 3894k   77 3034k    0     0   333k      0  0:00:11  0:00:09  0:00:02  400k 89 3894k   89 3482k    0     0   344k      0  0:00:11  0:00:10  0:00:01  419k100 3894k  100 3894k    0     0   362k      0  0:00:10  0:00:10 --:--:--  469k
-Wed Nov 29 14:59:25 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   385  100   385    0     0   2401      0 --:--:-- --:--:-- --:--:--  2421
+  0 3894k    0  1914    0     0   2084      0  0:31:53 --:--:--  0:31:53  2084100 3894k  100 3894k    0     0  2697k      0  0:00:01  0:00:01 --:--:-- 7415k
+Mon Oct 22 16:54:25 UTC 2018
 
-Wed Nov 29 14:59:28 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ohd/ohd.owl
+Mon Oct 22 16:54:25 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/ohd/ohd.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:36,234 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ohd/ohd.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ohd/ohd.owl
-[INFO] 2017-11-29 14:59:43,139 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ohd.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ohd/ohd.owl
-[INFO] 2017-11-29 14:59:43,153 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ohd.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:29,457 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ohd/ohd.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ohd/ohd.owl
+[INFO] 2018-10-22 16:54:31,367 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ohd.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ohd/ohd.owl
+[INFO] 2018-10-22 16:54:31,376 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ohd.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.757 s
-[INFO] Finished at: 2017-11-29T14:59:44-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 5.258s
+[INFO] Finished at: Mon Oct 22 16:54:32 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:44 MST 2017
+Mon Oct 22 16:54:32 UTC 2018
 
 Download validation successful. Triple count = 55245

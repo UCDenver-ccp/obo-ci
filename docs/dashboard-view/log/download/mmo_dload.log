@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:53:55 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mmo.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1441      0 --:--:-- --:--:-- --:--:--  1448
-  0 1220k    0   784    0     0   1492      0  0:13:57 --:--:--  0:13:57  1492100 1220k  100 1220k    0     0   986k      0  0:00:01  0:00:01 --:--:-- 1712k
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1818      0 --:--:-- --:--:-- --:--:--  1823
+  0 1419k    0 12888    0     0  28925      0  0:00:50 --:--:--  0:00:50 28925100 1419k  100 1419k    0     0  1205k      0  0:00:01  0:00:01 --:--:-- 1922k
+Mon Oct 22 16:53:56 UTC 2018
 
-Wed Nov 29 14:59:16 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mmo/mmo.owl
+Mon Oct 22 16:53:57 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mmo/mmo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:25,013 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mmo/mmo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mmo/mmo.owl
-[INFO] 2017-11-29 14:59:29,027 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mmo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mmo/mmo.owl
-[INFO] 2017-11-29 14:59:29,042 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mmo.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:01,251 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mmo/mmo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mmo/mmo.owl
+[INFO] 2018-10-22 16:54:02,766 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mmo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mmo/mmo.owl
+[INFO] 2018-10-22 16:54:02,810 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mmo.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.941 s
-[INFO] Finished at: 2017-11-29T14:59:29-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.810s
+[INFO] Finished at: Mon Oct 22 16:54:03 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:29 MST 2017
+Mon Oct 22 16:54:03 UTC 2018
 
-Download validation successful. Triple count = 12509
+Download validation successful. Triple count = 14640

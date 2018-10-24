@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:19 MST 2017
+Mon Oct 22 16:55:26 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/xco.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0    440      0 --:--:-- --:--:-- --:--:--   440
-  0 1114k    0  3680    0     0   2648      0  0:07:11  0:00:01  0:07:10  2648 42 1114k   42  473k    0     0   219k      0  0:00:05  0:00:02  0:00:03  613k100 1114k  100 1114k    0     0   470k      0  0:00:02  0:00:02 --:--:-- 1136k
-Wed Nov 29 14:59:21 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310  100   310    0     0   1762      0 --:--:-- --:--:-- --:--:--  1761100   310  100   310    0     0   1761      0 --:--:-- --:--:-- --:--:--  1761
+ 31 1138k   31  357k    0     0   320k      0  0:00:03  0:00:01  0:00:02  320k100 1138k  100 1138k    0     0   934k      0  0:00:01  0:00:01 --:--:-- 7664k
+Mon Oct 22 16:55:27 UTC 2018
 
-Wed Nov 29 14:59:22 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/xco/xco.owl
+Mon Oct 22 16:55:27 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/xco/xco.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:30,337 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/xco/xco.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/xco/xco.owl
-[INFO] 2017-11-29 14:59:35,000 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/xco.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/xco/xco.owl
-[INFO] 2017-11-29 14:59:35,012 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/xco.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:31,359 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/xco/xco.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/xco/xco.owl
+[INFO] 2018-10-22 16:55:32,249 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/xco.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/xco/xco.owl
+[INFO] 2018-10-22 16:55:32,261 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/xco.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 11.745 s
-[INFO] Finished at: 2017-11-29T14:59:35-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.737s
+[INFO] Finished at: Mon Oct 22 16:55:32 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:35 MST 2017
+Mon Oct 22 16:55:32 UTC 2018
 
-Download validation successful. Triple count = 12111
+Download validation successful. Triple count = 12350

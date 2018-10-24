@@ -1,0 +1,22 @@
+Wed Oct 24 12:25:28 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/ino/ino_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ontology-classify 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
+[INFO] 2018-10-24 12:25:32,547 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/ino/ino_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ino/ino_flat.owl
+[INFO] 2018-10-24 12:25:33,270 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ino.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/ino/ino_flat.owl
+[INFO] Found cycles in the graph
+[INFO] Cycle: ObjectSomeValuesFrom(BFO:0000054 'realized in' INO:0000002 'interaction') ObjectSomeValuesFrom(RO:0000087 'has role' INO:0000015 'interactor role') ObjectIntersectionOf(BFO:0000001 'entity' ObjectSomeValuesFrom(RO:0000087 'has role' INO:0000015 'interactor role')) ObjectSomeValuesFrom(RO:0000057 'has participant' ObjectIntersectionOf(BFO:0000001 'entity' ObjectSomeValuesFrom(RO:0000087 'has role' INO:0000015 'interactor role'))) INO:0000015 'interactor role' INO:0000002 'interaction'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.594s
+[INFO] Finished at: Wed Oct 24 12:25:33 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Wed Oct 24 12:25:33 UTC 2018

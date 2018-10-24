@@ -1,0 +1,21 @@
+Mon Oct 22 16:53:48 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:53:52,217 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl
+[INFO] 2018-10-22 16:53:53,069 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ino.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ino/ino.owl
+[INFO] 2018-10-22 16:53:53,082 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ino.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.911s
+[INFO] Finished at: Mon Oct 22 16:53:53 UTC 2018
+[INFO] Final Memory: 6M/289M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:53:53 UTC 2018

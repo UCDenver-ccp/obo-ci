@@ -1,51 +1,147 @@
-Wed Nov 29 14:59:09 MST 2017
+Mon Oct 22 16:52:23 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/doid.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   368  100   368    0     0   1923      0 --:--:-- --:--:-- --:--:--  1926
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  3 23.5M    3  879k    0     0   386k      0  0:01:02  0:00:02  0:01:00  474k  9 23.5M    9 2367k    0     0   722k      0  0:00:33  0:00:03  0:00:30  829k 19 23.5M   19 4783k    0     0  1118k      0  0:00:21  0:00:04  0:00:17 1241k 35 23.5M   35 8639k    0     0  1637k      0  0:00:14  0:00:05  0:00:09 1780k 60 23.5M   60 14.3M    0     0  2340k      0  0:00:10  0:00:06  0:00:04 2962k 93 23.5M   93 21.9M    0     0  3094k      0  0:00:07  0:00:07 --:--:-- 4327k100 23.5M  100 23.5M    0     0  3205k      0  0:00:07  0:00:07 --:--:-- 5120k
-Wed Nov 29 14:59:18 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   368  100   368    0     0   1307      0 --:--:-- --:--:-- --:--:--  1309
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  1 24.6M    1  432k    0     0   320k      0  0:01:18  0:00:01  0:01:17  539k 25 24.6M   25 6496k    0     0  2767k      0  0:00:09  0:00:02  0:00:07 3606k 61 24.6M   61 15.0M    0     0  4602k      0  0:00:05  0:00:03  0:00:02 5500k100 24.6M  100 24.6M    0     0  5879k      0  0:00:04  0:00:04 --:--:-- 6739k
+Mon Oct 22 16:52:28 UTC 2018
 
-Wed Nov 29 14:59:20 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl
+Mon Oct 22 16:52:28 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.1/exec-maven-plugin-1.1.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.1/exec-maven-plugin-1.1.pom (4 KB at 4.3 KB/sec)
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building kabob-ontology-flatten 1.0
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:27,593 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl
-[INFO] 2017-11-29 14:59:28,404 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/obo/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
-[INFO] 2017-11-29 14:59:30,594 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/trans.owl from: http://purl.obolibrary.org/obo/trans.owl
-[INFO] 2017-11-29 14:59:31,765 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/trans.owl from: http://purl.obolibrary.org/obo/trans.owl
-[INFO] 2017-11-29 14:59:31,766 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/ncbitaxon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:32,107 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:32,108 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
-[INFO] 2017-11-29 14:59:32,743 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
-[INFO] 2017-11-29 14:59:32,744 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/uberon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:33,811 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:33,812 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/symp.owl from: http://purl.obolibrary.org/obo/symp.owl
-[INFO] 2017-11-29 14:59:34,312 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/symp.owl from: http://purl.obolibrary.org/obo/symp.owl
-[INFO] 2017-11-29 14:59:34,313 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/hp_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/hp_import.owl
-[INFO] 2017-11-29 14:59:35,076 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/hp_import.owl
-[INFO] 2017-11-29 14:59:35,076 INFO  (ParserWrapper:75) Start loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl
-[INFO] 2017-11-29 14:59:35,252 INFO  (ParserWrapper:82) Finished loading ontology: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl from: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/imports/omim_susc_import.owl
-[INFO] 2017-11-29 14:59:35,253 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/relations.owl from: http://purl.obolibrary.org/obo/doid/imports/relations.owl
-[INFO] 2017-11-29 14:59:37,032 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/relations.owl from: http://purl.obolibrary.org/obo/doid/imports/relations.owl
-[INFO] 2017-11-29 14:59:37,311 INFO  (ParserWrapper:82) Finished loading ontology: htts://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
-[INFO] 2017-11-29 15:00:07,978 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/doid/doid.owl
-[INFO] 2017-11-29 15:00:07,991 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/doid.owl using RDF/XML Syntax
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.4/maven-2.0.4.pom
+3/12 KB   6/12 KB   9/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.4/maven-2.0.4.pom (12 KB at 86.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom (2 KB at 13.9 KB/sec)
+[WARNING] Failed to write resolution tracking file /home/bill/.m2/repository/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom.lastUpdated
+java.io.IOException: Stale file handle
+	at java.io.RandomAccessFile.setLength(Native Method)
+	at org.sonatype.aether.impl.internal.TrackingFileManager.update(TrackingFileManager.java:130)
+	at org.sonatype.aether.impl.internal.DefaultUpdateCheckManager.write(DefaultUpdateCheckManager.java:658)
+	at org.sonatype.aether.impl.internal.DefaultUpdateCheckManager.touchArtifact(DefaultUpdateCheckManager.java:594)
+	at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:483)
+	at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:216)
+	at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:193)
+	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom(DefaultArtifactDescriptorReader.java:281)
+	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor(DefaultArtifactDescriptorReader.java:186)
+	at org.sonatype.aether.impl.internal.DefaultDependencyCollector.process(DefaultDependencyCollector.java:412)
+	at org.sonatype.aether.impl.internal.DefaultDependencyCollector.process(DefaultDependencyCollector.java:544)
+	at org.sonatype.aether.impl.internal.DefaultDependencyCollector.collectDependencies(DefaultDependencyCollector.java:240)
+	at org.sonatype.aether.impl.internal.DefaultRepositorySystem.collectDependencies(DefaultRepositorySystem.java:308)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:199)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:353)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:321)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:175)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:78)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:414)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:357)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
+601/601 B               Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom (601 B at 5.1 KB/sec)
+[WARNING] Failed to write resolution tracking file /home/bill/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom.lastUpdated
+java.io.IOException: Stale file handle
+	at sun.nio.ch.FileDispatcherImpl.lock0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.lock(FileDispatcherImpl.java:91)
+	at sun.nio.ch.FileChannelImpl.lock(FileChannelImpl.java:1054)
+	at org.sonatype.aether.impl.internal.TrackingFileManager.lock(TrackingFileManager.java:203)
+	at org.sonatype.aether.impl.internal.TrackingFileManager.update(TrackingFileManager.java:97)
+	at org.sonatype.aether.impl.internal.DefaultUpdateCheckManager.write(DefaultUpdateCheckManager.java:658)
+	at org.sonatype.aether.impl.internal.DefaultUpdateCheckManager.touchArtifact(DefaultUpdateCheckManager.java:594)
+	at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:483)
+	at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:216)
+	at org.sonatype.aether.impl.internal.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:193)
+	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom(DefaultArtifactDescriptorReader.java:281)
+	at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor(DefaultArtifactDescriptorReader.java:186)
+	at org.sonatype.aether.impl.internal.DefaultDependencyCollector.process(DefaultDependencyCollector.java:412)
+	at org.sonatype.aether.impl.internal.DefaultDependencyCollector.collectDependencies(DefaultDependencyCollector.java:240)
+	at org.sonatype.aether.impl.internal.DefaultRepositorySystem.collectDependencies(DefaultRepositorySystem.java:308)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:199)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.createPluginRealm(DefaultMavenPluginManager.java:353)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupPluginRealm(DefaultMavenPluginManager.java:321)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.getPluginRealm(DefaultBuildPluginManager.java:175)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:78)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:414)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:357)
+[INFO] 2018-10-22 16:52:46,929 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl
+[INFO] 2018-10-22 16:52:47,415 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/obo/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
+[INFO] 2018-10-22 16:52:49,948 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl
+[INFO] 2018-10-22 16:52:50,869 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/symp_import.owl
+[INFO] 2018-10-22 16:52:50,871 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl from: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl
+[INFO] 2018-10-22 16:52:51,267 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl from: http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl
+[INFO] 2018-10-22 16:52:51,268 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl from: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl
+[INFO] 2018-10-22 16:52:51,553 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl from: http://purl.obolibrary.org/obo/doid/imports/geno_import.owl
+[INFO] 2018-10-22 16:52:51,554 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
+[INFO] 2018-10-22 16:52:51,937 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl from: http://purl.obolibrary.org/obo/doid/imports/cl_import.owl
+[INFO] 2018-10-22 16:52:51,938 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:52:52,356 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:52:52,357 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl
+[INFO] 2018-10-22 16:52:52,666 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl
+[INFO] 2018-10-22 16:52:52,667 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl
+[INFO] 2018-10-22 16:52:53,362 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl
+[INFO] 2018-10-22 16:52:53,365 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl
+[INFO] 2018-10-22 16:52:53,648 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl from: http://purl.obolibrary.org/obo/doid/imports/ro_import.owl
+[INFO] 2018-10-22 16:52:53,648 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl
+[INFO] 2018-10-22 16:52:53,984 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl
+[INFO] 2018-10-22 16:52:53,985 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl from: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl
+[INFO] 2018-10-22 16:52:54,276 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl from: http://purl.obolibrary.org/obo/doid/imports/trans_import.owl
+[INFO] 2018-10-22 16:52:54,277 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl
+[INFO] 2018-10-22 16:52:54,648 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl from: http://purl.obolibrary.org/obo/doid/imports/hp_import.owl
+[INFO] 2018-10-22 16:52:54,648 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/doid/imports/so_import.owl from: http://purl.obolibrary.org/obo/doid/imports/so_import.owl
+[INFO] 2018-10-22 16:52:55,579 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/imports/so_import.owl from: http://purl.obolibrary.org/obo/doid/imports/so_import.owl
+[INFO] 2018-10-22 16:52:55,614 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid/obo/ext.owl from: http://purl.obolibrary.org/obo/doid/obo/ext.owl
+[INFO] 2018-10-22 16:53:00,624 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/doid.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/doid/doid.owl
+[INFO] 2018-10-22 16:53:00,634 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/doid.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 48.103 s
-[INFO] Finished at: 2017-11-29T15:00:10-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 30.188s
+[INFO] Finished at: Mon Oct 22 16:53:04 UTC 2018
+[INFO] Final Memory: 8M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:10 MST 2017
+Mon Oct 22 16:53:04 UTC 2018
 
-Download validation successful. Triple count = 287564
+Download validation successful. Triple count = 307903

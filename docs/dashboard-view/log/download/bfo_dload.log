@@ -1,33 +1,51 @@
-Wed Nov 29 14:58:59 MST 2017
+Mon Oct 22 16:52:20 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/bfo.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   332  100   332    0     0   1329      0 --:--:-- --:--:-- --:--:--  1333
-  1  156k    1  1917    0     0   1624      0  0:01:38  0:00:01  0:01:37  1624100  156k  100  156k    0     0   116k      0  0:00:01  0:00:01 --:--:--  966k
-Wed Nov 29 14:59:08 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   332  100   332    0     0   1181      0 --:--:-- --:--:-- --:--:--  1181
+100  156k  100  156k    0     0   181k      0 --:--:-- --:--:-- --:--:--  181k
+Mon Oct 22 16:52:21 UTC 2018
 
-Wed Nov 29 14:59:11 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/bfo/bfo.owl
+Mon Oct 22 16:52:21 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/bfo/bfo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.1/exec-maven-plugin-1.1.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.1/exec-maven-plugin-1.1.pom (4 KB at 3.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/17/mojo-17.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/17/mojo-17.pom (17 KB at 112.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.1/exec-maven-plugin-1.1.jar
+3/27 KB    5/27 KB   8/27 KB   11/27 KB   13/27 KB   16/27 KB   19/27 KB   21/27 KB   24/27 KB   27/27 KB   27/27 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.1/exec-maven-plugin-1.1.jar (27 KB at 213.3 KB/sec)
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building kabob-ontology-flatten 1.0
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:20,688 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bfo/bfo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bfo/bfo.owl
-[INFO] 2017-11-29 14:59:22,159 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/bfo/bfo.owl
-[INFO] 2017-11-29 14:59:22,172 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/bfo.owl using RDF/XML Syntax
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.4/maven-project-2.0.4.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.4/maven-project-2.0.4.pom (2 KB at 15.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.4/maven-2.0.4.pom
+3/12 KB   6/12 KB   9/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.4/maven-2.0.4.pom (12 KB at 99.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom (2 KB at 12.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.pom
+3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.pom (3 KB at 20.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+767/767 B               Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (767 B at 6.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.4/maven-profile-2.0.4.pom
+2/2 KB               Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.4/maven-profile-2.0.4.pom (2 KB at 13.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.4/maven-artifact-manager-2.0.4.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.4/maven-artifact-manager-2.0.4.pom (2 KB at 11.7 KB/sec)
+[INFO] 2018-10-22 16:52:46,935 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/bfo/bfo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/bfo/bfo.owl
+[INFO] 2018-10-22 16:52:47,652 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/bfo/bfo.owl
+[INFO] 2018-10-22 16:52:47,662 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/bfo.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.294 s
-[INFO] Finished at: 2017-11-29T14:59:23-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 14.531s
+[INFO] Finished at: Mon Oct 22 16:52:47 UTC 2018
+[INFO] Final Memory: 8M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:23 MST 2017
+Mon Oct 22 16:52:48 UTC 2018
 
 Download validation successful. Triple count = 1733

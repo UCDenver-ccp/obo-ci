@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:53:50 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/mfomd.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   370  100   370    0     0   1736      0 --:--:-- --:--:-- --:--:--  1745
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  6124  100  6124    0     0   6293      0 --:--:-- --:--:-- --:--:-- 15824
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   370  100   370    0     0   2305      0 --:--:-- --:--:-- --:--:--  2312
+100  6124  100  6124    0     0  13065      0 --:--:-- --:--:-- --:--:-- 13065
+Mon Oct 22 16:53:51 UTC 2018
 
-Wed Nov 29 14:59:16 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mfomd/mfomd.owl
+Mon Oct 22 16:53:51 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/mfomd/mfomd.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,42 +16,40 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:22,572 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mfomd/mfomd.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mfomd/mfomd.owl
-[INFO] 2017-11-29 14:59:23,329 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: http://purl.obolibrary.org/obo/ogms.owl
-[INFO] 2017-11-29 14:59:25,234 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:26,007 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:26,008 INFO  (ParserWrapper:75) Start loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
-[INFO] 2017-11-29 14:59:27,389 INFO  (ParserWrapper:82) Finished loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
-[INFO] 2017-11-29 14:59:27,391 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
-[INFO] 2017-11-29 14:59:28,365 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
-[INFO] 2017-11-29 14:59:28,403 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: http://purl.obolibrary.org/obo/ogms.owl
-[INFO] 2017-11-29 14:59:28,406 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF.owl from: http://purl.obolibrary.org/obo/MF.owl
-[INFO] 2017-11-29 14:59:28,845 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl from: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl
-[INFO] 2017-11-29 14:59:29,334 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl from: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl
-[INFO] 2017-11-29 14:59:29,335 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/GO_import.owl from: http://purl.obolibrary.org/obo/MF/external/GO_import.owl
-[INFO] 2017-11-29 14:59:29,736 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/GO_import.owl from: http://purl.obolibrary.org/obo/MF/external/GO_import.owl
-[INFO] 2017-11-29 14:59:29,737 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl
-[INFO] 2017-11-29 14:59:30,516 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl from: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl
-[INFO] 2017-11-29 14:59:31,356 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl from: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl
-[INFO] 2017-11-29 14:59:31,357 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl from: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl
-[INFO] 2017-11-29 14:59:31,741 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl from: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl
-[INFO] 2017-11-29 14:59:31,760 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl
-[INFO] 2017-11-29 14:59:31,768 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF.owl from: http://purl.obolibrary.org/obo/MF.owl
-[INFO] 2017-11-29 14:59:31,769 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl
-[INFO] 2017-11-29 14:59:32,138 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/doid-slim.owl from: http://purl.obolibrary.org/obo/MF/external/doid-slim.owl
-[INFO] 2017-11-29 14:59:32,704 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MFOMD/external/doid-slim.owl from: http://purl.obolibrary.org/obo/MF/external/doid-slim.owl
-[INFO] 2017-11-29 14:59:32,736 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl
-[INFO] 2017-11-29 14:59:34,452 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MFOMD.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mfomd/mfomd.owl
-[INFO] 2017-11-29 14:59:34,465 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/MFOMD.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:55,307 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mfomd/mfomd.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mfomd/mfomd.owl
+[INFO] 2018-10-22 16:53:55,503 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: http://purl.obolibrary.org/obo/ogms.owl
+[INFO] 2018-10-22 16:53:56,752 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2018-10-22 16:53:57,067 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl
+[INFO] 2018-10-22 16:53:57,074 INFO  (ParserWrapper:75) Start loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
+[INFO] 2018-10-22 16:53:57,408 INFO  (ParserWrapper:82) Finished loading ontology: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl from: http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl
+[INFO] 2018-10-22 16:53:57,410 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
+[INFO] 2018-10-22 16:53:57,752 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
+[INFO] 2018-10-22 16:53:57,812 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ogms.owl from: http://purl.obolibrary.org/obo/ogms.owl
+[INFO] 2018-10-22 16:53:57,813 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF.owl from: http://purl.obolibrary.org/obo/MF.owl
+[INFO] 2018-10-22 16:53:57,994 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl from: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl
+[INFO] 2018-10-22 16:53:58,207 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl from: http://purl.obolibrary.org/obo/MF/external/behavior-slim.owl
+[INFO] 2018-10-22 16:53:58,215 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/GO_import.owl from: http://purl.obolibrary.org/obo/MF/external/GO_import.owl
+[INFO] 2018-10-22 16:53:58,459 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/GO_import.owl from: http://purl.obolibrary.org/obo/MF/external/GO_import.owl
+[INFO] 2018-10-22 16:53:58,461 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl
+[INFO] 2018-10-22 16:53:58,680 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl from: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl
+[INFO] 2018-10-22 16:53:58,892 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl from: http://purl.obolibrary.org/obo/MF/external/ontology-metadata-slim.owl
+[INFO] 2018-10-22 16:53:58,893 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl from: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl
+[INFO] 2018-10-22 16:53:59,093 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl from: http://purl.obolibrary.org/obo/MF/external/bfo-properties-slim.owl
+[INFO] 2018-10-22 16:53:59,123 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MF-core.owl
+[INFO] 2018-10-22 16:53:59,135 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF.owl from: http://purl.obolibrary.org/obo/MF.owl
+[INFO] 2018-10-22 16:53:59,137 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl
+[INFO] 2018-10-22 16:53:59,443 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/MF/external/doid-slim.owl from: http://purl.obolibrary.org/obo/MF/external/doid-slim.owl
+[INFO] 2018-10-22 16:54:00,039 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MFOMD/external/doid-slim.owl from: http://purl.obolibrary.org/obo/MF/external/doid-slim.owl
+[INFO] 2018-10-22 16:54:00,095 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl from: http://purl.obolibrary.org/obo/MF/internal/MD-core.owl
+[INFO] 2018-10-22 16:54:00,110 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MFOMD.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mfomd/mfomd.owl
+[INFO] 2018-10-22 16:54:00,120 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/MFOMD.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 17.037 s
-[INFO] Finished at: 2017-11-29T14:59:34-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 7.479s
+[INFO] Finished at: Mon Oct 22 16:54:00 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:34 MST 2017
+Mon Oct 22 16:54:00 UTC 2018
 
-Download validation successful. Triple count = 213
+Download validation successful. Triple count = 212

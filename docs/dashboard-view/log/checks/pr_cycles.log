@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:24 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pr/pr_flat.owl
+Wed Oct 24 12:17:51 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/pr/pr_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,17 +8,4 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:29,587 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pr/pr_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pr/pr_flat.owl
-[INFO] 2017-12-03 00:56:23,922 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/pr.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pr/pr_flat.owl
-[INFO] Found cycles in the graph
-[INFO] Cycle: ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036819 'capsid protein C') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036819 'capsid protein C') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036820 'pr protein') PR:000036827 'NS2B' PR:000036828 'NS3' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036820 'pr protein') ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036842 '2KNS4B') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036821 'M protein') PR:000036824 'NS1' PR:000036825 'NS2A' ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036840 'NS4A-NS4B-NS5') PR:000036826 'NS2A-alpha' ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036841 'NS4AB') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036824 'NS1') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036825 'NS2A') PR:000036820 'pr protein' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036822 'E protein') PR:000036821 'M protein' PR:000036822 'E protein' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036828 'NS3') ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036839 'NS345') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036826 'NS2A-alpha') ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036837 'prM') ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036838 'NS12345') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036827 'NS2B') PR:000036838 'NS12345' PR:000036839 'NS345' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036831 '2K') PR:000036835 'NS5' PR:000036836 'C-prM' PR:000036837 'prM' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036830 'NS4A') PR:000036830 'NS4A' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036835 'NS5') ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036836 'C-prM') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036836 'C-prM') PR:000036831 '2K' ObjectSomeValuesFrom(RO:0001000 'derives_from' PR:000036998 'NS1-NS2A') ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036833 'NS4B') PR:000036998 'NS1-NS2A' PR:000036833 'NS4B' PR:000036840 'NS4A-NS4B-NS5' ObjectSomeValuesFrom(lacks_part 'lacks_part' PR:000036838 'NS12345') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036837 'prM') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036833 'NS4B') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036835 'NS5') PR:000036841 'NS4AB' PR:000036842 '2KNS4B' ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036825 'NS2A') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036827 'NS2B') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036828 'NS3') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036821 'M protein') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036824 'NS1') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036830 'NS4A') ObjectSomeValuesFrom(BFO:0000051 'has_part' PR:000036831 '2K') PR:000036819 'capsid protein C'
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 08:41 min
-[INFO] Finished at: 2017-12-03T00:59:07-07:00
-[INFO] Final Memory: 21M/1963M
-[INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:59:07 MST 2017
+[INFO] 2018-10-24 12:17:55,703 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/pr/pr_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/pr/pr_flat.owl

@@ -1,14 +1,14 @@
-Wed Nov 29 14:59:13 MST 2017
+Mon Oct 22 16:53:42 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/kisao.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   303  100   303    0     0   1429      0 --:--:-- --:--:-- --:--:--  1436
-100   235  100   235    0     0    297      0 --:--:-- --:--:-- --:--:--   297100   235  100   235    0     0    297      0 --:--:-- --:--:-- --:--:--     0
-100 37545  100 37545    0     0  30158      0  0:00:01  0:00:01 --:--:-- 30158
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   303  100   303    0     0   1787      0 --:--:-- --:--:-- --:--:--  1792
+100   235  100   235    0     0    386      0 --:--:-- --:--:-- --:--:--   386100   235  100   235    0     0    386      0 --:--:-- --:--:-- --:--:--     0
+100 37545  100 37545    0     0  29586      0  0:00:01  0:00:01 --:--:-- 29586
+Mon Oct 22 16:53:43 UTC 2018
 
-Wed Nov 29 14:59:15 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/kisao/kisao.owl
+Mon Oct 22 16:53:44 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/kisao/kisao.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -17,20 +17,18 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:22,610 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/kisao/kisao.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/kisao/kisao.owl
-[INFO] 2017-11-29 14:59:23,284 INFO  (ParserWrapper:75) Start loading ontology: http://www.biomodels.net/kisao/KISAO# from: http://www.biomodels.net/kisao/KISAO#
-[INFO] 2017-11-29 14:59:26,427 INFO  (ParserWrapper:82) Finished loading ontology: http://www.biomodels.net/kisao/KISAO# from: http://www.biomodels.net/kisao/KISAO#
-[INFO] 2017-11-29 14:59:26,834 INFO  (ParserWrapper:82) Finished loading ontology: http://www.biomodels.net/kisao/KISAO_FULL# from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/kisao/kisao.owl
-[INFO] 2017-11-29 14:59:26,846 INFO  (CommandRunner:3243) saving:http://www.biomodels.net/kisao/KISAO_FULL# using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:48,069 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/kisao/kisao.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/kisao/kisao.owl
+[INFO] 2018-10-22 16:53:48,246 INFO  (ParserWrapper:75) Start loading ontology: http://www.biomodels.net/kisao/KISAO# from: http://www.biomodels.net/kisao/KISAO#
+[INFO] 2018-10-22 16:53:50,696 INFO  (ParserWrapper:82) Finished loading ontology: http://www.biomodels.net/kisao/KISAO# from: http://www.biomodels.net/kisao/KISAO#
+[INFO] 2018-10-22 16:53:50,731 INFO  (ParserWrapper:82) Finished loading ontology: http://www.biomodels.net/kisao/KISAO_FULL# from: file:/mnt/efsdata/obo-ci-data/download/ontologies/kisao/kisao.owl
+[INFO] 2018-10-22 16:53:50,742 INFO  (CommandRunner:3243) saving:http://www.biomodels.net/kisao/KISAO_FULL# using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.231 s
-[INFO] Finished at: 2017-11-29T14:59:27-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 5.466s
+[INFO] Finished at: Mon Oct 22 16:53:50 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:27 MST 2017
+Mon Oct 22 16:53:50 UTC 2018
 
 Download validation successful. Triple count = 655

@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:15 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/geno/geno_flat.owl
+Tue Oct 23 18:48:40 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/geno/geno_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,276 +8,274 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:21,762 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/geno/geno_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/geno/geno_flat.owl
-[INFO] 2017-12-02 12:52:23,168 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/geno.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/geno/geno_flat.owl
+[INFO] 2018-10-23 18:48:44,061 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/geno/geno_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/geno/geno_flat.owl
+[INFO] 2018-10-23 18:48:44,902 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/geno.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/geno/geno_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:23,344 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:48:44,948 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:23,445 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:24,086 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:24,095 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@14b030a0
-[INFO] 2017-12-02 12:52:24,104 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:24,124 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:24,294 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:44,974 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:48:45,160 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:48:45,161 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@45c8d09f
+[INFO] 2018-10-23 18:48:45,162 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:48:45,638 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:48:45,654 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000239> <http://purl.obolibrary.org/obo/GENO_0000251>)
-[INFO] 2017-12-02 12:52:24,309 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,656 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid567)
+[INFO] 2018-10-23 18:48:45,657 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002200> <http://purl.obolibrary.org/obo/RO_0002201>)
-[INFO] 2017-12-02 12:52:24,330 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,660 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid587)
+[INFO] 2018-10-23 18:48:45,664 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid52)
-[INFO] 2017-12-02 12:52:24,338 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid560)
-[INFO] 2017-12-02 12:52:24,339 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,664 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid581)
+[INFO] 2018-10-23 18:48:45,667 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid66)
-[INFO] 2017-12-02 12:52:24,342 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,668 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/GENO_0000784>)
+[INFO] 2018-10-23 18:48:45,671 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid571)
+[INFO] 2018-10-23 18:48:45,671 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid22)
-[INFO] 2017-12-02 12:52:24,347 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,672 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid591)
+[INFO] 2018-10-23 18:48:45,674 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000078> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000428> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000002> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121>))
-[INFO] 2017-12-02 12:52:24,348 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid540)
-[INFO] 2017-12-02 12:52:24,359 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,675 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid247)
+[INFO] 2018-10-23 18:48:45,676 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid80)
-[INFO] 2017-12-02 12:52:24,367 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid568)
-[INFO] 2017-12-02 12:52:24,373 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,681 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,682 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002200> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
-[INFO] 2017-12-02 12:52:24,375 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,683 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid84)
-[INFO] 2017-12-02 12:52:24,376 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,683 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000242> <http://purl.obolibrary.org/obo/GENO_0000253>)
-[INFO] 2017-12-02 12:52:24,377 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,684 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid40)
-[INFO] 2017-12-02 12:52:24,419 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
-[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000029> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/GENO_0000036>))
-[INFO] 2017-12-02 12:52:24,420 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,687 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid10)
-[INFO] 2017-12-02 12:52:24,437 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,689 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000896> <http://www.w3.org/2001/XMLSchema#string>)
-[INFO] 2017-12-02 12:52:24,439 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,690 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid4)
-[INFO] 2017-12-02 12:52:24,439 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,691 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000119> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/NCBITaxon_7955>))
-[INFO] 2017-12-02 12:52:24,440 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid546)
-[INFO] 2017-12-02 12:52:24,441 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,692 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000225> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000229> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000103>))
-[INFO] 2017-12-02 12:52:24,442 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,694 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000368> <http://purl.obolibrary.org/obo/GENO_0000141>)
-[INFO] 2017-12-02 12:52:24,446 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,450 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,695 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid86)
-[INFO] 2017-12-02 12:52:24,452 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid556)
-[INFO] 2017-12-02 12:52:24,453 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,695 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid60)
-[INFO] 2017-12-02 12:52:24,454 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,696 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid72)
-[INFO] 2017-12-02 12:52:24,460 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
-[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000029> ObjectExactCardinality(0 <http://purl.obolibrary.org/obo/RO_0002351>))
-[INFO] 2017-12-02 12:52:24,461 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,696 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0000056> <http://purl.obolibrary.org/obo/RO_0000057>)
-[INFO] 2017-12-02 12:52:24,462 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,697 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,699 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://www.geneontology.org/formats/oboInOwl#Subset> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000224>))
-[INFO] 2017-12-02 12:52:24,463 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,699 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000408> <http://purl.obolibrary.org/obo/GENO_0000413>)
-[INFO] 2017-12-02 12:52:24,464 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,700 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid42)
-[INFO] 2017-12-02 12:52:24,466 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,701 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid12)
-[INFO] 2017-12-02 12:52:24,473 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,702 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid68)
-[INFO] 2017-12-02 12:52:24,478 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,703 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid569)
+[INFO] 2018-10-23 18:48:45,704 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid2)
-[INFO] 2017-12-02 12:52:24,484 WARN  (IndexedObjectComplementOf:84) [reasoner.indexing.IndexedObjectComplementOf]ELK does not support negative occurrences of ObjectComplementOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,485 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,707 WARN  (IndexedObjectComplementOf:84) [reasoner.indexing.IndexedObjectComplementOf]ELK does not support negative occurrences of ObjectComplementOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,707 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000231> <http://purl.obolibrary.org/obo/GENO_0000248>)
-[INFO] 2017-12-02 12:52:24,487 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid544)
-[INFO] 2017-12-02 12:52:24,502 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,524 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,526 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,708 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,710 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/RO_0002353>)
-[INFO] 2017-12-02 12:52:24,529 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,711 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataSomeValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000702> DataSomeValuesFrom(<http://purl.obolibrary.org/obo/GENO_0000896> <http://www.w3.org/2001/XMLSchema#string>))
-[INFO] 2017-12-02 12:52:24,530 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,712 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid593)
+[INFO] 2018-10-23 18:48:45,713 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000410> <http://purl.obolibrary.org/obo/GENO_0000411>)
-[INFO] 2017-12-02 12:52:24,531 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,713 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid30)
-[INFO] 2017-12-02 12:52:24,531 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,713 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000726> <http://purl.obolibrary.org/obo/SO_0000110>)
-[INFO] 2017-12-02 12:52:24,532 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,714 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid56)
-[INFO] 2017-12-02 12:52:24,534 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,715 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid585)
+[INFO] 2018-10-23 18:48:45,716 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000608> <http://purl.obolibrary.org/obo/GENO_0000133>)
-[INFO] 2017-12-02 12:52:24,535 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,718 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid38)
-[INFO] 2017-12-02 12:52:24,539 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,718 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000220> <http://purl.obolibrary.org/obo/GENO_0000222>)
-[INFO] 2017-12-02 12:52:24,541 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,719 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid92)
-[INFO] 2017-12-02 12:52:24,542 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,720 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectOneOf. Axiom ignored:
 [INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/IAO_0000409> ObjectOneOf(<http://purl.obolibrary.org/obo/IAO_0000410> <http://purl.obolibrary.org/obo/IAO_0000421> <http://purl.obolibrary.org/obo/IAO_0000420>))
-[INFO] 2017-12-02 12:52:24,542 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,720 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid18)
-[INFO] 2017-12-02 12:52:24,548 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,726 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/GENO_0000703> <http://purl.obolibrary.org/obo/SO_0000110>)
-[INFO] 2017-12-02 12:52:24,548 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,726 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid74)
-[INFO] 2017-12-02 12:52:24,549 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,727 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid88)
-[INFO] 2017-12-02 12:52:24,549 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyDomain. Axiom ignored:
 [INFO] DataPropertyDomain(<http://purl.obolibrary.org/obo/GENO_0000896> <http://purl.obolibrary.org/obo/GENO_0000702>)
-[INFO] 2017-12-02 12:52:24,552 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/RO_0002351>)
-[INFO] 2017-12-02 12:52:24,552 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,728 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid36)
-[INFO] 2017-12-02 12:52:24,553 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,729 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid44)
-[INFO] 2017-12-02 12:52:24,554 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,554 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,730 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,730 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000650> <http://purl.obolibrary.org/obo/GENO_0000661>)
-[INFO] 2017-12-02 12:52:24,557 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,731 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
 [INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>)
-[INFO] 2017-12-02 12:52:24,559 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid246)
-[INFO] 2017-12-02 12:52:24,563 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,564 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,732 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid575)
+[INFO] 2018-10-23 18:48:45,739 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,740 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,740 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,741 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,741 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid26)
-[INFO] 2017-12-02 12:52:24,565 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid554)
-[INFO] 2017-12-02 12:52:24,566 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid244)
-[INFO] 2017-12-02 12:52:24,567 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,743 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid6)
-[INFO] 2017-12-02 12:52:24,567 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,743 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid54)
-[INFO] 2017-12-02 12:52:24,569 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,744 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid62)
-[INFO] 2017-12-02 12:52:24,569 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,745 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid8)
-[INFO] 2017-12-02 12:52:24,570 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid542)
-[INFO] 2017-12-02 12:52:24,571 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,746 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid24)
-[INFO] 2017-12-02 12:52:24,571 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,747 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid32)
-[INFO] 2017-12-02 12:52:24,571 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,747 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/RO_0002524> <http://purl.obolibrary.org/obo/RO_0002525>)
-[INFO] 2017-12-02 12:52:24,572 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,750 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid573)
+[INFO] 2018-10-23 18:48:45,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support SymmetricObjectProperty. Axiom ignored:
+[INFO] SymmetricObjectProperty(<http://purl.obolibrary.org/obo/GENO_0000683>)
+[INFO] 2018-10-23 18:48:45,751 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid58)
-[INFO] 2017-12-02 12:52:24,577 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
-[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000871> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002351>))
-[INFO] 2017-12-02 12:52:24,579 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid90)
-[INFO] 2017-12-02 12:52:24,579 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,752 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid14)
-[INFO] 2017-12-02 12:52:24,580 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,752 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid90)
+[INFO] 2018-10-23 18:48:45,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000443> <http://purl.obolibrary.org/obo/GENO_0000449>)
-[INFO] 2017-12-02 12:52:24,581 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid558)
-[INFO] 2017-12-02 12:52:24,581 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,753 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid28)
-[INFO] 2017-12-02 12:52:24,582 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,754 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid94)
-[INFO] 2017-12-02 12:52:24,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000385> <http://purl.obolibrary.org/obo/GENO_0000387>)
-[INFO] 2017-12-02 12:52:24,583 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,755 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid50)
-[INFO] 2017-12-02 12:52:24,584 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000252> <http://purl.obolibrary.org/obo/IAO_0000136>)
-[INFO] 2017-12-02 12:52:24,585 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid589)
+[INFO] 2018-10-23 18:48:45,756 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid64)
-[INFO] 2017-12-02 12:52:24,585 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,757 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000051>)
-[INFO] 2017-12-02 12:52:24,586 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,757 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid76)
-[INFO] 2017-12-02 12:52:24,586 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid20)
-[INFO] 2017-12-02 12:52:24,587 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000382> <http://purl.obolibrary.org/obo/GENO_0000383>)
-[INFO] 2017-12-02 12:52:24,587 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,758 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000414> <http://purl.obolibrary.org/obo/GENO_0000447>)
-[INFO] 2017-12-02 12:52:24,587 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid562)
-[INFO] 2017-12-02 12:52:24,589 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,759 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000678> <http://www.w3.org/2001/XMLSchema#int>)
-[INFO] 2017-12-02 12:52:24,589 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] EquivalentClasses(<http://purl.obolibrary.org/obo/GENO_0000885> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GENO_0000823> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GENO_0000516> ObjectExactCardinality(2 <http://purl.obolibrary.org/obo/RO_0002351>)))))
+[INFO] 2018-10-23 18:48:45,760 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000418> <http://purl.obolibrary.org/obo/GENO_0000445>)
-[INFO] 2017-12-02 12:52:24,590 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,761 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid595)
+[INFO] 2018-10-23 18:48:45,765 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid46)
-[INFO] 2017-12-02 12:52:24,590 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,591 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,766 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,767 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectAllValuesFrom. Axiom ignored:
 [INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000887> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/NCBITaxon_8090>))
-[INFO] 2017-12-02 12:52:24,596 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,768 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000226> <http://purl.obolibrary.org/obo/IAO_0000227> <http://purl.obolibrary.org/obo/IAO_0000228> <http://purl.obolibrary.org/obo/IAO_0000229>)
-[INFO] 2017-12-02 12:52:24,598 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,606 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,768 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,769 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid16)
-[INFO] 2017-12-02 12:52:24,607 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,769 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DataPropertyRange. Axiom ignored:
 [INFO] DataPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000703> <http://www.w3.org/2001/XMLSchema#string>)
-[INFO] 2017-12-02 12:52:24,608 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
-[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000885> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002351>))
-[INFO] 2017-12-02 12:52:24,608 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,609 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,612 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,770 WARN  (IndexedObjectUnionOf:92) [reasoner.indexing.IndexedObjectUnionOf]ELK does not support positive occurrences of ObjectUnionOf. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,770 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid579)
+[INFO] 2018-10-23 18:48:45,771 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid82)
-[INFO] 2017-12-02 12:52:24,614 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Synonym> _:genid564)
-[INFO] 2017-12-02 12:52:24,616 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,772 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectPropertyRange. Axiom ignored:
 [INFO] ObjectPropertyRange(<http://purl.obolibrary.org/obo/GENO_0000239> <http://purl.obolibrary.org/obo/GENO_0000702>)
-[INFO] 2017-12-02 12:52:24,617 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid548)
-[INFO] 2017-12-02 12:52:24,618 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,619 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,772 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,773 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support DifferentIndividuals. Axiom ignored:
 [INFO] DifferentIndividuals(<http://purl.obolibrary.org/obo/IAO_0000120> <http://purl.obolibrary.org/obo/IAO_0000121> <http://purl.obolibrary.org/obo/IAO_0000122> <http://purl.obolibrary.org/obo/IAO_0000123> <http://purl.obolibrary.org/obo/IAO_0000124> <http://purl.obolibrary.org/obo/IAO_0000125> <http://purl.obolibrary.org/obo/IAO_0000423> <http://purl.obolibrary.org/obo/IAO_0000428>)
-[INFO] 2017-12-02 12:52:24,620 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectMinCardinality. Axiom ignored:
-[INFO] SubClassOf(<http://purl.obolibrary.org/obo/GENO_0000870> ObjectMinCardinality(2 <http://purl.obolibrary.org/obo/RO_0002351>))
-[INFO] 2017-12-02 12:52:24,621 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,778 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support ObjectExactCardinality. Axiom ignored:
 [INFO] SubClassOf(<http://biohackathon.org/resource/faldo#Region> ObjectIntersectionOf(ObjectExactCardinality(1 <http://biohackathon.org/resource/faldo#begin>) ObjectExactCardinality(1 <http://biohackathon.org/resource/faldo#end>)))
-[INFO] 2017-12-02 12:52:24,623 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,779 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid78)
-[INFO] 2017-12-02 12:52:24,624 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,779 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid48)
-[INFO] 2017-12-02 12:52:24,627 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,780 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support InverseObjectProperties. Axiom ignored:
 [INFO] InverseObjectProperties(<http://purl.obolibrary.org/obo/GENO_0000654> <http://purl.obolibrary.org/obo/GENO_0000655>)
-[INFO] 2017-12-02 12:52:24,628 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,780 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid583)
+[INFO] 2018-10-23 18:48:45,781 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid34)
-[INFO] 2017-12-02 12:52:24,629 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] 2018-10-23 18:48:45,781 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
 [INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid70)
-[INFO] 2017-12-02 12:52:24,636 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
-[INFO] 2017-12-02 12:52:24,638 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid552)
-[INFO] 2017-12-02 12:52:24,641 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
-[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#Definition> _:genid566)
-[INFO] 2017-12-02 12:52:24,642 INFO  (LoggingStageExecutor:103) Loading of Axioms took 523 ms
-[INFO] 2017-12-02 12:52:24,643 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:24,651 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:24,659 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 16 ms
-[INFO] 2017-12-02 12:52:24,660 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:24,673 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:24,802 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 142 ms
-[INFO] 2017-12-02 12:52:24,803 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:24,809 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:24,926 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 122 ms
-[INFO] 2017-12-02 12:52:24,926 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:24,930 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:24,939 INFO  (LoggingStageExecutor:103) Context Initialization took 12 ms
-[INFO] 2017-12-02 12:52:24,940 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:24,961 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:25,041 INFO  (LoggingStageExecutor:103) Consistency Checking took 101 ms
-[INFO] 2017-12-02 12:52:25,042 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:25,082 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:25,209 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 167 ms
+[INFO] 2018-10-23 18:48:45,782 WARN  (ChangeIndexingProcessor:66) [reasoner.indexing.axiomIgnored]ELK does not support AnonymousIndividual. Axiom ignored:
+[INFO] ClassAssertion(<http://www.geneontology.org/formats/oboInOwl#DbXref> _:genid249)
+[INFO] 2018-10-23 18:48:45,782 WARN  (IndexObjectConverter:212) [reasoner.indexing.dataHasValue]ELK supports DataHasValue only partially. Reasoning might be incomplete!
+[INFO] 2018-10-23 18:48:45,783 INFO  (LoggingStageExecutor:103) Loading of Axioms took 146 ms
+[INFO] 2018-10-23 18:48:45,783 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:48:45,784 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:48:45,784 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 1 ms
+[INFO] 2018-10-23 18:48:45,785 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:48:45,806 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:48:45,809 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 24 ms
+[INFO] 2018-10-23 18:48:45,809 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:48:45,811 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:48:45,817 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 7 ms
+[INFO] 2018-10-23 18:48:45,817 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:48:45,818 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:48:45,820 INFO  (LoggingStageExecutor:103) Context Initialization took 2 ms
+[INFO] 2018-10-23 18:48:45,820 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:48:45,825 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:48:45,845 INFO  (LoggingStageExecutor:103) Consistency Checking took 24 ms
+[INFO] 2018-10-23 18:48:45,845 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:48:45,855 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:48:46,011 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 164 ms
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:25,216 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@14b030a0
-[INFO] 2017-12-02 12:52:25,222 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:25,224 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@14b030a0
+[INFO] 2018-10-23 18:48:46,014 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@45c8d09f
+[INFO] 2018-10-23 18:48:46,015 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:48:46,015 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@45c8d09f
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.603 s
-[INFO] Finished at: 2017-12-02T12:52:25-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.330s
+[INFO] Finished at: Tue Oct 23 18:48:46 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:25 MST 2017
+Tue Oct 23 18:48:46 UTC 2018

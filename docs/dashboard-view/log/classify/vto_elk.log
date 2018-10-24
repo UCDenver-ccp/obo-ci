@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:16 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vto/vto_flat.owl
+Tue Oct 23 18:52:11 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/vto/vto_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,46 +8,44 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:23,034 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vto/vto_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vto/vto_flat.owl
-[INFO] 2017-12-02 12:52:46,319 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vto.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/vto/vto_flat.owl
+[INFO] 2018-10-23 18:52:15,376 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/vto/vto_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/vto/vto_flat.owl
+[INFO] 2018-10-23 18:52:44,652 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/vto.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/vto/vto_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:46,526 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:52:44,821 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:47,023 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
-[INFO] 2017-12-02 12:52:47,730 INFO  (Reasoner:117) ELK reasoner was created
-[INFO] 2017-12-02 12:52:47,732 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1af146
-[INFO] 2017-12-02 12:52:47,736 INFO  (LoggingStageExecutor:70) Loading of Axioms started
-[INFO] 2017-12-02 12:52:47,745 INFO  (AbstractReasonerStage:161) Loading of Axioms using 64 workers
-[INFO] 2017-12-02 12:52:48,339 INFO  (LoggingStageExecutor:103) Loading of Axioms took 598 ms
-[INFO] 2017-12-02 12:52:48,340 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
-[INFO] 2017-12-02 12:52:48,342 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 64 workers
-[INFO] 2017-12-02 12:52:48,343 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 2 ms
-[INFO] 2017-12-02 12:52:48,343 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
-[INFO] 2017-12-02 12:52:48,357 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 64 workers
-[INFO] 2017-12-02 12:52:48,372 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 28 ms
-[INFO] 2017-12-02 12:52:48,372 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
-[INFO] 2017-12-02 12:52:48,381 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 64 workers
-[INFO] 2017-12-02 12:52:48,387 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 13 ms
-[INFO] 2017-12-02 12:52:48,387 INFO  (LoggingStageExecutor:70) Context Initialization started
-[INFO] 2017-12-02 12:52:48,390 INFO  (AbstractReasonerStage:161) Context Initialization using 64 workers
-[INFO] 2017-12-02 12:52:48,397 INFO  (LoggingStageExecutor:103) Context Initialization took 9 ms
-[INFO] 2017-12-02 12:52:48,397 INFO  (LoggingStageExecutor:70) Consistency Checking started
-[INFO] 2017-12-02 12:52:48,408 INFO  (AbstractReasonerStage:161) Consistency Checking using 64 workers
-[INFO] 2017-12-02 12:52:48,519 INFO  (LoggingStageExecutor:103) Consistency Checking took 121 ms
-[INFO] 2017-12-02 12:52:48,519 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
-[INFO] 2017-12-02 12:52:48,551 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 64 workers
-[INFO] 2017-12-02 12:52:49,672 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 1152 ms
+[INFO] 2018-10-23 18:52:45,443 INFO  (ConfigurationFactory:83) Loading default configuration parameters for class org.semanticweb.elk.reasoner.config.ReasonerConfiguration
+[INFO] 2018-10-23 18:52:46,026 INFO  (Reasoner:117) ELK reasoner was created
+[INFO] 2018-10-23 18:52:46,027 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.elk.owlapi.ElkReasoner@1af146
+[INFO] 2018-10-23 18:52:46,029 INFO  (LoggingStageExecutor:70) Loading of Axioms started
+[INFO] 2018-10-23 18:52:46,033 INFO  (AbstractReasonerStage:161) Loading of Axioms using 2 workers
+[INFO] 2018-10-23 18:52:46,807 INFO  (LoggingStageExecutor:103) Loading of Axioms took 775 ms
+[INFO] 2018-10-23 18:52:46,807 INFO  (LoggingStageExecutor:70) Property Saturation Initialization started
+[INFO] 2018-10-23 18:52:46,808 INFO  (AbstractReasonerStage:161) Property Saturation Initialization using 2 workers
+[INFO] 2018-10-23 18:52:46,808 INFO  (LoggingStageExecutor:103) Property Saturation Initialization took 0 ms
+[INFO] 2018-10-23 18:52:46,809 INFO  (LoggingStageExecutor:70) Reflexive Property Computation started
+[INFO] 2018-10-23 18:52:46,813 INFO  (AbstractReasonerStage:161) Reflexive Property Computation using 2 workers
+[INFO] 2018-10-23 18:52:46,815 INFO  (LoggingStageExecutor:103) Reflexive Property Computation took 6 ms
+[INFO] 2018-10-23 18:52:46,815 INFO  (LoggingStageExecutor:70) Object Property Hierarchy and Composition Computation started
+[INFO] 2018-10-23 18:52:46,819 INFO  (AbstractReasonerStage:161) Object Property Hierarchy and Composition Computation using 2 workers
+[INFO] 2018-10-23 18:52:46,820 INFO  (LoggingStageExecutor:103) Object Property Hierarchy and Composition Computation took 3 ms
+[INFO] 2018-10-23 18:52:46,820 INFO  (LoggingStageExecutor:70) Context Initialization started
+[INFO] 2018-10-23 18:52:46,821 INFO  (AbstractReasonerStage:161) Context Initialization using 2 workers
+[INFO] 2018-10-23 18:52:46,823 INFO  (LoggingStageExecutor:103) Context Initialization took 2 ms
+[INFO] 2018-10-23 18:52:46,823 INFO  (LoggingStageExecutor:70) Consistency Checking started
+[INFO] 2018-10-23 18:52:46,827 INFO  (AbstractReasonerStage:161) Consistency Checking using 2 workers
+[INFO] 2018-10-23 18:52:46,833 INFO  (LoggingStageExecutor:103) Consistency Checking took 10 ms
+[INFO] 2018-10-23 18:52:46,833 INFO  (LoggingStageExecutor:70) Class Taxonomy Computation started
+[INFO] 2018-10-23 18:52:46,844 INFO  (AbstractReasonerStage:161) Class Taxonomy Computation using 2 workers
+[INFO] 2018-10-23 18:52:49,512 INFO  (LoggingStageExecutor:103) Class Taxonomy Computation took 2678 ms
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:49,680 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1af146
-[INFO] 2017-12-02 12:52:49,688 INFO  (Reasoner:231) ELK reasoner has shut down
-[INFO] 2017-12-02 12:52:49,688 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1af146
+[INFO] 2018-10-23 18:52:49,515 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1af146
+[INFO] 2018-10-23 18:52:49,517 INFO  (Reasoner:231) ELK reasoner has shut down
+[INFO] 2018-10-23 18:52:49,517 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.elk.owlapi.ElkReasoner@1af146
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 31.798 s
-[INFO] Finished at: 2017-12-02T12:52:49-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 36.565s
+[INFO] Finished at: Tue Oct 23 18:52:49 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:49 MST 2017
+Tue Oct 23 18:52:49 UTC 2018

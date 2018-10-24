@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:17 MST 2017
+Mon Oct 22 16:55:08 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/tto.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354  100   354    0     0   1451      0 --:--:-- --:--:-- --:--:--  1456
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0 67.5M    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0 67.5M    0 30179    0     0   8728      0  2:15:17  0:00:03  2:15:14 10489  0 67.5M    0  224k    0     0  51528      0  0:22:55  0:00:04  0:22:51 59254  0 67.5M    0  448k    0     0  84267      0  0:14:00  0:00:05  0:13:55 94315  0 67.5M    0  672k    0     0   104k      0  0:11:03  0:00:06  0:10:57  155k  1 67.5M    1  896k    0     0   120k      0  0:09:34  0:00:07  0:09:27  194k  1 67.5M    1 1280k    0     0   151k      0  0:07:36  0:00:08  0:07:28  250k  2 67.5M    2 1712k    0     0   181k      0  0:06:21  0:00:09  0:06:12  298k  3 67.5M    3 2320k    0     0   222k      0  0:05:11  0:00:10  0:05:01  374k  4 67.5M    4 3136k    0     0   274k      0  0:04:12  0:00:11  0:04:01  493k  6 67.5M    6 4416k    0     0   354k      0  0:03:14  0:00:12  0:03:02  704k  9 67.5M    9 6352k    0     0   472k      0  0:02:26  0:00:13  0:02:13 1014k 13 67.5M   13 9232k    0     0   639k      0  0:01:48  0:00:14  0:01:34 1504k 19 67.5M   19 13.3M    0     0   882k      0  0:01:18  0:00:15  0:01:03 2262k 27 67.5M   27 18.3M    0     0  1140k      0  0:01:00  0:00:16  0:00:44 3123k 37 67.5M   37 25.0M    0     0  1472k      0  0:00:46  0:00:17  0:00:29 4253k 49 67.5M   49 33.3M    0     0  1852k      0  0:00:37  0:00:18  0:00:19 5562k 65 67.5M   65 44.3M    0     0  2334k      0  0:00:29  0:00:19  0:00:10 7232k 86 67.5M   86 58.3M    0     0  2924k      0  0:00:23  0:00:20  0:00:03 9228k100 67.5M  100 67.5M    0     0  3285k      0  0:00:21  0:00:21 --:--:-- 10.6M
-Wed Nov 29 14:59:38 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   354  100   354    0     0   2048      0 --:--:-- --:--:-- --:--:--  2046
+  0 67.5M    0  416k    0     0   388k      0  0:02:57  0:00:01  0:02:56  388k  4 67.5M    4 2768k    0     0  1338k      0  0:00:51  0:00:02  0:00:49 2354k  8 67.5M    8 5808k    0     0  1893k      0  0:00:36  0:00:03  0:00:33 2697k 13 67.5M   13 9600k    0     0  2359k      0  0:00:29  0:00:04  0:00:25 3062k 20 67.5M   20 13.8M    0     0  2791k      0  0:00:24  0:00:05  0:00:19 3433k 26 67.5M   26 17.8M    0     0  3011k      0  0:00:22  0:00:06  0:00:16 3571k 32 67.5M   32 21.9M    0     0  3176k      0  0:00:21  0:00:07  0:00:14 3936k 38 67.5M   38 25.9M    0     0  3292k      0  0:00:21  0:00:08  0:00:13 4150k 45 67.5M   45 30.4M    0     0  3440k      0  0:00:20  0:00:09  0:00:11 4320k 52 67.5M   52 35.2M    0     0  3583k      0  0:00:19  0:00:10  0:00:09 4387k 60 67.5M   60 40.9M    0     0  3787k      0  0:00:18  0:00:11  0:00:07 4729k 70 67.5M   70 47.4M    0     0  4027k      0  0:00:17  0:00:12  0:00:05 5232k 81 67.5M   81 55.2M    0     0  4325k      0  0:00:15  0:00:13  0:00:02 5993k 96 67.5M   96 65.5M    0     0  4768k      0  0:00:14  0:00:14 --:--:-- 7177k100 67.5M  100 67.5M    0     0  4860k      0  0:00:14  0:00:14 --:--:-- 7947k
+Mon Oct 22 16:55:23 UTC 2018
 
-Wed Nov 29 14:59:44 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/tto/tto.owl
+Mon Oct 22 16:55:23 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/tto/tto.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:53,788 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/tto/tto.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/tto/tto.owl
-[INFO] 2017-11-29 15:01:20,594 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/tto.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/tto/tto.owl
-[INFO] 2017-11-29 15:01:20,607 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/tto.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:27,623 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/tto/tto.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/tto/tto.owl
+[INFO] 2018-10-22 16:55:44,532 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/tto.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/tto/tto.owl
+[INFO] 2018-10-22 16:55:44,543 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/tto.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:47 min
-[INFO] Finished at: 2017-11-29T15:01:33-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 27.583s
+[INFO] Finished at: Mon Oct 22 16:55:52 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:01:33 MST 2017
+Mon Oct 22 16:55:52 UTC 2018
 
 Download validation successful. Triple count = 942616

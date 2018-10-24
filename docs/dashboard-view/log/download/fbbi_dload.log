@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:11 MST 2017
+Mon Oct 22 16:53:12 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/fbbi.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1768      0 --:--:-- --:--:-- --:--:--  1777
-100  509k  100  509k    0     0   850k      0 --:--:-- --:--:-- --:--:--  850k
-Wed Nov 29 14:59:12 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1991      0 --:--:-- --:--:-- --:--:--  1993
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  509k  100  509k    0     0   432k      0  0:00:01  0:00:01 --:--:--  995k
+Mon Oct 22 16:53:13 UTC 2018
 
-Wed Nov 29 14:59:13 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/fbbi/fbbi.owl
+Mon Oct 22 16:53:13 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/fbbi/fbbi.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,17 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,086 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fbbi/fbbi.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fbbi/fbbi.owl
-[INFO] 2017-11-29 14:59:25,331 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fbbi.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/fbbi/fbbi.owl
-[INFO] 2017-11-29 14:59:25,342 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/fbbi.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:17,506 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/fbbi/fbbi.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/fbbi/fbbi.owl
+[INFO] 2018-10-22 16:53:18,180 ERROR (OWLRDFConsumer:1764) Entity not properly recognized, missing triples in input? http://org.semanticweb.owlapi/error#Error1 for type Class
+[INFO] 2018-10-22 16:53:18,254 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/fbbi.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/fbbi/fbbi.owl
+[INFO] 2018-10-22 16:53:18,264 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/fbbi.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 10.506 s
-[INFO] Finished at: 2017-11-29T14:59:26-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.510s
+[INFO] Finished at: Mon Oct 22 16:53:18 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:26 MST 2017
+Mon Oct 22 16:53:18 UTC 2018
 
-Download validation successful. Triple count = 8560
+Download validation successful. Triple count = 8561

@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:14 MST 2017
+Mon Oct 22 16:54:04 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/ms.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   309  100   309    0     0   1457      0 --:--:-- --:--:-- --:--:--  1464
-  0 4168k    0   784    0     0   1297      0  0:54:51 --:--:--  0:54:51  1297100 4168k  100 4168k    0     0  3045k      0  0:00:01  0:00:01 --:--:-- 5455k
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   309  100   309    0     0   1782      0 --:--:-- --:--:-- --:--:--  1786
+  3 4503k    3  142k    0     0   191k      0  0:00:23 --:--:--  0:00:23  191k 42 4503k   42 1901k    0     0  1089k      0  0:00:04  0:00:01  0:00:03 1759k 91 4503k   91 4107k    0     0  1503k      0  0:00:02  0:00:02 --:--:-- 1995k100 4503k  100 4503k    0     0  1553k      0  0:00:02  0:00:02 --:--:-- 2026k
+Mon Oct 22 16:54:07 UTC 2018
 
-Wed Nov 29 14:59:17 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/ms/ms.owl
+Mon Oct 22 16:54:08 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/ms/ms.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,22 +16,20 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:25,008 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ms/ms.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ms/ms.owl
-[INFO] 2017-11-29 14:59:25,798 INFO  (ParserWrapper:75) Start loading ontology: http://ontologies.berkeleybop.org/pato.obo from: http://ontologies.berkeleybop.org/pato.obo
-[INFO] 2017-11-29 14:59:32,284 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/pato.owl from: http://ontologies.berkeleybop.org/pato.obo
-[INFO] 2017-11-29 14:59:32,287 INFO  (ParserWrapper:75) Start loading ontology: http://ontologies.berkeleybop.org/uo.obo from: http://ontologies.berkeleybop.org/uo.obo
-[INFO] 2017-11-29 14:59:34,932 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uo.owl from: http://ontologies.berkeleybop.org/uo.obo
-[INFO] 2017-11-29 14:59:38,347 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ms.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/ms/ms.owl
-[INFO] 2017-11-29 14:59:38,358 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ms.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:12,156 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ms/ms.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ms/ms.owl
+[INFO] 2018-10-22 16:54:12,326 INFO  (ParserWrapper:75) Start loading ontology: http://ontologies.berkeleybop.org/pato.obo from: http://ontologies.berkeleybop.org/pato.obo
+[INFO] 2018-10-22 16:54:14,984 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/pato.owl from: http://ontologies.berkeleybop.org/pato.obo
+[INFO] 2018-10-22 16:54:14,987 INFO  (ParserWrapper:75) Start loading ontology: http://ontologies.berkeleybop.org/uo.obo from: http://ontologies.berkeleybop.org/uo.obo
+[INFO] 2018-10-22 16:54:15,829 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uo.owl from: http://ontologies.berkeleybop.org/uo.obo
+[INFO] 2018-10-22 16:54:17,460 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ms.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ms/ms.owl
+[INFO] 2018-10-22 16:54:17,469 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ms.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 20.933 s
-[INFO] Finished at: 2017-11-29T14:59:39-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 9.071s
+[INFO] Finished at: Mon Oct 22 16:54:18 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:39 MST 2017
+Mon Oct 22 16:54:18 UTC 2018
 
-Download validation successful. Triple count = 59271
+Download validation successful. Triple count = 64028

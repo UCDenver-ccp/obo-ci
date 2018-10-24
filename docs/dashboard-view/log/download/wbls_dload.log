@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:19 MST 2017
+Mon Oct 22 16:55:24 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/wbls.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0    441      0 --:--:-- --:--:-- --:--:--   441
-  0 1710k    0  2232    0     0   1376      0  0:21:12  0:00:01  0:21:11  1376  6 1710k    6  113k    0     0  54357      0  0:00:32  0:00:02  0:00:30  212k 21 1710k   21  362k    0     0   113k      0  0:00:15  0:00:03  0:00:12  227k 33 1710k   33  574k    0     0   139k      0  0:00:12  0:00:04  0:00:08  229k 43 1710k   43  746k    0     0   145k      0  0:00:11  0:00:05  0:00:06  212k 58 1710k   58 1003k    0     0   164k      0  0:00:10  0:00:06  0:00:04  223k 73 1710k   73 1253k    0     0   175k      0  0:00:09  0:00:07  0:00:02  228k 88 1710k   88 1512k    0     0   186k      0  0:00:09  0:00:08  0:00:01  234k100 1710k  100 1710k    0     0   195k      0  0:00:08  0:00:08 --:--:--  245k
-Wed Nov 29 14:59:28 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1571      0 --:--:-- --:--:-- --:--:--  1570
+100 1710k  100 1710k    0     0  1918k      0 --:--:-- --:--:-- --:--:-- 1918k
+Mon Oct 22 16:55:25 UTC 2018
 
-Wed Nov 29 14:59:38 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/wbls/wbls.owl
+Mon Oct 22 16:55:25 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/wbls/wbls.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:46,770 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/wbls/wbls.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/wbls/wbls.owl
-[INFO] 2017-11-29 14:59:55,572 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/wbls.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/wbls/wbls.owl
-[INFO] 2017-11-29 14:59:55,588 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/wbls.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:29,638 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/wbls/wbls.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/wbls/wbls.owl
+[INFO] 2018-10-22 16:55:30,855 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/wbls.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/wbls/wbls.owl
+[INFO] 2018-10-22 16:55:30,865 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/wbls.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 16.196 s
-[INFO] Finished at: 2017-11-29T14:59:56-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.291s
+[INFO] Finished at: Mon Oct 22 16:55:31 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:56 MST 2017
+Mon Oct 22 16:55:31 UTC 2018
 
 Download validation successful. Triple count = 23918

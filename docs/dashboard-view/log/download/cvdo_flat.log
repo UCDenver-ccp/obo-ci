@@ -1,5 +1,5 @@
-Wed Nov 29 14:59:41 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl
+Mon Oct 22 16:53:06 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/cvdo/cvdo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,28 +8,26 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:48,040 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl
-[INFO] 2017-11-29 14:59:48,476 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
-[INFO] 2017-11-29 14:59:49,911 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
-[INFO] 2017-11-29 14:59:49,913 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl
-[INFO] 2017-11-29 14:59:52,801 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl
-[INFO] 2017-11-29 14:59:52,802 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl
-[INFO] 2017-11-29 14:59:54,986 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl
-[INFO] 2017-11-29 14:59:54,988 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl
-[INFO] 2017-11-29 14:59:57,506 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl
-[INFO] 2017-11-29 14:59:59,002 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cvdo from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/cvdo/cvdo.owl
-[INFO] 2017-11-29 14:59:59,016 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-9)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 14:59:59,019 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-7)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 14:59:59,022 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
-[INFO] 2017-11-29 14:59:59,033 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-5)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 14:59:59,036 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/cvdo using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:10,348 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/cvdo/cvdo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/cvdo/cvdo.owl
+[INFO] 2018-10-22 16:53:10,526 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2018-10-22 16:53:11,535 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo.owl
+[INFO] 2018-10-22 16:53:11,537 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl
+[INFO] 2018-10-22 16:53:12,930 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/doid_import.owl
+[INFO] 2018-10-22 16:53:12,931 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl
+[INFO] 2018-10-22 16:53:14,282 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/fma_import.owl
+[INFO] 2018-10-22 16:53:14,284 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl from: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl
+[INFO] 2018-10-22 16:53:15,795 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/cvdo/external/ogms_import.owl
+[INFO] 2018-10-22 16:53:16,245 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cvdo from: file:/mnt/efsdata/obo-ci-data/download/ontologies/cvdo/cvdo.owl
+[INFO] 2018-10-22 16:53:16,254 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-9)) [Axioms: 0 Logical Axioms: 0]
+[INFO] 2018-10-22 16:53:16,257 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-7)) [Axioms: 0 Logical Axioms: 0]
+[INFO] 2018-10-22 16:53:16,259 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/bfo.owl>) VersionIRI(<http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl>))) [Axioms: 575 Logical Axioms: 52]
+[INFO] 2018-10-22 16:53:16,273 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-5)) [Axioms: 0 Logical Axioms: 0]
+[INFO] 2018-10-22 16:53:16,274 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/cvdo using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 20.227 s
-[INFO] Finished at: 2017-11-29T15:00:03-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 9.016s
+[INFO] Finished at: Mon Oct 22 16:53:16 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:00:03 MST 2017
+Mon Oct 22 16:53:16 UTC 2018

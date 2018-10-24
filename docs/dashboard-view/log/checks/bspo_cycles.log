@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:24 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl
+Wed Oct 24 12:18:55 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/bspo/bspo_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,19 +8,16 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:29,314 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl
-[INFO] 2017-12-03 00:50:30,316 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/bspo/bspo_flat.owl
+[INFO] 2018-10-24 12:18:59,540 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/bspo/bspo_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/bspo/bspo_flat.owl
+[INFO] 2018-10-24 12:19:00,251 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bspo.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/bspo/bspo_flat.owl
 [INFO] Found cycles in the graph
-[INFO] Cycle: ObjectSomeValuesFrom(BSPO:0015005 'orthogonal_to' BSPO:0000417 'sagittal plane') ObjectSomeValuesFrom(BSPO:0015005 'orthogonal_to' BSPO:0000017 'left-right axis') BSPO:0000417 'sagittal plane' BSPO:0000017 'left-right axis'
-[INFO] Cycle: BSPO:0000056 'posterior side' BSPO:0000055 'anterior side' ObjectSomeValuesFrom(BSPO:0000113 'opposite_to' BSPO:0000056 'posterior side') ObjectSomeValuesFrom(BSPO:0000099 'posterior_to' BSPO:0000055 'anterior side') ObjectSomeValuesFrom(BSPO:0000096 'anterior_to' BSPO:0000056 'posterior side')
-[INFO] Cycle: BSPO:0000062 'distal side' ObjectSomeValuesFrom(BSPO:0000097 'distal_to' BSPO:0000061 'proximal side') BSPO:0000061 'proximal side' ObjectSomeValuesFrom(BSPO:0000113 'opposite_to' BSPO:0000062 'distal side')
+[INFO] Cycle: BSPO:0000056 'posterior side' BSPO:0000055 'anterior side' ObjectSomeValuesFrom(opposite_to 'opposite to' BSPO:0000056 'posterior side') ObjectSomeValuesFrom(posterior_to 'posterior to' BSPO:0000055 'anterior side') ObjectSomeValuesFrom(anterior_to 'anterior to' BSPO:0000056 'posterior side')
+[INFO] Cycle: BSPO:0000062 'distal side' ObjectSomeValuesFrom(distal_to 'distal to' BSPO:0000061 'proximal side') BSPO:0000061 'proximal side' ObjectSomeValuesFrom(opposite_to 'opposite to' BSPO:0000062 'distal side')
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 4.624 s
-[INFO] Finished at: 2017-12-03T00:50:30-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.475s
+[INFO] Finished at: Wed Oct 24 12:19:00 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:30 MST 2017
+Wed Oct 24 12:19:00 UTC 2018

@@ -1,5 +1,5 @@
-Wed Nov 29 15:04:00 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/mondo/mondo.owl
+Mon Oct 22 16:55:18 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/mondo/mondo.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,34 +8,56 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 15:04:11,409 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mondo/mondo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mondo/mondo.owl
-[INFO] 2017-11-29 15:04:11,802 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl
-[INFO] 2017-11-29 15:04:14,558 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl
-[INFO] 2017-11-29 15:04:14,559 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl
-[INFO] 2017-11-29 15:04:17,003 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl
-[INFO] 2017-11-29 15:04:17,005 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl
-[INFO] 2017-11-29 15:04:19,331 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl
-[INFO] 2017-11-29 15:04:19,332 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl
-[INFO] 2017-11-29 15:04:21,523 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl
-[INFO] 2017-11-29 15:04:21,524 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl
-[INFO] 2017-11-29 15:04:25,196 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl
-[INFO] 2017-11-29 15:04:25,199 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/mfoem_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/mfoem_import.owl
-[INFO] 2017-11-29 15:04:27,713 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/mondo/imports/mfoem_import.owl
-[INFO] 2017-11-29 15:09:30,400 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/mondo/mondo.owl
-[INFO] 2017-11-29 15:09:30,420 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-11)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:09:30,423 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-9)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:09:30,424 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:09:30,425 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-13)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:09:30,425 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-7)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:09:30,425 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(Anonymous-5)) [Axioms: 0 Logical Axioms: 0]
-[INFO] 2017-11-29 15:09:30,427 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mondo.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:22,308 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/mondo/mondo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mondo/mondo.owl
+[INFO] 2018-10-22 16:55:22,474 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ecto_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ecto_import.owl
+[INFO] 2018-10-22 16:55:23,682 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ecto_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ecto_import.owl
+[INFO] 2018-10-22 16:55:23,684 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:24,742 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:55:24,744 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl
+[INFO] 2018-10-22 16:55:25,348 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl
+[INFO] 2018-10-22 16:55:25,351 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl
+[INFO] 2018-10-22 16:55:26,694 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/go_import.owl
+[INFO] 2018-10-22 16:55:26,698 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl
+[INFO] 2018-10-22 16:55:28,745 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl
+[INFO] 2018-10-22 16:55:28,753 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/foodon_import.owl
+[INFO] 2018-10-22 16:55:28,976 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/foodon_import.owl
+[INFO] 2018-10-22 16:55:28,992 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/mf_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/mf_import.owl
+[INFO] 2018-10-22 16:55:29,191 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/mf_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/mf_import.owl
+[INFO] 2018-10-22 16:55:29,198 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl
+[INFO] 2018-10-22 16:55:29,481 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl
+[INFO] 2018-10-22 16:55:29,490 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl
+[INFO] 2018-10-22 16:55:29,700 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl
+[INFO] 2018-10-22 16:55:29,708 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/axioms.owl from: http://purl.obolibrary.org/obo/mondo/imports/axioms.owl
+[INFO] 2018-10-22 16:55:29,891 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/axioms.owl from: http://purl.obolibrary.org/obo/mondo/imports/axioms.owl
+[INFO] 2018-10-22 16:55:29,898 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/chebi_import.owl
+[INFO] 2018-10-22 16:55:30,223 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/chebi_import.owl
+[INFO] 2018-10-22 16:55:30,229 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/envo_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/envo_import.owl
+[INFO] 2018-10-22 16:55:30,454 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/envo_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/envo_import.owl
+[INFO] 2018-10-22 16:55:30,460 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/hgnc_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/hgnc_import.owl
+[INFO] 2018-10-22 16:55:30,916 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/hgnc_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/hgnc_import.owl
+[INFO] 2018-10-22 16:55:30,922 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/mondo/imports/hp_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/hp_import.owl
+[INFO] 2018-10-22 16:55:31,431 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo/imports/hp_import.owl from: http://purl.obolibrary.org/obo/mondo/imports/hp_import.owl
+[INFO] 2018-10-22 16:56:01,679 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/mondo.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/mondo/mondo.owl
+[INFO] 2018-10-22 16:56:01,688 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/axioms.owl>) VersionIRI(<null>))) [Axioms: 11 Logical Axioms: 3]
+[INFO] 2018-10-22 16:56:01,691 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/ecto_import.owl>) VersionIRI(<null>))) [Axioms: 1006 Logical Axioms: 328]
+[INFO] 2018-10-22 16:56:01,707 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/foodon_import.owl>) VersionIRI(<null>))) [Axioms: 1421 Logical Axioms: 300]
+[INFO] 2018-10-22 16:56:01,747 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/hgnc_import.owl>) VersionIRI(<null>))) [Axioms: 11188 Logical Axioms: 3725]
+[INFO] 2018-10-22 16:56:01,802 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/envo_import.owl>) VersionIRI(<null>))) [Axioms: 1676 Logical Axioms: 639]
+[INFO] 2018-10-22 16:56:01,814 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/chebi_import.owl>) VersionIRI(<null>))) [Axioms: 8190 Logical Axioms: 1995]
+[INFO] 2018-10-22 16:56:01,885 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/go_import.owl>) VersionIRI(<null>))) [Axioms: 29229 Logical Axioms: 9680]
+[INFO] 2018-10-22 16:56:02,143 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/mf_import.owl>) VersionIRI(<null>))) [Axioms: 433 Logical Axioms: 68]
+[INFO] 2018-10-22 16:56:02,147 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/cl_import.owl>) VersionIRI(<null>))) [Axioms: 4908 Logical Axioms: 1119]
+[INFO] 2018-10-22 16:56:02,181 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/hp_import.owl>) VersionIRI(<null>))) [Axioms: 13134 Logical Axioms: 1256]
+[INFO] 2018-10-22 16:56:02,353 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/pato_import.owl>) VersionIRI(<null>))) [Axioms: 635 Logical Axioms: 202]
+[INFO] 2018-10-22 16:56:02,357 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/ro_import.owl>) VersionIRI(<null>))) [Axioms: 1386 Logical Axioms: 551]
+[INFO] 2018-10-22 16:56:02,364 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/ncbitaxon_import.owl>) VersionIRI(<null>))) [Axioms: 10963 Logical Axioms: 1218]
+[INFO] 2018-10-22 16:56:02,448 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/mondo/imports/uberon_import.owl>) VersionIRI(<null>))) [Axioms: 49170 Logical Axioms: 18211]
+[INFO] 2018-10-22 16:56:02,757 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/mondo.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 05:43 min
-[INFO] Finished at: 2017-11-29T15:09:45-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 1:13.210s
+[INFO] Finished at: Mon Oct 22 16:56:32 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:09:45 MST 2017
+Mon Oct 22 16:56:32 UTC 2018

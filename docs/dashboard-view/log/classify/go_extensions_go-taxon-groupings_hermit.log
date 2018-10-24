@@ -1,0 +1,27 @@
+Tue Oct 23 18:46:45 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/go_extensions_go-taxon-groupings/go_extensions_go-taxon-groupings_flat.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building incoherent-query 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
+[INFO] 2018-10-23 18:46:49,280 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/go_extensions_go-taxon-groupings/go_extensions_go-taxon-groupings_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/go_extensions_go-taxon-groupings/go_extensions_go-taxon-groupings_flat.owl
+[INFO] 2018-10-23 18:46:49,490 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/mnt/efsdata/obo-ci-data/base/ontologies/go_extensions_go-taxon-groupings/go_extensions_go-taxon-groupings_flat.owl
+[INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:46:49,532 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] # QUERY: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:46:49,688 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@10ded6a9
+[INFO] E: owl:Nothing owl:Nothing
+[INFO] 2018-10-23 18:46:49,697 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@10ded6a9
+[INFO] 2018-10-23 18:46:49,697 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@10ded6a9
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.103s
+[INFO] Finished at: Tue Oct 23 18:46:49 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Tue Oct 23 18:46:49 UTC 2018

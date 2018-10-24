@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:28 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pco/pco_flat.owl
+Wed Oct 24 12:30:59 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/pco/pco_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,10 +8,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:33,399 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pco/pco_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pco/pco_flat.owl
-[INFO] 2017-12-03 00:50:35,522 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/pco.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/pco/pco_flat.owl
+[INFO] 2018-10-24 12:31:03,028 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/pco/pco_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/pco/pco_flat.owl
+[INFO] 2018-10-24 12:31:04,142 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/pco.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/pco/pco_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectSomeValuesFrom(RO:0002507 'determined by' ObjectSomeValuesFrom(RO:0002353 'output of' ENVO:01000952 'anthropisation')) ENVO:01000313 'anthropogenic environment' ObjectSomeValuesFrom(RO:0002234 'has output' ENVO:01000313 'anthropogenic environment') ObjectSomeValuesFrom(RO:0002353 'output of' ENVO:01000952 'anthropisation') ENVO:01000952 'anthropisation'
 [INFO] Cycle: ObjectMinCardinality(1 BFO:0000051 'has part' ENVO:01000799 'astronomical body') ENVO:01000804 'astronomical object' ENVO:01000799 'astronomical body'
@@ -23,8 +21,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.567 s
-[INFO] Finished at: 2017-12-03T00:50:36-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.707s
+[INFO] Finished at: Wed Oct 24 12:31:04 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:36 MST 2017
+Wed Oct 24 12:31:04 UTC 2018

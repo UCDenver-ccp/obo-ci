@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:28 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/oba/oba_flat.owl
+Wed Oct 24 12:29:06 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/oba/oba_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,16 +8,14 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:33,071 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/oba/oba_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/oba/oba_flat.owl
-[INFO] 2017-12-03 00:50:46,537 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oba.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/oba/oba_flat.owl
+[INFO] 2018-10-24 12:29:10,362 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/oba/oba_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/oba/oba_flat.owl
+[INFO] 2018-10-24 12:29:23,404 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/oba.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/oba/oba_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: UBERON:0002050 'embryonic structure' UBERON:0000922 'embryo' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0000922 'embryo')
 [INFO] Cycle: UBERON:3000961 'external integument structure' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0002199 'integument') UBERON:0002199 'integument'
 [INFO] Cycle: GO:0044464 'cell part' GO:0005623 'cell' ObjectSomeValuesFrom(part_of 'part_of' GO:0005623 'cell')
 [INFO] Cycle: GO:0016020 'membrane' ObjectSomeValuesFrom(part_of 'part_of' GO:0016020 'membrane') GO:0044425 'membrane part'
-[INFO] Cycle: GO:0005886 'plasma membrane' GO:0098590 'plasma membrane region' ObjectSomeValuesFrom(part_of 'part_of' GO:0005886 'plasma membrane') GO:0044459 'plasma membrane part'
+[INFO] Cycle: GO:0005886 'plasma membrane' GO:0098590 'plasma membrane region' GO:0044459 'plasma membrane part' ObjectSomeValuesFrom(part_of 'part_of' GO:0005886 'plasma membrane')
 [INFO] Cycle: UBERON:0000478 'extraembryonic structure' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0016887 'entire extraembryonic component') UBERON:0016887 'entire extraembryonic component'
 [INFO] Cycle: UBERON:0005156 'reproductive structure' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0000990 'reproductive system') UBERON:0000990 'reproductive system'
 [INFO] Cycle: GO:0022402 'cell cycle process' GO:0007049 'cell cycle' ObjectSomeValuesFrom(part_of 'part_of' GO:0007049 'cell cycle')
@@ -56,7 +54,7 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] Cycle: GO:0031966 'mitochondrial membrane' ObjectSomeValuesFrom(part_of 'part_of' GO:0031966 'mitochondrial membrane') GO:0044455 'mitochondrial membrane part'
 [INFO] Cycle: GO:0005829 'cytosol' ObjectSomeValuesFrom(part_of 'part_of' GO:0005829 'cytosol') GO:0044445 'cytosolic part'
 [INFO] Cycle: GO:0033267 'axon part' GO:0030424 'axon' ObjectSomeValuesFrom(part_of 'part_of' GO:0030424 'axon')
-[INFO] Cycle: GO:0009579 'thylakoid' GO:0044436 'thylakoid part' ObjectSomeValuesFrom(part_of 'part_of' GO:0009579 'thylakoid')
+[INFO] Cycle: GO:0009579 'thylakoid' ObjectSomeValuesFrom(part_of 'part_of' GO:0009579 'thylakoid') GO:0044436 'thylakoid part'
 [INFO] Cycle: GO:0005938 'cell cortex' ObjectSomeValuesFrom(part_of 'part_of' GO:0005938 'cell cortex') GO:0044448 'cell cortex part'
 [INFO] Cycle: UBERON:0001040 'yolk sac' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0001040 'yolk sac') UBERON:0003257 'yolk sac endoderm'
 [INFO] Cycle: UBERON:0001811 'conjunctiva' UBERON:0010305 'region of conjunctiva' ObjectSomeValuesFrom(part_of 'part_of' UBERON:0001811 'conjunctiva')
@@ -84,8 +82,8 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 48.360 s
-[INFO] Finished at: 2017-12-03T00:51:17-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 1:07.136s
+[INFO] Finished at: Wed Oct 24 12:30:14 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:51:17 MST 2017
+Wed Oct 24 12:30:14 UTC 2018

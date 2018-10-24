@@ -1,5 +1,5 @@
-Sat Dec  2 12:52:13 MST 2017
-Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cvdo/cvdo_flat.owl
+Tue Oct 23 18:47:40 UTC 2018
+Querying for incoherent classes in: /mnt/efsdata/obo-ci-data/base/ontologies/cvdo/cvdo_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,22 +8,20 @@ Querying for incoherent classes in: /scratch/Shares/hunter/obo-ci/data-all/base/
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ incoherent-query ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-02 12:52:18,833 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cvdo/cvdo_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cvdo/cvdo_flat.owl
-[INFO] 2017-12-02 12:52:20,787 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cvdo from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/cvdo/cvdo_flat.owl
+[INFO] 2018-10-23 18:47:44,103 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/cvdo/cvdo_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cvdo/cvdo_flat.owl
+[INFO] 2018-10-23 18:47:44,964 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/cvdo from: file:/mnt/efsdata/obo-ci-data/base/ontologies/cvdo/cvdo_flat.owl
 [INFO] # PARSING: <http://www.w3.org/2002/07/owl#Nothing>
-[INFO] 2017-12-02 12:52:21,067 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
+[INFO] 2018-10-23 18:47:45,017 INFO  (ManchesterSyntaxTool:130) parsing: <http://www.w3.org/2002/07/owl#Nothing>
 [INFO] # QUERY: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:22,100 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@ce9b9a9
+[INFO] 2018-10-23 18:47:45,411 INFO  (CommandRunner:6042) Created reasoner: org.semanticweb.HermiT.Reasoner@ce9b9a9
 [INFO] E: owl:Nothing owl:Nothing
-[INFO] 2017-12-02 12:52:22,532 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@ce9b9a9
-[INFO] 2017-12-02 12:52:22,533 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@ce9b9a9
+[INFO] 2018-10-23 18:47:45,981 INFO  (CommandRunnerBase:78) disposing of org.semanticweb.HermiT.Reasoner@ce9b9a9
+[INFO] 2018-10-23 18:47:45,982 INFO  (CommandRunnerBase:70) disposing of org.semanticweb.HermiT.Reasoner@ce9b9a9
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.553 s
-[INFO] Finished at: 2017-12-02T12:52:22-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.182s
+[INFO] Finished at: Tue Oct 23 18:47:46 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Sat Dec  2 12:52:22 MST 2017
+Tue Oct 23 18:47:46 UTC 2018

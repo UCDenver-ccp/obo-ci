@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:17 MST 2017
+Mon Oct 22 16:55:11 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   341  100   341    0     0    812      0 --:--:-- --:--:-- --:--:--   813
-  0 2281k    0  2236    0     0   3156      0  0:12:20 --:--:--  0:12:20  3156 85 2281k   85 1944k    0     0  1247k      0  0:00:01  0:00:01 --:--:-- 2284k100 2281k  100 2281k    0     0  1410k      0  0:00:01  0:00:01 --:--:-- 2505k
-Wed Nov 29 14:59:19 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   341  100   341    0     0   1888      0 --:--:-- --:--:-- --:--:--  1883
+  8 2281k    8  191k    0     0   185k      0  0:00:12  0:00:01  0:00:11  185k 92 2281k   92 2109k    0     0  1044k      0  0:00:02  0:00:02 --:--:-- 1939k100 2281k  100 2281k    0     0  1092k      0  0:00:02  0:00:02 --:--:-- 1977k
+Mon Oct 22 16:55:14 UTC 2018
 
-Wed Nov 29 14:59:20 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl
+Mon Oct 22 16:55:14 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,18 +16,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:28,291 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl
-[INFO] 2017-11-29 14:59:31,334 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl
-[INFO] 2017-11-29 14:59:31,346 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:55:18,093 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl
+[INFO] 2018-10-22 16:55:19,562 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_bridge_uberon-bridge-to-zfa/uberon_bridge_uberon-bridge-to-zfa.owl
+[INFO] 2018-10-22 16:55:19,574 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 12.454 s
-[INFO] Finished at: 2017-11-29T14:59:35-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 4.730s
+[INFO] Finished at: Mon Oct 22 16:55:20 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:35 MST 2017
+Mon Oct 22 16:55:20 UTC 2018
 
 Download validation successful. Triple count = 54083

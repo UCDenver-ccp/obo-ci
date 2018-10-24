@@ -1,5 +1,5 @@
-Wed Nov 29 15:01:44 MST 2017
-Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl
+Mon Oct 22 16:55:57 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,43 +8,41 @@ Consolidating all ontology imports for: /scratch/Shares/hunter/obo-ci/data/downl
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 15:01:55,634 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl
-[INFO] 2017-11-29 15:02:01,446 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
-[INFO] 2017-11-29 15:02:02,712 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
-[INFO] 2017-11-29 15:02:02,714 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
-[INFO] 2017-11-29 15:02:03,635 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
-[INFO] 2017-11-29 15:02:03,639 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
-[INFO] 2017-11-29 15:02:03,922 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
-[INFO] 2017-11-29 15:02:03,928 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:02:04,242 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
-[INFO] 2017-11-29 15:02:04,246 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
-[INFO] 2017-11-29 15:02:04,531 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
-[INFO] 2017-11-29 15:02:04,536 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
-[INFO] 2017-11-29 15:02:04,796 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
-[INFO] 2017-11-29 15:02:04,801 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
-[INFO] 2017-11-29 15:02:05,085 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
-[INFO] 2017-11-29 15:02:05,089 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
-[INFO] 2017-11-29 15:02:05,442 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
-[INFO] 2017-11-29 15:02:05,447 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
-[INFO] 2017-11-29 15:02:05,701 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
-[INFO] 2017-11-29 15:03:50,348 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ext.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/uberon_ext/uberon_ext.owl
-[INFO] 2017-11-29 15:03:50,363 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/nbo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2013-10-21/nbo_import.owl>))) [Axioms: 30 Logical Axioms: 9]
-[INFO] 2017-11-29 15:03:50,368 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/go_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/go_import.owl>))) [Axioms: 6656 Logical Axioms: 3941]
-[INFO] 2017-11-29 15:03:50,419 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/ncbitaxon_import.owl>))) [Axioms: 1643 Logical Axioms: 927]
-[INFO] 2017-11-29 15:03:50,458 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/chebi_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/chebi_import.owl>))) [Axioms: 949 Logical Axioms: 423]
-[INFO] 2017-11-29 15:03:50,461 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/ro_import.owl>) VersionIRI(<null>))) [Axioms: 1003 Logical Axioms: 415]
-[INFO] 2017-11-29 15:03:50,467 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/pato_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/pato_import.owl>))) [Axioms: 330 Logical Axioms: 110]
-[INFO] 2017-11-29 15:03:50,468 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/envo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2013-10-21/envo_import.owl>))) [Axioms: 28 Logical Axioms: 7]
-[INFO] 2017-11-29 15:03:50,469 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/cl_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/cl_import.owl>))) [Axioms: 23869 Logical Axioms: 5841]
-[INFO] 2017-11-29 15:03:50,590 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/pr_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/pr_import.owl>))) [Axioms: 42 Logical Axioms: 13]
-[INFO] 2017-11-29 15:03:50,594 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/ext.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:56:01,222 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl
+[INFO] 2018-10-22 16:56:01,399 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
+[INFO] 2018-10-22 16:56:03,356 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/go_import.owl from: http://purl.obolibrary.org/obo/uberon/go_import.owl
+[INFO] 2018-10-22 16:56:03,358 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
+[INFO] 2018-10-22 16:56:08,429 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/cl_import.owl from: http://purl.obolibrary.org/obo/uberon/cl_import.owl
+[INFO] 2018-10-22 16:56:08,434 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
+[INFO] 2018-10-22 16:56:08,832 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pr_import.owl from: http://purl.obolibrary.org/obo/uberon/pr_import.owl
+[INFO] 2018-10-22 16:56:08,835 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:56:09,697 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:56:09,700 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
+[INFO] 2018-10-22 16:56:10,338 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/chebi_import.owl from: http://purl.obolibrary.org/obo/uberon/chebi_import.owl
+[INFO] 2018-10-22 16:56:10,341 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
+[INFO] 2018-10-22 16:56:10,633 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/envo_import.owl from: http://purl.obolibrary.org/obo/uberon/envo_import.owl
+[INFO] 2018-10-22 16:56:10,637 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
+[INFO] 2018-10-22 16:56:10,990 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/nbo_import.owl from: http://purl.obolibrary.org/obo/uberon/nbo_import.owl
+[INFO] 2018-10-22 16:56:10,993 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
+[INFO] 2018-10-22 16:56:11,577 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ro_import.owl from: http://purl.obolibrary.org/obo/uberon/ro_import.owl
+[INFO] 2018-10-22 16:56:11,590 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
+[INFO] 2018-10-22 16:56:11,972 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/pato_import.owl from: http://purl.obolibrary.org/obo/uberon/pato_import.owl
+[INFO] 2018-10-22 16:56:22,558 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/uberon/ext.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/uberon_ext/uberon_ext.owl
+[INFO] 2018-10-22 16:56:22,576 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/nbo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2013-10-21/nbo_import.owl>))) [Axioms: 30 Logical Axioms: 9]
+[INFO] 2018-10-22 16:56:22,581 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/cl_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2018-10-14/cl_import.owl>))) [Axioms: 23852 Logical Axioms: 5827]
+[INFO] 2018-10-22 16:56:22,886 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/pr_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2018-10-14/pr_import.owl>))) [Axioms: 42 Logical Axioms: 13]
+[INFO] 2018-10-22 16:56:22,887 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/ro_import.owl>) VersionIRI(<null>))) [Axioms: 1051 Logical Axioms: 436]
+[INFO] 2018-10-22 16:56:22,895 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/envo_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2013-10-21/envo_import.owl>))) [Axioms: 28 Logical Axioms: 7]
+[INFO] 2018-10-22 16:56:22,896 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/chebi_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2018-10-14/chebi_import.owl>))) [Axioms: 955 Logical Axioms: 425]
+[INFO] 2018-10-22 16:56:22,900 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/pato_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2018-10-14/pato_import.owl>))) [Axioms: 330 Logical Axioms: 110]
+[INFO] 2018-10-22 16:56:22,902 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/go_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2018-10-14/go_import.owl>))) [Axioms: 6712 Logical Axioms: 3984]
+[INFO] 2018-10-22 16:56:22,939 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/uberon/ncbitaxon_import.owl>) VersionIRI(<http://purl.obolibrary.org/obo/uberon/releases/2018-10-14/ncbitaxon_import.owl>))) [Axioms: 1637 Logical Axioms: 923]
+[INFO] 2018-10-22 16:56:22,949 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/uberon/ext.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:17 min
-[INFO] Finished at: 2017-11-29T15:04:07-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 35.175s
+[INFO] Finished at: Mon Oct 22 16:56:34 UTC 2018
+[INFO] Final Memory: 6M/289M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 15:04:08 MST 2017
+Mon Oct 22 16:56:34 UTC 2018

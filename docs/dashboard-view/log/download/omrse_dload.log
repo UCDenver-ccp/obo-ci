@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:16 MST 2017
+Mon Oct 22 16:54:30 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/omrse.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   337  100   337    0     0   1426      0 --:--:-- --:--:-- --:--:--  1427
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  211k    0  1916    0     0   1449      0  0:02:29  0:00:01  0:02:28  2443 67  211k   67  143k    0     0  62803      0  0:00:03  0:00:02  0:00:01 81633100  211k  100  211k    0     0  79208      0  0:00:02  0:00:02 --:--:-- 98704
-Wed Nov 29 14:59:18 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   337  100   337    0     0   1974      0 --:--:-- --:--:-- --:--:--  1982
+  5  212k    5 12951    0     0  22861      0  0:00:09 --:--:--  0:00:09 22861100  212k  100  212k    0     0   305k      0 --:--:-- --:--:-- --:--:-- 1561k
+Mon Oct 22 16:54:31 UTC 2018
 
-Wed Nov 29 14:59:19 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/omrse/omrse.owl
+Mon Oct 22 16:54:31 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/omrse/omrse.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,34 +16,30 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:26,841 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/omrse/omrse.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/omrse/omrse.owl
-[INFO] 2017-11-29 14:59:27,623 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
-[INFO] 2017-11-29 14:59:29,376 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
-[INFO] 2017-11-29 14:59:29,378 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
-[INFO] 2017-11-29 14:59:29,815 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:30,384 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:30,970 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/annotations.owl from: http://purl.obolibrary.org/obo/ro/annotations.owl
-[INFO] 2017-11-29 14:59:30,971 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:31,571 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
-[INFO] 2017-11-29 14:59:31,573 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:31,973 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
-[INFO] 2017-11-29 14:59:32,017 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
-[INFO] 2017-11-29 14:59:32,055 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
-[INFO] 2017-11-29 14:59:32,056 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:32,459 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:32,460 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
-[INFO] 2017-11-29 14:59:32,986 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
-[INFO] 2017-11-29 14:59:34,688 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/omrse.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/omrse/omrse.owl
-[INFO] 2017-11-29 14:59:34,700 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/omrse.owl using RDF/XML Syntax
+[INFO] 2018-10-22 16:54:35,375 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/omrse/omrse.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/omrse/omrse.owl
+[INFO] 2018-10-22 16:54:35,551 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
+[INFO] 2018-10-22 16:54:36,888 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl
+[INFO] 2018-10-22 16:54:36,891 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
+[INFO] 2018-10-22 16:54:37,196 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:54:37,395 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:54:37,602 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl from: http://purl.obolibrary.org/obo/ro/bfo-axioms.owl
+[INFO] 2018-10-22 16:54:37,603 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:54:37,791 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl from: http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl
+[INFO] 2018-10-22 16:54:37,861 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ro/core.owl from: http://purl.obolibrary.org/obo/ro/core.owl
+[INFO] 2018-10-22 16:54:37,917 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl from: http://purl.obolibrary.org/obo/iao/pno/bfo2/pno.owl
+[INFO] 2018-10-22 16:54:37,919 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2018-10-22 16:54:38,142 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl from: http://purl.obolibrary.org/obo/iao/ontology-metadata.owl
+[INFO] 2018-10-22 16:54:38,143 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
+[INFO] 2018-10-22 16:54:38,544 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/iao.owl from: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
+[INFO] 2018-10-22 16:54:38,660 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/omrse.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/omrse/omrse.owl
+[INFO] 2018-10-22 16:54:38,673 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/omrse.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13.801 s
-[INFO] Finished at: 2017-11-29T14:59:34-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 6.244s
+[INFO] Finished at: Mon Oct 22 16:54:39 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:35 MST 2017
+Mon Oct 22 16:54:39 UTC 2018
 
-Download validation successful. Triple count = 3972
+Download validation successful. Triple count = 3996

@@ -1,5 +1,5 @@
-Sun Dec  3 00:50:25 MST 2017
-Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologies/mf/mf_flat.owl
+Wed Oct 24 12:25:56 UTC 2018
+Classifying ontology file: /mnt/efsdata/obo-ci-data/base/ontologies/mf/mf_flat.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -8,18 +8,16 @@ Classifying ontology file: /scratch/Shares/hunter/obo-ci/data-all/base/ontologie
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ ontology-classify ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-12-03 00:50:30,190 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/mf/mf_flat.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/mf/mf_flat.owl
-[INFO] 2017-12-03 00:50:31,649 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF.owl from: file:/scratch/Shares/hunter/obo-ci/data-all/base/ontologies/mf/mf_flat.owl
+[INFO] 2018-10-24 12:26:00,726 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/base/ontologies/mf/mf_flat.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/mf/mf_flat.owl
+[INFO] 2018-10-24 12:26:01,460 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/MF.owl from: file:/mnt/efsdata/obo-ci-data/base/ontologies/mf/mf_flat.owl
 [INFO] Found cycles in the graph
 [INFO] Cycle: ObjectSomeValuesFrom(BFO:0000055 'realizes' MF:0000033 'mental disposition') ObjectSomeValuesFrom(BFO:0000117 'has occurrent part' MF:0000017 'consciousness') MF:0000017 'consciousness' MF:0000033 'mental disposition' MF:0000020 'mental process' ObjectSomeValuesFrom(BFO:0000132 'part of occurrent' ObjectIntersectionOf(MF:0000020 'mental process' ObjectComplementOf(MF:0000017 'consciousness'))) ObjectAllValuesFrom(BFO:0000054 'realized in' MF:0000020 'mental process') ObjectIntersectionOf(MF:0000020 'mental process' ObjectComplementOf(MF:0000017 'consciousness'))
 [INFO] Cycle: ObjectSomeValuesFrom(BFO:0000112 'has disposition at some time' MF:0000001 'disposition to be agent of mental process') ObjectSomeValuesFrom(BFO:0000107 'disposition of at all times' MF:0000000 'mental functioning related anatomical structure') MF:0000000 'mental functioning related anatomical structure' MF:0000001 'disposition to be agent of mental process'
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 5.291 s
-[INFO] Finished at: 2017-12-03T00:50:32-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 3.664s
+[INFO] Finished at: Wed Oct 24 12:26:01 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Sun Dec  3 00:50:32 MST 2017
+Wed Oct 24 12:26:01 UTC 2018

@@ -1,0 +1,21 @@
+Mon Oct 22 16:53:36 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/hancestro/hancestro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:53:40,266 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/hancestro/hancestro.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/hancestro/hancestro.owl
+[INFO] 2018-10-22 16:53:41,332 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/hancestro/hancestro.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/hancestro/hancestro.owl
+[INFO] 2018-10-22 16:53:41,345 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/hancestro/hancestro.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.103s
+[INFO] Finished at: Mon Oct 22 16:53:41 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:53:41 UTC 2018

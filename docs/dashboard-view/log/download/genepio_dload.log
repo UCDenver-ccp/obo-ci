@@ -1,13 +1,13 @@
-Wed Nov 29 14:59:12 MST 2017
+Mon Oct 22 16:53:25 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/genepio.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   337  100   337    0     0   1824      0 --:--:-- --:--:-- --:--:--  1831
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 18 1175k   18  223k    0     0   152k      0  0:00:07  0:00:01  0:00:06  230k 97 1175k   97 1151k    0     0   468k      0  0:00:02  0:00:02 --:--:--  585k100 1175k  100 1175k    0     0   474k      0  0:00:02  0:00:02 --:--:--  591k
-Wed Nov 29 14:59:15 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   337  100   337    0     0   2018      0 --:--:-- --:--:-- --:--:--  2017100   337  100   337    0     0   2017      0 --:--:-- --:--:-- --:--:--  2017
+100 1482k  100 1482k    0     0  2009k      0 --:--:-- --:--:-- --:--:-- 2009k
+Mon Oct 22 16:53:26 UTC 2018
 
-Wed Nov 29 14:59:16 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl
+Mon Oct 22 16:53:26 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/genepio/genepio.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -16,168 +16,80 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,953 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl
-[INFO] 2017-11-29 14:59:24,611 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl
-[INFO] 2017-11-29 14:59:26,698 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl
-[INFO] 2017-11-29 14:59:26,700 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:28,255 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl
-[INFO] 2017-11-29 14:59:28,259 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:29,304 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl
-[INFO] 2017-11-29 14:59:29,306 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl
-[INFO] 2017-11-29 14:59:30,075 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl
-[INFO] 2017-11-29 14:59:30,076 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/public_health_lab_epi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/public_health_lab_epi_import.owl
-[INFO] 2017-11-29 14:59:30,467 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/public_health_lab_epi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/public_health_lab_epi_import.owl
-[INFO] 2017-11-29 14:59:30,469 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/evs_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/evs_import.owl
-[INFO] 2017-11-29 14:59:31,338 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/evs_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/evs_import.owl
-[INFO] 2017-11-29 14:59:31,339 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:32,023 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl
-[INFO] 2017-11-29 14:59:32,025 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl
-[INFO] 2017-11-29 14:59:32,650 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl
-[INFO] 2017-11-29 14:59:32,654 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl
-[INFO] 2017-11-29 14:59:33,104 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl
-[INFO] 2017-11-29 14:59:33,107 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ndf-rt_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ndf-rt_import.owl
-[INFO] 2017-11-29 14:59:33,548 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ndf-rt_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ndf-rt_import.owl
-[INFO] 2017-11-29 14:59:33,550 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl
-[INFO] 2017-11-29 14:59:34,013 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl
-[INFO] 2017-11-29 14:59:34,016 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:34,490 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl
-[INFO] 2017-11-29 14:59:34,493 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl
-[INFO] 2017-11-29 14:59:35,000 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl
-[INFO] 2017-11-29 14:59:35,004 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl
-[INFO] 2017-11-29 14:59:35,499 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl
-[INFO] 2017-11-29 14:59:35,502 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/typon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/typon_import.owl
-[INFO] 2017-11-29 14:59:35,951 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/typon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/typon_import.owl
-[INFO] 2017-11-29 14:59:35,954 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl
-[INFO] 2017-11-29 14:59:36,402 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl
-[INFO] 2017-11-29 14:59:36,406 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl
-[INFO] 2017-11-29 14:59:36,889 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl
-[INFO] 2017-11-29 14:59:36,892 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl
-[INFO] 2017-11-29 14:59:37,310 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl
-[INFO] 2017-11-29 14:59:37,314 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl
-[INFO] 2017-11-29 14:59:37,777 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl
-[INFO] 2017-11-29 14:59:37,780 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl
-[INFO] 2017-11-29 14:59:38,229 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl
-[INFO] 2017-11-29 14:59:38,232 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl
-[INFO] 2017-11-29 14:59:38,670 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl
-[INFO] 2017-11-29 14:59:38,673 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:39,146 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl
-[INFO] 2017-11-29 14:59:39,148 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl
-[INFO] 2017-11-29 14:59:39,560 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl
-[INFO] 2017-11-29 14:59:39,563 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pto_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pto_import.owl
-[INFO] 2017-11-29 14:59:39,975 INFO  (ParserWrapper:82) Finished loading ontology: null from: http://purl.obolibrary.org/obo/GENEPIO/imports/pto_import.owl
-[INFO] 2017-11-29 14:59:39,994 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl
-[INFO] 2017-11-29 14:59:39,995 ERROR (CommandRunner:4317) could not parse:/scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl
-[INFO] org.semanticweb.owlapi.model.UnloadableImportException: Could not load imported ontology: <http://purl.obolibrary.org/obo/GENEPIO/imports/pto_import.owl> Cause: https://raw.githubusercontent.com/GenEpiO/genepio/master/imports/pto_import.owl
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1690)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPImportsHandler.handleTriple(TripleHandlers.java:1558)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$HandlerAccessor.handleStreaming(TripleHandlers.java:194)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.OWLRDFConsumer.statementWithResourceValue(OWLRDFConsumer.java:1501)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.statementWithResourceValue(RDFParser.java:365)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.EmptyPropertyElement.startElement(StartRDF.java:236)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.PropertyElementList.startElement(StartRDF.java:658)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.startElement(RDFParser.java:196)
-[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.dtd.XMLDTDValidator.emptyElement(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
-[INFO] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
-[INFO] 	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFParser.parse(RDFParser.java:140)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:73)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:913)
-[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:163)
-[INFO] 	at owltools.io.ParserWrapper.parseOWL(ParserWrapper.java:150)
-[INFO] 	at owltools.io.ParserWrapper.parse(ParserWrapper.java:132)
-[INFO] 	at owltools.cli.CommandRunner.runSingleIteration(CommandRunner.java:4305)
-[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:76)
-[INFO] 	at owltools.cli.CommandRunnerBase.run(CommandRunnerBase.java:68)
-[INFO] 	at owltools.cli.CommandLineInterface.main(CommandLineInterface.java:12)
-[INFO] Caused by: org.semanticweb.owlapi.io.OWLOntologyCreationIOException: https://raw.githubusercontent.com/GenEpiO/genepio/master/imports/pto_import.owl
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:207)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.actualParse(OWLOntologyManagerImpl.java:1098)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:1054)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:957)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadImports(OWLOntologyManagerImpl.java:1648)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.makeLoadImportRequest(OWLOntologyManagerImpl.java:1684)
-[INFO] 	... 33 more
-[INFO] Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/GenEpiO/genepio/master/imports/pto_import.owl
-[INFO] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[INFO] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[INFO] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[INFO] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1890)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1885)
-[INFO] 	at java.security.AccessController.doPrivileged(Native Method)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1884)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1457)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
-[INFO] 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
-[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStreamFromContentEncoding(AbstractOWLParser.java:165)
-[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream(AbstractOWLParser.java:127)
-[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputSource(AbstractOWLParser.java:232)
-[INFO] 	at org.semanticweb.owlapi.rdf.rdfxml.parser.RDFXMLParser.parse(RDFXMLParser.java:72)
-[INFO] 	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyFactoryImpl.loadOWLOntology(OWLOntologyFactoryImpl.java:197)
-[INFO] 	... 38 more
-[INFO] Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/GenEpiO/genepio/master/imports/pto_import.owl
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
-[INFO] 	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:2943)
-[INFO] 	at java.net.URLConnection.getContentEncoding(URLConnection.java:523)
-[INFO] 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getContentEncoding(HttpsURLConnectionImpl.java:410)
-[INFO] 	at org.semanticweb.owlapi.io.AbstractOWLParser.getInputStream(AbstractOWLParser.java:122)
-[INFO] 	... 41 more
+[INFO] 2018-10-22 16:53:30,515 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/genepio/genepio.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/genepio/genepio.owl
+[INFO] 2018-10-22 16:53:30,700 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl
+[INFO] 2018-10-22 16:53:32,155 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pato_import.owl
+[INFO] 2018-10-22 16:53:32,157 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:32,965 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:32,967 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:33,298 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ncbitaxon_import.owl
+[INFO] 2018-10-22 16:53:33,300 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl
+[INFO] 2018-10-22 16:53:33,599 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/sio_import.owl
+[INFO] 2018-10-22 16:53:33,601 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pco_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pco_import.owl
+[INFO] 2018-10-22 16:53:33,889 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/pco_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/pco_import.owl
+[INFO] 2018-10-22 16:53:33,891 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl
+[INFO] 2018-10-22 16:53:34,200 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ontology-metadata.owl
+[INFO] 2018-10-22 16:53:34,202 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl
+[INFO] 2018-10-22 16:53:34,805 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/gazetteer_import.owl
+[INFO] 2018-10-22 16:53:34,807 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl
+[INFO] 2018-10-22 16:53:35,177 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/obi_import.owl
+[INFO] 2018-10-22 16:53:35,179 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl
+[INFO] 2018-10-22 16:53:35,498 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ido_import.owl
+[INFO] 2018-10-22 16:53:35,500 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:35,843 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:35,845 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl
+[INFO] 2018-10-22 16:53:36,175 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/efo_import.owl
+[INFO] 2018-10-22 16:53:36,177 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl
+[INFO] 2018-10-22 16:53:36,489 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/model_import.owl
+[INFO] 2018-10-22 16:53:36,491 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl
+[INFO] 2018-10-22 16:53:36,788 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/eo_import.owl
+[INFO] 2018-10-22 16:53:36,790 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl
+[INFO] 2018-10-22 16:53:37,095 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/uo_import.owl
+[INFO] 2018-10-22 16:53:37,105 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl
+[INFO] 2018-10-22 16:53:37,407 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/apollo_sv_import.owl
+[INFO] 2018-10-22 16:53:37,409 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/gaz_insdc_mapping.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/gaz_insdc_mapping.owl
+[INFO] 2018-10-22 16:53:37,731 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/gaz_insdc_mapping.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/gaz_insdc_mapping.owl
+[INFO] 2018-10-22 16:53:37,733 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl
+[INFO] 2018-10-22 16:53:38,015 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/geo_import.owl
+[INFO] 2018-10-22 16:53:38,018 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl
+[INFO] 2018-10-22 16:53:38,299 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/so_import.owl
+[INFO] 2018-10-22 16:53:38,301 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl
+[INFO] 2018-10-22 16:53:38,630 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/hp_import.owl
+[INFO] 2018-10-22 16:53:38,633 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:38,925 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:38,928 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl
+[INFO] 2018-10-22 16:53:39,243 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/irida_import.owl
+[INFO] 2018-10-22 16:53:39,246 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/po_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/po_import.owl
+[INFO] 2018-10-22 16:53:39,559 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/po_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/po_import.owl
+[INFO] 2018-10-22 16:53:39,561 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ero_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ero_import.owl
+[INFO] 2018-10-22 16:53:39,849 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ero_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ero_import.owl
+[INFO] 2018-10-22 16:53:39,852 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/foodon_import.owl
+[INFO] 2018-10-22 16:53:41,798 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/foodon_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/foodon_import.owl
+[INFO] 2018-10-22 16:53:41,805 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/hardcoded.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/hardcoded.owl
+[INFO] 2018-10-22 16:53:42,119 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/hardcoded.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/hardcoded.owl
+[INFO] 2018-10-22 16:53:42,124 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/chmo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/chmo_import.owl
+[INFO] 2018-10-22 16:53:42,413 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/chmo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/chmo_import.owl
+[INFO] 2018-10-22 16:53:42,418 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ncit_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ncit_import.owl
+[INFO] 2018-10-22 16:53:42,705 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/ncit_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/ncit_import.owl
+[INFO] 2018-10-22 16:53:42,710 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/doid_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/doid_import.owl
+[INFO] 2018-10-22 16:53:43,036 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/doid_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/doid_import.owl
+[INFO] 2018-10-22 16:53:43,040 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
+[INFO] 2018-10-22 16:53:43,264 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/bfo.owl from: http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl
+[INFO] 2018-10-22 16:53:43,274 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/omit_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/omit_import.owl
+[INFO] 2018-10-22 16:53:43,597 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/omit_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/omit_import.owl
+[INFO] 2018-10-22 16:53:43,601 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/stato_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/stato_import.owl
+[INFO] 2018-10-22 16:53:43,920 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/stato_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/stato_import.owl
+[INFO] 2018-10-22 16:53:43,925 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/envo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/envo_import.owl
+[INFO] 2018-10-22 16:53:44,259 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/GENEPIO/imports/envo_import.owl from: http://purl.obolibrary.org/obo/GENEPIO/imports/envo_import.owl
+[INFO] 2018-10-22 16:53:44,736 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/genepio.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/genepio/genepio.owl
+[INFO] 2018-10-22 16:53:45,101 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/genepio.owl using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 22.119 s
-[INFO] Finished at: 2017-11-29T14:59:40-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 17.830s
+[INFO] Finished at: Mon Oct 22 16:53:45 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl.nt execution is: '1'. -> [Help 1]
-org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.1:exec (default-cli) on project kabob-ontology-flatten: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl.nt execution is: '1'.
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:216)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:347)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
-Caused by: org.apache.maven.plugin.MojoExecutionException: Result of /bin/sh -c cd /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download && java -Xmx8G -DentityExpansionLimit=4086000 -Djava.awt.headless=true -DlauncherDir=/scratch/Shares/hunter/obo-ci/obo-ci.git -classpath /scratch/Shares/hunter/obo-ci/obo-ci.git/scripts/download/target/classes:/scratch/Users/wiba1694/m2/org/bbop/OWLTools-Runner/0.3.0-SNAPSHOT/OWLTools-Runner-0.3.0-SNAPSHOT.jar owltools.cli.CommandLineInterface /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl -o -f nt /scratch/Shares/hunter/obo-ci/data/download/ontologies/genepio/genepio.owl.nt execution is: '1'.
-	at org.codehaus.mojo.exec.ExecMojo.execute(ExecMojo.java:260)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
-	... 19 more
-[ERROR] 
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
-Wed Nov 29 14:59:40 MST 2017
+Mon Oct 22 16:53:45 UTC 2018
 
-WARNING: Download validation failed due to error. See above.
-
+Download validation successful. Triple count = 33818

@@ -1,15 +1,15 @@
-Wed Nov 29 14:59:12 MST 2017
+Mon Oct 22 16:53:30 UTC 2018
 Ontology download URL: http://purl.obolibrary.org/obo/depictions.owl
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   308  100   308    0     0   1675      0 --:--:-- --:--:-- --:--:--  1683
-100   215  100   215    0     0    250      0 --:--:-- --:--:-- --:--:--   250100   215  100   215    0     0    250      0 --:--:-- --:--:-- --:--:--     0
-100   326  100   326    0     0    315      0  0:00:01  0:00:01 --:--:--   315
-  0     0    0  236k    0     0   174k      0 --:--:--  0:00:01 --:--:--  174k
-Wed Nov 29 14:59:14 MST 2017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   308  100   308    0     0    736      0 --:--:-- --:--:-- --:--:--   735100   308  100   308    0     0    735      0 --:--:-- --:--:-- --:--:--   735
+100   215  100   215    0     0    260      0 --:--:-- --:--:-- --:--:--   260
+100   326  100   326    0     0    369      0 --:--:-- --:--:-- --:--:--   369
+  0     0    0  243k    0     0   258k      0 --:--:-- --:--:-- --:--:--  258k
+Mon Oct 22 16:53:31 UTC 2018
 
-Wed Nov 29 14:59:15 MST 2017
-Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies/depictions/depictions.owl
+Mon Oct 22 16:53:31 UTC 2018
+Validating ontology file: /mnt/efsdata/obo-ci-data/download/ontologies/depictions/depictions.owl
 [INFO] Error stacktraces are turned on.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -18,18 +18,16 @@ Validating ontology file: /scratch/Shares/hunter/obo-ci/data/download/ontologies
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
-[INFO] /bin/sh: module: line 1: syntax error: unexpected end of file
-[INFO] /bin/sh: error importing function definition for `BASH_FUNC_module'
-[INFO] 2017-11-29 14:59:23,108 INFO  (ParserWrapper:75) Start loading ontology: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/depictions/depictions.owl from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/depictions/depictions.owl
-[INFO] 2017-11-29 14:59:24,419 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/scratch/Shares/hunter/obo-ci/data/download/ontologies/depictions/depictions.owl
-[INFO] 2017-11-29 14:59:24,431 INFO  (CommandRunner:3243) saving: using RDF/XML Syntax
+[INFO] 2018-10-22 16:53:35,588 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/depictions/depictions.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/depictions/depictions.owl
+[INFO] 2018-10-22 16:53:35,898 INFO  (ParserWrapper:82) Finished loading ontology: null from: file:/mnt/efsdata/obo-ci-data/download/ontologies/depictions/depictions.owl
+[INFO] 2018-10-22 16:53:35,911 INFO  (CommandRunner:3243) saving: using RDF/XML Syntax
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.823 s
-[INFO] Finished at: 2017-11-29T14:59:24-07:00
-[INFO] Final Memory: 21M/1963M
+[INFO] Total time: 2.967s
+[INFO] Finished at: Mon Oct 22 16:53:35 UTC 2018
+[INFO] Final Memory: 5M/229M
 [INFO] ------------------------------------------------------------------------
-Wed Nov 29 14:59:24 MST 2017
+Mon Oct 22 16:53:36 UTC 2018
 
 Download validation successful. Triple count = 15

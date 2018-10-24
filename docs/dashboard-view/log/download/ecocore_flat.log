@@ -1,0 +1,57 @@
+Mon Oct 22 16:53:15 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/ecocore/ecocore.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:53:19,159 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/ecocore/ecocore.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ecocore/ecocore.owl
+[INFO] 2018-10-22 16:53:19,340 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl
+[INFO] 2018-10-22 16:53:20,072 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl
+[INFO] 2018-10-22 16:53:20,074 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl
+[INFO] 2018-10-22 16:53:20,293 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl
+[INFO] 2018-10-22 16:53:20,294 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl
+[INFO] 2018-10-22 16:53:20,517 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl
+[INFO] 2018-10-22 16:53:20,518 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl
+[INFO] 2018-10-22 16:53:21,092 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl
+[INFO] 2018-10-22 16:53:21,093 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl
+[INFO] 2018-10-22 16:53:21,357 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl
+[INFO] 2018-10-22 16:53:21,359 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:21,874 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl
+[INFO] 2018-10-22 16:53:21,875 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl
+[INFO] 2018-10-22 16:53:22,128 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl
+[INFO] 2018-10-22 16:53:22,130 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl
+[INFO] 2018-10-22 16:53:22,340 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl
+[INFO] 2018-10-22 16:53:22,342 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl
+[INFO] 2018-10-22 16:53:22,585 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl
+[INFO] 2018-10-22 16:53:22,588 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl
+[INFO] 2018-10-22 16:53:22,992 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl
+[INFO] 2018-10-22 16:53:22,994 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:23,734 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl
+[INFO] 2018-10-22 16:53:23,736 INFO  (ParserWrapper:75) Start loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:23,952 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl from: http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl
+[INFO] 2018-10-22 16:53:24,093 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/ecocore.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/ecocore/ecocore.owl
+[INFO] 2018-10-22 16:53:24,106 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl>) VersionIRI(<null>))) [Axioms: 69 Logical Axioms: 14]
+[INFO] 2018-10-22 16:53:24,111 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>) VersionIRI(<null>))) [Axioms: 2914 Logical Axioms: 943]
+[INFO] 2018-10-22 16:53:24,140 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl>) VersionIRI(<null>))) [Axioms: 92 Logical Axioms: 40]
+[INFO] 2018-10-22 16:53:24,141 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>) VersionIRI(<null>))) [Axioms: 31 Logical Axioms: 9]
+[INFO] 2018-10-22 16:53:24,142 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>) VersionIRI(<null>))) [Axioms: 1621 Logical Axioms: 448]
+[INFO] 2018-10-22 16:53:24,152 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl>) VersionIRI(<null>))) [Axioms: 2 Logical Axioms: 1]
+[INFO] 2018-10-22 16:53:24,152 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl>) VersionIRI(<null>))) [Axioms: 402 Logical Axioms: 168]
+[INFO] 2018-10-22 16:53:24,155 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>) VersionIRI(<null>))) [Axioms: 649 Logical Axioms: 158]
+[INFO] 2018-10-22 16:53:24,159 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl>) VersionIRI(<null>))) [Axioms: 151 Logical Axioms: 43]
+[INFO] 2018-10-22 16:53:24,160 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>) VersionIRI(<null>))) [Axioms: 1849 Logical Axioms: 411]
+[INFO] 2018-10-22 16:53:24,172 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>) VersionIRI(<null>))) [Axioms: 498 Logical Axioms: 245]
+[INFO] 2018-10-22 16:53:24,176 INFO  (OWLGraphWrapperBasic:280) Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>) VersionIRI(<null>))) [Axioms: 6239 Logical Axioms: 2387]
+[INFO] 2018-10-22 16:53:24,222 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/ecocore.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.960s
+[INFO] Finished at: Mon Oct 22 16:53:25 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:53:25 UTC 2018

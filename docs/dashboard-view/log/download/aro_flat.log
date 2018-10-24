@@ -1,0 +1,21 @@
+Mon Oct 22 16:52:52 UTC 2018
+Consolidating all ontology imports for: /mnt/efsdata/obo-ci-data/download/ontologies/aro/aro.owl
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building kabob-ontology-flatten 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1:exec (default-cli) @ kabob-ontology-flatten ---
+[INFO] 2018-10-22 16:52:56,058 INFO  (ParserWrapper:75) Start loading ontology: file:/mnt/efsdata/obo-ci-data/download/ontologies/aro/aro.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/aro/aro.owl
+[INFO] 2018-10-22 16:52:58,238 INFO  (ParserWrapper:82) Finished loading ontology: http://purl.obolibrary.org/obo/antibiotic_resistance.owl from: file:/mnt/efsdata/obo-ci-data/download/ontologies/aro/aro.owl
+[INFO] 2018-10-22 16:52:58,250 INFO  (CommandRunner:3243) saving:http://purl.obolibrary.org/obo/antibiotic_resistance.owl using RDF/XML Syntax
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.978s
+[INFO] Finished at: Mon Oct 22 16:52:59 UTC 2018
+[INFO] Final Memory: 5M/229M
+[INFO] ------------------------------------------------------------------------
+Mon Oct 22 16:52:59 UTC 2018
