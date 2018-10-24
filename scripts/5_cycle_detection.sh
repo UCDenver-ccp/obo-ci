@@ -95,11 +95,13 @@ for index in ${!IDs[*]}; do
     ${CODE_BASE_DIRECTORY}/scripts/checks/cycle-detection-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id} -s ${STATUS_DIRECTORY_INDIVIDUAL} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CHECKS}
   fi
   chmod 755 ${SCRIPT_FILE}
-done
-
-# submit each generated script
-for index in ${!IDs[*]}; do
-  id=${IDs[$index]}
-  SCRIPT_FILE="${SCRIPT_DIRECTORY_CHECKS}/${id}.cycle.sh"
+  echo "Running cycle detection for ${id}..."
   ${RUN_CMD} ${SCRIPT_FILE}
 done
+
+## submit each generated script
+#for index in ${!IDs[*]}; do
+#  id=${IDs[$index]}
+#  SCRIPT_FILE="${SCRIPT_DIRECTORY_CHECKS}/${id}.cycle.sh"
+#  ${RUN_CMD} ${SCRIPT_FILE}
+#done
