@@ -24,7 +24,7 @@
 //
 
 
-d3.json("data/relation.json", function (ont_data) {
+d3.json("data/relations.json", function (ont_data) {
 //var inRestrictionPieChart = dc.pieChart("#in-restriction-pie");
 var inROPieChart = dc.pieChart("#in-ro-pie");
 
@@ -189,6 +189,20 @@ relationCount
 
 
 // For datatable
+
+function getLogUrl(id, tableLabel, suffix) {
+    if (tableLabel > 0) {
+        path = "data/owl_file_lists/"
+        if (suffix = ".sharedLabels.txt") {
+            path = "data/shared_label_lists/"
+        }
+
+        path = path + id.replace(/[:/\.]/g,"_") + suffix;
+        return '<a href="' + path + '">' + tableLabel + '</a>'
+    }
+    return "0"
+}
+
 var tableDimension = ndx.dimension(function (d) { return d.id; });
 
 relationDataTable.width(800).height(800)
@@ -200,8 +214,8 @@ relationDataTable.width(800).height(800)
         function(d) { return d.label; },
         function(d) { return d.inRO; },
         function(d) { return d.occurrences; },
-        function(d) { return d.fileCount; },
-        function(d) { return d.sharedLabelCount; }
+        function(d) { return getLogUrl(d.id, d.fileCount, ".files.txt") },
+        function(d) { return getLogUrl(d.id, d.sharedLabelCount, ".sharedlabels.txt") }
     ])
     .sortBy(function(d){ return d.label; })
     .order(d3.ascending);
