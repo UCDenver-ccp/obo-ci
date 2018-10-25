@@ -93,26 +93,30 @@ for index in ${!ID1s[*]}; do
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.elk.expl.sh"
   echo "building script: ${SCRIPT_FILE}"
-  if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
-  else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
-  fi
-  chmod 755 ${SCRIPT_FILE}
-done
-
-# run/submit each generated script
-for index in ${!ID1s[*]}; do
-  id1=${ID1s[$index]}
-  id2=${ID2s[$index]}
   ELK_LOG_FILE="${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}+${id2}_elk.log"
   if [ ! -f ${ELK_LOG_FILE} ]; then
-    echo "OUTPUT FILE DNE: ${ELK_LOG_FILE}"
-    SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.elk.expl.sh"
-    ${RUN_CMD} ${SCRIPT_FILE}
-    sleep 1
+      if [[ -z ${HEADER_FILE} ]]; then
+        ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+      else
+        ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r elk -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+      fi
+      chmod 755 ${SCRIPT_FILE}
+      ${RUN_CMD} ${SCRIPT_FILE}
   fi
 done
+
+## run/submit each generated script
+#for index in ${!ID1s[*]}; do
+#  id1=${ID1s[$index]}
+#  id2=${ID2s[$index]}
+#  ELK_LOG_FILE="${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}+${id2}_elk.log"
+#  if [ ! -f ${ELK_LOG_FILE} ]; then
+#    echo "OUTPUT FILE DNE: ${ELK_LOG_FILE}"
+#    SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.elk.expl.sh"
+#    ${RUN_CMD} ${SCRIPT_FILE}
+#    sleep 1
+#  fi
+#done
 
 
 ID1s=( $(awk -F, '{print $1}' ${INCOHERENT_ONTOLOGY_PAIRS_LIST_FILE_PREFIX}.hermit) )
@@ -121,27 +125,31 @@ for index in ${!ID1s[*]}; do
   id1=${ID1s[$index]}
   id2=${ID2s[$index]}
   SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.hermit.expl.sh"
-  echo "building script: ${SCRIPT_FILE}"
-  if [[ -z ${HEADER_FILE} ]]; then
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
-  else
-    ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
-  fi
-  chmod 755 ${SCRIPT_FILE}
-done
-
-# run/submit each generated script
-for index in ${!ID1s[*]}; do
-  id1=${ID1s[$index]}
-  id2=${ID2s[$index]}
   HERMIT_LOG_FILE="${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}+${id2}_hermit.log"
   if [ ! -f ${HERMIT_LOG_FILE} ]; then
-      echo "OUTPUT FILE DNE: ${HERMIT_LOG_FILE}"
-      SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.hermit.expl.sh"
+      echo "building script: ${SCRIPT_FILE}"
+      if [[ -z ${HEADER_FILE} ]]; then
+        ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+      else
+        ${CODE_BASE_DIRECTORY}/scripts/classify/classify-ontology-with-explanation-script-gen.sh -b ${BASE_DIRECTORY} -m ${MAVEN} -i ${id1} -x ${id2} -r hermit -s ${STATUS_DIRECTORY_PAIRS} -t ${SCRIPT_FILE} -a ${HEADER_FILE} -n ${HEADER_JOB_NAME} -e ${HEADER_EMAIL} -y ${HEADER_JOB_LOG_DIRECTORY} -z ${CODE_BASE_DIRECTORY} -l ${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION} -p ${EXPLANATION_DIRECTORY_PAIRS}
+      fi
+      chmod 755 ${SCRIPT_FILE}
       ${RUN_CMD} ${SCRIPT_FILE}
-      sleep 1
   fi
 done
+
+## run/submit each generated script
+#for index in ${!ID1s[*]}; do
+#  id1=${ID1s[$index]}
+#  id2=${ID2s[$index]}
+#  HERMIT_LOG_FILE="${LOG_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}+${id2}_hermit.log"
+#  if [ ! -f ${HERMIT_LOG_FILE} ]; then
+#      echo "OUTPUT FILE DNE: ${HERMIT_LOG_FILE}"
+#      SCRIPT_FILE="${SCRIPT_DIRECTORY_CLASSIFY_PAIRS_EXPLANATION}/${id1}_${id2}.hermit.expl.sh"
+#      ${RUN_CMD} ${SCRIPT_FILE}
+#      sleep 1
+#  fi
+#done
 
 
 
